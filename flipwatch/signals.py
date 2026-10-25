@@ -1,5 +1,9 @@
 """Zero-credit signal extraction from listing text and list membership."""
 import re
+from datetime import date
+
+_MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august",
+                                       "september", "october", "november", "december"], 1)}
 
 MOTIVATION_PATTERNS = {
     "no_chain": r"no (onward )?chain|chain[- ]free",
@@ -45,3 +49,20 @@ def extract(summary: str | None, lists: list[str]) -> tuple[list[str], list[str]
     if "auction" in motivation:
         risks.add("auction_guide_price")  # guide price is not an expected sale price
     return sorted(motivation), sorted(risks)
+
+
+def auction_date(summary: str | None, today: date) -> date | None:
+    """Auction date quoted in the agent text, if any. A missing year means the next such date."""
+    text = (summary or "").lower()
+    if "auction" not in text:
+        return None
+    m = re.search(r"auction(?:ed)?\s+(?:on|date[:\s]*)?\s*(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?("
+                  + "|".join(_MONTHS) + r")(?:,?\s+(\d{4}))?", text)
+    if not m:
+        return None
+    day, month = int(m.group(1)), _MONTHS[m.group(2)]
+    year = int(m.group(3)) if m.group(3) else today.year
+    try:
+        return date(year, month, day)
+    except ValueError:
+        return None

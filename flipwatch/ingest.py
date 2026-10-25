@@ -86,6 +86,15 @@ def ingest_listing(s, l: Listing, raw_id: int | None, now: datetime) -> tuple[Pr
     prop.last_seen = now
     if l.property_type in EXCLUDED_TYPES:
         prop.current_status = "EXCLUDED"
+    elif (when := signals.auction_date(l.summary, now.date())) and when < now.date():
+        prop.current_status = "AUCTION_PASSED"
+    elif prop.manual_status:
+        # A person checked the portal; the feed's SSTC flag lags. Keep their status, but surface
+        # a price change after the check since that can mean the sale fell through.
+        prop.current_status = prop.manual_status
+        if prev_price and l.price and l.price != prev_price:
+            _event(s, prop, "PRICE_CHANGE_AFTER_MANUAL_STATUS",
+                   {"manual_status": prop.manual_status, "from": prev_price, "to": l.price}, now)
 
     s.add(ListingObservation(
         property_id=prop.id, listing_source_id=src.id, observed_at=now, asking_price=l.price,

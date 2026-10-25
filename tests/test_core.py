@@ -74,3 +74,12 @@ def test_ingest_and_history(tmp_path):
         assert p.original_asking_price == 210_000 and p.current_asking_price == 160_000
         reds = s.query(PropertyEvent).filter_by(property_id=p.id, event_type="PRICE_REDUCTION").all()
         assert len(reds) == 5  # 4 back-filled from source history + 1 we observed
+
+
+def test_auction_date_parsing():
+    from datetime import date
+    from flipwatch.signals import auction_date
+    t = date(2026, 10, 25)
+    assert auction_date("will be sold by auction on 3rd November 2026.", t) == date(2026, 11, 3)
+    assert auction_date("offered by auction on 17 November 2026", t) == date(2026, 11, 17)
+    assert auction_date("for sale by auction, vacant possession", t) is None

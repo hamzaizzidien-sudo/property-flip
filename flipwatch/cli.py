@@ -282,6 +282,35 @@ def cmd_finish(args):
     print(json.dumps({"run_id": args.run_id, "complete": complete, "seen": len(seen), "marked_removed": removed}))
 
 
+def portal_link(source_ref: str | None) -> str | None:
+    """Direct portal URL from a PropertyData id (R/Z/O prefix + portal listing id)."""
+    if not source_ref:
+        return None
+    pid = source_ref[1:]
+    return {"R": f"https://www.rightmove.co.uk/properties/{pid}",
+            "Z": f"https://www.zoopla.co.uk/for-sale/details/{pid}/",
+            "O": f"https://www.onthemarket.com/details/{pid}/"}.get(source_ref[:1])
+
+
+MANUAL_STATUSES = ("SSTC", "SOLD", "WITHDRAWN", "ACTIVE")
+
+
+def cmd_mark(args):
+    """Record what a person saw on the portal. ACTIVE clears a previous mark."""
+    with Session.begin() as s:
+        for pid in args.ids:
+            p = s.get(Property, pid)
+            if p is None:
+                raise SystemExit(f"no property {pid}")
+            p.manual_status = None if args.status == "ACTIVE" else args.status
+            p.manual_status_date = datetime.now(timezone.utc)
+            if p.current_status not in ("EXCLUDED", "REMOVED"):
+                p.current_status = args.status
+            s.add(PropertyEvent(property_id=p.id, event_type=f"MANUAL_{args.status}",
+                                event_data={"note": args.note} if args.note else None))
+            print(f"{pid} {p.precise_address or p.address} -> {args.status}")
+
+
 # ---------------------------------------------------------------- outputs
 
 SHORTLIST_RECS = ("CALL AGENT", "INVESTIGATE", "WATCH")
@@ -294,7 +323,9 @@ def _shortlist_rows(s):
         if not a or a.recommendation not in SHORTLIST_RECS:
             continue
         o = _latest_obs(s, p.id)
-        portals = [x.portal for x in s.scalars(select(ListingSource).where(ListingSource.property_id == p.id))]
+        srcs = list(s.scalars(select(ListingSource).where(ListingSource.property_id == p.id)
+                              .order_by(ListingSource.last_seen.desc())))
+        portals = [x.portal for x in srcs]
         rows.append(dict(
             recommendation=a.recommendation, score=round(a.opportunity_score, 1),
             address=p.precise_address or p.address, postcode=p.postcode, type=p.property_type, beds=p.bedrooms,
@@ -309,7 +340,8 @@ def _shortlist_rows(s):
             total_costs=notes.total_costs(a), fees_summary=notes.fees_summary(a),
             notes=notes.headline(p, o, a, portals), risks="|".join(p.risk_flags or []),
             days_on_market=o.days_on_market if o else None, first_seen=f"{p.first_seen:%Y-%m-%d}",
-            id=p.id, url=p.portal_url))
+            id=p.id, check_on_portal=" ".join(filter(None, (portal_link(x.source_ref) for x in srcs))),
+            url=p.portal_url))
     order = {r: i for i, r in enumerate(SHORTLIST_RECS)}
     return sorted(rows, key=lambda r: (order[r["recommendation"]], -r["score"]))
 
@@ -332,6 +364,7 @@ EVENT_LABELS = [
     ("DAYS_120", "Crossed 120 days"), ("DAYS_90", "Crossed 90 days"), ("DAYS_60", "Crossed 60 days"),
     ("SCORE_UPGRADE", "Biggest score improvements"), ("LEFT_BUY_RANGE", "Left viable range"),
     ("PRICE_INCREASE", "Price increases"), ("REMOVED", "Removed / sold"),
+    ("PRICE_CHANGE_AFTER_MANUAL_STATUS", "Re-priced after you marked them sold/STC (sale may have fallen through)"),
 ]
 
 
@@ -421,6 +454,11 @@ def main():
     fi.add_argument("--run-id", required=True)
     fi.set_defaults(fn=cmd_finish)
     sub.add_parser("shortlist").set_defaults(fn=cmd_shortlist)
+    mk = sub.add_parser("mark", help="record a status seen on the portal (overrides the feed)")
+    mk.add_argument("ids", type=int, nargs="+")
+    mk.add_argument("--status", choices=MANUAL_STATUSES, required=True)
+    mk.add_argument("--note")
+    mk.set_defaults(fn=cmd_mark)
     dg = sub.add_parser("digest")
     dg.add_argument("--hours", type=int, default=26)
     dg.add_argument("--limit", type=int, default=10)

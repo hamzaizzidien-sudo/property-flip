@@ -37,6 +37,9 @@ class Property(Base):
     original_asking_price: Mapped[int | None] = mapped_column(Integer)
     current_asking_price: Mapped[int | None] = mapped_column(Integer)
     current_status: Mapped[str] = mapped_column(String(20), default="ACTIVE")
+    # Status confirmed by a person on the portal (SSTC / SOLD / WITHDRAWN). Overrides the feed.
+    manual_status: Mapped[str | None] = mapped_column(String(20))
+    manual_status_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     current_lists: Mapped[list | None] = mapped_column(JSON)
     risk_flags: Mapped[list | None] = mapped_column(JSON)
     motivation_flags: Mapped[list | None] = mapped_column(JSON)
@@ -206,3 +209,19 @@ def init_db():
     Base.metadata.create_all(engine, tables=[t for t in Base.metadata.sorted_tables
                                              if t not in REFERENCE_TABLES])
     Base.metadata.create_all(ref_engine, tables=REFERENCE_TABLES)
+    _add_missing_columns()
+
+
+def _add_missing_columns():
+    """Minimal forward migration: add new nullable columns to existing tables."""
+    from sqlalchemy import inspect, text
+    insp = inspect(engine)
+    for table in Base.metadata.sorted_tables:
+        if table in REFERENCE_TABLES or not insp.has_table(table.name):
+            continue
+        have = {c["name"] for c in insp.get_columns(table.name)}
+        for col in table.columns:
+            if col.name not in have and col.nullable:
+                with engine.begin() as conn:
+                    conn.execute(text(f'ALTER TABLE {table.name} ADD COLUMN {col.name} '
+                                      f'{col.type.compile(engine.dialect)}'))
