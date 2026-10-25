@@ -145,6 +145,6 @@ def appraise(asking: int, gdv_low: int, gdv_base: int, gdv_high: int, refurb: in
         max_purchase_price_gdv_low=max_purchase_price(gdv_low, refurb, a=a),
         max_purchase_price_gdv_high=max_purchase_price(gdv_high, refurb, a=a),
         offer_gap=expected - mpp,
-        opening_offer=opening_offer(mpp, a),
+        opening_offer=min(opening_offer(mpp, a), opening_offer(expected, a)),  # never open above asking
         recommendation=recommend(expected, mpp, confidence, risks),
     )

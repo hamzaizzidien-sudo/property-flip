@@ -175,7 +175,7 @@ def cmd_screen(args):
                 return len(comps_mod.size_matched(c, sqft, 0.35)) >= 8 if sqft and \
                     any(x["floor_area_sqft"] for x in c) else len(c) >= 8
             comps = comps_mod.find_comps(s, p, enough=enough)
-            if not sqft and (sqft := comps_mod.estimated_sqft(comps)):
+            if not sqft and (sqft := comps_mod.estimated_sqft(comps, p.bedrooms)):
                 sqft_src = "estimated from nearby EPCs"
             g = comps_mod.gdv_per_sqft(comps, sqft) if sqft else None
             if g:
@@ -427,6 +427,12 @@ def _deal_sheet(s, p, a) -> str:
                                                  if a.expected_purchase_price != a.asking_price else ""),
              f"- Listing: {notes.headline(p, o, None, [x.portal for x in srcs])}",
              *[f"- Portal: {u}" for u in links], "",
+             *(["", "**Floor area is an estimate** (nearby EPCs, capped by bedrooms). Get the real figure "
+                "from the floorplan or EPC before relying on this valuation."]
+               if ex.get("subject_sqft_source", "").startswith("estimated") else []),
+             *(["", "**Auction:** purchase price assumes guide + 25%. Low guides often sell well above that."]
+               if "auction" in (p.motivation_flags or []) and "modern_method_of_auction" not in
+               (p.motivation_flags or []) else []), "",
              "## Comparable sales (HM Land Registry"
              + (" + EPC floor areas)" if any(c.price_per_sqft for c in comps) else ")"), "",
              "| Address | Sold | Price | Sq ft | £/sq ft | Miles |", "|---|---|---:|---:|---:|---:|"]
@@ -460,7 +466,9 @@ def _deal_sheet(s, p, a) -> str:
               "| | Low | Base | High |", "|---|---:|---:|---:|",
               f"| Profit at £{a.expected_purchase_price:,} | £{prof['low']:,} | **£{prof['base']:,}** | £{prof['high']:,} |",
               f"| Max offer for £{fl.target_profit // 1000}k profit | £{mpp['low']:,} | **£{mpp['base']:,}** | £{mpp['high']:,} |",
-              "", f"Opening offer £{a.opening_offer:,} · gap to asking £{a.offer_gap:,}",
+              "", f"Opening offer £{a.opening_offer:,} · " + (f"asking is £{a.offer_gap:,} above max offer"
+                                                              if a.offer_gap > 0 else
+                                                              f"asking is £{-a.offer_gap:,} below max offer"),
               "", "Risks: " + (", ".join(p.risk_flags) if p.risk_flags else "none flagged from listing text"),
               "", "_Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data "
               "© Crown copyright, both licensed under the Open Government Licence v3.0._"]
@@ -476,7 +484,8 @@ def cmd_deal_sheets(args):
         rows = _shortlist_rows(s)
         for r in rows:
             p, a = s.get(Property, r["id"]), _latest_analysis(s, r["id"])
-            slug = re.sub(r"[^a-z0-9]+", "-", (p.precise_address or p.address).split(",")[0].lower()).strip("-")
+            first = re.match(r"\s*(?:\d+[a-z]?\b)?[\s,.]*([^,]+)", (p.precise_address or p.address).lower()).group(1)
+            slug = re.sub(r"[^a-z0-9]+", "-", first).strip("-")
             (out / f"{p.id:03d}-{slug}.md").write_text(_deal_sheet(s, p, a))
     print(f"{len(rows)} deal sheets -> {out}")
 

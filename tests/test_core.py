@@ -150,3 +150,12 @@ def test_refurb_scales_with_size_and_condition():
     assert finance.refurb_estimate(721, ["derelict_poor_condition"])[0] == 39_700
     assert finance.refurb_estimate(300, [])[0] == 15_000
     assert finance.refurb_estimate(None, [])[0] == 25_000
+
+
+def test_estimated_sqft_capped_by_bedrooms():
+    from flipwatch import comps
+    cs = [dict(floor_area_sqft=850, distance=0.1 * i) for i in range(6)]
+    assert comps.estimated_sqft(cs) == 850
+    assert comps.estimated_sqft(cs, 1) == 600
+    assert comps.estimated_sqft(cs, 3) == 850
+    assert comps.estimated_sqft(cs[:4], 3) is None

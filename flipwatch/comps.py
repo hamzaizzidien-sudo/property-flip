@@ -159,9 +159,16 @@ def gdv_per_sqft(comps: list[dict], sqft: int, min_n: int = 5) -> dict | None:
                 same_street=sum(c["same_street"] for c in kept), kept=kept)
 
 
-def estimated_sqft(comps: list[dict]) -> int | None:
-    """Median EPC floor area of the nearest same-type sales, for subjects with no floor area."""
+# Ceiling for an estimated floor area by bedrooms: nearby same-type homes are often larger.
+SQFT_CAP_BY_BEDS = {1: 600, 2: 800, 3: 1000}
+SQFT_CAP_DEFAULT = 1300
+
+
+def estimated_sqft(comps: list[dict], beds: int | None = None) -> int | None:
+    """Median EPC floor area of the nearest same-type sales, capped by bedroom count,
+    for subjects with no floor area."""
     near = sorted((c for c in comps if c.get("floor_area_sqft")), key=lambda c: c["distance"])[:15]
     if len(near) < 5:
         return None
-    return sorted(c["floor_area_sqft"] for c in near)[len(near) // 2]
+    median = sorted(c["floor_area_sqft"] for c in near)[len(near) // 2]
+    return min(median, SQFT_CAP_BY_BEDS.get(beds, SQFT_CAP_DEFAULT)) if beds else median
