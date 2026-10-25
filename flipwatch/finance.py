@@ -92,11 +92,25 @@ def opening_offer(max_price: int, a: FlipAssumptions | None = None) -> int:
     return int(max_price * (1 - a.opening_offer_discount) // 1000 * 1000)
 
 
+HARD_RISKS = {"non_standard_construction", "multi_unit_or_block", "shared_ownership", "land_only"}
+
+
+def expected_purchase_price(asking: int, motivation: list[str], a: FlipAssumptions | None = None) -> int:
+    """What we would realistically pay all-in for the price shown. Guide prices understate auction
+    results; MMoA listings add a non-refundable buyer reservation fee on top of the price."""
+    a = a or settings.flip
+    if "modern_method_of_auction" in motivation:
+        return round(asking + max(a.mmoa_fee_min, asking * a.mmoa_fee_pct))
+    if "auction" in motivation:
+        return round(asking * a.auction_uplift)
+    return asking
+
+
 def recommend(asking: int, max_price: int, confidence: str, risks: list[str]) -> str:
-    """Offer-gap bands from the brief: <=0 CALL AGENT, <=15k INVESTIGATE, <=35k WATCH, else REJECT."""
-    hard = {"non_standard_construction", "multi_unit_or_block", "shared_ownership", "land_only"}
-    if max_price <= 0 or hard & set(risks):
-        return "REJECT" if max_price <= 0 or asking - max_price > 15_000 else "INVESTIGATE"
+    """Offer-gap bands from the brief: <=0 CALL AGENT, <=15k INVESTIGATE, <=35k WATCH, else REJECT.
+    `asking` should be the expected purchase price (see expected_purchase_price)."""
+    if max_price <= 0 or HARD_RISKS & set(risks):
+        return "REJECT"
     gap = asking - max_price
     if gap <= 0:
         return "CALL AGENT" if confidence in ("HIGH", "MEDIUM") else "INVESTIGATE"
@@ -108,16 +122,19 @@ def recommend(asking: int, max_price: int, confidence: str, risks: list[str]) ->
 
 
 def appraise(asking: int, gdv_low: int, gdv_base: int, gdv_high: int, refurb: int | None,
-             confidence: str, risks: list[str], a: FlipAssumptions | None = None) -> dict:
+             confidence: str, risks: list[str], motivation: list[str] | None = None,
+             a: FlipAssumptions | None = None) -> dict:
     a = a or settings.flip
-    at_ask = deal(asking, gdv_base, refurb, a)
+    expected = expected_purchase_price(asking, motivation or [], a)
+    at_ask = deal(expected, gdv_base, refurb, a)
     mpp = max_purchase_price(gdv_base, refurb, a=a)
     return dict(
+        expected_purchase_price=expected,
         at_asking=asdict(at_ask),
         max_purchase_price=mpp,
         max_purchase_price_gdv_low=max_purchase_price(gdv_low, refurb, a=a),
         max_purchase_price_gdv_high=max_purchase_price(gdv_high, refurb, a=a),
-        offer_gap=asking - mpp,
+        offer_gap=expected - mpp,
         opening_offer=opening_offer(mpp, a),
-        recommendation=recommend(asking, mpp, confidence, risks),
+        recommendation=recommend(expected, mpp, confidence, risks),
     )

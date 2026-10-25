@@ -40,7 +40,15 @@ def test_recommendation_bands():
     assert finance.recommend(160_000, 150_000, "HIGH", []) == "INVESTIGATE"
     assert finance.recommend(175_000, 150_000, "HIGH", []) == "WATCH"
     assert finance.recommend(210_000, 150_000, "HIGH", []) == "REJECT"
-    assert finance.recommend(150_000, 150_000, "HIGH", ["non_standard_construction"]) == "INVESTIGATE"
+    assert finance.recommend(150_000, 150_000, "HIGH", ["non_standard_construction"]) == "REJECT"
+    assert finance.recommend(150_000, 150_000, "LOW", []) == "INVESTIGATE"
+
+
+def test_expected_purchase_price_for_auctions():
+    assert finance.expected_purchase_price(100_000, []) == 100_000
+    assert finance.expected_purchase_price(100_000, ["auction"]) == 125_000
+    assert finance.expected_purchase_price(100_000, ["auction", "modern_method_of_auction"]) == 106_000
+    assert finance.expected_purchase_price(200_000, ["modern_method_of_auction"]) == 210_800
 
 
 def test_ingest_and_history(tmp_path):

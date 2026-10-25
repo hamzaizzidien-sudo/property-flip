@@ -1,0 +1,199 @@
+98 properties | API calls 2 | credits used 11 | events {'BACK_ON_MARKET': 18, 'DAYS_120': 30, 'DAYS_60': 49, 'DAYS_90': 38, 'DUPLICATE_SOURCE_LINKED': 2, 'ENTERED_BUY_RANGE': 11, 'FIRST_SEEN': 98, 'PRICE_INCREASE': 2, 'PRICE_REDUCTION': 68}
+ id score      ask     orig  dom  red% type         bd  address / flags
+  4    28  125,000  165,000  146  24.2 semi-detached 2  Longview Road, Prescot, St Helens L35
+                                                     lists=reduced-properties|unmodernised-properties  risks=gdv_bedroom_mismatch
+ 94    25  169,950  180,500  387   5.8 semi-detached 3  Burland Road, Liverpool L26
+                                                     lists=back-on-market|slow-to-sell-properties  risks=-
+ 82    22   92,500   92,500   94   0.0 semi-detached 3  28, WOOD STREET, ST HELENS, WA9 1NH
+                                                     lists=unmodernised-properties  risks=-
+  1    14   45,000   45,000   35   0.0 semi-detached 3  46. Dragon Lane, Whiston, Prescot, Merseyside
+                                                     lists=auction-properties|unmodernised-properties  risks=auction_guide_price
+ 60    13  170,000  180,000   96   5.6 semi-detached 2  Torcross Way, Woolton, Liverpool, Merseyside,
+                                                     lists=unmodernised-properties  risks=gdv_bedroom_mismatch
+ 21    18  180,000  180,000  202   0.0 semi-detached 3  Cassino Road, Huyton, Liverpool. L36
+                                                     lists=back-on-market  risks=-
+ 86    11  125,000  125,000  420   0.0 terraced      1  Whitney Road, Liverpool, Merseyside L25
+                                                     lists=back-on-market  risks=gdv_bedroom_mismatch
+ 15    10   50,000   50,000   10   0.0 semi-detached 3  34, GRANGE PARK ROAD, THATTO HEATH, ST HELENS
+                                                     lists=auction-properties  risks=auction_guide_price
+ 44     9  100,000  110,000    4   9.1 semi-detached 3  Clovelly Avenue, St. Helens, WA9
+                                                     lists=slow-to-sell-properties  risks=-
+ 59    18  170,000  180,000   36   5.6 semi-detached 3  4, CRANBERRY CLOSE, ST HELENS, WA10 2ND
+                                                     lists=unmodernised-properties  risks=-
+ 73     8  140,000  140,000   88   0.0 detached      2  Ramford Street, St. Helens WA9
+                                                     lists=unmodernised-properties  risks=gdv_bedroom_mismatch
+ 52     7  110,000  110,000   26   0.0 semi-detached 3  135 Dentons Green Lane, Dentons Green, St. He
+                                                     lists=auction-properties  risks=auction_guide_price
+ 24     7  165,000  165,000   19   0.0 semi-detached 3  152, KINGSWAY, HUYTON, L36 2PS
+                                                     lists=unmodernised-properties  risks=-
+ 49    31  170,000  200,000   82  15.0 semi-detached 3  11, ASHBOURNE CRESCENT, ROBY, L36 4JH
+                                                     lists=unmodernised-properties  risks=-
+  7     7   85,000   85,000   19   0.0 semi-detached 3  6 Long Hey, Whiston, Prescot, Merseyside, L35
+                                                     lists=auction-properties  risks=auction_guide_price
+ 12    15  160,000  170,000   40   5.9 semi-detached 3  28, SOUTH AVENUE, PRESCOT, L34 1LY
+                                                     lists=unmodernised-properties  risks=-
+ 70    11  125,000  125,000   65   0.0 semi-detached 3  45, PRINCESS AVENUE, ST HELENS, WA10 6NB
+                                                     lists=auction-properties  risks=auction_guide_price
+ 53     0  130,000  130,000   10   0.0 semi-detached 2  3, WESTBROOK ROAD, LIVERPOOL, L25 2PU
+                                                     lists=unmodernised-properties  risks=gdv_bedroom_mismatch
+ 46     1   80,000   80,000   14   0.0 terraced      2  Green Lane, Widnes, Cheshire, WA8
+                                                     lists=auction-properties  risks=auction_guide_price
+ 90    25  180,000  225,000  150  20.0 semi-detached 3  2, CAMPBELL DRIVE, ROBY, L14 7QG
+                                                     lists=reduced-properties  risks=-
+  3    19  140,000  140,000   96   0.0 semi-detached 3  108, MOLYNEUX DRIVE, PRESCOT, L35 5DD
+                                                     lists=unmodernised-properties  risks=-
+ 11     4  180,000  180,000   19   0.0 semi-detached 3  Railton Avenue, Rainhill, Prescot, Merseyside
+                                                     lists=auction-properties  risks=auction_guide_price
+ 62    32  175,000  195,000  174  10.3 terraced      3  Beechill Close, Liverpool L25
+                                                     lists=unmodernised-properties  risks=-
+ 97    10  175,000  175,000   11   0.0 semi-detached 3  Campbell Drive, Broadgreen, L14
+                                                     lists=unmodernised-properties  risks=-
+ 10    -9  130,000  130,000   41   0.0 detached      4  Kemble Street, Prescot
+                                                     lists=auction-properties  risks=auction_guide_price|multi_unit_or_block
+ 83    10  150,000  150,000   12   0.0 semi-detached 3  Princes Street, Widnes
+                                                     lists=unmodernised-properties  risks=-
+ 75    28  144,950  175,000  375  17.2 terraced      3  171 Hollowcroft, Liverpool L28
+                                                     lists=reduced-properties  risks=-
+ 76    28  100,000  120,000  166  16.7 terraced      2  59, MORGAN STREET, ST HELENS, WA9 1PE
+                                                     lists=reduced-properties  risks=-
+ 77    28   95,000  110,000  185  13.6 terraced      2  Watery Lane, St. Helens, Merseyside WA9
+                                                     lists=back-on-market  risks=-
+ 87    28  165,000  165,000  122   0.0 terraced      3  Bancroft Road, Widnes WA8
+                                                     lists=back-on-market|unmodernised-properties  risks=-
+ 89    26  120,000  130,000  277   7.7 terraced      3  134, STEERS CROFT, LIVERPOOL, L28 8AJ
+                                                     lists=unmodernised-properties  risks=-
+  6    25  175,000  210,000  382  16.7 semi-detached 3  St Winifred Road, Rainhill, Liverpool
+                                                     lists=reduced-properties|slow-to-sell-properties  risks=-
+ 55     3   80,000   80,000   10   0.0 terraced      2  Greenfield Road, St Helens, Merseyside, WA10 
+                                                     lists=auction-properties  risks=auction_guide_price
+ 47    25   90,000   90,000  124   0.0 terraced      2  26, CLEVELAND STREET, ST HELENS, WA9 3BL
+                                                     lists=unmodernised-properties  risks=-
+ 50    25  150,000  150,000  157   0.0 terraced      3  Windsor Road, Huyton, Liverpool
+                                                     lists=unmodernised-properties  risks=-
+ 80    25  125,000  159,500  302  21.6 terraced      3  50, CYGNET GARDENS, ST HELENS, WA9 1SE
+                                                     lists=reduced-properties|slow-to-sell-properties  risks=auction_guide_price
+ 42    10  180,000  180,000    5   0.0 semi-detached 3  Ash Lane, Widnes, Cheshire, WA8
+                                                     lists=unmodernised-properties  risks=-
+ 20    22  160,000  160,000  126   0.0 terraced      3  Bower Road, Liverpool L36
+                                                     lists=unmodernised-properties  risks=-
+ 51    24  179,950  180,000  472   0.0 commercial    0  Church Street, St. Helens
+                                                     lists=slow-to-sell-properties|unmodernised-properties  risks=-
+ 14    21  170,000  170,000  263   0.0 semi-detached 3  Scott Avenue, Huyton, Liverpool L36
+                                                     lists=back-on-market  risks=-
+ 31    21  180,000  220,000   82  18.2 semi-detached 3  64, HORNBY CRESCENT, CLOCK FACE, ST HELENS, W
+                                                     lists=reduced-properties  risks=-
+ 84    21  110,000  130,000   51  15.4 terraced      3  Shortwood Road, Dovecot, Liverpool L14
+                                                     lists=reduced-properties|unmodernised-properties  risks=-
+ 16    10  150,000  155,000  285   3.2 semi-detached 2  Crossley Road, St. Helens, Merseyside WA10
+                                                     lists=back-on-market  risks=gdv_bedroom_mismatch
+ 48    20  160,000  180,000   67  11.1 terraced      3  Aylton Road, Liverpool L36
+                                                     lists=back-on-market  risks=-
+ 98    20  145,000  152,500  391   4.9 terraced      3  Antons Court, Liverpool, Merseyside L26
+                                                     lists=back-on-market  risks=-
+ 32    18  180,000  220,000  167  18.2 semi-detached 2  St Lukes Road, St Helens, WA10 4
+                                                     lists=reduced-properties  risks=gdv_bedroom_mismatch
+ 93    19  150,000  160,000   94   6.2 semi-detached 3  Fleet Lane, St. Helens, Merseyside WA9
+                                                     lists=back-on-market  risks=-
+ 17    18  160,000  160,000  146   0.0 semi-detached 3  Mayfield Avenue, St. Helens, Merseyside WA9
+                                                     lists=back-on-market  risks=-
+ 23    18  150,000  150,000  740   0.0 terraced      3  Coral Avenue, Huyton, Liverpool L36
+                                                     lists=slow-to-sell-properties  risks=-
+ 29    18  160,000  160,000  266   0.0 terraced      3  Crosswood Crescent, Huyton, Liverpool L36
+                                                     lists=back-on-market  risks=-
+ 35    18  100,000  100,000   60   0.0 terraced      2  145, CAMBRIDGE ROAD, ST HELENS, WA10 4HD
+                                                     lists=unmodernised-properties  risks=-
+ 61    18  115,000  115,000  112   0.0 terraced      2  Woodville Street, St Helens WA10
+                                                     lists=back-on-market  risks=-
+ 13    17  120,000  140,000   20  14.3 terraced      3  The Crescent, Huyton, Liverpool, Merseyside, 
+                                                     lists=unmodernised-properties  risks=-
+ 72    19  115,000  130,000  105  11.5 flat          3  DEE COURT FLAT 32, RIBBLE ROAD, LIVERPOOL, L2
+                                                     lists=auction-properties  risks=auction_guide_price
+ 79    17  105,000  110,000  350   4.5 terraced      3  Ross Street, Widnes, Cheshire WA8
+                                                     lists=auction-properties  risks=auction_guide_price
+  8    14  180,000  180,000   33   0.0 semi-detached 3  Pottery Lane, Whiston, Prescot L35
+                                                     lists=unmodernised-properties  risks=-
+  5    15  160,000  180,000   52  11.1 terraced      3  Fire Station Road, Whiston, Prescot, Merseysi
+                                                     lists=auction-properties  risks=auction_guide_price
+ 27    15   89,000  100,000   61  11.0 terraced      2  38, GLADSTONE STREET, ST HELENS, WA10 4NT
+                                                     lists=auction-properties  risks=auction_guide_price
+ 63    15  110,000  110,000  395   0.0 terraced      2  55, STANDISH STREET, ST HELENS, WA10 1HY
+                                                     lists=slow-to-sell-properties  risks=-
+ 96    15  177,000  170,000   91   0.0 terraced      2  Pilch Bank Road, Liverpool L14
+                                                     lists=back-on-market  risks=-
+ 25    14  135,000  140,000  227   3.6 terraced      3  Fulbeck, Widnes, Cheshire WA8
+                                                     lists=back-on-market  risks=tenanted
+ 85    10  105,000  105,000   10   0.0 terraced      2  45, PRESTWOOD ROAD, LIVERPOOL, L14 2EE
+                                                     lists=unmodernised-properties  risks=-
+ 36    12  125,000  155,000  193  19.4 terraced      3  Newby Drive, Liverpool L36
+                                                     lists=reduced-properties  risks=auction_guide_price|non_standard_construction
+ 38    12  120,000  165,000  103  27.3 terraced      3  Woodlands Road, Huyton, Liverpool, Merseyside
+                                                     lists=auction-properties|reduced-properties  risks=auction_guide_price|non_standard_construction
+ 67    12   55,000   65,000   81  15.4 terraced      2  29, LASCELLES STREET, ST HELENS, WA9 1BA
+                                                     lists=auction-properties|reduced-properties  risks=auction_guide_price|tenanted
+ 68    11  100,000  110,000    4   9.1 terraced      2  Francis Street, St. Helens, WA9
+                                                     lists=unmodernised-properties  risks=-
+ 81    11  130,000  130,000   41   0.0 terraced      3  Holly Bank Grove, St Helens, Greater Manchest
+                                                     lists=unmodernised-properties  risks=-
+ 91    11  132,000  148,000   55  10.8 terraced      3  89, MAB LANE, LIVERPOOL, L12 6QL
+                                                     lists=auction-properties  risks=auction_guide_price
+ 22     6  110,000  120,000   52   8.3 terraced      3  5, MONTGOMERY ROAD, HUYTON, L36 7UY
+                                                     lists=auction-properties  risks=auction_guide_price|japanese_knotweed
+ 18    10  150,000  150,000    7   0.0 terraced      3  224, JUBITS LANE, SUTTON MANOR, ST HELENS, WA
+                                                     lists=unmodernised-properties  risks=-
+ 19    10  170,000  170,000   12   0.0 terraced      2  11, CROSSVALE ROAD, HUYTON, L36 0UY
+                                                     lists=unmodernised-properties  risks=-
+ 28    10  180,000  180,000   12   0.0 semi-detached 3  New Street, St. Helens, WA9
+                                                     lists=unmodernised-properties  risks=-
+ 30    10  100,000  100,000    4   0.0 terraced      2  211, NEW STREET, ST HELENS, WA9 3UT
+                                                     lists=unmodernised-properties  risks=-
+ 34    10   75,000   75,000   27   0.0 terraced      2  Albion Street, St. Helens, Merseyside, WA10 2
+                                                     lists=auction-properties  risks=auction_guide_price
+ 41    10  155,000  160,000   88   3.1 semi-detached 3  Leach Lane, Sutton Leach, St. Helens, Merseys
+                                                     lists=auction-properties  risks=auction_guide_price
+ 56    10  159,950  159,950   24   0.0 terraced      2  81A, WINDLESHAW ROAD, DENTONS GREEN, ST HELEN
+                                                     lists=unmodernised-properties  risks=-
+ 57    10  130,000  130,000   21   0.0 terraced      3  Dundalk Road, Widnes, WA8
+                                                     lists=unmodernised-properties  risks=-
+ 58    10  180,000  180,000   11   0.0 semi-detached 3  143, LORDENS ROAD, HUYTON, L14 8UA
+                                                     lists=unmodernised-properties  risks=-
+ 64    10   90,000   90,000   24   0.0 terraced      2  161, HARDSHAW STREET, ST HELENS, WA10 1JT
+                                                     lists=unmodernised-properties  risks=-
+ 74    10  150,000  150,000   11   0.0 terraced      2  Bishops Way, Widnes
+                                                     lists=unmodernised-properties  risks=-
+ 78    10  125,000  125,000   14   0.0 terraced      3  119, LONGREACH ROAD, LIVERPOOL, L14 0NL
+                                                     lists=unmodernised-properties  risks=-
+ 92    10  150,000  150,000   14   0.0 terraced      2  Crow Wood Lane, Widnes WA8
+                                                     lists=unmodernised-properties  risks=-
+ 37    10   99,950  120,000  122  16.7 land          4  Irwin Road, St Helens
+                                                     lists=reduced-properties|slow-to-sell-properties  risks=land_only
+ 71     8  145,000  145,000  192   0.0 semi-detached 2  Capricorn Crescent, Liverpool L14
+                                                     lists=back-on-market  risks=gdv_bedroom_mismatch
+ 33     7  149,950  149,950   20   0.0 terraced      3  15, MEADOW AVENUE, CLOCK FACE, ST HELENS, WA9
+                                                     lists=unmodernised-properties  risks=-
+ 45     7  115,000  115,000   11   0.0 terraced      3  Boundary Road, St. Helens, WA10
+                                                     lists=unmodernised-properties  risks=-
+ 65     7  125,000  125,000    3   0.0 terraced      3  95, GRANT ROAD, LIVERPOOL, L14 0LE
+                                                     lists=unmodernised-properties  risks=-
+ 66     7   95,000   95,000   38   0.0 terraced      2  Helena Road, St. Helens, Merseyside, WA9 4JP
+                                                     lists=auction-properties  risks=auction_guide_price
+ 69     7   90,000   90,000   59   0.0 terraced      2  40, REAY STREET, WIDNES, WA8 6RJ
+                                                     lists=auction-properties  risks=auction_guide_price
+ 54     6  125,000  125,000    2   0.0 terraced      2  26, ATHERTON STREET, ST HELENS, WA10 2DT
+                                                     lists=unmodernised-properties  risks=leasehold
+ 88     5  150,000  160,000   80   6.2 semi-detached 2  Smith Road, Widnes, Cheshire WA8
+                                                     lists=back-on-market  risks=gdv_bedroom_mismatch
+ 95     4  100,000  100,000   24   0.0 terraced      3  Alfred Street, Widnes, Cheshire, WA8
+                                                     lists=auction-properties  risks=auction_guide_price
+  9     2  160,000  160,000   62   0.0 semi-detached 3  Bishop Drive, Prescot
+                                                     lists=auction-properties  risks=auction_guide_price|tenanted
+ 43     1  138,000  153,000   34   9.8 terraced      4  41 Marshalls Cross Road St. Helens WA9 3BJ
+                                                     lists=auction-properties  risks=auction_guide_price|gdv_bedroom_mismatch
+ 39     0   80,000   80,000   27   0.0 terraced      2  13 Kitchener Street, St. Helens, Merseyside, 
+                                                     lists=auction-properties  risks=auction_guide_price
+ 26    -3  110,000  110,000   30   0.0 terraced      4  Gentwood Road, Liverpool, Merseyside, L36
+                                                     lists=auction-properties  risks=auction_guide_price|gdv_bedroom_mismatch
+  2    -5  125,000  125,000   18   0.0 terraced      4  Selborne, Whiston, Prescot L35
+                                                     lists=unmodernised-properties  risks=gdv_bedroom_mismatch|non_standard_construction
+ 40   -10  110,000  110,000   19   0.0 terraced      3  3 Elmswood Grove, Liverpool, Merseyside, L36 
+                                                     lists=auction-properties  risks=auction_guide_price|non_standard_construction
+CSV: /home/user/property-flip/output/candidates.csv

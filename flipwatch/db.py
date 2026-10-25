@@ -94,6 +94,7 @@ class Analysis(Base):
     property_id: Mapped[int] = mapped_column(ForeignKey("properties.id"), index=True)
     analysis_date: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     asking_price: Mapped[int | None] = mapped_column(Integer)
+    expected_purchase_price: Mapped[int | None] = mapped_column(Integer)  # auction uplift / MMoA fee
     gdv_low: Mapped[int | None] = mapped_column(Integer)
     gdv_base: Mapped[int | None] = mapped_column(Integer)
     gdv_high: Mapped[int | None] = mapped_column(Integer)
@@ -131,6 +132,38 @@ class Comparable(Base):
     price_per_sqft: Mapped[float | None] = mapped_column(Float)
     similarity_score: Mapped[float | None] = mapped_column(Float)
     source: Mapped[str | None] = mapped_column(String(30))
+
+
+class SoldPrice(Base):
+    """Local copy of HM Land Registry Price Paid Data for the search region (free comparables)."""
+    __tablename__ = "sold_prices"
+    transaction_id: Mapped[str] = mapped_column(String(40), primary_key=True)
+    price: Mapped[int] = mapped_column(Integer)
+    sale_date: Mapped[Date] = mapped_column(Date, index=True)
+    postcode: Mapped[str] = mapped_column(String(10), index=True)
+    outcode: Mapped[str] = mapped_column(String(5), index=True)
+    property_type: Mapped[str] = mapped_column(String(15))
+    new_build: Mapped[bool] = mapped_column(Boolean)
+    tenure: Mapped[str] = mapped_column(String(1))
+    paon: Mapped[str | None] = mapped_column(String(100))
+    saon: Mapped[str | None] = mapped_column(String(100))
+    street: Mapped[str | None] = mapped_column(String(100), index=True)
+    locality: Mapped[str | None] = mapped_column(String(100))
+    town: Mapped[str | None] = mapped_column(String(100))
+    district: Mapped[str | None] = mapped_column(String(100))
+    ppd_category: Mapped[str] = mapped_column(String(1))  # A standard, B repossession/BTL/etc.
+    source: Mapped[str] = mapped_column(String(10), index=True)
+    floor_area_sqft: Mapped[int | None] = mapped_column(Integer)  # filled from EPC later
+    uprn: Mapped[str | None] = mapped_column(String(20))
+
+
+class Postcode(Base):
+    """Cached postcode / outcode centroids (postcodes.io, free)."""
+    __tablename__ = "postcodes"
+    postcode: Mapped[str] = mapped_column(String(10), primary_key=True)
+    latitude: Mapped[float | None] = mapped_column(Float)
+    longitude: Mapped[float | None] = mapped_column(Float)
+    is_outcode: Mapped[bool] = mapped_column(Boolean, default=False)
 
 
 class RawResponse(Base):

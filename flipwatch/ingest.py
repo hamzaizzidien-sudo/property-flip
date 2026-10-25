@@ -12,7 +12,7 @@ from .sources import propertydata
 from .sources.base import Listing
 
 DOM_THRESHOLDS = (60, 90, 120)
-EXCLUDED_TYPES = {"flat"}
+EXCLUDED_TYPES = {"flat", "land", "commercial"}
 
 
 def _street(address: str) -> str:

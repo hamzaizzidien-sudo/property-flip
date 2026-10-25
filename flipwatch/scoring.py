@@ -4,7 +4,7 @@ analysis; the remaining 45 points are 'screening' signals available for free at 
 RISK_PENALTY = {
     "non_standard_construction": 15, "multi_unit_or_block": 15, "shared_ownership": 15, "land_only": 15,
     "tenanted": 6, "leasehold": 4, "short_lease": 10, "flood": 5, "subsidence": 8, "japanese_knotweed": 6,
-    "auction_guide_price": 2,
+    "auction_guide_price": 2, "gdv_bedroom_mismatch": 10,  # comps likely larger -> GDV overstated
 }
 MOTIVATION_POINTS = {
     "repossessed": 5, "probate": 4, "no_chain": 3, "vacant": 3, "cash_buyers_only": 3, "quick_sale": 3,

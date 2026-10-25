@@ -80,11 +80,19 @@ _TYPE_MAP = {
 }
 
 
-def _normalise_type(raw: str | None, standardised: str | None, summary: str) -> str:
+def _normalise_type(raw: str | None, standardised: str | None, summary: str,
+                    precise_address: str | None = None) -> str:
     s = (summary or "").lower()
+    if re.search(r"\b(flat|apartment|maisonette)\s*\d", (precise_address or "").lower()):
+        return "flat"  # the Land Registry-matched address beats the portal's type label
+    r = (raw or "").lower()
+    if r in ("land", "plot") or re.search(r"\bbuilding plot\b|\bplot of land\b", s):
+        return "land"
+    if r in ("shop", "commercial", "retail", "office", "pub", "restaurant", "mixed use"):
+        return "commercial"
     if "bungalow" in (raw or "").lower() or re.search(r"\bbungalow\b", s):
         return "bungalow"
-    if (raw or "").lower() in ("end_terrace", "end of terrace", "terraced", "mid_terrace"):
+    if r in ("end_terrace", "end of terrace", "terraced", "mid_terrace", "town house", "mews"):
         return "terraced"  # PropertyData standardises end_terrace as semi; keep the raw intent
     return _TYPE_MAP.get((standardised or "").lower(), "other")
 
@@ -105,14 +113,15 @@ def _float(v):
 
 def normalise(item: dict) -> Listing:
     ref = item["id"]
-    portal = {"R": "rightmove", "Z": "zoopla"}.get(ref[:1])
+    portal = {"R": "rightmove", "Z": "zoopla", "O": "onthemarket"}.get(ref[:1])
     summary = item.get("summary") or ""
     return Listing(
         source=SOURCE, source_ref=ref, portal=portal, url=item.get("url"),
         address=item.get("address", ""), precise_address=item.get("precise_address"),
         postcode=item.get("postcode"), price=_int(item.get("price")),
         latitude=_float(item.get("lat")), longitude=_float(item.get("lng")),
-        property_type=_normalise_type(item.get("type"), item.get("type_standardised"), summary),
+        property_type=_normalise_type(item.get("type"), item.get("type_standardised"), summary,
+                                     item.get("precise_address")),
         property_type_raw=f"{item.get('type')} | {item.get('type_standardised')}",
         bedrooms=_int(item.get("bedrooms")), floor_area_sqft=_int(item.get("sqf")),
         sstc=bool(item.get("sstc")) if item.get("sstc") is not None else None,

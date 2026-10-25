@@ -50,6 +50,9 @@ class FlipAssumptions:
     default_refurb: int = 25_000
     sdlt_surcharge: float = 0.05  # higher rates for additional dwellings (from 31 Oct 2024)
     opening_offer_discount: float = 0.08
+    auction_uplift: float = 1.25  # traditional auction lots typically sell above guide
+    mmoa_fee_pct: float = 0.045 * 1.2  # Modern Method of Auction buyer reservation fee + VAT
+    mmoa_fee_min: int = 6_000
 
 
 @dataclass
