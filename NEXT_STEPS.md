@@ -16,14 +16,25 @@ postcodes) is git-ignored: rebuild with `python -m flipwatch.cli load-sold-price
   no PropertyData connector attached yet, so they cannot spend credits.
 - `max_age` = days since last listing update (new/reduced/relisted), not listing age.
 
+## Session 2 (2026-10-25): EPC code written, not yet run
+- The old EPC host (epc.opendatacommunities.org) now 301s to the MHCLG service. Its API is
+  `https://api.get-energy-performance-data.communities.gov.uk` with `Authorization: Bearer $EPC_API_KEY`
+  (EPC_EMAIL no longer used). **This environment's network policy blocks that host**, so the key
+  has not been verified yet. Allow it under the environment's Network access → Allowed domains.
+- Written and unit-tested (with fixtures, not real data): `sources/epc.py` (postcode search cached
+  in `epc_certificates`, full certificate fetched only for addresses that have a Land Registry sale,
+  matched by postcode + house number + street), `comps.gdv_per_sqft` (±25%/±35% size match,
+  weighted 50/70/85th £/sqft x subject sqft, MEDIUM at n>=8 and spread <=20%),
+  `finance.refurb_estimate` (£35/sqft modernise, £55/sqft derelict, min £15k, £25k if no sqft),
+  `cli enrich-epc`, `cli deal-sheets`. Without floor areas `screen` falls back to v0 unchanged.
+- Subjects with no listed sqft and no house number get a median-of-nearby-EPCs estimate and LOW confidence.
+
 ## Next steps
-1. EPC: `EPC_API_KEY` (and `EPC_EMAIL` if the key is from epc.opendatacommunities.org) should now be
-   in the environment. Verify with one lookup (never print the key), then join EPC floor areas to
-   `sold_prices` by postcode + address, and rebuild `comps.py` on £/sqft of size-matched sales
-   (refurbished value = upper part of same-type £/sqft × subject sqft). Refurb cost should scale with
-   size and condition instead of a flat £25k.
-2. Re-screen and produce one deal sheet per shortlisted property (layout as the Burland Road example:
-   comps table, after-works low/base/high, itemised costs, profit at asking, max offer, portal link).
+1. With the host allowed: one EPC lookup to verify the key, then
+   `enrich-epc` → `screen` → `shortlist` → `deal-sheets`, and check Burland Road lands near
+   ~£210k / £220k / £235k (the size-matched pilot). Tune bands/percentiles if it does not.
+2. Switch RUN_PROFILES / `plan` to one list per query (see coverage finding) before giving the
+   scheduled tasks a PropertyData connector.
 3. Awaiting user decision: full 15-mile per-list sweep (~70–110 credits) and ongoing option
    (15 mi ~55–60/week, or monthly 15-mi sweep + daily 8-mi changes ~30/week); optional PropertyData
    comps + valuation (2 credits/property) for the final shortlist.

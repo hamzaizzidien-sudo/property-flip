@@ -92,6 +92,16 @@ def opening_offer(max_price: int, a: FlipAssumptions | None = None) -> int:
     return int(max_price * (1 - a.opening_offer_discount) // 1000 * 1000)
 
 
+def refurb_estimate(sqft: int | None, motivation: list[str], a: FlipAssumptions | None = None) -> tuple[int, str]:
+    """Refurb cost scaled by floor area and condition. Returns (cost, basis)."""
+    a = a or settings.flip
+    condition = "full" if "derelict_poor_condition" in motivation else "modernise"
+    if not sqft:
+        return a.default_refurb, "flat default (no floor area)"
+    rate = a.refurb_per_sqft[condition]
+    return max(a.refurb_min, int(round(sqft * rate, -2))), f"{condition} £{rate}/sqft x {sqft} sqft"
+
+
 HARD_RISKS = {"non_standard_construction", "multi_unit_or_block", "shared_ownership", "land_only"}
 
 

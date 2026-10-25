@@ -64,7 +64,11 @@ class FlipAssumptions:
     finance_rate_monthly: float = 0.0085
     finance_arrangement_pct: float = 0.02
     contingency_pct_of_refurb: float = 0.10
-    default_refurb: int = 25_000
+    default_refurb: int = 25_000  # used only when floor area is unknown
+    # Refurb £/sqft by condition (first-pass NW England; calibrated so 721 sqft modernisation ≈ £25k).
+    # "full" = derelict / poor condition; everything else is assumed to need modernising.
+    refurb_per_sqft: dict = field(default_factory=lambda: {"modernise": 35, "full": 55})
+    refurb_min: int = 15_000
     sdlt_surcharge: float = 0.05  # higher rates for additional dwellings (from 31 Oct 2024)
     opening_offer_discount: float = 0.08
     auction_uplift: float = 1.25  # traditional auction lots typically sell above guide

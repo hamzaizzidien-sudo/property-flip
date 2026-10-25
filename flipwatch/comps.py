@@ -1,6 +1,12 @@
 """Comparable-sales GDV from the local Land Registry table (zero API credits).
 
-Method (v0 — Land Registry has no bedrooms or floor area; EPC enrichment will add £/sqft):
+v1 (gdv_per_sqft, used when the subject's floor area is known and enough comps carry EPC floor areas):
+  same selection as v0, then keep sales within ±25% of the subject's floor area (±35% if thin),
+  drop £/sqft outliers outside 1.5 x IQR, and value the subject at the weighted 50th / 70th / 85th
+  percentile £/sqft x subject sqft. Confidence MEDIUM with >= 8 size-matched comps and a low-high
+  spread <= 20%, else LOW; HIGH needs an independent valuation cross-check.
+
+v0 (gdv_from_comps — fallback when floor areas are missing):
   1. Candidate sales in the subject's outcode and nearby outcodes, last 24 months (36 if thin),
      same property type, standard-price (PPD A) resales, not new build.
   2. Distance from postcode centroids; keep <= 0.5 mile, widening to 1 mile if fewer than 8.
@@ -72,7 +78,7 @@ def _street_of(address: str) -> str:
     return re.sub(r"^\s*\d+[A-Z]?[\.,]?\s+", "", first).strip()
 
 
-def find_comps(s, prop, today: date | None = None) -> list[dict]:
+def find_comps(s, prop, today: date | None = None, enough=lambda comps: len(comps) >= 8) -> list[dict]:
     today = today or date.today()
     if prop.latitude is None or prop.property_type not in ("detached", "semi-detached", "terraced", "bungalow"):
         return []
@@ -98,8 +104,8 @@ def find_comps(s, prop, today: date | None = None) -> list[dict]:
             comps.append(dict(address=" ".join(filter(None, [x.saon, x.paon, x.street, x.town])),
                               postcode=x.postcode, price=x.price, sale_date=x.sale_date,
                               property_type=x.property_type, tenure=x.tenure, distance=round(d, 3),
-                              same_street=same_street, weight=w))
-        if len(comps) >= 8:
+                              same_street=same_street, weight=w, floor_area_sqft=x.floor_area_sqft))
+        if enough(comps):
             break
     return comps
 
@@ -120,3 +126,42 @@ def gdv_from_comps(comps: list[dict]) -> dict | None:
     return dict(gdv_low=int(low), gdv_base=int(base), gdv_high=int(high), n=n,
                 n_removed=len(comps) - n, spread=round(spread, 3), confidence=confidence,
                 same_street=sum(c["same_street"] for c in kept), kept=kept)
+
+
+SIZE_BANDS = (0.25, 0.35)
+
+
+def size_matched(comps: list[dict], sqft: int, band: float) -> list[dict]:
+    return [c for c in comps if c.get("floor_area_sqft") and abs(c["floor_area_sqft"] / sqft - 1) <= band]
+
+
+def gdv_per_sqft(comps: list[dict], sqft: int, min_n: int = 5) -> dict | None:
+    for band in SIZE_BANDS:
+        sized = size_matched(comps, sqft, band)
+        if len(sized) >= min_n:
+            break
+    else:
+        return None
+    for c in sized:
+        c["ppsf"] = c["price"] / c["floor_area_sqft"]
+    ppsf = sorted(c["ppsf"] for c in sized)
+    q1, q3 = ppsf[len(ppsf) // 4], ppsf[(3 * len(ppsf)) // 4]
+    lo_f, hi_f = q1 - 1.5 * (q3 - q1), q3 + 1.5 * (q3 - q1)
+    kept = [c for c in sized if lo_f <= c["ppsf"] <= hi_f]
+    v, w = [c["ppsf"] for c in kept], [c["weight"] for c in kept]
+    low, base, high = (_wpercentile(v, w, q) * sqft for q in (0.5, 0.7, 0.85))
+    spread = (high - low) / base
+    n = len(kept)
+    return dict(gdv_low=int(low // 1000 * 1000), gdv_base=int(base // 1000 * 1000),
+                gdv_high=int(high // 1000 * 1000), n=n, n_removed=len(sized) - n, spread=round(spread, 3),
+                confidence="MEDIUM" if n >= 8 and spread <= 0.20 else "LOW", size_band=band,
+                ppsf_low=round(low / sqft), ppsf_base=round(base / sqft), ppsf_high=round(high / sqft),
+                same_street=sum(c["same_street"] for c in kept), kept=kept)
+
+
+def estimated_sqft(comps: list[dict]) -> int | None:
+    """Median EPC floor area of the nearest same-type sales, for subjects with no floor area."""
+    near = sorted((c for c in comps if c.get("floor_area_sqft")), key=lambda c: c["distance"])[:15]
+    if len(near) < 5:
+        return None
+    return sorted(c["floor_area_sqft"] for c in near)[len(near) // 2]

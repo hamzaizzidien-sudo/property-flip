@@ -10,10 +10,12 @@ python -m flipwatch.cli discover --results 10         # dry run: prints params +
 python -m flipwatch.cli discover --results 10 --confirm   # spends credits (capped per run)
 python -m flipwatch.cli import data/raw/<file>.json   # ingest a saved response (REST or MCP)
 python -m flipwatch.cli load-sold-prices 2021 2022 2023 2024 2025 2026   # free LR comps (~2 min)
-python -m flipwatch.cli screen                        # GDV from local comps + appraisal for every candidate
+python -m flipwatch.cli enrich-epc                    # EPC floor areas for comps around the shortlist (free)
+python -m flipwatch.cli screen                        # £/sqft GDV from size-matched comps (v0 price comps if no EPC)
 python -m flipwatch.cli report                        # console table + output/candidates.csv
 python -m flipwatch.cli analyse <id> --gdv 200000 --gdv-low 190000 --gdv-high 210000 --refurb 25000 --confidence MEDIUM
 python -m flipwatch.cli shortlist                     # output/shortlist.csv: notes, itemised fees, portal links
+python -m flipwatch.cli deal-sheets                   # output/deals/<id>-<street>.md, one per shortlisted property
 python -m flipwatch.cli mark 12 44 --status SSTC      # record what you saw on the portal (SSTC/SOLD/WITHDRAWN/ACTIVE)
 python -m flipwatch.cli digest                        # output/daily_report.md: changes in last 26h
 python -m flipwatch.cli credits                       # credit ledger

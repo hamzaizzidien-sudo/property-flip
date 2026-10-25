@@ -119,7 +119,7 @@ def cmd_analyse(args):
     print(json.dumps({**r, "opportunity_score": score}, indent=1))
 
 
-def record_analysis(s, p, asking, gdv_low, gdv, gdv_high, refurb, confidence, gdv_source):
+def record_analysis(s, p, asking, gdv_low, gdv, gdv_high, refurb, confidence, gdv_source, extra=None):
     r = finance.appraise(asking, gdv_low, gdv, gdv_high, refurb, confidence, p.risk_flags or [],
                          p.motivation_flags or [])
     o = _latest_obs(s, p.id)
@@ -138,7 +138,7 @@ def record_analysis(s, p, asking, gdv_low, gdv, gdv_high, refurb, confidence, gd
                  maximum_purchase_price_for_target=r["max_purchase_price"], offer_gap=r["offer_gap"],
                  opening_offer=r["opening_offer"], opportunity_score=score,
                  recommendation=r["recommendation"], confidence=confidence, risks=p.risk_flags,
-                 assumptions=vars(settings.flip))
+                 assumptions={**vars(settings.flip), **(extra or {})})
     s.add(a)
     s.flush()
     in_range = r["offer_gap"] <= 0 and r["recommendation"] != "REJECT"
@@ -155,7 +155,9 @@ def record_analysis(s, p, asking, gdv_low, gdv, gdv_high, refurb, confidence, gd
 
 
 def cmd_screen(args):
-    """Value every active candidate from local Land Registry comps and record an appraisal (free)."""
+    """Value every active candidate from local Land Registry comps and record an appraisal (free).
+    £/sqft of size-matched sales when floor areas exist (run enrich-epc first), else v0 price comps."""
+    from .sources import epc
     with Session.begin() as s:
         props = [p for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE"))
                  if not args.ids or p.id in args.ids]
@@ -168,22 +170,72 @@ def cmd_screen(args):
             if (p.property_type in ("semi-detached", "detached") and beds <= 2) or \
                     (p.property_type == "terraced" and (beds >= 4 or beds <= 1)):
                 p.risk_flags = sorted(set(p.risk_flags or []) | {"gdv_bedroom_mismatch"})
-            comps = comps_mod.find_comps(s, p)
-            g = comps_mod.gdv_from_comps(comps)
+            sqft, sqft_src = epc.subject_floor_area(s, p)
+            def enough(c):  # 8 size-matched sales, or 8 sales when none carry a floor area yet
+                return len(comps_mod.size_matched(c, sqft, 0.35)) >= 8 if sqft and \
+                    any(x["floor_area_sqft"] for x in c) else len(c) >= 8
+            comps = comps_mod.find_comps(s, p, enough=enough)
+            if not sqft and (sqft := comps_mod.estimated_sqft(comps)):
+                sqft_src = "estimated from nearby EPCs"
+            g = comps_mod.gdv_per_sqft(comps, sqft) if sqft else None
+            if g:
+                if sqft_src != "listing" and sqft_src != "epc":
+                    g["confidence"] = "LOW"
+                source = (f"£/sqft v1: n={g['n']} ±{g['size_band']:.0%} size, £{g['ppsf_low']}/{g['ppsf_base']}/"
+                          f"{g['ppsf_high']} psf x {sqft} sqft ({sqft_src}) street={g['same_street']} "
+                          f"spread={g['spread']}")
+            else:
+                g = comps_mod.gdv_from_comps(comps)
+                if g:
+                    source = f"LR comps v0: n={g['n']} street={g['same_street']} spread={g['spread']}"
             if not g:
                 print(f"{p.id:>3} {p.address[:40]:<40} too few comps ({len(comps)})")
                 continue
+            refurb, refurb_basis = finance.refurb_estimate(sqft, p.motivation_flags or [])
             r, score, a = record_analysis(s, p, p.current_asking_price, g["gdv_low"], g["gdv_base"],
-                                          g["gdv_high"], None, g["confidence"],
-                                          f"LR comps v0: n={g['n']} street={g['same_street']} spread={g['spread']}")
+                                          g["gdv_high"], refurb, g["confidence"], source,
+                                          extra=dict(subject_sqft=sqft, subject_sqft_source=sqft_src,
+                                                     refurb_basis=refurb_basis))
             for c in g["kept"]:
                 s.add(Comparable(subject_property_id=p.id, analysis_id=a.id, comparable_address=c["address"],
                                  sale_price=c["price"], sale_date=c["sale_date"], property_type=c["property_type"],
+                                 floor_area_sqft=c.get("floor_area_sqft"),
+                                 price_per_sqft=round(c["ppsf"], 1) if c.get("ppsf") else None,
                                  distance_miles=c["distance"], similarity_score=round(c["weight"], 3),
-                                 source="land_registry"))
+                                 source="land_registry+epc" if c.get("ppsf") else "land_registry"))
             print(f"{p.id:>3} {p.address[:40]:<40} ask £{p.current_asking_price:>7,} "
                   f"exp £{r['expected_purchase_price']:>7,} GDV £{g['gdv_base']:>7,} "
                   f"(n={g['n']}) max £{r['max_purchase_price']:>7,} gap £{r['offer_gap']:>8,} {r['recommendation']}")
+
+
+def cmd_enrich_epc(args):
+    """Fetch EPC floor areas for the comps around each subject (free; EPC_API_KEY bearer token).
+    Default subjects: active properties whose latest appraisal is not REJECT."""
+    from .sources import epc
+    client = epc.EpcClient()
+    with Session() as s:
+        props = []
+        for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE")):
+            a = _latest_analysis(s, p.id)
+            if p.id in args.ids if args.ids else (a is None or a.recommendation != "REJECT"):
+                props.append(p)
+        wanted = defaultdict(set)  # postcode -> address keys needing a floor area
+        for p in props:
+            for c in comps_mod.find_comps(s, p, enough=lambda c: False):  # widest window
+                wanted[c["postcode"]].add(epc.address_key(c["address"]))
+            if p.postcode and p.precise_address:
+                wanted[p.postcode].add(epc.address_key(p.precise_address.split(",")[0]))
+    print(f"{len(props)} subjects, {len(wanted)} postcodes", flush=True)
+    searched = fetched = 0
+    for i, (pc, keys) in enumerate(sorted(wanted.items()), 1):
+        with Session.begin() as s:
+            searched += epc.search_postcode(s, client, pc)
+            fetched += epc.fetch_floor_areas(s, client, pc, keys)
+        if i % 25 == 0:
+            print(f"  {i}/{len(wanted)} postcodes, {searched} certificates listed, {fetched} fetched", flush=True)
+    with Session.begin() as s:
+        matched = epc.match_sales(s, set(wanted))
+    print(f"done: {searched} certificates listed, {fetched} fetched, {matched} sales now have a floor area")
 
 
 def cmd_load_sold(args):
@@ -358,6 +410,77 @@ def cmd_shortlist(args):
     print(f"{len(rows)} shortlisted -> {out}")
 
 
+def _deal_sheet(s, p, a) -> str:
+    o = _latest_obs(s, p.id)
+    srcs = list(s.scalars(select(ListingSource).where(ListingSource.property_id == p.id)))
+    links = [x for x in (portal_link(x.source_ref) for x in srcs) if x] or [p.portal_url]
+    comps = list(s.scalars(select(Comparable).where(Comparable.analysis_id == a.id)
+                           .order_by(Comparable.similarity_score.desc())))
+    ex = a.assumptions or {}
+    sqft = ex.get("subject_sqft")
+    fl = settings.flip
+    lines = [f"# {p.precise_address or p.address}", "",
+             f"**{a.recommendation}** · confidence {a.confidence} · appraised {a.analysis_date:%Y-%m-%d}", "",
+             f"- {p.property_type or '?'}, {p.bedrooms or '?'} bed, "
+             + (f"{sqft} sq ft ({ex.get('subject_sqft_source')})" if sqft else "floor area unknown"),
+             f"- Asking £{a.asking_price:,}" + (f" · expected purchase £{a.expected_purchase_price:,}"
+                                                 if a.expected_purchase_price != a.asking_price else ""),
+             f"- Listing: {notes.headline(p, o, None, [x.portal for x in srcs])}",
+             *[f"- Portal: {u}" for u in links], "",
+             "## Comparable sales (HM Land Registry"
+             + (" + EPC floor areas)" if any(c.price_per_sqft for c in comps) else ")"), "",
+             "| Address | Sold | Price | Sq ft | £/sq ft | Miles |", "|---|---|---:|---:|---:|---:|"]
+    for c in comps[:15]:
+        lines.append(f"| {c.comparable_address.title()} | {c.sale_date:%b %Y} | £{c.sale_price:,} | "
+                     f"{c.floor_area_sqft or '–'} | {f'£{c.price_per_sqft:.0f}' if c.price_per_sqft else '–'} | "
+                     f"{c.distance_miles:.2f} |")
+    if len(comps) > 15:
+        lines.append(f"| … {len(comps) - 15} more | | | | | |")
+    psf = (lambda v: f" (£{v / sqft:.0f}/sq ft)") if sqft else (lambda v: "")
+    lines += ["", f"Basis: {a.gdv_source}", "", "## After-works value", "",
+              f"- Low £{a.gdv_low:,}{psf(a.gdv_low)}", f"- **Base £{a.gdv_base:,}**{psf(a.gdv_base)}",
+              f"- High £{a.gdv_high:,}{psf(a.gdv_high)}", "",
+              f"## Costs at £{a.expected_purchase_price:,}", "", "| Item | £ |", "|---|---:|",
+              f"| Refurb ({ex.get('refurb_basis', 'default')}) | {a.refurb_cost:,} |",
+              f"| Contingency ({fl.contingency_pct_of_refurb:.0%} of refurb) | {a.contingency:,} |",
+              f"| SDLT (incl. {fl.sdlt_surcharge:.0%} surcharge) | {a.sdlt:,} |",
+              f"| Buy legal + survey | {a.legal_cost:,} |",
+              f"| Holding ({fl.months_held} months) | {a.holding_cost:,} |",
+              f"| Sale agent + legal | {a.selling_cost:,} |"]
+    if a.finance_cost:
+        lines.append(f"| Finance | {a.finance_cost:,} |")
+    if a.expected_purchase_price != a.asking_price:
+        lines.append(f"| Auction uplift / fee | {a.expected_purchase_price - a.asking_price:,} |")
+    lines += [f"| **Total costs** | **{notes.total_costs(a) - (a.expected_purchase_price - a.asking_price):,}** |", ""]
+    prof = {k: finance.deal(a.expected_purchase_price, g, a.refurb_cost).net_profit
+            for k, g in (("low", a.gdv_low), ("base", a.gdv_base), ("high", a.gdv_high))}
+    mpp = {k: finance.max_purchase_price(g, a.refurb_cost)
+           for k, g in (("low", a.gdv_low), ("base", a.gdv_base), ("high", a.gdv_high))}
+    lines += ["## Result", "",
+              "| | Low | Base | High |", "|---|---:|---:|---:|",
+              f"| Profit at £{a.expected_purchase_price:,} | £{prof['low']:,} | **£{prof['base']:,}** | £{prof['high']:,} |",
+              f"| Max offer for £{fl.target_profit // 1000}k profit | £{mpp['low']:,} | **£{mpp['base']:,}** | £{mpp['high']:,} |",
+              "", f"Opening offer £{a.opening_offer:,} · gap to asking £{a.offer_gap:,}",
+              "", "Risks: " + (", ".join(p.risk_flags) if p.risk_flags else "none flagged from listing text"),
+              "", "_Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data "
+              "© Crown copyright, both licensed under the Open Government Licence v3.0._"]
+    return "\n".join(lines) + "\n"
+
+
+def cmd_deal_sheets(args):
+    """One markdown deal sheet per shortlisted property: output/deals/<id>-<street>.md (free)."""
+    import re
+    out = settings.output_dir / "deals"
+    out.mkdir(parents=True, exist_ok=True)
+    with Session() as s:
+        rows = _shortlist_rows(s)
+        for r in rows:
+            p, a = s.get(Property, r["id"]), _latest_analysis(s, r["id"])
+            slug = re.sub(r"[^a-z0-9]+", "-", (p.precise_address or p.address).split(",")[0].lower()).strip("-")
+            (out / f"{p.id:03d}-{slug}.md").write_text(_deal_sheet(s, p, a))
+    print(f"{len(rows)} deal sheets -> {out}")
+
+
 EVENT_LABELS = [
     ("ENTERED_BUY_RANGE", "Newly in viable offer range"), ("PRICE_REDUCTION", "Price reductions"),
     ("FIRST_SEEN", "New opportunities"), ("BACK_ON_MARKET", "Back on market"), ("RELISTED", "Relisted"),
@@ -454,6 +577,10 @@ def main():
     fi.add_argument("--run-id", required=True)
     fi.set_defaults(fn=cmd_finish)
     sub.add_parser("shortlist").set_defaults(fn=cmd_shortlist)
+    sub.add_parser("deal-sheets").set_defaults(fn=cmd_deal_sheets)
+    ee = sub.add_parser("enrich-epc", help="EPC floor areas for comps around the shortlist (free)")
+    ee.add_argument("ids", type=int, nargs="*")
+    ee.set_defaults(fn=cmd_enrich_epc)
     mk = sub.add_parser("mark", help="record a status seen on the portal (overrides the feed)")
     mk.add_argument("ids", type=int, nargs="+")
     mk.add_argument("--status", choices=MANUAL_STATUSES, required=True)

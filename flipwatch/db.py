@@ -169,6 +169,26 @@ class Postcode(Base):
     is_outcode: Mapped[bool] = mapped_column(Boolean, default=False)
 
 
+class EpcCertificate(Base):
+    """Cached domestic EPC headers + floor area (MHCLG EPC data API, free, OGL)."""
+    __tablename__ = "epc_certificates"
+    certificate_number: Mapped[str] = mapped_column(String(30), primary_key=True)
+    postcode: Mapped[str] = mapped_column(String(10), index=True)
+    address: Mapped[str] = mapped_column(Text)
+    uprn: Mapped[str | None] = mapped_column(String(20))
+    registration_date: Mapped[Date | None] = mapped_column(Date)
+    floor_area_sqm: Mapped[float | None] = mapped_column(Float)
+    band: Mapped[str | None] = mapped_column(String(1))
+    detail_fetched: Mapped[bool] = mapped_column(Boolean, default=False)
+
+
+class EpcPostcode(Base):
+    """Postcodes whose certificates have all been cached."""
+    __tablename__ = "epc_postcodes"
+    postcode: Mapped[str] = mapped_column(String(10), primary_key=True)
+    searched_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
 class RawResponse(Base):
     """Every API payload, kept for debugging and re-processing. Never contains the API key."""
     __tablename__ = "raw_responses"
@@ -196,11 +216,12 @@ class ApiCall(Base):
     raw_response_id: Mapped[int | None] = mapped_column(ForeignKey("raw_responses.id"))
 
 
-REFERENCE_TABLES = [SoldPrice.__table__, Postcode.__table__]
+REFERENCE_TABLES = [SoldPrice.__table__, Postcode.__table__, EpcCertificate.__table__, EpcPostcode.__table__]
 
 engine = create_engine(settings.db_url)
 ref_engine = create_engine(settings.ref_db_url)
-Session = sessionmaker(binds={Base: engine, SoldPrice: ref_engine, Postcode: ref_engine},
+Session = sessionmaker(binds={Base: engine, SoldPrice: ref_engine, Postcode: ref_engine,
+                              EpcCertificate: ref_engine, EpcPostcode: ref_engine},
                        expire_on_commit=False)
 
 
