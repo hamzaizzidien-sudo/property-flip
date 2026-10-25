@@ -11,8 +11,8 @@ load_dotenv(ROOT / ".env")
 
 @dataclass
 class SearchConfig:
-    # Approximate centre of the L35 district (Whiston / Prescot / Rainhill).
-    location: str = "53.4165,-2.7880"
+    # L35 outcode centroid (postcodes.io): Whiston / Prescot / Rainhill.
+    location: str = "53.4144,-2.7839"
     radius_miles: int = 15
     max_price: int = 180_000
     standardised_type: str = "!flat"  # keep bungalows; land is filtered locally
