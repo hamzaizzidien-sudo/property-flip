@@ -34,6 +34,23 @@ class SearchConfig:
 
 
 @dataclass
+class RunProfile:
+    """A scheduled discovery run. `max_age` filters on PropertyData's last-update age (verified
+    2026-10-25: returns listings with any change in the last N days — new, reduced, relisted —
+    not listings that are N days old)."""
+    radius_miles: int
+    results_per_page: int
+    max_credits: int
+    max_age: int | None = None
+
+
+RUN_PROFILES = {
+    "daily": RunProfile(radius_miles=8, results_per_page=30, max_credits=5, max_age=1),
+    "weekly": RunProfile(radius_miles=8, results_per_page=100, max_credits=50),
+}
+
+
+@dataclass
 class FlipAssumptions:
     """Default deal costs. All overridable per analysis. Figures are first-pass NW England guesses."""
     target_profit: int = 40_000
@@ -57,11 +74,15 @@ class FlipAssumptions:
 
 @dataclass
 class Settings:
+    # History DB (listings, events, analyses) is committed to git so scheduled runs keep history.
     db_url: str = os.getenv("FLIPWATCH_DB_URL", f"sqlite:///{ROOT / 'data' / 'flipwatch.db'}")
+    # Reference DB (Land Registry, postcodes) is large and rebuildable, so it is git-ignored.
+    ref_db_url: str = os.getenv("FLIPWATCH_REF_DB_URL", f"sqlite:///{ROOT / 'data' / 'reference.db'}")
     raw_dir: Path = ROOT / "data" / "raw"
     output_dir: Path = ROOT / "output"
     propertydata_api_key: str | None = os.getenv("PROPERTYDATA_API_KEY")
     max_credits_per_run: int = int(os.getenv("FLIPWATCH_MAX_CREDITS_PER_RUN", "10"))
+    credit_allowance: int = int(os.getenv("FLIPWATCH_CREDIT_ALLOWANCE", "500"))  # trial account
     search: SearchConfig = field(default_factory=SearchConfig)
     flip: FlipAssumptions = field(default_factory=FlipAssumptions)
 

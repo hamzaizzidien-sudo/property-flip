@@ -193,10 +193,16 @@ class ApiCall(Base):
     raw_response_id: Mapped[int | None] = mapped_column(ForeignKey("raw_responses.id"))
 
 
+REFERENCE_TABLES = [SoldPrice.__table__, Postcode.__table__]
+
 engine = create_engine(settings.db_url)
-Session = sessionmaker(engine, expire_on_commit=False)
+ref_engine = create_engine(settings.ref_db_url)
+Session = sessionmaker(binds={Base: engine, SoldPrice: ref_engine, Postcode: ref_engine},
+                       expire_on_commit=False)
 
 
 def init_db():
     settings.raw_dir.mkdir(parents=True, exist_ok=True)
-    Base.metadata.create_all(engine)
+    Base.metadata.create_all(engine, tables=[t for t in Base.metadata.sorted_tables
+                                             if t not in REFERENCE_TABLES])
+    Base.metadata.create_all(ref_engine, tables=REFERENCE_TABLES)

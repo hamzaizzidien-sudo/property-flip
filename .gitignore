@@ -1,4 +1,4 @@
 .env
-data/*.db
+data/reference.db
 __pycache__/
 .pytest_cache/

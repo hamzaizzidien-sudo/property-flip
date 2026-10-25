@@ -13,9 +13,16 @@ python -m flipwatch.cli load-sold-prices 2021 2022 2023 2024 2025 2026   # free 
 python -m flipwatch.cli screen                        # GDV from local comps + appraisal for every candidate
 python -m flipwatch.cli report                        # console table + output/candidates.csv
 python -m flipwatch.cli analyse <id> --gdv 200000 --gdv-low 190000 --gdv-high 210000 --refurb 25000 --confidence MEDIUM
+python -m flipwatch.cli shortlist                     # output/shortlist.csv: notes + itemised fees
+python -m flipwatch.cli digest                        # output/daily_report.md: changes in last 26h
 python -m flipwatch.cli credits                       # credit ledger
 pytest -q
 ```
+
+Scheduled runs (daily Mon–Sat, weekly 8-mile sweep Sunday) call PropertyData through the MCP
+connector and follow `RUNBOOK.md` (`plan` → connector call → `import-response` → `screen --changed`
+→ `shortlist` → `digest`). `data/flipwatch.db` (history) is committed; `data/reference.db`
+(Land Registry + postcodes) is git-ignored and rebuilt with `load-sold-prices`.
 
 Layout: `flipwatch/sources/` (one adapter per feed, normalising into `sources/base.Listing`),
 `ingest.py` (dedupe, observations, events), `signals.py` (keyword motivation/risk flags),

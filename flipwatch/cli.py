@@ -2,16 +2,17 @@
 import argparse
 import csv
 import json
-from collections import Counter
+from collections import Counter, defaultdict
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from sqlalchemy import func, select
 
 from . import comps as comps_mod
-from . import finance, scoring
-from .config import settings
-from .db import (Analysis, ApiCall, Comparable, ListingObservation, Property, PropertyEvent, Session,
-                 init_db)
+from . import finance, notes, scoring
+from .config import RUN_PROFILES, settings
+from .db import (Analysis, ApiCall, Comparable, ListingObservation, ListingSource, Property, PropertyEvent,
+                 RawResponse, Session, init_db)
 from .ingest import import_raw_file
 from .sources import propertydata
 
@@ -41,6 +42,10 @@ def cmd_discover(args):
 def cmd_import(args):
     for f in args.files:
         print(f, import_raw_file(Path(f)))
+
+
+def _latest_analysis(s, pid):
+    return s.scalar(select(Analysis).where(Analysis.property_id == pid).order_by(Analysis.id.desc()))
 
 
 def _latest_obs(s, pid):
@@ -136,8 +141,9 @@ def record_analysis(s, p, asking, gdv_low, gdv, gdv_high, refurb, confidence, gd
                  assumptions=vars(settings.flip))
     s.add(a)
     s.flush()
-    in_range = r["offer_gap"] <= 0
-    was_in_range = prev is not None and prev.offer_gap is not None and prev.offer_gap <= 0
+    in_range = r["offer_gap"] <= 0 and r["recommendation"] != "REJECT"
+    was_in_range = prev is not None and prev.offer_gap is not None and prev.offer_gap <= 0 \
+        and prev.recommendation != "REJECT"
     if in_range and not was_in_range:
         s.add(PropertyEvent(property_id=p.id, event_type="ENTERED_BUY_RANGE", event_data={"asking": asking}))
     if was_in_range and not in_range:
@@ -154,6 +160,10 @@ def cmd_screen(args):
         props = [p for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE"))
                  if not args.ids or p.id in args.ids]
         for p in props:
+            if args.changed:
+                last = _latest_analysis(s, p.id)
+                if last and last.asking_price == p.current_asking_price:
+                    continue
             beds = p.bedrooms or 3
             if (p.property_type in ("semi-detached", "detached") and beds <= 2) or \
                     (p.property_type == "terraced" and (beds >= 4 or beds <= 1)):
@@ -189,6 +199,188 @@ def cmd_credits(args):
             print(c.called_at, c.endpoint, c.via, c.credits_reported, c.result_count)
 
 
+# ---------------------------------------------------------------- scheduled runs (via MCP connector)
+
+def _run_params(kind: str, page: int) -> dict:
+    sc, prof = settings.search, RUN_PROFILES[kind]
+    params = dict(list=",".join(sc.priority_lists), location=sc.location, radius=prof.radius_miles,
+                  max_price=sc.max_price, standardised_type=sc.standardised_type, exclude_sstc=sc.exclude_sstc,
+                  results=prof.results_per_page, page=page)
+    if prof.max_age:
+        params["max_age"] = prof.max_age
+    return params
+
+
+def _run_credits(s, run_id: str) -> int:
+    return s.scalar(select(func.coalesce(func.sum(ApiCall.credits_reported), 0)).where(ApiCall.run_id == run_id))
+
+
+def cmd_plan(args):
+    """Print the exact get-sourced-properties arguments for the next page of a run, or STOP."""
+    prof = RUN_PROFILES[args.kind]
+    params = _run_params(args.kind, args.page)
+    cost = propertydata.CREDIT_COST["sourced-properties"](params)
+    with Session() as s:
+        used = _run_credits(s, args.run_id)
+    ok = used + cost <= prof.max_credits and args.page * prof.results_per_page <= 500
+    print(json.dumps({"run_id": args.run_id, "action": "CALL" if ok else "STOP", "mcp_arguments": params,
+                      "estimated_credits": cost, "credits_used_this_run": used, "run_cap": prof.max_credits}, indent=1))
+
+
+def cmd_import_response(args):
+    """Wrap a sourced-properties response (saved MCP result) with its request, archive it and ingest it."""
+    params = _run_params(args.kind, args.page)
+    resp = json.loads(Path(args.file).read_text())
+    resp = resp.get("response", resp)
+    if resp.get("status") != "success":
+        raise SystemExit(f"response not successful: {str(resp)[:300]}")
+    if int(resp.get("radius", -1)) != params["radius"] or int(resp.get("page", -1)) != params["page"]:
+        raise SystemExit(f"response radius/page {resp.get('radius')}/{resp.get('page')} do not match plan "
+                         f"{params['radius']}/{params['page']} — refusing to import")
+    now = datetime.now(timezone.utc)
+    path = settings.raw_dir / f"{now:%Y%m%dT%H%M%SZ}_sourced-properties_{args.kind}_p{args.page}.json"
+    path.write_text(json.dumps({"source": "propertydata", "endpoint": "sourced-properties", "fetched_via": "mcp",
+                                "fetched_at": now.isoformat(), "run_id": args.run_id, "request": params,
+                                "response": resp}, indent=1))
+    res = import_raw_file(path)
+    prof = RUN_PROFILES[args.kind]
+    with Session() as s:
+        used = _run_credits(s, args.run_id)
+    nxt = args.page + 1
+    more = res["page_full"] and used + prof.results_per_page // 10 <= prof.max_credits and \
+        nxt * prof.results_per_page <= 500
+    print(json.dumps({**res, "saved": path.name, "credits_used_this_run": used,
+                      "next": f"page {nxt}" if more else "DONE",
+                      "complete": not res["page_full"]}, indent=1))
+
+
+def cmd_finish(args):
+    """After a complete weekly sweep, mark in-scope active properties that were not seen as REMOVED."""
+    from .comps import haversine_miles
+    prof = RUN_PROFILES[args.kind]
+    lat, lng = map(float, settings.search.location.split(","))
+    with Session.begin() as s:
+        raws = [r.id for r in s.scalars(select(RawResponse).join(ApiCall, ApiCall.raw_response_id == RawResponse.id)
+                                        .where(ApiCall.run_id == args.run_id))]
+        if not raws:
+            raise SystemExit(f"no responses recorded for run {args.run_id}")
+        last = s.scalar(select(RawResponse).where(RawResponse.id == max(raws)))
+        complete = len(last.payload.get("properties", [])) < prof.results_per_page
+        seen = set(s.scalars(select(ListingObservation.property_id).where(ListingObservation.raw_response_id.in_(raws))))
+        removed = 0
+        if args.kind == "weekly" and complete:
+            for p in s.scalars(select(Property).where(Property.current_status.in_(("ACTIVE", "SSTC")))):
+                if p.id in seen or p.latitude is None:
+                    continue
+                if haversine_miles(lat, lng, p.latitude, p.longitude) <= prof.radius_miles - 0.1 and \
+                        (p.current_asking_price or 0) <= settings.search.max_price:
+                    p.current_status = "REMOVED"
+                    s.add(PropertyEvent(property_id=p.id, event_type="REMOVED",
+                                        event_data={"reason": "absent from complete weekly sweep",
+                                                    "last_seen": p.last_seen.isoformat(), "run_id": args.run_id}))
+                    removed += 1
+    print(json.dumps({"run_id": args.run_id, "complete": complete, "seen": len(seen), "marked_removed": removed}))
+
+
+# ---------------------------------------------------------------- outputs
+
+SHORTLIST_RECS = ("CALL AGENT", "INVESTIGATE", "WATCH")
+
+
+def _shortlist_rows(s):
+    rows = []
+    for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE")):
+        a = _latest_analysis(s, p.id)
+        if not a or a.recommendation not in SHORTLIST_RECS:
+            continue
+        o = _latest_obs(s, p.id)
+        portals = [x.portal for x in s.scalars(select(ListingSource).where(ListingSource.property_id == p.id))]
+        rows.append(dict(
+            recommendation=a.recommendation, score=round(a.opportunity_score, 1),
+            address=p.precise_address or p.address, postcode=p.postcode, type=p.property_type, beds=p.bedrooms,
+            sqft=p.floor_area_sqft, asking=p.current_asking_price, expected_price=a.expected_purchase_price,
+            gdv_low=a.gdv_low, gdv_base=a.gdv_base, gdv_high=a.gdv_high, confidence=a.confidence,
+            max_offer_for_40k=a.maximum_purchase_price_for_target, opening_offer=a.opening_offer,
+            offer_gap=a.offer_gap, profit_at_expected_price=a.expected_profit_at_asking,
+            refurb=a.refurb_cost, contingency=a.contingency, sdlt=a.sdlt, buy_legal_survey=a.legal_cost,
+            holding=a.holding_cost, finance=a.finance_cost,
+            sale_agent_legal=a.selling_cost,
+            auction_uplift_or_fee=(a.expected_purchase_price or a.asking_price) - a.asking_price,
+            total_costs=notes.total_costs(a), fees_summary=notes.fees_summary(a),
+            notes=notes.headline(p, o, a, portals), risks="|".join(p.risk_flags or []),
+            days_on_market=o.days_on_market if o else None, first_seen=f"{p.first_seen:%Y-%m-%d}",
+            id=p.id, url=p.portal_url))
+    order = {r: i for i, r in enumerate(SHORTLIST_RECS)}
+    return sorted(rows, key=lambda r: (order[r["recommendation"]], -r["score"]))
+
+
+def cmd_shortlist(args):
+    with Session() as s:
+        rows = _shortlist_rows(s)
+    out = settings.output_dir / "shortlist.csv"
+    out.parent.mkdir(exist_ok=True)
+    with out.open("w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel shows £ correctly
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    print(f"{len(rows)} shortlisted -> {out}")
+
+
+EVENT_LABELS = [
+    ("ENTERED_BUY_RANGE", "Newly in viable offer range"), ("PRICE_REDUCTION", "Price reductions"),
+    ("FIRST_SEEN", "New opportunities"), ("BACK_ON_MARKET", "Back on market"), ("RELISTED", "Relisted"),
+    ("DAYS_120", "Crossed 120 days"), ("DAYS_90", "Crossed 90 days"), ("DAYS_60", "Crossed 60 days"),
+    ("SCORE_UPGRADE", "Biggest score improvements"), ("LEFT_BUY_RANGE", "Left viable range"),
+    ("PRICE_INCREASE", "Price increases"), ("REMOVED", "Removed / sold"),
+]
+
+
+def cmd_digest(args):
+    """Changes-only report: events from the last N hours plus the current top shortlist."""
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=args.hours)
+    with Session() as s:
+        evs = [e for e in s.scalars(select(PropertyEvent).order_by(PropertyEvent.id))
+               if (e.event_date.replace(tzinfo=e.event_date.tzinfo or timezone.utc) >= cutoff)
+               and not (e.event_data or {}).get("backfilled")
+               and not (e.event_data or {}).get("initial")]  # thresholds already passed when first seen
+        by_type = defaultdict(list)
+        for e in evs:
+            by_type[e.event_type].append(e)
+        short = _shortlist_rows(s)
+        recs = {r: sum(1 for x in short if x["recommendation"] == r) for r in SHORTLIST_RECS}
+        rejected = sum(1 for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE"))
+                       if (a := _latest_analysis(s, p.id)) and a.recommendation == "REJECT")
+        total_credits = s.scalar(select(func.coalesce(func.sum(ApiCall.credits_reported), 0)))
+        run_credits = s.scalar(select(func.coalesce(func.sum(ApiCall.credits_reported), 0))
+                               .where(ApiCall.called_at >= cutoff.replace(tzinfo=None)))
+        lines = [f"# Flip Watch — {datetime.now(timezone.utc):%a %d %b %Y}", "",
+                 f"CALL AGENT {recs['CALL AGENT']} · INVESTIGATE {recs['INVESTIGATE']} · WATCH {recs['WATCH']} · "
+                 f"REJECT {rejected} · credits this period {run_credits} · total used {total_credits}"
+                 f" of {settings.credit_allowance}", ""]
+        for etype, label in EVENT_LABELS:
+            items = by_type.get(etype, [])
+            if not items:
+                continue
+            lines.append(f"## {label} ({len(items)})")
+            for e in items[:args.limit]:
+                p = s.get(Property, e.property_id)
+                a = _latest_analysis(s, p.id)
+                d = e.event_data or {}
+                change = f"£{d['from']:,}→£{d['to']:,}" if "from" in d and "to" in d else ""
+                verdict = f"{a.recommendation} (gap £{a.offer_gap:,})" if a else "not appraised"
+                lines.append(f"- {p.precise_address or p.address} — £{p.current_asking_price:,} {change} · {verdict}")
+            if len(items) > args.limit:
+                lines.append(f"- … and {len(items) - args.limit} more")
+            lines.append("")
+        lines.append("## Top opportunities")
+        for r in short[:args.limit]:
+            lines.append(f"- **{r['recommendation']}** {r['score']} · {r['address']} · ask £{r['asking']:,} · "
+                         f"max £{r['max_offer_for_40k']:,} · gap £{r['offer_gap']:,} — {r['notes'][:160]}")
+    out = settings.output_dir / "daily_report.md"
+    out.write_text("\n".join(lines) + "\n")
+    print("\n".join(lines))
+
+
 def main():
     init_db()
     ap = argparse.ArgumentParser(prog="flipwatch")
@@ -211,7 +403,28 @@ def main():
     ls.set_defaults(fn=cmd_load_sold)
     sc = sub.add_parser("screen")
     sc.add_argument("ids", type=int, nargs="*")
+    sc.add_argument("--changed", action="store_true", help="only properties new or re-priced since last appraisal")
     sc.set_defaults(fn=cmd_screen)
+    pl = sub.add_parser("plan")
+    pl.add_argument("kind", choices=list(RUN_PROFILES))
+    pl.add_argument("--run-id", required=True)
+    pl.add_argument("--page", type=int, default=1)
+    pl.set_defaults(fn=cmd_plan)
+    ir = sub.add_parser("import-response")
+    ir.add_argument("file")
+    ir.add_argument("--kind", choices=list(RUN_PROFILES), required=True)
+    ir.add_argument("--run-id", required=True)
+    ir.add_argument("--page", type=int, default=1)
+    ir.set_defaults(fn=cmd_import_response)
+    fi = sub.add_parser("finish-run")
+    fi.add_argument("kind", choices=list(RUN_PROFILES))
+    fi.add_argument("--run-id", required=True)
+    fi.set_defaults(fn=cmd_finish)
+    sub.add_parser("shortlist").set_defaults(fn=cmd_shortlist)
+    dg = sub.add_parser("digest")
+    dg.add_argument("--hours", type=int, default=26)
+    dg.add_argument("--limit", type=int, default=10)
+    dg.set_defaults(fn=cmd_digest)
     a = sub.add_parser("analyse")
     a.add_argument("property_id", type=int)
     a.add_argument("--gdv", type=int, required=True)

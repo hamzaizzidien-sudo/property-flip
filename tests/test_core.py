@@ -5,7 +5,8 @@ from pathlib import Path
 
 import pytest
 
-os.environ["FLIPWATCH_DB_URL"] = "sqlite://"  # in-memory, never touch the real DB
+os.environ["FLIPWATCH_DB_URL"] = "sqlite://"  # in-memory, never touch the real DBs
+os.environ["FLIPWATCH_REF_DB_URL"] = "sqlite://"
 
 from flipwatch import finance  # noqa: E402
 from flipwatch.config import FlipAssumptions  # noqa: E402
