@@ -30,8 +30,14 @@ class EpcClient:
         self.http.headers.update({"Authorization": f"Bearer {token}", "Accept": "application/json"})
 
     def _get(self, path: str, params: dict):
-        for attempt in range(3):
-            r = self.http.get(f"{BASE}{path}", params=params, timeout=60)
+        for attempt in range(5):
+            try:
+                r = self.http.get(f"{BASE}{path}", params=params, timeout=60)
+            except (requests.ConnectionError, requests.Timeout):  # dropped connections happen; retry
+                if attempt == 4:
+                    raise
+                time.sleep(5 * (attempt + 1))
+                continue
             if r.status_code == 429:
                 time.sleep(30 * (attempt + 1))
                 continue
