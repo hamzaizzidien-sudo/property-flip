@@ -1,10 +1,10 @@
 # 28, SOUTH AVENUE, PRESCOT, L34 1LY
 
-**INVESTIGATE** · confidence LOW · appraised 2026-10-25
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
 
 - semi-detached, 3 bed, 865 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-16; 40 days on market; 865 sq ft
+- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-16; 54 days on market; 865 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93192189
 
 
@@ -13,6 +13,7 @@
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
 | 11 Norris Road Prescot | Sep 2025 | £180,000 | 958 | £188 | 0.10 |
+| 53 Emelia Drive Prescot | Jul 2026 | £250,000 | 850 | £294 | 0.32 |
 | 31 Wood Lane Prescot | Jul 2025 | £195,000 | 1033 | £189 | 0.14 |
 | 34 Manchester Road Prescot | Oct 2025 | £247,000 | 969 | £255 | 0.18 |
 | 1 Manchester Road Prescot | Jan 2026 | £200,000 | 1033 | £194 | 0.24 |
@@ -26,15 +27,14 @@
 | 18 Wood Lane Prescot | Mar 2025 | £231,000 | 1001 | £231 | 0.17 |
 | 41 Egerton Road Prescot | Feb 2026 | £115,000 | 710 | £162 | 0.35 |
 | 40 Rod Mill Grove Prescot | Mar 2026 | £232,500 | 850 | £274 | 0.39 |
-| 21 Lear Road Prescot | Oct 2025 | £245,000 | 850 | £288 | 0.30 |
-| … 37 more | | | | | |
+| … 35 more | | | | | |
 
-Basis: £/sqft v1: n=52 ±25% size, £237/274/292 psf x 865 sqft (listing) street=0 spread=0.201
+Basis: £/sqft v1: n=50 ±25% size, £254/275/292 psf x 865 sqft (listing) street=0 spread=0.138
 
 ## After-works value
 
-- Low £204,000 (£236/sq ft)
-- **Base £236,000** (£273/sq ft)
+- Low £219,000 (£253/sq ft)
+- **Base £237,000** (£274/sq ft)
 - High £252,000 (£291/sq ft)
 
 ## Costs at £160,000
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=52 ±25% size, £237/274/292 psf x 865 sqft (listing) stree
 | SDLT (incl. 5% surcharge) | 8,700 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,598 |
-| **Total costs** | **50,828** |
+| Sale agent + legal | 4,613 |
+| **Total costs** | **50,843** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £160,000 | £-6,368 | **£25,172** | £40,941 |
-| Max offer for £40k profit | £116,500 | **£146,000** | £160,500 |
+| Profit at £160,000 | £8,416 | **£26,157** | £40,941 |
+| Max offer for £40k profit | £130,000 | **£147,000** | £160,500 |
 
-Opening offer £134,000 · asking is £14,000 above max offer
+Opening offer £135,000 · asking is £13,000 above max offer
 
 Risks: none flagged from listing text
 

@@ -29,11 +29,23 @@ postcodes) is git-ignored: rebuild with `python -m flipwatch.cli load-sold-price
   guides (Dragon Lane, Grange Park Road) are almost certainly too optimistic.
 - Refurb: £35/sqft modernise, £55/sqft derelict, min £15k. Opening offer never above asking.
 
+## Session 3 (2026-11-08): 15-mile sweep and full re-screen
+- Sweep: one query per list, 15 mi, 100/page, 75 credits (96 of 500 used in total). 736 listings;
+  24 earlier listings absent from the complete sweep marked REMOVED (incl. 5 of the old 12 deep-dive).
+- Land Registry now also loads BL and CW. EPC run (parallel, retries) for 205 candidates: 14,570
+  postcodes, 35,799 sales with floor area.
+- New safeguards: type from agent text (town house/terrace), exclude ground rents/caravans/flats
+  (`not_a_house`, 1-bed "detached" = `likely_flat`), ignore listed sizes < 450 sq ft for 2+ beds,
+  LOW confidence when value > 2x price (`value_far_above_price`), bungalows flagged, duplicate
+  listings merged, no comp > 20% of weight and MEDIUM needs effective n >= 5.
+- Result: 554 active, 13 CALL AGENT, 57 INVESTIGATE (11 MEDIUM), 77 WATCH. Commands `full-list`
+  and `handover` regenerate output/full_list.md and output/handover_deep_dive.md.
+
 ## Next steps
 1. Get real floor areas (floorplan / EPC by house number) for the estimated-size INVESTIGATEs and
    re-screen; optionally PropertyData valuation (2 credits each) on the final few — ask first.
-2. Switch RUN_PROFILES / `plan` to one list per query (see coverage finding) before giving the
-   scheduled tasks a PropertyData connector.
+2. Switch RUN_PROFILES / `plan` to one list per query (as the 2026-11-08 sweep did by hand) before
+   giving the scheduled tasks a PropertyData connector.
 3. Awaiting user decision: full 15-mile per-list sweep (~70–110 credits) and ongoing option
    (15 mi ~55–60/week, or monthly 15-mi sweep + daily 8-mi changes ~30/week); optional PropertyData
    comps + valuation (2 credits/property) for the final shortlist.

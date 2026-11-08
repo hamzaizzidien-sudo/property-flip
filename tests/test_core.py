@@ -159,3 +159,15 @@ def test_estimated_sqft_capped_by_bedrooms():
     assert comps.estimated_sqft(cs, 1) == 600
     assert comps.estimated_sqft(cs, 3) == 850
     assert comps.estimated_sqft(cs[:4], 3) is None
+
+
+def test_one_close_sale_cannot_decide_value():
+    from datetime import date
+    from flipwatch import comps
+    base = dict(sale_date=date(2025, 1, 1), same_street=False, floor_area_sqft=1000)
+    cs = [dict(base, price=343_000, distance=0.02, weight=6.0)]
+    cs += [dict(base, price=p, distance=0.9, weight=0.8) for p in (297_000, 311_000, 310_000, 239_000,
+                                                                  338_000, 300_000, 290_000)]
+    g = comps.gdv_per_sqft(cs, 1000)
+    assert g["ppsf_low"] < g["ppsf_high"]
+    assert g["ppsf_base"] < 343

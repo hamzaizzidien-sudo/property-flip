@@ -1,10 +1,10 @@
 # Torcross Way, Woolton, Liverpool, Merseyside, L25
 
-**INVESTIGATE** · confidence LOW · appraised 2026-10-25
+**WATCH** · confidence LOW · appraised 2026-11-08
 
 - semi-detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-10-10; 96 days on market; needs modernising; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-10-10; 110 days on market; needs modernising; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/91186713
 
 
@@ -16,6 +16,7 @@
 |---|---|---:|---:|---:|---:|
 | 7 Tedburn Close Liverpool | Jul 2025 | £185,000 | 753 | £246 | 0.03 |
 | 1 Chardstock Drive Liverpool | Aug 2025 | £150,000 | 624 | £240 | 0.04 |
+| 29 Roxborough Walk Liverpool | Sep 2026 | £240,000 | 807 | £297 | 0.37 |
 | 41 Belle Vale Road Liverpool | Dec 2025 | £274,000 | 732 | £374 | 0.23 |
 | 52 Lee Park Avenue Liverpool | Nov 2025 | £165,500 | 764 | £217 | 0.22 |
 | 20 Redwood Road Liverpool | Feb 2026 | £160,000 | 764 | £209 | 0.31 |
@@ -27,17 +28,16 @@
 | 3 Garden Lodge Grove Liverpool | Aug 2026 | £190,000 | 678 | £280 | 0.47 |
 | 14 Cherry Vale Liverpool | Mar 2026 | £320,200 | 904 | £354 | 0.42 |
 | 17 Merrivale Road Liverpool | Apr 2026 | £140,000 | 786 | £178 | 0.49 |
-| 53 Roxborough Walk Liverpool | Aug 2025 | £233,900 | 667 | £351 | 0.37 |
-| 28 South Station Road Liverpool | Dec 2025 | £290,000 | 850 | £341 | 0.45 |
-| … 13 more | | | | | |
+| 15 Whitney Road Liverpool | Apr 2026 | £130,000 | 732 | £178 | 0.49 |
+| … 12 more | | | | | |
 
-Basis: £/sqft v1: n=28 ±25% size, £261/307/354 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.304
+Basis: £/sqft v1: n=27 ±25% size, £261/297/341 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.27
 
 ## After-works value
 
 - Low £208,000 (£260/sq ft)
-- **Base £245,000** (£306/sq ft)
-- High £283,000 (£354/sq ft)
+- **Base £237,000** (£296/sq ft)
+- High £272,000 (£340/sq ft)
 
 ## Costs at £170,000
 
@@ -48,17 +48,17 @@ Basis: £/sqft v1: n=28 ±25% size, £261/307/354 psf x 800 sqft (estimated from
 | SDLT (incl. 5% surcharge) | 9,400 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,728 |
-| **Total costs** | **49,128** |
+| Sale agent + legal | 4,613 |
+| **Total costs** | **49,013** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £170,000 | £-10,595 | **£25,872** | £63,325 |
-| Max offer for £40k profit | £122,500 | **£156,500** | £191,500 |
+| Profit at £170,000 | £-10,595 | **£17,987** | £52,483 |
+| Max offer for £40k profit | £122,500 | **£149,000** | £181,500 |
 
-Opening offer £143,000 · asking is £13,500 above max offer
+Opening offer £137,000 · asking is £21,000 above max offer
 
 Risks: gdv_bedroom_mismatch
 

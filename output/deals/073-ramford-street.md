@@ -1,11 +1,12 @@
-# Ramford Street, St. Helens WA9
+# 4, RAMFORD STREET, ST HELENS, WA9 1QG
 
-**INVESTIGATE** · confidence LOW · appraised 2026-10-25
+**INVESTIGATE** · confidence LOW · appraised 2026-11-08
 
 - detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £140,000
-- Listing: 88 days on market; no chain; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 102 days on market; no chain; CHECK GDV: unusual beds for type, comps may be larger; listed on rightmove+zoopla
 - Portal: https://www.zoopla.co.uk/for-sale/details/73847799/
+- Portal: https://www.rightmove.co.uk/properties/175056011
 
 
 **Floor area is an estimate** (nearby EPCs, capped by bedrooms). Get the real figure from the floorplan or EPC before relying on this valuation.
@@ -21,8 +22,6 @@
 | 4 Linford Grove St Helens | Dec 2025 | £194,500 | 840 | £232 | 0.84 |
 | 82 Deerfield Close St Helens | Feb 2025 | £225,000 | 829 | £271 | 0.60 |
 | 40 Oakmere Road St Helens | Dec 2024 | £248,000 | 883 | £281 | 0.61 |
-| 228 Sutton Road St Helens | Oct 2024 | £246,000 | 883 | £279 | 0.58 |
-| 226 Sutton Road St Helens | Oct 2024 | £225,000 | 883 | £255 | 0.58 |
 | 18 Cupra Gardens St Helens | Apr 2025 | £197,900 | 818 | £242 | 0.80 |
 | 35 Highfield Street St Helens | Jul 2025 | £225,000 | 915 | £246 | 0.92 |
 | 5 Tall Trees St Helens | Mar 2025 | £236,000 | 904 | £261 | 0.82 |
@@ -30,7 +29,7 @@
 | 11 The Croft St Helens | Feb 2025 | £220,000 | 904 | £243 | 0.89 |
 | 38 Weymouth Avenue St Helens | Dec 2024 | £200,888 | 775 | £259 | 0.81 |
 
-Basis: £/sqft v1: n=15 ±25% size, £261/268/281 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.074
+Basis: £/sqft v1: n=13 ±25% size, £261/268/281 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.074
 
 ## After-works value
 

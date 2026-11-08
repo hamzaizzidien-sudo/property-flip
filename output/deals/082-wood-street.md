@@ -1,10 +1,10 @@
 # 28, WOOD STREET, ST HELENS, WA9 1NH
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-10-25
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
 
 - semi-detached, 3 bed, 720 sq ft (listing)
 - Asking £92,500
-- Listing: 94 days on market; no chain; needs modernising; 720 sq ft
+- Listing: 108 days on market; no chain; needs modernising; 720 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91283439
 
 
@@ -12,6 +12,7 @@
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
+| 41 Sorogold Street St Helens | Jul 2026 | £128,000 | 689 | £186 | 0.32 |
 | 49 Grantham Crescent St Helens | Feb 2026 | £207,500 | 797 | £260 | 0.30 |
 | 24 Knights Grange St Helens | Feb 2025 | £174,500 | 753 | £232 | 0.14 |
 | 37 Barwell Avenue St Helens | Aug 2026 | £220,500 | 743 | £297 | 0.49 |
@@ -25,13 +26,13 @@
 | 2 Islands Brow St Helens | Feb 2025 | £155,000 | 840 | £184 | 0.40 |
 | 1 Singleton Avenue St Helens | Dec 2024 | £129,950 | 700 | £186 | 0.43 |
 
-Basis: £/sqft v1: n=12 ±25% size, £232/255/274 psf x 720 sqft (listing) street=0 spread=0.164
+Basis: £/sqft v1: n=13 ±25% size, £232/255/260 psf x 720 sqft (listing) street=0 spread=0.112
 
 ## After-works value
 
 - Low £166,000 (£231/sq ft)
 - **Base £183,000** (£254/sq ft)
-- High £197,000 (£274/sq ft)
+- High £187,000 (£260/sq ft)
 
 ## Costs at £92,500
 
@@ -49,8 +50,8 @@ Basis: £/sqft v1: n=12 ±25% size, £232/255/274 psf x 720 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £92,500 | £33,365 | **£50,120** | £63,918 |
-| Max offer for £40k profit | £86,000 | **£102,000** | £115,000 |
+| Profit at £92,500 | £33,365 | **£50,120** | £54,062 |
+| Max offer for £40k profit | £86,000 | **£102,000** | £105,500 |
 
 Opening offer £85,000 · asking is £9,500 below max offer
 

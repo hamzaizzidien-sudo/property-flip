@@ -102,7 +102,8 @@ def refurb_estimate(sqft: int | None, motivation: list[str], a: FlipAssumptions 
     return max(a.refurb_min, int(round(sqft * rate, -2))), f"{condition} £{rate}/sqft x {sqft} sqft"
 
 
-HARD_RISKS = {"non_standard_construction", "multi_unit_or_block", "shared_ownership", "land_only"}
+HARD_RISKS = {"non_standard_construction", "multi_unit_or_block", "shared_ownership", "land_only", "not_a_house",
+              "likely_flat"}
 
 
 def expected_purchase_price(asking: int, motivation: list[str], a: FlipAssumptions | None = None) -> int:

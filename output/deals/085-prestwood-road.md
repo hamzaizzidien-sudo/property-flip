@@ -1,10 +1,10 @@
 # 45, PRESTWOOD ROAD, LIVERPOOL, L14 2EE
 
-**WATCH** · confidence LOW · appraised 2026-10-25
+**WATCH** · confidence LOW · appraised 2026-11-08
 
 - terraced, 2 bed, 797 sq ft (estimated from nearby EPCs)
 - Asking £105,000
-- Listing: 10 days on market; no chain; full renovation needed; EPC C
+- Listing: 24 days on market; no chain; full renovation needed; EPC C
 - Portal: https://www.rightmove.co.uk/properties/94387641
 
 
@@ -25,13 +25,13 @@
 | 206 Kingsheath Avenue Liverpool | Jul 2026 | £154,000 | 786 | £196 | 0.31 |
 | 105 Churchdown Road Liverpool | Sep 2025 | £115,000 | 743 | £155 | 0.17 |
 | 32 Elgar Road Liverpool | Feb 2026 | £125,000 | 732 | £171 | 0.26 |
+| 52 Longreach Road Liverpool | Aug 2026 | £160,000 | 775 | £206 | 0.39 |
 | 60 Kingsheath Avenue Liverpool | Feb 2025 | £78,000 | 753 | £104 | 0.12 |
 | 76 Churchdown Road Liverpool | Jul 2025 | £160,000 | 732 | £219 | 0.19 |
 | 93 Grange Avenue North Liverpool | Oct 2025 | £220,000 | 958 | £230 | 0.25 |
-| 252 Kingsheath Avenue Liverpool | Jul 2026 | £133,000 | 786 | £169 | 0.43 |
-| … 53 more | | | | | |
+| … 52 more | | | | | |
 
-Basis: £/sqft v1: n=68 ±25% size, £169/191/208 psf x 797 sqft (estimated from nearby EPCs) street=0 spread=0.206
+Basis: £/sqft v1: n=67 ±25% size, £169/192/208 psf x 797 sqft (estimated from nearby EPCs) street=0 spread=0.204
 
 ## After-works value
 

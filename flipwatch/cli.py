@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -9,7 +10,7 @@ from pathlib import Path
 from sqlalchemy import func, select
 
 from . import comps as comps_mod
-from . import finance, notes, scoring
+from . import finance, notes, scoring, signals
 from .config import RUN_PROFILES, settings
 from .db import (Analysis, ApiCall, Comparable, ListingObservation, ListingSource, Property, PropertyEvent,
                  RawResponse, Session, init_db)
@@ -170,6 +171,14 @@ def cmd_screen(args):
             if (p.property_type in ("semi-detached", "detached") and beds <= 2) or \
                     (p.property_type == "terraced" and (beds >= 4 or beds <= 1)):
                 p.risk_flags = sorted(set(p.risk_flags or []) | {"gdv_bedroom_mismatch"})
+            if p.property_type in ("detached", "semi-detached") and \
+                    re.search(r"town ?house|mid[- ]terrace", (p.summary or "").lower()):
+                p.property_type = "terraced"  # portal type labels are unreliable; the agent's text wins
+                p.risk_flags = sorted(set(p.risk_flags or []) | {"type_from_description"})
+            _, text_risks = signals.extract(f"{p.precise_address or p.address}. {p.summary or ''}",
+                                            p.current_lists or [])  # re-read with current rules
+            p.risk_flags = sorted(set(p.risk_flags or []) | set(text_risks)
+                                  | ({"likely_flat"} if p.bedrooms == 1 and p.property_type == "detached" else set()))
             sqft, sqft_src = epc.subject_floor_area(s, p)
             def enough(c):  # 8 size-matched sales, or 8 sales when none carry a floor area yet
                 return len(comps_mod.size_matched(c, sqft, 0.35)) >= 8 if sqft and \
@@ -191,6 +200,13 @@ def cmd_screen(args):
             if not g:
                 print(f"{p.id:>3} {p.address[:40]:<40} too few comps ({len(comps)})")
                 continue
+            flags = set(p.risk_flags or []) - {"value_far_above_price", "bungalow_valued_from_houses"}
+            if g["gdv_base"] > 2 * finance.expected_purchase_price(p.current_asking_price, p.motivation_flags or []):
+                g["confidence"] = "LOW"  # too good to be true: condition, tenure or type is probably off
+                flags.add("value_far_above_price")
+            if p.property_type == "bungalow":
+                flags.add("bungalow_valued_from_houses")
+            p.risk_flags = sorted(flags)
             refurb, refurb_basis = finance.refurb_estimate(sqft, p.motivation_flags or [])
             r, score, a = record_analysis(s, p, p.current_asking_price, g["gdv_low"], g["gdv_base"],
                                           g["gdv_high"], refurb, g["confidence"], source,
@@ -396,7 +412,27 @@ def _shortlist_rows(s):
             id=p.id, check_on_portal=" ".join(filter(None, (portal_link(x.source_ref) for x in srcs))),
             url=p.portal_url))
     order = {r: i for i, r in enumerate(SHORTLIST_RECS)}
-    return sorted(rows, key=lambda r: (order[r["recommendation"]], -r["score"]))
+    rows = sorted(rows, key=lambda r: (order[r["recommendation"]], -r["score"]))
+    return _dedupe(s, rows)
+
+
+def _dedupe(s, rows):
+    """The same house listed by two agents/portals can arrive as two properties: keep the first,
+    note the other. Same outcode, beds, street and asking price within 10%."""
+    from .ingest import _street
+    kept, seen = [], {}
+    for r in rows:
+        p = s.get(Property, r["id"])
+        key = ((p.postcode or "").split(" ")[0], p.bedrooms,
+               _street(re.sub(r"^\s*\d+[a-z]?\s*,\s*", "", (p.precise_address or p.address).lower())))
+        twin = seen.get(key)
+        if twin and abs(twin["asking"] - r["asking"]) <= 0.1 * twin["asking"]:
+            twin["notes"] += f"; also listed as #{r['id']} at £{r['asking']:,}"
+            twin["check_on_portal"] += " " + r["check_on_portal"]
+            continue
+        seen[key] = r
+        kept.append(r)
+    return kept
 
 
 def cmd_shortlist(args):
@@ -478,7 +514,6 @@ def _deal_sheet(s, p, a) -> str:
 
 def cmd_deal_sheets(args):
     """One markdown deal sheet per shortlisted property: output/deals/<id>-<street>.md (free)."""
-    import re
     out = settings.output_dir / "deals"
     out.mkdir(parents=True, exist_ok=True)
     with Session() as s:
@@ -489,6 +524,155 @@ def cmd_deal_sheets(args):
             slug = re.sub(r"[^a-z0-9]+", "-", first).strip("-")
             (out / f"{p.id:03d}-{slug}.md").write_text(_deal_sheet(s, p, a))
     print(f"{len(rows)} deal sheets -> {out}")
+
+
+OGL = ("_Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data © Crown copyright, "
+       "both licensed under the Open Government Licence v3.0._")
+ORDER = {"CALL AGENT": 0, "INVESTIGATE": 1, "WATCH": 2, "REJECT": 3}
+
+
+def _short_name(p) -> str:
+    parts = [x.strip() for x in (p.precise_address or p.address).split(",")]
+    name = parts[0] if any(ch.isalpha() for ch in parts[0]) or len(parts) == 1 else f"{parts[0]} {parts[1]}"
+    return re.sub(r"^(\d+)\.", r"\1", name).title()
+
+
+def _flags(p) -> str:
+    return ", ".join(f.replace("_", " ") for f in (p.risk_flags or []))
+
+
+def cmd_full_list(args):
+    """output/full_list.md: every active appraised listing, ranked (free)."""
+    with Session() as s:
+        rows = [(p, a) for p in s.scalars(select(Property).where(Property.current_status == "ACTIVE"))
+                if (a := _latest_analysis(s, p.id))]
+        rows.sort(key=lambda x: (ORDER[x[1].recommendation], x[1].offer_gap))
+        recs = Counter(a.recommendation for _, a in rows)
+        lines = [f"# Flip Watch: full screened list ({datetime.now(timezone.utc):%d %b %Y})", "",
+                 f"{len(rows)} active listings within {settings.search.radius_miles} miles of L35 under "
+                 f"£{settings.search.max_price:,}: " + " · ".join(f"{k} {recs[k]}" for k in ORDER) + ".",
+                 "Valued on £/sq ft of similar-sized local sales (EPC floor areas + Land Registry). Sorted by verdict, "
+                 "then by how far asking is below the max offer that leaves £40k profit.", "",
+                 "- **Sq ft** `~` = estimated from nearby EPCs (listing gives none), capped by bedrooms; confidence then LOW.",
+                 "- **Basis** `£/sqft` = size-matched comps; `price` = plain sale prices (too few size-matched sales).",
+                 "- **Gap** = asking minus max offer; negative = asking already below max offer.",
+                 "- Auctions assume guide + 25% (MMoA: + reservation fee). REJECT includes hard risks "
+                 "(non-standard construction, flats/blocks, ground rents, caravans) whatever the numbers.",
+                 "- `value far above price` = asking under half the estimated value: usually condition, tenure "
+                 "or type the data cannot see. Treat as unverified.", "",
+                 "| # | Verdict | Property | Type | Sq ft | Asking | After-works | Max offer | Gap | Profit at asking "
+                 "| Conf. | Basis | Flags |", "|---:|---|---|---|---:|---:|---:|---:|---:|---:|---|---|---|"]
+        for i, (p, a) in enumerate(rows, 1):
+            ex = a.assumptions or {}
+            est = "~" if str(ex.get("subject_sqft_source", "")).startswith("est") else ""
+            link = portal_link(p.propertydata_id) or p.portal_url
+            name = f"[{_short_name(p)}]({link})" if link else _short_name(p)
+            lines.append(f"| {i} | {a.recommendation} | {name}, {p.postcode or ''} | {p.bedrooms or '?'}b "
+                         f"{p.property_type} | {est}{ex.get('subject_sqft') or '?'} | £{a.asking_price:,} | "
+                         f"£{a.gdv_base:,} | £{a.maximum_purchase_price_for_target:,} | £{a.offer_gap:,} | "
+                         f"£{a.expected_profit_at_asking:,} | {a.confidence} | "
+                         f"{'£/sqft' if (a.gdv_source or '').startswith('£') else 'price'} | {_flags(p)} |")
+        lines += ["", OGL]
+    out = settings.output_dir / "full_list.md"
+    out.write_text("\n".join(lines) + "\n")
+    print(f"{len(rows)} listings -> {out}")
+
+
+HANDOVER_BRIEF = """## Brief for Claude
+
+I buy houses to refurbish and resell within about 15 miles of Prescot/Whiston (L35), aiming for **£40,000 net
+profit per deal**. A screening tool valued every local listing; the properties below are the ones worth a closer
+look. Please go through the **priority properties** one by one and:
+
+1. **Check the after-works value.** Open the portal link, look at the photos, floorplan and description, and say
+   whether the comparable sales and the low/base/high values look right for this house once refurbished.
+2. **Check the refurb budget** against what the listing shows (kitchen, bathroom, heating, rewire, roof, damp,
+   extensions, garden) and give your own figure.
+3. **Re-work the numbers** with any corrected value and refurb: profit at asking, and the max offer that still
+   leaves £40k.
+4. **Flag deal-breakers or big unknowns:** construction type, tenure/lease, tenants, knotweed, flood, subsidence,
+   planning, auction terms, Modern Method of Auction reservation fees, short-dated auctions, bungalows valued from
+   house sales, portal property types that look wrong.
+5. **Give a verdict for each** (pursue / pursue at £X / pass) and the questions to ask the agent. End with the
+   ranked top 5.
+
+Then skim the **second-tier table** and name any that deserve promoting. Treat every figure as a starting point to
+challenge, not a fact. Where the listing contradicts the data, the listing wins."""
+
+
+def cmd_handover(args):
+    """output/handover_deep_dive.md: self-contained brief + full numbers for a Claude chat deep dive."""
+    fl = settings.flip
+    with Session() as s:
+        rows = [r for r in _shortlist_rows(s) if r["recommendation"] in ("CALL AGENT", "INVESTIGATE")]
+        rows.sort(key=lambda r: (ORDER[r["recommendation"]], r["offer_gap"]))
+        top = [r for r in rows if r["confidence"] in ("HIGH", "MEDIUM")]
+        rest = [r for r in rows if r not in top]
+        lines = [f"# Property flip handover: {len(top)} priority properties + {len(rest)} second-tier "
+                 f"({datetime.now(timezone.utc):%d %b %Y})", "", HANDOVER_BRIEF, "",
+                 "## How the numbers were produced", "",
+                 "- **After-works value:** HM Land Registry sales (24–36 months, same type, within 0.5–1 mile) "
+                 "matched to EPC floor areas; only sales within ±25% of the subject's size (±35% if thin), "
+                 "£/sq ft outliers removed, weighted by distance and recency. Low / base / high = 50th / 70th / 85th "
+                 "percentile £/sq ft x subject sq ft (a refurbished house should sell in the upper part of a "
+                 "mixed-condition sample).",
+                 "- **Floor area:** from the listing (ignored if under 450 sq ft for 2+ beds); otherwise estimated "
+                 "from nearby same-type EPCs, capped by bedrooms (1 bed 600, 2 bed 800, 3 bed 1,000), confidence LOW.",
+                 "- **Confidence:** MEDIUM = 8+ size-matched sales, low-high spread <= 20%, real floor area, and "
+                 "estimated value no more than 2x the price. Nothing has been independently valued.",
+                 f"- **Refurb:** £{fl.refurb_per_sqft['modernise']}/sq ft modernise, £{fl.refurb_per_sqft['full']}/sq ft "
+                 f"derelict/poor, min £{fl.refurb_min:,}; contingency {fl.contingency_pct_of_refurb:.0%} of refurb.",
+                 f"- **Costs:** SDLT at additional-dwelling rates (+{fl.sdlt_surcharge:.0%}); buy legal £{fl.buy_legal:,} "
+                 f"+ survey £{fl.survey:,}; holding £{fl.holding_per_month}/month for {fl.months_held} months; agent "
+                 f"{fl.agent_fee_pct:.2%} incl. VAT + sale legal £{fl.sale_legal:,}; cash purchase, no finance.",
+                 f"- **Auctions:** guide + {fl.auction_uplift - 1:.0%}; Modern Method of Auction adds a "
+                 f"{fl.mmoa_fee_pct:.1%} reservation fee incl. VAT (min £{fl.mmoa_fee_min:,}).",
+                 "- **Verdicts:** CALL AGENT = asking at or below max offer, MEDIUM confidence. INVESTIGATE = at or "
+                 "below max offer with LOW confidence, or up to £15k above it.", "",
+                 "## Priority properties", "",
+                 "| # | Verdict | Property | Asking | After-works base | Max offer for £40k | Size | Flags |",
+                 "|---:|---|---|---:|---:|---:|---|---|"]
+        for i, r in enumerate(top, 1):
+            p, a = s.get(Property, r["id"]), _latest_analysis(s, r["id"])
+            ex = a.assumptions or {}
+            lines.append(f"| {i} | {r['recommendation']} | {_short_name(p)}, {p.postcode} | £{r['asking']:,} | "
+                         f"£{r['gdv_base']:,} | £{r['max_offer_for_40k']:,} | {ex.get('subject_sqft')} sq ft | "
+                         f"{_flags(p)} |")
+        lines.append("")
+        for i, r in enumerate(top, 1):
+            p, a, o = s.get(Property, r["id"]), _latest_analysis(s, r["id"]), _latest_obs(s, r["id"])
+            sheet = _deal_sheet(s, p, a).split("\n_Contains")[0].rstrip()
+            sheet = sheet.replace("# ", f"## {i}. ", 1).replace("\n## ", "\n### ")
+            hist = " → ".join(f"{h['date']} £{h['price']:,}" for h in (o.price_history or []))
+            lines += ["---", "", sheet, "", "### Listing data", ""]
+            if hist:
+                lines.append(f"- Price history: {hist}")
+            if o and o.days_on_market:
+                lines.append(f"- Days on market: {o.days_on_market}")
+            lines.append(f"- Lists: {', '.join(p.current_lists or []) or '–'}")
+            if "also listed" in r["notes"]:
+                lines.append("- " + r["notes"][r["notes"].index("also listed"):])
+            if p.summary:
+                lines += ["", "Agent's description (from the feed, may be truncated):", "",
+                          "> " + p.summary.replace("\n", " ").strip()]
+            lines.append("")
+        lines += ["---", "", "## Second-tier (LOW confidence): skim and promote any worth a deep dive", "",
+                  "Mostly estimated floor areas, very low guide prices, or asking under half the estimated value. "
+                  "Many will fall apart on inspection.", "",
+                  "| Property | Type | Sq ft | Asking | After-works | Max offer | Flags | Portal |",
+                  "|---|---|---:|---:|---:|---:|---|---|"]
+        for r in rest:
+            p, a = s.get(Property, r["id"]), _latest_analysis(s, r["id"])
+            ex = a.assumptions or {}
+            est = "~" if str(ex.get("subject_sqft_source", "")).startswith("est") else ""
+            lines.append(f"| {_short_name(p)}, {p.postcode} | {p.bedrooms or '?'}b {p.property_type} | "
+                         f"{est}{ex.get('subject_sqft') or '?'} | £{r['asking']:,} | £{r['gdv_base']:,} | "
+                         f"£{r['max_offer_for_40k']:,} | {_flags(p)} | "
+                         f"{(r['check_on_portal'] or r['url'] or '').split(' ')[0]} |")
+        lines += ["", OGL]
+    out = settings.output_dir / "handover_deep_dive.md"
+    out.write_text("\n".join(lines) + "\n")
+    print(f"{len(top)} priority + {len(rest)} second-tier -> {out}")
 
 
 EVENT_LABELS = [
@@ -588,6 +772,8 @@ def main():
     fi.set_defaults(fn=cmd_finish)
     sub.add_parser("shortlist").set_defaults(fn=cmd_shortlist)
     sub.add_parser("deal-sheets").set_defaults(fn=cmd_deal_sheets)
+    sub.add_parser("full-list").set_defaults(fn=cmd_full_list)
+    sub.add_parser("handover").set_defaults(fn=cmd_handover)
     ee = sub.add_parser("enrich-epc", help="EPC floor areas for comps around the shortlist (free)")
     ee.add_argument("ids", type=int, nargs="*")
     ee.set_defaults(fn=cmd_enrich_epc)

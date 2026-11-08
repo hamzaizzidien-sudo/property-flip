@@ -30,6 +30,8 @@ RISK_PATTERNS = {
     "subsidence": r"subsidence|underpinn",
     "land_only": r"\bplot of land\b|\bbuilding plot\b|\bland for sale\b",
     "shared_ownership": r"shared ownership|retirement|over 55|age restricted",
+    "not_a_house": r"ground rent|caravan|park home|holiday lodge|static home|\bportfolio\b|this (apartment|flat)"
+                   r"|(ground|first|second|top)[- ]floor (flat|apartment)|leasehold (flat|apartment)|block of",
 }
 
 LIST_TO_MOTIVATION = {

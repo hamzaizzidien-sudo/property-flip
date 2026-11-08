@@ -176,8 +176,8 @@ def match_sales(s, postcodes: set[str]) -> int:
 
 def subject_floor_area(s, prop) -> tuple[int | None, str]:
     """Floor area for a listing: the portal's figure, else its EPC by address, else none."""
-    if prop.floor_area_sqft:
-        return prop.floor_area_sqft, "listing"
+    if prop.floor_area_sqft and (prop.floor_area_sqft >= 450 or (prop.bedrooms or 0) <= 1):
+        return prop.floor_area_sqft, "listing"  # portals sometimes give one room's area for a house
     key = address_key((prop.precise_address or "").split(",")[0]) if prop.precise_address else ""
     if key and re.match(r"\d", key) and prop.postcode:
         for c in s.scalars(select(EpcCertificate).where(EpcCertificate.postcode == prop.postcode)

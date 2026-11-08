@@ -1,10 +1,10 @@
 # 143, LORDENS ROAD, HUYTON, L14 8UA
 
-**WATCH** · confidence MEDIUM · appraised 2026-10-25
+**WATCH** · confidence MEDIUM · appraised 2026-11-08
 
 - semi-detached, 3 bed, 947 sq ft (listing)
 - Asking £180,000
-- Listing: 11 days on market; no chain; needs modernising; 947 sq ft
+- Listing: 25 days on market; no chain; needs modernising; 947 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94340478
 
 
@@ -19,6 +19,7 @@
 | 2 Brookdale Grove Liverpool | Jun 2026 | £255,000 | 872 | £292 | 0.15 |
 | 41 Wimborne Place Liverpool | Sep 2025 | £230,000 | 1130 | £204 | 0.10 |
 | 131 Southdean Road Liverpool | Nov 2025 | £248,000 | 1023 | £242 | 0.13 |
+| 23 Tudor Avenue Liverpool | Aug 2026 | £195,000 | 872 | £224 | 0.24 |
 | 125 Turriff Road Liverpool | Aug 2026 | £225,000 | 883 | £255 | 0.24 |
 | 107 Sleaford Road Liverpool | Mar 2026 | £212,000 | 850 | £249 | 0.24 |
 | 39 Wimborne Place Liverpool | Feb 2025 | £211,000 | 764 | £276 | 0.10 |
@@ -26,14 +27,13 @@
 | 32 Sleaford Road Liverpool | Dec 2025 | £260,000 | 1130 | £230 | 0.24 |
 | 15 Finch Lea Drive Liverpool | Mar 2026 | £162,000 | 732 | £221 | 0.30 |
 | 577 Princess Drive Liverpool | Jan 2025 | £232,000 | 1130 | £205 | 0.12 |
-| 21 Serin Close Liverpool | Mar 2026 | £185,000 | 872 | £212 | 0.37 |
-| … 16 more | | | | | |
+| … 17 more | | | | | |
 
-Basis: £/sqft v1: n=31 ±25% size, £245/273/277 psf x 947 sqft (listing) street=0 spread=0.118
+Basis: £/sqft v1: n=32 ±25% size, £244/273/277 psf x 947 sqft (listing) street=0 spread=0.122
 
 ## After-works value
 
-- Low £232,000 (£245/sq ft)
+- Low £231,000 (£244/sq ft)
 - **Base £258,000** (£272/sq ft)
 - High £262,000 (£277/sq ft)
 
@@ -53,8 +53,8 @@ Basis: £/sqft v1: n=31 ±25% size, £245/273/277 psf x 947 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £180,000 | £-3,251 | **£22,375** | £26,317 |
-| Max offer for £40k profit | £139,500 | **£163,500** | £167,000 |
+| Profit at £180,000 | £-4,236 | **£22,375** | £26,317 |
+| Max offer for £40k profit | £138,500 | **£163,500** | £167,000 |
 
 Opening offer £150,000 · asking is £16,500 above max offer
 

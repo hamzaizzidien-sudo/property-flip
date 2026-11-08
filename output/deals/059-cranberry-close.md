@@ -1,10 +1,10 @@
 # 4, CRANBERRY CLOSE, ST HELENS, WA10 2ND
 
-**WATCH** · confidence LOW · appraised 2026-10-25
+**WATCH** · confidence LOW · appraised 2026-11-08
 
 - semi-detached, 3 bed, 1000 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: Reduced 2x £180k→£170k (−6%), last cut 2026-10-24; 36 days on market; no chain; needs modernising
+- Listing: Reduced 2x £180k→£170k (−6%), last cut 2026-10-24; 50 days on market; no chain; needs modernising
 - Portal: https://www.rightmove.co.uk/properties/93359121
 
 
@@ -15,6 +15,7 @@
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
 | 13 Russet Close St Helens | May 2025 | £231,000 | 958 | £241 | 0.03 |
+| 43 Rutland Street St Helens | Jul 2026 | £137,500 | 797 | £172 | 0.18 |
 | 63 Rutland Street St Helens | Mar 2025 | £255,000 | 1076 | £237 | 0.13 |
 | 124 Oxford Street St Helens | Feb 2025 | £202,500 | 1152 | £176 | 0.11 |
 | 14 Bishop Road St Helens | Dec 2025 | £270,000 | 1195 | £226 | 0.24 |
@@ -28,7 +29,6 @@
 | 14 Ainsworth Road St Helens | May 2025 | £183,000 | 915 | £200 | 0.44 |
 | 84 Pigot Street St Helens | Feb 2025 | £110,000 | 947 | £116 | 0.41 |
 | 6 Ainsworth Road St Helens | Mar 2025 | £222,500 | 915 | £243 | 0.44 |
-| 7 Hillside Avenue St Helens | Apr 2025 | £136,500 | 926 | £147 | 0.49 |
 | … 2 more | | | | | |
 
 Basis: £/sqft v1: n=17 ±25% size, £226/241/251 psf x 1000 sqft (estimated from nearby EPCs) street=0 spread=0.106

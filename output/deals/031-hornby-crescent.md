@@ -1,10 +1,10 @@
 # 64, HORNBY CRESCENT, CLOCK FACE, ST HELENS, WA9 4SA
 
-**WATCH** · confidence MEDIUM · appraised 2026-10-25
+**WATCH** · confidence MEDIUM · appraised 2026-11-08
 
 - semi-detached, 3 bed, 1035 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 2x £220k→£180k (−18%), last cut 2026-09-26; 82 days on market; no chain; vendor open to negotiation; 1035 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 2x £220k→£180k (−18%), last cut 2026-09-24; 96 days on market; no chain; vendor open to negotiation; 1035 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/91686720
 - Portal: https://www.zoopla.co.uk/for-sale/details/73901659/
 
@@ -14,6 +14,7 @@
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
 | 10 Dunsop Avenue St Helens | Jun 2026 | £163,000 | 840 | £194 | 0.04 |
+| 1 Rye Close St Helens | May 2026 | £136,550 | 840 | £163 | 0.10 |
 | 1 Beech Avenue St Helens | Jun 2026 | £208,000 | 829 | £251 | 0.17 |
 | 398 Leach Lane St Helens | Jun 2026 | £230,000 | 872 | £264 | 0.17 |
 | 43 Taunton Avenue St Helens | May 2026 | £220,000 | 786 | £280 | 0.24 |
@@ -27,14 +28,13 @@
 | 26 Axbridge Avenue St Helens | Apr 2026 | £195,000 | 797 | £245 | 0.37 |
 | 26 Cherwell Avenue St Helens | Jun 2026 | £255,000 | 1055 | £242 | 0.44 |
 | 25 Bideford Avenue St Helens | Dec 2025 | £222,500 | 926 | £240 | 0.32 |
-| 25 Bideford Avenue St Helens | Dec 2025 | £222,500 | 926 | £240 | 0.32 |
-| … 35 more | | | | | |
+| … 37 more | | | | | |
 
-Basis: £/sqft v1: n=50 ±25% size, £213/240/248 psf x 1035 sqft (listing) street=0 spread=0.146
+Basis: £/sqft v1: n=52 ±25% size, £206/240/248 psf x 1035 sqft (listing) street=0 spread=0.175
 
 ## After-works value
 
-- Low £220,000 (£213/sq ft)
+- Low £213,000 (£206/sq ft)
 - **Base £248,000** (£240/sq ft)
 - High £257,000 (£248/sq ft)
 
@@ -54,8 +54,8 @@ Basis: £/sqft v1: n=50 ±25% size, £213/240/248 psf x 1035 sqft (listing) stre
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £180,000 | £-18,488 | **£9,109** | £17,979 |
-| Max offer for £40k profit | £125,000 | **£151,000** | £159,000 |
+| Profit at £180,000 | £-25,387 | **£9,109** | £17,979 |
+| Max offer for £40k profit | £118,500 | **£151,000** | £159,000 |
 
 Opening offer £138,000 · asking is £29,000 above max offer
 

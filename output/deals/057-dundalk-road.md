@@ -1,10 +1,10 @@
 # Dundalk Road, Widnes, WA8
 
-**WATCH** · confidence MEDIUM · appraised 2026-10-25
+**WATCH** · confidence MEDIUM · appraised 2026-11-08
 
 - terraced, 3 bed, 1184 sq ft (listing)
 - Asking £130,000
-- Listing: 21 days on market; no chain; 1184 sq ft
+- Listing: 35 days on market; no chain; 1184 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93914826
 
 
@@ -15,6 +15,7 @@
 | 5 Cunningham Road Widnes | May 2026 | £160,000 | 936 | £171 | 0.17 |
 | 52 Standish Court Widnes | May 2026 | £105,000 | 947 | £111 | 0.30 |
 | 40 Southway Widnes | Nov 2025 | £195,000 | 1055 | £185 | 0.22 |
+| 16 Southey Close Widnes | Sep 2026 | £227,560 | 915 | £249 | 0.40 |
 | 152 Liverpool Road Widnes | Feb 2026 | £165,000 | 1195 | £138 | 0.28 |
 | 18 Prescot Road Widnes | Dec 2025 | £210,500 | 1012 | £208 | 0.26 |
 | 5 Myrtle Grove Widnes | May 2025 | £159,000 | 936 | £170 | 0.17 |
@@ -26,16 +27,15 @@
 | 23 Derwent Road Widnes | Dec 2025 | £190,000 | 1066 | £178 | 0.45 |
 | 47 Radnor Drive Widnes | Jun 2025 | £175,000 | 969 | £181 | 0.39 |
 | 6 Prescot Road Widnes | Nov 2024 | £148,000 | 936 | £158 | 0.26 |
-| 53 Radnor Drive Widnes | Mar 2025 | £180,000 | 947 | £190 | 0.39 |
 | … 4 more | | | | | |
 
-Basis: £/sqft v1: n=19 ±25% size, £156/171/185 psf x 1184 sqft (listing) street=0 spread=0.166
+Basis: £/sqft v1: n=19 ±25% size, £158/178/190 psf x 1184 sqft (listing) street=0 spread=0.179
 
 ## After-works value
 
-- Low £185,000 (£156/sq ft)
-- **Base £202,000** (£171/sq ft)
-- High £218,000 (£184/sq ft)
+- Low £187,000 (£158/sq ft)
+- **Base £211,000** (£178/sq ft)
+- High £225,000 (£190/sq ft)
 
 ## Costs at £130,000
 
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=19 ±25% size, £156/171/185 psf x 1184 sqft (listing) stre
 | SDLT (incl. 5% surcharge) | 6,600 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,109 |
-| **Total costs** | **60,449** |
+| Sale agent + legal | 4,238 |
+| **Total costs** | **60,578** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £130,000 | £-5,204 | **£11,551** | £27,321 |
-| Max offer for £40k profit | £87,000 | **£103,000** | £118,000 |
+| Profit at £130,000 | £-3,233 | **£20,422** | £34,220 |
+| Max offer for £40k profit | £88,500 | **£111,000** | £124,500 |
 
-Opening offer £94,000 · asking is £27,000 above max offer
+Opening offer £102,000 · asking is £19,000 above max offer
 
 Risks: none flagged from listing text
 
