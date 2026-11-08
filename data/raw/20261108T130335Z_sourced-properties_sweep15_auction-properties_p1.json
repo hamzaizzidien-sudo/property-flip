@@ -1,0 +1,2868 @@
+{
+ "source": "propertydata",
+ "endpoint": "sourced-properties",
+ "fetched_via": "mcp",
+ "fetched_at": "2026-11-08T13:03:35.545309+00:00",
+ "run_id": "sweep15-20261108",
+ "request": {
+  "list": "auction-properties",
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "max_price": 180000,
+  "standardised_type": "!flat",
+  "exclude_sstc": 1,
+  "results": 100,
+  "page": 1
+ },
+ "response": {
+  "status": "success",
+  "image_copyright": "All image URLs link to third-party content that may be protected by copyright; you must obtain any necessary rights or permissions before downloading, storing, or reusing those images.",
+  "list": {
+   "id": "auction-properties",
+   "name": "Auction properties"
+  },
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "page": 1,
+  "result_count": 100,
+  "api_calls_cost": 10,
+  "properties": [
+   {
+    "id": "R92742171",
+    "address": "Fire Station Road, Whiston, Prescot, Merseyside, L35",
+    "precise_address": null,
+    "postcode": "L35 7JH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 66,
+    "days_since_price_change": 42,
+    "sstc": 0,
+    "lat": "53.42397000",
+    "lng": "-2.78591700",
+    "distance_to": "0.67",
+    "price_history": [
+     {
+      "date": "2026-09-05",
+      "price": 180000
+     },
+     {
+      "date": "2026-09-27",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by Modern Method of Auction with no onward chain, offering a reliable transaction. The property features a spacious living room, open-plan kitchen/dining area, downstairs W.C, sun room/conservatory, and generously sized rear garden.\n\nThe front benefits from a paved driveway providing off-road parking and adjacent garage space. Three upstairs bedrooms, family bathroom, and separate W.C complete the accommodation. Located on Fire Station Road in Whiston, the property is within walking distance of a public park.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b118906f3/92742171/b118906f3808f1d0a4e9f727bfc9e888.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92742171"
+   },
+   {
+    "id": "R94020255",
+    "address": "6 Long Hey, Whiston, Prescot, Merseyside, L35 3JW",
+    "precise_address": null,
+    "postcode": "L35 3JW",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 95000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 7,
+    "sstc": 0,
+    "lat": "53.40813100",
+    "lng": "-2.80178500",
+    "distance_to": "0.85",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 85000
+     },
+     {
+      "date": "2026-11-01",
+      "price": 95000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house will be sold by auction on 3rd November 2026. It features a living room/dining room and kitchen on the ground floor, three bedrooms and a bathroom upstairs, plus front and rear gardens, driveway and garage.\n\nLocated in a well-established residential area off Windy Arbour Road, close to local amenities, schools and transport links. Within walking distance of a public playing field. Following refurbishment, the property would be suitable for occupation, resale or investment, with potential rental of approximately \u00a313,200 per annum.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2baa8cbba/94020255/2baa8cbba9782fdaf3f3aa91d10b58bf.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94020255"
+   },
+   {
+    "id": "R94963947",
+    "address": "5 St. James Road, Prescot, Merseyside, L34",
+    "precise_address": null,
+    "postcode": "L34 5SU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 95000,
+    "sqf": 639,
+    "days_on_market": 10,
+    "days_since_price_change": 7,
+    "sstc": 0,
+    "lat": "53.42673000",
+    "lng": "-2.79610000",
+    "distance_to": "0.99",
+    "price_history": [
+     {
+      "date": "2026-11-01",
+      "price": 95000
+     }
+    ],
+    "summary": "This two-bedroom terraced house on St James Road in Prescot is for sale by auction as Lot 314 on 18 November 2026. It offers a ground floor reception room and kitchen, with two bedrooms and a bathroom upstairs, totalling approximately 58.53 sq m.\n\nThe property is close to shops, supermarkets, caf\u00e9s and restaurants, with nearby rail stations providing services into Liverpool and Manchester. Open viewings take place on 10, 13 and 16 November between 12:00 and 12:30 with no registration needed.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1396ee208/94963947/1396ee208146224a2a4ca52e9bd3f748.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94963947"
+   },
+   {
+    "id": "R92381790",
+    "address": "Bishop Drive, Prescot",
+    "precise_address": null,
+    "postcode": "L35 3JL",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 701,
+    "days_on_market": 76,
+    "days_since_price_change": 74,
+    "sstc": 0,
+    "lat": "53.40829800",
+    "lng": "-2.80560900",
+    "distance_to": "0.99",
+    "price_history": [
+     {
+      "date": "2026-08-26",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached property is being sold by online auction with established tenants in situ, currently achieving \u00a3775 per calendar month (\u00a39,300 annually). An excellent investment opportunity offering immediate rental income from completion.\n\nWell-presented accommodation includes a spacious lounge with feature fireplace, fitted kitchen with integrated appliances, modern bathroom and three bedrooms. Front and rear gardens with decked seating area, driveway and off-road parking. Conveniently located near Whiston Village, train station, schools and motorway links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/efd9b8465/92381790/efd9b8465d7c6c00b2d15d3d1ae83e1d.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92381790"
+   },
+   {
+    "id": "R92470650",
+    "address": "Bishop Drive, Whiston, Prescot, Merseyside, L35 3JL",
+    "precise_address": null,
+    "postcode": "L35 3JL",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 74,
+    "days_since_price_change": 72,
+    "sstc": 0,
+    "lat": "53.40770000",
+    "lng": "-2.80630000",
+    "distance_to": "1.03",
+    "price_history": [
+     {
+      "date": "2026-08-28",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction with tenants in situ, offering an excellent investment opportunity. Currently achieving \u00a3775 per month rental income, the property provides immediate returns for buy-to-let investors.\n\nWell-presented accommodation includes a lounge with feature fireplace, fitted kitchen, modern bathroom, and three bedrooms. Located in popular Whiston with good access to schools, train station, and motorway links, it benefits from front and rear gardens with decked seating and driveway parking.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7072aec71/92470650/7072aec71c0271ba6eb5b6635c8cbe28.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92470650"
+   },
+   {
+    "id": "R94026018",
+    "address": "Railton Avenue, Rainhill, Prescot, Merseyside, L35",
+    "precise_address": null,
+    "postcode": "L35 0QB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 31,
+    "sstc": 0,
+    "lat": "53.40970100",
+    "lng": "-2.75768600",
+    "distance_to": "1.13",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is located in the highly sought-after Rainhill area. It features a paved driveway with off-road parking, generous rear garden space with garage access, two spacious living rooms, a downstairs W.C., and an upstairs family shower room.\n\nThe property is being sold by Modern Method of Auction with no onward chain, making it a reliable transaction. Buyers will have 56 days to complete following the draft contract, allowing time to arrange mortgage finance. A reservation fee of 4.5% of the purchase price (minimum \u00a36,600) is required.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/22eb0ad48/94026018/22eb0ad4843de2dd7852099f0615ec1d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94026018"
+   },
+   {
+    "id": "R93143349",
+    "address": "Kemble Street, Prescot",
+    "precise_address": null,
+    "postcode": "L34 5SH",
+    "type": "House",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 130000,
+    "sqf": 428,
+    "days_on_market": 55,
+    "days_since_price_change": 54,
+    "sstc": 0,
+    "lat": "53.42772100",
+    "lng": "-2.80147700",
+    "distance_to": "1.17",
+    "price_history": [
+     {
+      "date": "2026-09-15",
+      "price": 130000
+     }
+    ],
+    "summary": "This freehold block comprises two self-contained two-bedroom duplex apartments on Kemble Street, Prescot, being sold by auction. Both units are ready to let immediately, offering investors strong rental potential with anticipated annual income of approximately \u00a318,600 (11.6% gross yield).\n\nEach duplex is arranged over two levels with practical accommodation including reception rooms, fitted kitchens, and bathrooms. The property benefits from rear garden and parking, plus convenient access to Prescot High Street's shops, amenities and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/50dbeb52a/93143349/50dbeb52ae7a731bcea36f3b2aae5fe6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93143349"
+   },
+   {
+    "id": "R92185050",
+    "address": "Knowsley Park Lane, Prescot, Merseyside, L34",
+    "precise_address": "29, KNOWSLEY PARK LANE, PRESCOT, L34 3NA",
+    "postcode": "L34 3NA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 82,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.43001800",
+    "lng": "-2.81164200",
+    "distance_to": "1.57",
+    "price_history": [
+     {
+      "date": "2026-08-20",
+      "price": 270000
+     },
+     {
+      "date": "2026-08-28",
+      "price": 250000
+     },
+     {
+      "date": "2026-09-23",
+      "price": 230000
+     },
+     {
+      "date": "2026-10-15",
+      "price": 190000
+     },
+     {
+      "date": "2026-11-06",
+      "price": 175000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Knowsley Park Lane, Prescot, is being sold by Modern Method of Auction with no onward chain. It offers a modern open-plan living and kitchen area, a downstairs WC, and a family bathroom on the first floor.\n\nOutside, there is a paved front driveway providing off-road parking and a substantial rear garden spread over three levels. The property holds an EPC rating of C and Council Tax Band B.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/890e0be4e/92185050/890e0be4eed258d588b6833f4aabdf31.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92185050"
+   },
+   {
+    "id": "R95196222",
+    "address": "22 Patterdale Drive, St Helens WA10",
+    "precise_address": "7, PATTERDALE DRIVE, ST HELENS, WA10 3PN",
+    "postcode": "WA10 3PN",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": null,
+    "days_on_market": 3,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.43724000",
+    "lng": "-2.77266200",
+    "distance_to": "1.64",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 135000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached freehold house on Patterdale Drive, St Helens, is offered for sale by Modern Method of Auction and is vacant with no onward chain. It has two bathrooms, including a ground-floor WC, and a large rear garden with considerable depth and breadth.\n\nThe property is unmodernised and would benefit from updating, with scope to open up the kitchen into a kitchen/diner overlooking the garden. It is situated within reach of Thatto Heath station, Prescot Road bus routes, local schools and parks, with access to the A580 and M62.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ba8f87adf/95196222/ba8f87adf2e5527aea3d080d7eca4ff5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95196222"
+   },
+   {
+    "id": "R92760531",
+    "address": "Montgomery Road, Huyton, Liverpool, Merseyside, L36",
+    "precise_address": "5, MONTGOMERY ROAD, HUYTON, L36 7UY",
+    "postcode": "L36 7UY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 66,
+    "days_since_price_change": 38,
+    "sstc": 0,
+    "lat": "53.41617800",
+    "lng": "-2.84614300",
+    "distance_to": "2.57",
+    "price_history": [
+     {
+      "date": "2026-09-05",
+      "price": 120000
+     },
+     {
+      "date": "2026-10-01",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by Modern Method of Auction with no onward chain, offering a reliable transaction. It features a spacious living room, kitchen/dining area, three upstairs bedrooms, family bathroom, and generously sized front and rear gardens. EPC Grade C, Council Tax Band A.\n\nThe property is within walking distance of a public green space. Note: Japanese Knotweed is present on the neighbouring property and has encroached onto this property. Buyers are advised to obtain a specialist survey and consult their mortgage lender before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/85a985504/92760531/85a985504caefed5a7567b41570c40dc.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92760531"
+   },
+   {
+    "id": "R92395458",
+    "address": "Gladstone Street, St. Helens, WA10",
+    "precise_address": "38, GLADSTONE STREET, ST HELENS, WA10 4NT",
+    "postcode": "WA10 4NT",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 89000,
+    "sqf": 506,
+    "days_on_market": 75,
+    "days_since_price_change": 31,
+    "sstc": 0,
+    "lat": "53.45043100",
+    "lng": "-2.75510300",
+    "distance_to": "2.76",
+    "price_history": [
+     {
+      "date": "2026-08-27",
+      "price": 100000
+     },
+     {
+      "date": "2026-10-08",
+      "price": 89000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house in St. Helens is being sold by online auction with tenants currently in situ, generating \u00a38,700 gross annual rent. The property features a lounge, kitchen, bathroom, front and back gardens, and street parking.\n\nIdeal for buy-to-let investors seeking rental income in a high-demand area. The sale will proceed under unconditional auction terms with 28 days completion, though pre-auction offers are welcome. A 10% deposit is required at point of sale.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/84d1227eb/92395458/84d1227eb33a784a49702dedf1f028ca.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92395458"
+   },
+   {
+    "id": "R93709992",
+    "address": "Albion Street, St. Helens, Merseyside, WA10 2HA",
+    "precise_address": null,
+    "postcode": "WA10 2HA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": null,
+    "days_on_market": 41,
+    "days_since_price_change": 39,
+    "sstc": 0,
+    "lat": "53.45300000",
+    "lng": "-2.75140000",
+    "distance_to": "2.98",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom terraced house is being sold via online auction with a starting bid of \u00a375,000. Recently improved with new windows, electrics, front door and boiler, it offers potential for further modernisation inside.\n\nThe property has been a successful rental and is offered with vacant possession and immediate viewing availability. Suitable for first-time buyers or investors seeking a project with established rental history.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3f0b79236/93709992/3f0b79236907595106a09e1ba1e7245f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93709992"
+   },
+   {
+    "id": "R94954092",
+    "address": "Avondale Drive, WIDNES",
+    "precise_address": null,
+    "postcode": "WA8 7XB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 50000,
+    "sqf": null,
+    "days_on_market": 10,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.37227000",
+    "lng": "-2.76710000",
+    "distance_to": "2.99",
+    "price_history": [
+     {
+      "date": "2026-10-31",
+      "price": 50000
+     }
+    ],
+    "summary": "This freehold two-storey mid-terrace house on Avondale Drive, Widnes, is offered at auction on 17 November 2026 with full vacant possession. It has three bedrooms, a reception room, kitchen, bathroom and a front driveway, and is described as requiring modernisation.\n\nThe property sits between Bankfield Road and Sunningdale Avenue, with local bus services and Widnes and Hough Green stations nearby. King George's Park and Hough Green Park are within reach, and the A557 links to the M62. Buyers should note a \u00a31,800 contract fee payable to the auctioneer.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7cdce5359/94954092/7cdce535989158021f00d4427933c681.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94954092"
+   },
+   {
+    "id": "R169457831",
+    "address": "Woodlands Road, Huyton, Liverpool, Merseyside, L36",
+    "precise_address": null,
+    "postcode": "L36 4PH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": 933,
+    "days_on_market": 117,
+    "days_since_price_change": 29,
+    "sstc": 0,
+    "lat": "53.41256600",
+    "lng": "-2.85843600",
+    "distance_to": "3.07",
+    "price_history": [
+     {
+      "date": "2025-11-22",
+      "price": 165000
+     },
+     {
+      "date": "2026-05-21",
+      "price": 155000
+     },
+     {
+      "date": "2026-10-10",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom mid terrace is conveniently located on the popular Woodlands Road with good access to amenities and transport links. The property comprises an entrance hallway, cloaks/WC, lounge, and kitchen/diner on the ground floor.\n\nUpstairs there are three bedrooms and a shower room, offering generous living space. Please note this property is non-standard construction and may require a high deposit. Cash buyers only.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/58dcddeca/169457831/58dcddecab44e441a909a2b9202e4549.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/169457831"
+   },
+   {
+    "id": "R91446837",
+    "address": "Leach Lane, Sutton Leach, St. Helens, Merseyside, WA9 4PH",
+    "precise_address": null,
+    "postcode": "WA9 4PH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": 828,
+    "days_on_market": 102,
+    "days_since_price_change": 31,
+    "sstc": 0,
+    "lat": "53.42630000",
+    "lng": "-2.71180000",
+    "distance_to": "3.08",
+    "price_history": [
+     {
+      "date": "2026-08-01",
+      "price": 160000
+     },
+     {
+      "date": "2026-10-08",
+      "price": 155000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction via Secure Sale online bidding. Located in sought-after Sutton Leach, St. Helens, it comprises an entrance hall, living room, kitchen/diner, and ground floor bathroom, with three bedrooms upstairs.\n\nThe property features front and rear gardens, a driveway for off-street parking, and is close to local schools, train station, and motorway network. Council Tax Band A, freehold tenure.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/4a413a9b4/91446837/4a413a9b4c0866c4cf1c30a46fb7edff.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91446837"
+   },
+   {
+    "id": "R93421455",
+    "address": "41 Marshalls Cross Road St. Helens WA9 3BJ",
+    "precise_address": null,
+    "postcode": "WA9 3BJ",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 4,
+    "price": 138000,
+    "sqf": null,
+    "days_on_market": 48,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.44256700",
+    "lng": "-2.72159100",
+    "distance_to": "3.22",
+    "price_history": [
+     {
+      "date": "2026-09-22",
+      "price": 153000
+     },
+     {
+      "date": "2026-10-20",
+      "price": 138000
+     }
+    ],
+    "summary": "This four-bedroom end of terrace is being sold by auction and is vacant, ready for immediate occupation. Located in St. Helens with excellent connectivity, it sits just four minutes from the train station and one minute from the hospital, with good local amenities and shops nearby.\n\nThe property offers flexible accommodation including a living room, kitchen, bathroom and sunroom. It presents strong investment potential with estimated rental income of \u00a31,100 per month, or potential for serviced accommodation subject to appropriate licences.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/78a905a2a/93421455/78a905a2a6d430193ab480279ebf8c0b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93421455"
+   },
+   {
+    "id": "R93760521",
+    "address": "135 Dentons Green Lane, Dentons Green, St. Helens, Merseyside, WA10 6RF",
+    "precise_address": null,
+    "postcode": "WA10 6RF",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 40,
+    "days_since_price_change": 39,
+    "sstc": 0,
+    "lat": "53.45844300",
+    "lng": "-2.75157100",
+    "distance_to": "3.32",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction on 3rd November 2026. It features three reception rooms, a convertible basement, double glazing, and central heating throughout.\n\nThe property requires refurbishment and modernisation but offers potential for investment purposes, including possible HMO or flat conversion subject to contract. Located on Dentons Green Lane in an established residential area, close to local amenities and St. Helens Town Centre.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b4a4d3463/93760521/b4a4d3463ecbd3be0efc37935d3e8c26.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93760521"
+   },
+   {
+    "id": "R95081856",
+    "address": "Duke Street, St. Helens, Merseyside, WA10",
+    "precise_address": null,
+    "postcode": "WA10 2JJ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.45708600",
+    "lng": "-2.74523100",
+    "distance_to": "3.35",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 90000
+     }
+    ],
+    "summary": "This freehold mixed-use property in St Helens is offered by online auction on 9th December 2026. The ground floor is a commercial unit currently operating as a Pilates studio, with a changing area, shower, kitchenette and WC, and is let at \u00a36,600 per annum. The upper floor is a two-bedroom flat with living room, kitchen and bathroom, currently vacant and expected to achieve around \u00a3600 per calendar month on the private rental market.\n\nDuke Street lies in an established residential area close to local shops, schools and amenities, with St Helens town centre and St Helens Central railway station nearby. The A58 and M62 provide road links. A Buyer's Administration Fee of 1% + VAT applies, subject to a \u00a33,000 + VAT minimum, payable with the 10% deposit. The property is in council tax band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/71d8bd8c9/95081856/71d8bd8c9668584b15a42283dd7d094d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95081856"
+   },
+   {
+    "id": "R94376892",
+    "address": "Greenfield Road, St Helens, Merseyside, WA10 6SG",
+    "precise_address": null,
+    "postcode": "WA10 6SG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 80000,
+    "sqf": 807,
+    "days_on_market": 24,
+    "days_since_price_change": 22,
+    "sstc": 0,
+    "lat": "53.46100000",
+    "lng": "-2.75610000",
+    "distance_to": "3.42",
+    "price_history": [
+     {
+      "date": "2026-10-17",
+      "price": 80000
+     }
+    ],
+    "summary": "This traditional mid terraced house in the sought-after Dentons Green area of St Helens offers two double bedrooms, an open plan living and dining room, a kitchen and a guest cloakroom. Upstairs, a shower room has potential for a four piece suite. The property is offered with no onward chain and is being sold via Secure Sale online bidding, subject to terms and conditions.\n\nThe property has a good-sized rear yard accessible via a gate to the rear alley, offering scope for a garden or outdoor entertaining area. The area is well served by local shops, schools and leisure facilities, with access to the A580 and major motorway networks.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c44bf7ab2/94376892/c44bf7ab25fb80876bf67e9b1d98e5a0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94376892"
+   },
+   {
+    "id": "R95032395",
+    "address": "82 Alfred Street, St. Helens, Merseyside, WA10 1LR",
+    "precise_address": "97, ALFRED STREET, ST HELENS, WA10 1LR",
+    "postcode": "WA10 1LR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": 721,
+    "days_on_market": 7,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.45698500",
+    "lng": "-2.73026400",
+    "distance_to": "3.68",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom terraced house on Alfred Street, St Helens, is offered for sale by online auction on 25th November 2026, and is sold with a tenant in situ. The property includes an open plan living and dining room, a kitchen, a downstairs bathroom and a low-maintenance paved rear garden. It is leasehold and sits within walking distance of shops, schools, the new bus station and St Helens Central train station. Buyers must review the legal pack and auction conditions, including the buyer's premium and any special conditions.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3f97720f3/95032395/3f97720f3fde441cce508aa722bb3c5a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95032395"
+   },
+   {
+    "id": "R93325158",
+    "address": "Helena Road, St. Helens, Merseyside, WA9 4JP",
+    "precise_address": null,
+    "postcode": "WA9 4JP",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 95000,
+    "sqf": 1066,
+    "days_on_market": 52,
+    "days_since_price_change": 51,
+    "sstc": 0,
+    "lat": "53.43350000",
+    "lng": "-2.69990000",
+    "distance_to": "3.70",
+    "price_history": [
+     {
+      "date": "2026-09-18",
+      "price": 95000
+     }
+    ],
+    "summary": "This substantial mid-terraced house is being sold by auction via Secure Sale online bidding, with no onward chain for a potentially smoother transaction. Offering 1,066 sq.ft across three floors, it features two generous double bedrooms, two reception rooms, a well-appointed kitchen, and a large cellar with excellent storage potential.\n\nFully double glazed with gas central heating, the property is ideally located within walking distance of the train station, providing excellent commuter links to Liverpool and Manchester. The surrounding area offers pleasant walks and local fields while remaining close to everyday amenities. Suitable for first-time buyers, investors, or those seeking spacious, adaptable accommodation.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ba6ce1433/93325158/ba6ce14333c00287af1c299757b6d85f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93325158"
+   },
+   {
+    "id": "R91719780",
+    "address": "Lascelles Street, St. Helens, Merseyside, WA9",
+    "precise_address": "29, LASCELLES STREET, ST HELENS, WA9 1BA",
+    "postcode": "WA9 1BA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 60000,
+    "sqf": 570,
+    "days_on_market": 95,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.45204400",
+    "lng": "-2.71950300",
+    "distance_to": "3.71",
+    "price_history": [
+     {
+      "date": "2026-08-07",
+      "price": 65000
+     },
+     {
+      "date": "2026-08-13",
+      "price": 50000
+     },
+     {
+      "date": "2026-09-02",
+      "price": 61500
+     },
+     {
+      "date": "2026-09-20",
+      "price": 55000
+     },
+     {
+      "date": "2026-10-30",
+      "price": 60000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house in St. Helens is being sold by online auction with a sitting tenant currently in place, making it an attractive buy-to-let investment opportunity. The property features a lounge, kitchen, bathroom, back garden and street parking.\n\nCurrently generating \u00a34,800 annual gross rental income, this well-maintained home offers strong rental returns for investors. Completion is strictly within 28 days of auction sale, with unconditional terms applying.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3a84f3739/91719780/3a84f3739b6f49b013c87dd074ac5d84.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91719780"
+   },
+   {
+    "id": "R95156196",
+    "address": "Hoghton Road, St. Helens, Merseyside, WA9 3HZ",
+    "precise_address": null,
+    "postcode": "WA9 3HZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 80000,
+    "sqf": 767,
+    "days_on_market": 4,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.43440000",
+    "lng": "-2.69990000",
+    "distance_to": "3.72",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 80000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in St. Helens is being sold via Secure Sale online bidding, subject to terms and conditions. It offers two generous reception rooms and three well-proportioned bedrooms, with the property needing modernisation and presenting scope to add value.\n\nLocated within walking distance of a train station with links to Liverpool and Manchester, the home is close to supermarkets, shops, well-regarded schools and local parks. The sale is offered with no onward chain.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/decc04042/95156196/decc04042db4e9a4dcdbae661b19190d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95156196"
+   },
+   {
+    "id": "R92393385",
+    "address": "Reay Street, Widnes, WA8",
+    "precise_address": "40, REAY STREET, WIDNES, WA8 6RJ",
+    "postcode": "WA8 6RJ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": 760,
+    "days_on_market": 73,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.37451100",
+    "lng": "-2.72169900",
+    "distance_to": "3.76",
+    "price_history": [
+     {
+      "date": "2026-08-27",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace home is being sold by auction with no onward chain, offering a reliable transaction. Located in popular Widnes, it features a spacious lounge, fitted kitchen/dining room and two generously sized bedrooms with family bathroom.\n\nExternally, there's an enclosed rear yard with workshop providing storage potential. Excellent transport links include nearby motorway access and Widnes Railway Station. Close to schools, shops and leisure facilities including Victoria Park and Spike Island.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/116e034f4/92393385/116e034f4ad07c9d5d339d7294177da1.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92393385"
+   },
+   {
+    "id": "R92220342",
+    "address": "Princess Avenue, St. Helens, Merseyside, WA10",
+    "precise_address": "45, PRINCESS AVENUE, ST HELENS, WA10 6NB",
+    "postcode": "WA10 6NB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 790,
+    "days_on_market": 79,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.46483000",
+    "lng": "-2.74868300",
+    "distance_to": "3.77",
+    "price_history": [
+     {
+      "date": "2026-08-21",
+      "price": 125000
+     }
+    ],
+    "summary": "This spacious semi-detached house is being sold by auction and is restricted to cash buyers only. Located on a tree-lined road in St. Helens, it offers three good-sized bedrooms, a modern fitted kitchen, refitted bathroom, and generous rear garden.\n\nThe property features gas central heating, double glazing, and off-road parking. Note that the house is of steel frame construction, which is classed as non-standard in mortgage lending terms. Viewings are highly recommended to fully appreciate the room proportions.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fe7c595dc/92220342/fe7c595dc955327c66d6020bf6794529.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92220342"
+   },
+   {
+    "id": "R90793632",
+    "address": "Dee Court, Liverpool, L25",
+    "precise_address": "DEE COURT FLAT 32, RIBBLE ROAD, LIVERPOOL, L25 5PW",
+    "postcode": "L25 5PW",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 115000,
+    "sqf": 915,
+    "days_on_market": 119,
+    "days_since_price_change": 61,
+    "sstc": 0,
+    "lat": "53.38016600",
+    "lng": "-2.85551200",
+    "distance_to": "3.78",
+    "price_history": [
+     {
+      "date": "2026-07-14",
+      "price": 130000
+     },
+     {
+      "date": "2026-08-19",
+      "price": 125000
+     },
+     {
+      "date": "2026-09-08",
+      "price": 115000
+     }
+    ],
+    "summary": "This three-bedroom end-terrace house is being sold by auction in the highly desirable Woolton area of South Liverpool. It features a spacious reception room, a contemporary kitchen installed one year ago, and a separate utility room. Upstairs offers two double bedrooms and a single bedroom, plus a wet room.\n\nThe property benefits from freehold tenure, a generously sized rear garden ideal for entertaining, and excellent proximity to Woolton Village amenities, schools and transport links. At \u00a3130,000, it represents strong value at 52% below the average price per square foot for the area, offering scope to personalise and enhance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a11876908/90793632/a118769087e9ddd8ec6ebfdfcbab61e7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90793632"
+   },
+   {
+    "id": "R94574580",
+    "address": "Ross Street, WIDNES",
+    "precise_address": null,
+    "postcode": "WA8 6JX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 84000,
+    "sqf": null,
+    "days_on_market": 19,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.37028000",
+    "lng": "-2.72588000",
+    "distance_to": "3.87",
+    "price_history": [
+     {
+      "date": "2026-10-23",
+      "price": 105000
+     },
+     {
+      "date": "2026-11-06",
+      "price": 84000
+     }
+    ],
+    "summary": "This freehold mid-terrace house on Ross Street, Widnes, is offered by auction on 17 November 2026. The first floor provides three bedrooms and a bathroom/WC, while the ground floor includes a reception room and kitchen, with a rear yard outside. EPC rating D and Council Tax Band A.\n\nThe property sits within reach of Widnes Town Centre, Widnes Train Station and local bus services, with the A557 and A562 nearby. Victoria Park is to the north west. Viewings are by arrangement with the auctioneers, and a \u00a31,800 contract documentation fee applies to buyers.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/962a69c5e/94574580/962a69c5ec4aaf939404f82487a67009.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94574580"
+   },
+   {
+    "id": "R87351240",
+    "address": "Cygnet Gardens, St. Helens, Merseyside, WA9 1SE",
+    "precise_address": "50, CYGNET GARDENS, ST HELENS, WA9 1SE",
+    "postcode": "WA9 1SE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 376,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.44870000",
+    "lng": "-2.70920000",
+    "distance_to": "3.88",
+    "price_history": [
+     {
+      "date": "2025-10-31",
+      "price": 135000
+     },
+     {
+      "date": "2026-01-21",
+      "price": 125000
+     },
+     {
+      "date": "2026-11-07",
+      "price": 120000
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in St. Helens, Merseyside, has an asking price of \u00a3135,000 and will be sold by auction. The property features a modern fitted kitchen and a private, not-overlooked rear garden, providing a balance of convenience and tranquility.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d3181adb5/87351240/d3181adb5c2576e070c9a024005a3cab.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87351240"
+   },
+   {
+    "id": "R94764297",
+    "address": "163 Mab Lane, Liverpool, Merseyside, L12 6QN",
+    "precise_address": null,
+    "postcode": "L12 6QN",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 11,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.43205600",
+    "lng": "-2.87631800",
+    "distance_to": "4.00",
+    "price_history": [
+     {
+      "date": "2026-10-28",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Liverpool is to be sold by auction on 10th December 2026 and is currently let on an assured shorthold tenancy with an annual rental income of \u00a36,600. The property benefits from double glazing, central heating, gardens and a driveway, and is of non-standard construction.\n\nLocated just off Princess Drive in a residential neighbourhood, it is close to local amenities, schooling and transport links, with Liverpool City Centre around six miles away. The EPC rating is D and the council tax band is A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/df8eca195/94764297/df8eca195c3c5446c63948bcd8cf2a2f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94764297"
+   },
+   {
+    "id": "R92566554",
+    "address": "Mab Lane, Liverpool",
+    "precise_address": "89, MAB LANE, LIVERPOOL, L12 6QL",
+    "postcode": "L12 6QL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 129000,
+    "sqf": 883,
+    "days_on_market": 69,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.43440900",
+    "lng": "-2.87778100",
+    "distance_to": "4.10",
+    "price_history": [
+     {
+      "date": "2026-09-01",
+      "price": 148000
+     },
+     {
+      "date": "2026-09-27",
+      "price": 132000
+     },
+     {
+      "date": "2026-10-31",
+      "price": 129000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in Liverpool is being sold by online auction with tenants currently in situ, offering an attractive buy-to-let opportunity. The property features a lounge, kitchen, bathroom, front and rear gardens, and private driveway parking.\n\nWith an agreed annual rent of \u00a39,300, this property presents strong rental returns for investors. The auction sale includes a 28-day completion period, and the seller is open to pre-auction offers. This represents a worthwhile addition to any investment portfolio in a high-demand area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f254ce956/92566554/f254ce956a4773d28ee732a933ca0e10.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92566554"
+   },
+   {
+    "id": "R93844236",
+    "address": "Alfred Street, Widnes, Cheshire, WA8",
+    "precise_address": null,
+    "postcode": "WA8 6BU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": 678,
+    "days_on_market": 38,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.36450200",
+    "lng": "-2.72674900",
+    "distance_to": "4.17",
+    "price_history": [
+     {
+      "date": "2026-10-02",
+      "price": 100000
+     },
+     {
+      "date": "2026-11-05",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace family home in Widnes is being sold by modern method of auction, offering a reliable transaction with no onward chain. The property comprises an entrance hall, spacious main lounge diner, fitted kitchen, downstairs bathroom, and three bedrooms across the first floor.\n\nLocated on Alfred Street, the property benefits from excellent local amenities including supermarkets, gyms, and Widnes shopping park, plus access to good schools. The freehold property features a walled front yard, side access, and a larger rear yard with outbuilding. Council tax band A. Completion can occur within 56 days of reservation.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fcd66b828/93844236/fcd66b828d58926db0d7b14d98e711d7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93844236"
+   },
+   {
+    "id": "R94848342",
+    "address": "29 Clapgate Crescent, Widnes, Cheshire, WA8 8UH",
+    "precise_address": null,
+    "postcode": "WA8 8UH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 12,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.35312700",
+    "lng": "-2.77184700",
+    "distance_to": "4.26",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 100000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house on the corner of Clapgate Crescent and Hollins Way is offered for sale by auction on 10th December 2026. Refurbishment works have begun and some further upgrades are required before the property is ready for occupation, resale or investment, with potential rental income above \u00a310,200 per year.\n\nThe home offers double glazing, central heating, gardens and a driveway, with a ground floor porch, hall, through lounge/dining room and kitchen, plus two first floor bedrooms and a bathroom/WC. It is close to local amenities, schooling and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8872346a3/94848342/8872346a399d891b0063d74e53ff3bb8.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94848342"
+   },
+   {
+    "id": "R93104664",
+    "address": "Leathers Lane, Liverpool, Merseyside. L26 1XQ",
+    "precise_address": null,
+    "postcode": "L26 1XQ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": null,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 56,
+    "days_since_price_change": 54,
+    "sstc": 0,
+    "lat": "53.35871500",
+    "lng": "-2.83253100",
+    "distance_to": "4.34",
+    "price_history": [
+     {
+      "date": "2026-09-15",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by online auction with a guide price of \u00a3170,000. The property features two reception rooms, two bathrooms, an extension, rear garden and driveway.\n\nThe auction process offers speed and certainty, with legal preparation enabling immediate securing of the property once your bid is accepted. Viewings are by appointment only, and bids can be submitted online at any time. A legal pack is available to review before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7c262c9bb/93104664/7c262c9bbea9da25522a685d76ef46d7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93104664"
+   },
+   {
+    "id": "R93641724",
+    "address": "Leathers Lane, Liverpool, Merseyside, L26 1XQ",
+    "precise_address": null,
+    "postcode": "L26 1XQ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 42,
+    "days_since_price_change": 40,
+    "sstc": 0,
+    "lat": "53.35810000",
+    "lng": "-2.83390000",
+    "distance_to": "4.40",
+    "price_history": [
+     {
+      "date": "2026-09-30",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Liverpool is being sold via Secure Sale online auction, with a starting bid of \u00a3170,000. The property is freehold and offers a transparent bidding process that can be accessed from anywhere.\n\nThe auction provides speed and certainty for buyers, with legal preparation enabling immediate completion once your bid is accepted. A legal pack is available to review before bidding, and a 5% deposit will be required upon exchange of contracts. Viewings are by appointment only.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/67f0aad86/93641724/67f0aad86f77c863aec17463650c85f0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93641724"
+   },
+   {
+    "id": "R95137815",
+    "address": "Laxton Road, Liverpool, Merseyside. L25 0PQ",
+    "precise_address": null,
+    "postcode": "L25 0PQ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.35894900",
+    "lng": "-2.85291000",
+    "distance_to": "4.77",
+    "price_history": [
+     {
+      "date": "2026-11-05",
+      "price": 125000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on Laxton Road, Liverpool, is offered for sale by online auction with the guide price shown. It features a driveway, two reception rooms and a rear garden, and is described as needing modernising. Viewings are by appointment only via the marketing agent or the auctioneer.\n\nBuyers should note the auction terms: a non-refundable deposit of 5% of the purchase price and a non-refundable reservation fee of up to 6% inc VAT (minimum \u00a36,000 inc VAT) apply, plus identity verification is required to bid. The property is being sold with no onward chain. A legal pack is available on request, and independent legal advice is strongly recommended.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/dbb1bd5b8/95137815/dbb1bd5b8f8f0e29d18b163f5cc1f4ee.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95137815"
+   },
+   {
+    "id": "R92131503",
+    "address": "27 Acuba Road, Liverpool, Merseyside, L15 7LP",
+    "precise_address": null,
+    "postcode": "L15 7LP",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 83,
+    "days_since_price_change": 81,
+    "sstc": 0,
+    "lat": "53.40473200",
+    "lng": "-2.90150900",
+    "distance_to": "4.89",
+    "price_history": [
+     {
+      "date": "2026-08-19",
+      "price": 165000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction on 10th September 2026. Located in a sought-after South Liverpool area close to local amenities, schooling and transport links, with Liverpool City Centre approximately 4 miles away.\n\nThe property benefits from double glazing and central heating. It is currently let to a long-standing tenant, producing rental income of \u00a35,940 per annum. Ground floor comprises hall, kitchen and two reception rooms, with three bedrooms and bathroom on the first floor.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d66ec1fe3/92131503/d66ec1fe3e417c2b655fe8f7eb331ee4.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92131503"
+   },
+   {
+    "id": "R92131416",
+    "address": "19 Acuba Road, Liverpool, Merseyside, L15 7LP",
+    "precise_address": "67, ACUBA ROAD, LIVERPOOL, L15 7LP",
+    "postcode": "L15 7LP",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 83,
+    "days_since_price_change": 81,
+    "sstc": 0,
+    "lat": "53.40472800",
+    "lng": "-2.90187000",
+    "distance_to": "4.90",
+    "price_history": [
+     {
+      "date": "2026-08-19",
+      "price": 175000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction on 10th September 2026. Located in a sought-after South Liverpool area close to local amenities, schools and transport links, with Liverpool City Centre approximately 4 miles away.\n\nThe property features double glazing and central heating, with ground floor accommodation including hall, kitchen and two reception rooms. Currently let to a long-term tenant generating \u00a35,700 annual rental income, making it an investment opportunity. EPC rating D, Council Tax Band C.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d4df36456/92131416/d4df364569214dbb22fcfe3d79203da0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92131416"
+   },
+   {
+    "id": "R94554678",
+    "address": "22 Glen Road, Liverpool, L13 4DF",
+    "precise_address": "22, GLEN ROAD, LIVERPOOL, L13 4DF",
+    "postcode": "L13 4DF",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 85000,
+    "sqf": null,
+    "days_on_market": 19,
+    "days_since_price_change": 18,
+    "sstc": 0,
+    "lat": "53.41039000",
+    "lng": "-2.90619000",
+    "distance_to": "5.04",
+    "price_history": [
+     {
+      "date": "2026-10-21",
+      "price": 85000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house at Glen Road, Liverpool, is being sold by auction on 10 December 2026. It has double glazing, a ground floor hall, lounge and kitchen, and three first-floor bedrooms with a bathroom and WC. The property is sold subject to an existing residential tenancy, occupied since 1998, so buyers should review the legal pack carefully.\n\nThe home sits in an established residential area near Broadgreen Road, within walking distance of Old Swan amenities and under a mile from Edge Lane Retail Park. It has an EPC rating of E. The auctioneers have not internally inspected the property.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ea86f567e/94554678/ea86f567e2694ad06d805f914b01c116.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94554678"
+   },
+   {
+    "id": "R94069953",
+    "address": "Tarbock Road, Speke, Liverpool, Merseyside. L24 0SN",
+    "precise_address": null,
+    "postcode": "L24 0SN",
+    "type": "Link Detached House",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": 29,
+    "sstc": 0,
+    "lat": "53.34670600",
+    "lng": "-2.84776900",
+    "distance_to": "5.37",
+    "price_history": [
+     {
+      "date": "2026-10-10",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom detached house on Tarbock Road in Speke, Liverpool, is being sold via online auction with a starting bid, and is offered with no onward chain. The property is described as requiring modernisation and sits on an ample plot in a popular location.\n\nThe sale is managed by Pattinson Auction in partnership with the marketing agent, with a legal pack available on request. Buyers must complete identity verification, and a non-refundable deposit and reservation fee apply on agreement of sale.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/76263063b/94069953/76263063bf58f8862014c1432d6285c0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94069953"
+   },
+   {
+    "id": "R94765560",
+    "address": "Greenway Road, Runcorn",
+    "precise_address": "58, GREENWAY ROAD, RUNCORN, WA7 5AF",
+    "postcode": "WA7 5AF",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 1057,
+    "days_on_market": 13,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.33847400",
+    "lng": "-2.73538800",
+    "distance_to": "5.61",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Greenway Road, Runcorn, is offered for sale by Modern Method of Auction, with a 56-day completion period and buyer fees applying. The property has been renovated throughout, including a new kitchen, bathroom, roof and full damp proof course, and is offered with no onward chain.\n\nAccommodation includes a lounge, open-plan kitchen diner with central island, cellar access and an enclosed rear courtyard. The home is close to local amenities, schools and Runcorn Railway Station. It is leasehold and has an EPC rating of D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9faaa7ad5/94765560/9faaa7ad5954bd5a314605f13957a934.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94765560"
+   },
+   {
+    "id": "R95081859",
+    "address": "Handfield Place, Liverpool, Merseyside, L5",
+    "precise_address": null,
+    "postcode": "L5 6PJ",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 70000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.39246700",
+    "lng": "-2.91646800",
+    "distance_to": "5.67",
+    "price_history": [
+     {
+      "date": "2026-11-05",
+      "price": 70000
+     }
+    ],
+    "summary": "This two-bedroom property is for sale by online auction on 9th December 2026. It is currently let on an assured shorthold tenancy producing \u00a39,000 per annum, with the tenant having been in residence for 12 years. The property is leasehold, in council tax band A, and includes double glazing and central heating.\n\nLocated just off Breckfield Road North in Liverpool, it is approximately 2.5 miles from the city centre and close to local amenities. Accommodation comprises a lounge, kitchen, two bedrooms, a bathroom/WC and a rear yard. A buyer's administration fee of 1% plus VAT applies, subject to a minimum of \u00a33,000 plus VAT.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/411248d2f/95081859/411248d2f7fddbc9cd0d2440f6cce778.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95081859"
+   },
+   {
+    "id": "R95195202",
+    "address": "5 Brelade Road, Liverpool, Merseyside, L13 6RB",
+    "precise_address": "5, BRELADE ROAD, LIVERPOOL, L13 6RB",
+    "postcode": "L13 6RB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": 1033,
+    "days_on_market": 3,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.41853000",
+    "lng": "-2.92164700",
+    "distance_to": "5.68",
+    "price_history": [
+     {
+      "date": "2026-11-07",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house in the Old Swan area of Liverpool is offered for sale by online auction on 25 November 2026. It is currently let at \u00a3725 per calendar month, with tenants scheduled to vacate in November 2026. The property includes a family bathroom, a rear yard and offers scope for improvement.\n\nThe location provides local shops, schools, bus services, bars and restaurants within walking distance, along with a retail park and a short drive to the M62 motorway. Buyers must register with TCPA for the legal pack and viewing access, and a 5% deposit plus a buyer's premium applies.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/70f0092c0/95195202/70f0092c092e94f2de068e49020c3915.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95195202"
+   },
+   {
+    "id": "R93983982",
+    "address": "48 Culme Road, Liverpool, West Derby, Merseyside, L12 7HL",
+    "precise_address": "26, CULME ROAD, LIVERPOOL, L12 7HL",
+    "postcode": "L12 7HL",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": null,
+    "days_on_market": 34,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.43166000",
+    "lng": "-2.91976400",
+    "distance_to": "5.72",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 145000
+     },
+     {
+      "date": "2026-11-05",
+      "price": 155000
+     }
+    ],
+    "summary": "This three-bedroom end terraced house is being sold by auction on 3rd November 2026. Located in a popular West Derby residential area close to local amenities and schools, approximately 5 miles from Liverpool City Centre, the property features double glazing, central heating, front and rear gardens, and a driveway.\n\nThe accommodation comprises a hall, two reception rooms and kitchen on the ground floor, with three bedrooms and bathroom upstairs. With modernisation, it offers potential for occupation or investment purposes, with estimated rental income exceeding \u00a314,400 per annum. EPC rating C, Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/dbeeb3eaf/93983982/dbeeb3eafbae92547c409d80b06f5837.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93983982"
+   },
+   {
+    "id": "R92365257",
+    "address": "St. Ives Grove, Liverpool, Merseyside, L13 3AL",
+    "precise_address": null,
+    "postcode": "L13 3AL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": null,
+    "days_on_market": 76,
+    "days_since_price_change": 26,
+    "sstc": 0,
+    "lat": "53.41580000",
+    "lng": "-2.92380000",
+    "distance_to": "5.76",
+    "price_history": [
+     {
+      "date": "2026-08-26",
+      "price": 95000
+     },
+     {
+      "date": "2026-10-13",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom terraced house in Old Swan, Liverpool is being sold by auction and comes with an existing tenant, making it an attractive buy-to-let investment. The property offers good gross yield potential in this popular postcode area.\n\nAccommodation includes a living room, bathroom, fitted kitchen, and two bedrooms across two floors. Located within walking distance of green space and local amenities, with convenient public transport links to Liverpool city centre.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c8bdd68d0/92365257/c8bdd68d0cf6fa72fddd2f03f5865fc7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92365257"
+   },
+   {
+    "id": "R94884696",
+    "address": "Damwood Road, Liverpool, Merseyside. L24 3XF",
+    "precise_address": "18, DAM WOOD ROAD, LIVERPOOL, L24 3XF",
+    "postcode": "L24 3XF",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 11,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.33995700",
+    "lng": "-2.85005300",
+    "distance_to": "5.82",
+    "price_history": [
+     {
+      "date": "2026-10-30",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Damwood Road, Liverpool, is offered for sale by online auction. The property is in need of modernisation and includes a downstairs WC, a driveway and extensive gardens to the side, set on a corner plot with potential to extend or enlarge.\n\nViewings are strictly by appointment via the marketing agent or auctioneer, and buyers must complete identity verification to bid. A legal pack is available on request, and a non-refundable deposit and reservation fee will apply on exchange of contracts.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1615ccb52/94884696/1615ccb5206eb2342dad210ce9209922.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94884696"
+   },
+   {
+    "id": "R93524076",
+    "address": "39 Rockbank Road, Liverpool, Merseyside, L13 7BE",
+    "precise_address": "39, ROCKBANK ROAD, LIVERPOOL, L13 7BE",
+    "postcode": "L13 7BE",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 46,
+    "days_since_price_change": 44,
+    "sstc": 0,
+    "lat": "53.42324800",
+    "lng": "-2.92527100",
+    "distance_to": "5.85",
+    "price_history": [
+     {
+      "date": "2026-09-25",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction on 3rd November 2026 and requires a full scheme of refurbishment works. Located just off Green Lane in a popular residential area, it offers convenient access to local amenities, well-regarded schools, and excellent transport links, with Liverpool City Centre approximately three miles away.\n\nOnce refurbished, the property would be suitable for occupation, resale, or investment purposes. The ground floor comprises hall, lounge, kitchen, and dining room, with three bedrooms and a bathroom on the first floor. The property is Council Tax Band B with an EPC Rating of F.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/23c741d8d/93524076/23c741d8d8f37a51440a1c86ca5aaf89.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93524076"
+   },
+   {
+    "id": "R88710150",
+    "address": "Westdale Road, Liverpool, L15",
+    "precise_address": null,
+    "postcode": "L15 4HS",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": 1018,
+    "days_on_market": 42,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.40060100",
+    "lng": "-2.92444900",
+    "distance_to": "5.87",
+    "price_history": [
+     {
+      "date": "2026-05-20",
+      "price": 160000
+     },
+     {
+      "date": "2026-10-15",
+      "price": 120000
+     },
+     {
+      "date": "2026-10-27",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom terraced house offers excellent potential for buyers seeking a project. It requires updating throughout, with a kitchen and other areas ripe for modernisation. The property benefits from two reception rooms and a rear courtyard.\n\nSituated in a convenient residential location close to local amenities, schools and transport links, this property has no onward chain, making it a reliable transaction. Ideal for first-time buyers, investors, or those looking to add value through renovation.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3962b8c4c/88710150/3962b8c4c09e7f104e96e62db4e61fd9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/88710150"
+   },
+   {
+    "id": "R93963084",
+    "address": "75 Binns Road, Wavertree, Liverpool, Liverpool, L7 9NF",
+    "precise_address": null,
+    "postcode": "L7 9NF",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 34,
+    "days_since_price_change": 15,
+    "sstc": 0,
+    "lat": "53.40854600",
+    "lng": "-2.92699700",
+    "distance_to": "5.91",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 110000
+     },
+     {
+      "date": "2026-10-24",
+      "price": 90000
+     }
+    ],
+    "summary": "This two to three-bedroom middle-terraced house is being sold by auction on 3rd November 2026. It features double glazing and central heating throughout, with accommodation comprising a ground floor hall, living room, dining room or bedroom, and kitchen, plus two bedrooms and shower room on the first floor.\n\nSituated in a popular residential area off Edge Lane with good access to local amenities, schools and transport links. The property offers investment potential with rental income estimated at approximately \u00a310,200 per annum if let to a single tenant, or potential for Airbnb use subject to necessary consents. Located approximately 3 miles from Liverpool City Centre.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d78a79874/93963084/d78a798749f506b1d509d398c8dd05e3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93963084"
+   },
+   {
+    "id": "R94160088",
+    "address": "Parlow Road, LIVERPOOL, Merseyside, L11",
+    "precise_address": null,
+    "postcode": "L11 8LB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 30,
+    "days_since_price_change": 27,
+    "sstc": 0,
+    "lat": "53.43602000",
+    "lng": "-2.92841000",
+    "distance_to": "6.13",
+    "price_history": [
+     {
+      "date": "2026-10-12",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom freehold terraced house on Parlow Road, Liverpool L11 is being sold by auction. It has double glazing and central heating, and the agent notes it could be suitable for occupation, resale or investment, with potential rental income above \u00a313,200 per year after an upgrade scheme. The property sits off Ferguson Road, close to local amenities, schools and transport links.\n\nAccommodation includes a porch, hall, through living/dining room and kitchen on the ground floor, with three bedrooms, a bathroom and a separate WC upstairs. The EPC rating is yet to be confirmed, and an AML fee is payable by buyers once an offer is accepted.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/983cddfed/94160088/983cddfedf8e0fe3f5ce8ebc4e6e2750.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94160088"
+   },
+   {
+    "id": "R94778469",
+    "address": "5 Roman Way, Liverpool, Merseyside, L33 9TA",
+    "precise_address": null,
+    "postcode": "L33 9TA",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 35000,
+    "sqf": null,
+    "days_on_market": 11,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.48821600",
+    "lng": "-2.86981300",
+    "distance_to": "6.21",
+    "price_history": [
+     {
+      "date": "2026-10-28",
+      "price": 35000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house in a well-established residential area of Kirkby, Liverpool, is offered freehold and will be sold by public auction. The property is arranged over ground and first floors, with an open-plan kitchen and reception room downstairs and two bedrooms, a bathroom and a separate WC upstairs.\n\nThe house is currently let on an assured shorthold tenancy, producing \u00a3450 per calendar month holding over. Kirkby town centre and rail station are nearby, with access to the A580 and M57 for wider travel across Merseyside.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/579aae6cc/94778469/579aae6ccbabed3cd8d9e8aef9ae2b5c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94778469"
+   },
+   {
+    "id": "R91795473",
+    "address": "West Derby Road, Tuebrook, Liverpool",
+    "precise_address": null,
+    "postcode": "L13 8AA",
+    "type": "Shop",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 81000,
+    "sqf": null,
+    "days_on_market": 90,
+    "days_since_price_change": 32,
+    "sstc": 0,
+    "lat": "53.42428300",
+    "lng": "-2.93403600",
+    "distance_to": "6.22",
+    "price_history": [
+     {
+      "date": "2026-08-10",
+      "price": 110000
+     },
+     {
+      "date": "2026-08-12",
+      "price": 100000
+     },
+     {
+      "date": "2026-10-07",
+      "price": 81000
+     }
+    ],
+    "summary": "This investment property comprises a ground floor lock-up shop and a two-bedroom duplex apartment, both currently let to tenants. Located on West Derby Road in Tuebrook, Liverpool, it generates annual rental income of \u00a313,800. The property will be sold by Modern Method Auction with completion required within 56 days of reservation.\n\nThe flat is Council Tax Band A with EPC rating C. Buyers must pay a non-refundable reservation fee of 4.5% of the purchase price (minimum \u00a36,600 including VAT) and review the Buyer Information Pack (\u00a3349 including VAT) before bidding. Ideal for investors seeking an income-producing property.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/18d735698/91795473/18d73569857c997d667676c6695f0aa7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91795473"
+   },
+   {
+    "id": "R92504568",
+    "address": "Eltham Street, Liverpool, L7",
+    "precise_address": "2, ELTHAM STREET, LIVERPOOL, L7 9LS",
+    "postcode": "L7 9LS",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 81,
+    "days_since_price_change": 70,
+    "sstc": 0,
+    "lat": "53.41057900",
+    "lng": "-2.93493200",
+    "distance_to": "6.23",
+    "price_history": [
+     {
+      "date": "2026-08-30",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by online auction with a tenant already in place, presenting a strong investment opportunity with over 10% rental yield. The property features modern kitchen and bathroom, two reception rooms, and a sizeable rear yard.\n\nLocated on Eltham Street with good proximity to shops, amenities and transport links, the home is well-maintained and presented to a high standard. A survey has been completed; interested buyers should make their own enquiries regarding any flagged areas, particularly if seeking mortgage finance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b71efc6d5/92504568/b71efc6d5cd68ca197316b803b166667.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92504568"
+   },
+   {
+    "id": "R93282282",
+    "address": "Warrenhouse Road, Kirkby, Liverpool, Merseyside, L33",
+    "precise_address": null,
+    "postcode": "L33 9XG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 85000,
+    "sqf": null,
+    "days_on_market": 53,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.49013000",
+    "lng": "-2.86733700",
+    "distance_to": "6.26",
+    "price_history": [
+     {
+      "date": "2026-09-19",
+      "price": 110000
+     },
+     {
+      "date": "2026-10-09",
+      "price": 90000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 85000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in Kirkby, Liverpool is being sold by online auction on 21st October 2026 with vacant possession. It features a living room with patio doors, eat-in kitchen, family bathroom, and a large rear garden.\n\nThe property is well-positioned for the rental market, with previous rental income of approximately \u00a31,075 per month. Located in an established residential area with good access to local amenities, schools, parks, and Kirkby railway station. Excellent road links via the M57 and A580 provide convenient access to Liverpool and the wider Merseyside area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/02af8a9c8/93282282/02af8a9c80a028736099f4a18d07603e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93282282"
+   },
+   {
+    "id": "R94909707",
+    "address": "22 Broadway, Liverpool, L11 1BZ",
+    "precise_address": null,
+    "postcode": "L11 1BZ",
+    "type": "Commercial Property",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.44166200",
+    "lng": "-2.93026500",
+    "distance_to": "6.31",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 125000
+     }
+    ],
+    "summary": "This freehold commercial property on Broadway, Liverpool is being sold by Under the Hammer online auction on 18 November 2026. It comprises a ground floor retail unit with upper parts totalling 2,088 sq ft, fully let to Luxury Leisure Limited trading as Admiral on a lease expiring in November 2029.\n\nThe property sits within an established local parade alongside occupiers including Boots, Greggs and Lloyds Bank. Nearby amenities include Aldi, Iceland, a medical centre and Asda, with rail links at Rice Lane.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/54e43e5e4/94909707/54e43e5e47bf0d5fb637116e6a63c7de.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94909707"
+   },
+   {
+    "id": "R93489045",
+    "address": "15 Sycamore Drive, Liverpool, Merseyside L33 8WX",
+    "precise_address": "14, SYCAMORE DRIVE, NORTHWOOD, KIRKBY, L33 8WX",
+    "postcode": "L33 8WX",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 47,
+    "days_since_price_change": 46,
+    "sstc": 0,
+    "lat": "53.48668600",
+    "lng": "-2.88050300",
+    "distance_to": "6.38",
+    "price_history": [
+     {
+      "date": "2026-09-23",
+      "price": 90000
+     }
+    ],
+    "summary": "Four-bedroom terraced town house being sold by auction on 12th-13th October 2026. This three-storey property comprises a hallway, lounge/kitchen, downstairs W.C, four bedrooms and bathroom, with a rear garden. Well-positioned near Kirkby town centre with convenient access to shops and schools.\n\nThe property is leasehold with 125 years remaining on the lease (as of February 2005). Located within walking distance of a public park or garden. Buyers should note that auction purchases are legally binding commitments, with deposit and fees payable immediately upon successful bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/86d21c7c2/93489045/86d21c7c2dfe10baddbaf3891767fc8e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93489045"
+   },
+   {
+    "id": "R93532896",
+    "address": "Land to the South, East and West, of Halton Brook Avenue, Runcorn, Cheshire WA7 2RA",
+    "precise_address": null,
+    "postcode": "WA7 2RA",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 5000,
+    "sqf": null,
+    "days_on_market": 39,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.33187500",
+    "lng": "-2.70691000",
+    "distance_to": "6.53",
+    "price_history": [
+     {
+      "date": "2026-09-30",
+      "price": 5000
+     }
+    ],
+    "summary": "Freehold plots of land located in Runcorn, Cheshire, including a triangular plot backing onto Central Expressway and a further plot between Burrard Road and Halton Brook Avenue. Various smaller plots may be carved out. All plots appear to be green space.\n\nThe property will be sold by auction on 10th\u201311th November 2026. Interested parties are advised to consult with the local planning authority regarding their intended use prior to bidding. Finance is available. Buying at auction is a contractual commitment.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b34afd6a5/93532896/b34afd6a5970ca9c13a0e3c7b3019ee0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93532896"
+   },
+   {
+    "id": "R94241517",
+    "address": "Church Road, Haydock, St. Helens, Merseyside, WA11 0LG",
+    "precise_address": null,
+    "postcode": "WA11 0LG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 27,
+    "days_since_price_change": 24,
+    "sstc": 0,
+    "lat": "53.46970000",
+    "lng": "-2.65380000",
+    "distance_to": "6.58",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house on Church Road in Haydock is being sold by auction through Secure Sale online bidding, with terms and conditions applying. The property is currently vacant and presents an investment opportunity.\n\nDownstairs offers a lounge, a kitchen and an adjoining breakfast/dining room, with two double bedrooms upstairs. Outside there is on-street parking and a low-maintenance yard. The property is leasehold with 833 years remaining and a ground rent of \u00a31.00 per year, and is in Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3cb05ed9c/94241517/3cb05ed9cecd58b65220234014887114.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94241517"
+   },
+   {
+    "id": "R95081862",
+    "address": "Webster Road, Liverpool, Merseyside, L7",
+    "precise_address": null,
+    "postcode": "L7 4LG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 3,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.39690600",
+    "lng": "-2.94098700",
+    "distance_to": "6.58",
+    "price_history": [
+     {
+      "date": "2026-11-05",
+      "price": 80000
+     }
+    ],
+    "summary": "This two-bedroom freehold terraced house on Webster Road, Liverpool, is offered as a ready-made investment with a current rent of \u00a3800pcm. It is being sold by online auction on 9th December 2026, with a 10% deposit and a Buyer's Administration Fee of 1% plus VAT (minimum \u00a33,000 plus VAT) applying. The property has reportedly been recently redecorated and has new flooring, though the agent has not internally inspected it.\n\nAccommodation comprises two bedrooms, a bathroom, a kitchen and two reception rooms. The property sits in the established Kensington area, near local shops, caf\u00e9s, the University of Liverpool, Royal Liverpool University Hospital and city centre transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ff6c85641/95081862/ff6c85641d6f47ae438553b02e957b7d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95081862"
+   },
+   {
+    "id": "R95172288",
+    "address": "178 Calvers, Runcorn, Cheshire WA7 2EP",
+    "precise_address": null,
+    "postcode": "WA7 2EP",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.33211200",
+    "lng": "-2.70191300",
+    "distance_to": "6.61",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom end-of-terrace house at 178 Calvers, Runcorn, is offered for sale via online unconditional auction, with bidding closing on 1 December. The freehold property is arranged over multiple floors and includes a kitchen, lounge, dining room, three bedrooms and bathroom facilities.\n\nThe property is described as needing renovation and modernisation throughout, making it a potential project for investors, developers or owner-occupiers. Buyers should note that buyer fees apply and that they must register to bid, and should carry out their own due diligence before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/90d314791/95172288/90d314791f99d255ac4cc8804b867a95.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95172288"
+   },
+   {
+    "id": "R93818886",
+    "address": "Channell Road, Liverpool, L6",
+    "precise_address": null,
+    "postcode": "L6 6DD",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 80000,
+    "sqf": 840,
+    "days_on_market": 39,
+    "days_since_price_change": 38,
+    "sstc": 0,
+    "lat": "53.41455200",
+    "lng": "-2.94626600",
+    "distance_to": "6.69",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 80000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Channell Road, Liverpool, requires modernisation throughout, offering excellent potential for investors and developers. The property comprises a welcoming hall, through lounge/diner, spacious kitchen, three well-proportioned bedrooms and family bathroom.\n\nSold via Modern Method of Sale with no onward chain, this is an ideal project for buyers looking to refurbish and add value. Located close to local amenities in a prime investment area, it presents a compelling opportunity for those seeking a property with development potential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/575ad0052/93818886/575ad0052937f602b62333c2342c3fb4.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93818886"
+   },
+   {
+    "id": "R89835102",
+    "address": "Drake Close, Liverpool, Merseyside, L10 7NJ",
+    "precise_address": null,
+    "postcode": "L10 7NJ",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 145,
+    "days_since_price_change": 33,
+    "sstc": 0,
+    "lat": "53.46710000",
+    "lng": "-2.92040000",
+    "distance_to": "6.69",
+    "price_history": [
+     {
+      "date": "2026-06-18",
+      "price": 105000
+     },
+     {
+      "date": "2026-10-06",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by online auction with a tenant in situ, making it an investment opportunity. The property is freehold and benefits from central heating, driveway parking, and a rear garden.\n\nCouncil Tax Band A. Sold via Secure Sale online bidding platform with standard terms and conditions applying.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/aa7e2df01/89835102/aa7e2df01d6b46da46400922ad7369c6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89835102"
+   },
+   {
+    "id": "R94179474",
+    "address": "Appleton Road, Kirkby, Liverpool, Merseyside, L32 1BA",
+    "precise_address": null,
+    "postcode": "L32 1BA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 28,
+    "days_since_price_change": 25,
+    "sstc": 0,
+    "lat": "53.48980000",
+    "lng": "-2.88770000",
+    "distance_to": "6.74",
+    "price_history": [
+     {
+      "date": "2026-10-14",
+      "price": 150000
+     }
+    ],
+    "summary": "This three-storey semi-detached house sits on the Park Meadows Estate in Kirkby, Liverpool. It offers an entrance hall, downstairs cloakroom, lounge and kitchen, with two bedrooms and a family bathroom on the first floor and a main bedroom with dressing room and en-suite on the top floor.\n\nOutside there is a driveway providing front parking and a rear lawned garden. The property has double glazing and gas central heating. It is being sold by auction via Secure Sale online bidding, subject to terms and conditions, and is let to a tenant currently in place.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/76efc56d4/94179474/76efc56d4fcb3e6a958819e69dbadd39.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94179474"
+   },
+   {
+    "id": "R94072350",
+    "address": "6 Canon Road, Liverpool, Merseyside, L6 0BN",
+    "precise_address": "6, CANON ROAD, LIVERPOOL, L6 0BN",
+    "postcode": "L6 0BN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 7,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": 31,
+    "sstc": 0,
+    "lat": "53.43008800",
+    "lng": "-2.94569300",
+    "distance_to": "6.75",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 180000
+     }
+    ],
+    "summary": "This middle terraced house in Liverpool has been converted into a seven-bedroom HMO and is sold by auction on 3rd November 2026. The whole building is let to a single tenant, currently holding over, with the HMO licence having expired and a new licence being applied for by the owner.\n\nThe property sits in an established residential area near local amenities, schools and transport links, roughly three miles from Liverpool City Centre. It benefits from central heating and double glazing, with an EPC rating of C.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/88e6bf54a/94072350/88e6bf54a6ec76c463279e0f901027bc.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94072350"
+   },
+   {
+    "id": "R94024467",
+    "address": "17 Sunlight Street, Liverpool, Merseyside, L6 4AG",
+    "precise_address": null,
+    "postcode": "L6 4AG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 31,
+    "sstc": 0,
+    "lat": "53.42230600",
+    "lng": "-2.94776200",
+    "distance_to": "6.77",
+    "price_history": [
+     {
+      "date": "2026-10-08",
+      "price": 80000
+     }
+    ],
+    "summary": "Two-bedroom middle terraced house being sold by auction on 3rd November 2026. Located off Sheil Road in a popular residential area close to West Derby amenities, schools and transport links, approximately 2.5 miles from Liverpool City Centre.\n\nThe property comprises a through lounge/dining room, kitchen, and bathroom on the ground floor, with two bedrooms upstairs. It features double glazing and central heating. Following modernisation, it could be suitable for investment purposes with potential rental income exceeding \u00a39,000 per annum. EPC Rating D, Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2375c6a94/94024467/2375c6a94449290d5c2088f169d8e43d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94024467"
+   },
+   {
+    "id": "R91281444",
+    "address": "St Cyprians Student Halls, Liverpool, Merseyside, L7",
+    "precise_address": "SAINT CYPRIANS 90, DURNING ROAD, LIVERPOOL, L7 5NH",
+    "postcode": "L7 5NH",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 20000,
+    "sqf": null,
+    "days_on_market": 108,
+    "days_since_price_change": 17,
+    "sstc": 0,
+    "lat": "53.40746000",
+    "lng": "-2.94825000",
+    "distance_to": "6.79",
+    "price_history": [
+     {
+      "date": "2026-07-25",
+      "price": 25000
+     },
+     {
+      "date": "2026-10-23",
+      "price": 20000
+     }
+    ],
+    "summary": "This one-bedroom studio apartment is located within St Cyprian's Church, a beautifully restored student development in Liverpool. The fully furnished studio features a modern fitted kitchen, spacious living area, well-proportioned bedroom and private ensuite shower room.\n\nThe property benefits from excellent onsite facilities including communal lounge, games room, study areas, laundry room and 24-hour security. Ideally positioned for student life, it's within walking distance of University of Liverpool and LJMU, with easy access to local amenities and Liverpool city centre. Being sold by auction.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/86778f9fc/91281444/86778f9fcb7ad7b0f16a8083d8dd3c44.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91281444"
+   },
+   {
+    "id": "R91833258",
+    "address": "Harrismith Road, Liverpool, Merseyside, L10",
+    "precise_address": "40, HARRISMITH ROAD, LIVERPOOL, L10 9LR",
+    "postcode": "L10 9LR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 861,
+    "days_on_market": 90,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.46519600",
+    "lng": "-2.92655900",
+    "distance_to": "6.84",
+    "price_history": [
+     {
+      "date": "2026-08-12",
+      "price": 120000
+     },
+     {
+      "date": "2026-08-18",
+      "price": 117000
+     },
+     {
+      "date": "2026-09-01",
+      "price": 115000
+     },
+     {
+      "date": "2026-09-09",
+      "price": 110000
+     },
+     {
+      "date": "2026-09-19",
+      "price": 105000
+     },
+     {
+      "date": "2026-10-31",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is located in Liverpool and is scheduled for online auction on 13 August 2026. It features a lounge, kitchen, bathroom, front and rear gardens, and street parking.\n\nThe property is let to a tenant with agreed annual rent of \u00a38,400, making it an attractive buy-to-let investment opportunity. Pre-auction offers are being considered, with standard 28-day completion following sale.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3a5693315/91833258/3a56933157ebef9c760000d85839f105.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91833258"
+   },
+   {
+    "id": "R94884999",
+    "address": "99 Esmond Street, Liverpool, Merseyside, L6 5AY",
+    "precise_address": null,
+    "postcode": "L6 5AY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": null,
+    "days_on_market": 11,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.42377900",
+    "lng": "-2.95032300",
+    "distance_to": "6.88",
+    "price_history": [
+     {
+      "date": "2026-10-30",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom freehold terraced house in Anfield, Liverpool, is offered for sale via Modern Method of Auction, with the secured sale running from 26th November. The property is currently tenanted, generating a rental income of \u00a3695 per calendar month, and holds an EPC rating of C.\n\nBuyers should note a non-refundable reservation fee of 4.5% including VAT of the final purchase price (minimum \u00a36,600 including VAT) applies. Prospective purchasers should review the Auction Legal Pack and make their own enquiries regarding licensing and planning before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/88846e9ec/94884999/88846e9ecf3bfc21731832a92569a86f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94884999"
+   },
+   {
+    "id": "R95229024",
+    "address": "Land On West Side Of Westcott Road, Liverpool, Merseyside, L4",
+    "precise_address": null,
+    "postcode": "L4 2RE",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 1,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.42601900",
+    "lng": "-2.95349500",
+    "distance_to": "7.03",
+    "price_history": [
+     {
+      "date": "2026-11-07",
+      "price": 80000
+     }
+    ],
+    "summary": "This freehold development plot of approximately 335 sq m in the L4 area of Liverpool is being sold by online auction on 9th December 2026. Illustrative plans show space for four three-bedroom terraced houses, each with a living room, WC, kitchen/diner and family bathroom, though any works would be subject to obtaining full planning permission.\n\nWestcott Road sits in an established residential area close to local amenities, schools and transport links, with Liverpool city centre readily accessible. A Buyer's Administration Fee of 1% + VAT (minimum \u00a33,000 + VAT) applies, with further fees detailed in the legal pack.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/147df4ba6/95229024/147df4ba6eacd317c63d8b97f4647ad4.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95229024"
+   },
+   {
+    "id": "R95138601",
+    "address": "17 Stonehill Street, Liverpool, Merseyside, L4 2QA",
+    "precise_address": "17, STONEHILL STREET, LIVERPOOL, L4 2QA",
+    "postcode": "L4 2QA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 65000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.42594100",
+    "lng": "-2.95544300",
+    "distance_to": "7.11",
+    "price_history": [
+     {
+      "date": "2026-11-05",
+      "price": 65000
+     }
+    ],
+    "summary": "This two-bedroom middle terraced house in Liverpool L4 is for sale by auction on 10th December 2026 at 12:00. It benefits from double glazing and central heating, and is set in a popular residential area close to local amenities, roughly two miles from Liverpool City Centre.\n\nAccommodation comprises a ground floor vestibule, living/dining room, kitchen and bathroom/WC, with two bedrooms on the first floor. Modernisation would be needed, and the vendor indicates potential rental income of around \u00a39,000 per annum once updated. The EPC rating is yet to be confirmed.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0e182f54d/95138601/0e182f54d0405060988a078215f04324.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95138601"
+   },
+   {
+    "id": "R89909298",
+    "address": "Derby Court, 145 Farnworth St, Liverpool, L6",
+    "precise_address": null,
+    "postcode": "L6 9AN",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 75000,
+    "sqf": 409,
+    "days_on_market": 143,
+    "days_since_price_change": 43,
+    "sstc": 0,
+    "lat": "53.41584000",
+    "lng": "-2.95656000",
+    "distance_to": "7.11",
+    "price_history": [
+     {
+      "date": "2026-06-20",
+      "price": 85000
+     },
+     {
+      "date": "2026-09-16",
+      "price": 80000
+     },
+     {
+      "date": "2026-09-26",
+      "price": 75000
+     }
+    ],
+    "summary": "This one-bedroom detached house is being sold via online auction with a starting bid of \u00a385,000. The modern property features an open-plan living space with kitchen, bright double bedroom, and three-piece bathroom, plus secure car parking.\n\nIdeally located near Royal Liverpool Hospital and local universities with excellent transport links to the city centre. Currently tenanted at \u00a3850 per month with a 250-year lease from 2020. Service charges are \u00a31,958.08 paid half-yearly.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5fb131249/89909298/5fb131249d60561327a58b6da4a55c6e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89909298"
+   },
+   {
+    "id": "R94783677",
+    "address": "Hodgkinson Avenue, Warrington, Cheshire, WA5 0HE",
+    "precise_address": null,
+    "postcode": "WA5 0HE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 13,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.40790000",
+    "lng": "-2.60920000",
+    "distance_to": "7.21",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 100000
+     }
+    ],
+    "summary": "This generously sized three bedroom garden-fronted mid terraced house is offered via Secure Sale online bidding, with no onward chain. It sits opposite Sankey Valley Park and a short drive from Warrington Town Centre and M62 links.\n\nThe layout includes a well proportioned front lounge, a rear kitchen, a downstairs WC and a separate utility/dining room in the extension. Upstairs offers two double bedrooms, one single and a family bathroom, with a low maintenance rear garden. The property needs refurbishment, and a section 12 has been issued to the former tenant.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/031d34740/94783677/031d34740fa2bedf747115dcbd3f98f2.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94783677"
+   },
+   {
+    "id": "R95229027",
+    "address": "South Street, Liverpool, Merseyside, L8",
+    "precise_address": null,
+    "postcode": "L8 8BW",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 40000,
+    "sqf": null,
+    "days_on_market": 1,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.38744500",
+    "lng": "-2.95841600",
+    "distance_to": "7.43",
+    "price_history": [
+     {
+      "date": "2026-11-07",
+      "price": 40000
+     }
+    ],
+    "summary": "This freehold corner plot on South Street, Liverpool L8, is offered for sale by online auction on 9 December 2026. Full planning permission exists to erect a three-storey building with a ground-floor commercial unit and a single residential apartment above.\n\nThe site sits near Liverpool city centre, the Baltic Triangle and local shops and services, with good transport links. A Buyer's Administration Fee of 1% plus VAT applies, subject to a \u00a33,000 plus VAT minimum, and further fees may apply.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fd7058a75/95229027/fd7058a75228e8e511ddf6b9b9646709.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95229027"
+   },
+   {
+    "id": "R92965260",
+    "address": "South Street, Liverpool, Merseyside, L8",
+    "precise_address": null,
+    "postcode": "L8 8BW",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 45000,
+    "sqf": null,
+    "days_on_market": 58,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.38744500",
+    "lng": "-2.95841600",
+    "distance_to": "7.43",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 45000
+     }
+    ],
+    "summary": "This corner plot freehold land is being sold by online auction on 14th October 2026. It benefits from full planning permission for a three-storey mixed-use development comprising a ground floor commercial unit and a residential apartment above with private entrance.\n\nThe residential element features an open-plan living/kitchen and bathroom on the first floor, plus two bedrooms and an additional bathroom on the second floor. Located in the established L8 area near Admiral Street and South Street, the site offers convenient access to Liverpool city centre, the Baltic Triangle, and local amenities, with strong commercial and residential rental demand.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/dddc47bc8/92965260/dddc47bc8505e36b4260dfa5e91fca5e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92965260"
+   },
+   {
+    "id": "R92705904",
+    "address": "Lusitania Road, Liverpool, L4",
+    "precise_address": "27, LUSITANIA ROAD, LIVERPOOL, L4 6SU",
+    "postcode": "L4 6SU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 67,
+    "days_since_price_change": 66,
+    "sstc": 0,
+    "lat": "53.44519800",
+    "lng": "-2.95685500",
+    "distance_to": "7.43",
+    "price_history": [
+     {
+      "date": "2026-09-03",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold via online auction with a starting bid of \u00a3120,000. Located on Lusitania Road in Liverpool, it offers spacious accommodation with a large living room featuring a fireplace, dining room, and kitchen on the ground floor.\n\nThe first floor comprises two double bedrooms with fitted wardrobes, a single bedroom, and family bathroom. The property benefits from gas central heating and UPVC double glazing. Properties in this postcode district achieve an average 7.6% gross yield, making it an attractive investment opportunity.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b2ac3ae6f/92705904/b2ac3ae6f8a0045aa03d8b60e42b1b4c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92705904"
+   },
+   {
+    "id": "R94395759",
+    "address": "Lostock Avenue, Warrington, Cheshire, WA5",
+    "precise_address": "32, LOSTOCK AVENUE, BEWSEY AND WHITECROSS, WARRINGTON, WA5 0DD",
+    "postcode": "WA5 0DD",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 706,
+    "days_on_market": 22,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.40250000",
+    "lng": "-2.60460000",
+    "distance_to": "7.43",
+    "price_history": [
+     {
+      "date": "2026-10-17",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Lostock Avenue in Warrington is offered for sale by the Modern Method of Auction, with the buyer and seller completing within 56 days. Buyers should note the non-refundable reservation fee and additional auction-related charges. The property is sold freehold with no onward chain.\n\nInside, there is an open-plan layout with a lounge and bespoke modern kitchen, plus three bedrooms and a new bathroom upstairs. Outside, a large driveway offers off-road parking for several vehicles, and the enclosed rear garden is large. It sits in a popular area near the town centre, schools and motorway links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2869d9a20/94395759/2869d9a20d93b431f06a6bc121392658.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94395759"
+   },
+   {
+    "id": "R95006958",
+    "address": "Calgarth Avenue, Warrington, Cheshire, WA5 0FN",
+    "precise_address": null,
+    "postcode": "WA5 0FN",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 7,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.40260000",
+    "lng": "-2.60310000",
+    "distance_to": "7.49",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 140000
+     }
+    ],
+    "summary": "This two-bedroom end-of-terrace house is offered for sale through online auction via Secure Sale. It sits in a convenient area close to local amenities, with good access to Warrington Hospital, Bank Quay and Warrington Central stations, and motorway links to Manchester and Liverpool.\n\nInside, a spacious lounge with patio doors opens to a private rear garden, and a modern kitchen/diner offers good storage. A downstairs cloakroom is off the entrance hall. The leasehold property has a remaining lease of 981 years and an EPC rating of B.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1de1ef538/95006958/1de1ef5383d5f126fba763d0628c9d52.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95006958"
+   },
+   {
+    "id": "R94793607",
+    "address": "Morden Avenue, Ashton-In-Makerfield, WN4",
+    "precise_address": null,
+    "postcode": "WN4 9PT",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": 1098,
+    "days_on_market": 13,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.48933100",
+    "lng": "-2.63996900",
+    "distance_to": "7.87",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in Ashton-in-Makerfield is being sold via online secure sale auction, with immediate exchange of contracts available and no onward chain. The ground floor features a generous lounge dining room and a good-sized kitchen, while upstairs are three bedrooms, a main bathroom and a separate toilet, with a loft room and rear yard also included.\n\nThe property is described as needing updating throughout, offering scope for refurbishment and personalisation. Buyers should note that the auction terms require a non-refundable deposit of 5% upon exchange and a reservation fee of up to 6% inc VAT, subject to a minimum of \u00a36,000. The EPC rating is D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7796fd68a/94793607/7796fd68a53fa26c678bb346d418912a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94793607"
+   },
+   {
+    "id": "R89211141",
+    "address": "Chiswick Close, Runcorn, WA7",
+    "precise_address": "14, CHISWICK CLOSE, RUNCORN, WA7 6HQ",
+    "postcode": "WA7 6HQ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 130000,
+    "sqf": 537,
+    "days_on_market": 160,
+    "days_since_price_change": 42,
+    "sstc": 0,
+    "lat": "53.32498000",
+    "lng": "-2.66469600",
+    "distance_to": "7.89",
+    "price_history": [
+     {
+      "date": "2026-06-03",
+      "price": 150000
+     },
+     {
+      "date": "2026-09-27",
+      "price": 130000
+     }
+    ],
+    "summary": "This semi-detached house in Runcorn is being sold by auction through Purplebricks Secure Sale. It offers two well-proportioned bedrooms, a family bathroom, bright lounge and fitted kitchen/diner. The property benefits from driveway parking and a low-maintenance rear garden, ideal for those seeking convenience.\n\nLocated in a popular residential area with good access to local amenities, schools and transport links, this home is perfect for first-time buyers, small families or investors. With no upward chain and ready to move into, it represents a practical opportunity in a desirable location.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/dc6076cac/89211141/dc6076cac10946b12598409028f761d8.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89211141"
+   },
+   {
+    "id": "R92965278",
+    "address": "Liverpool, Merseyside, L5",
+    "precise_address": null,
+    "postcode": "L5 3QF",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 58,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.42618100",
+    "lng": "-2.97482700",
+    "distance_to": "7.90",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 110000
+     }
+    ],
+    "summary": "This cleared corner plot is being sold by online auction on 14th October 2026. Located off Hapton Street at the corner of Netherfield Road North, it benefits from a 1000-year lease and is close to schools and local amenities.\n\nThe land has lapsed planning permission for 8 three-storey town houses and 4 apartments. It sits within walking distance of a public park and near a neighbouring site with planning granted for 12 dwellings, making it an interesting proposition for developers.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/31335039c/92965278/31335039c3d0e631876451b218ed99f9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92965278"
+   },
+   {
+    "id": "R89908365",
+    "address": "City Point, Great Homer St, Liverpool, L5",
+    "precise_address": null,
+    "postcode": "L5 3SJ",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 15000,
+    "sqf": 143,
+    "days_on_market": 143,
+    "days_since_price_change": 53,
+    "sstc": 0,
+    "lat": "53.41807000",
+    "lng": "-2.97601000",
+    "distance_to": "7.91",
+    "price_history": [
+     {
+      "date": "2026-06-20",
+      "price": 18500
+     },
+     {
+      "date": "2026-09-16",
+      "price": 15000
+     }
+    ],
+    "summary": "This en suite student room is part of City Point, a modern purpose-built student accommodation scheme completed in 2019. Located in Liverpool's thriving student market, it forms part of a six-bedroom cluster apartment with shared kitchen and living facilities.\n\nThe unit is currently fully let with professional on-site management, offering a hands-off investment opportunity. It features a private shower room, modern furnishings and smart storage. Being sold by online auction, this turnkey property appeals to investors seeking stable rental returns.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b1f7c2ef1/89908365/b1f7c2ef16ba6766b42e8810ee675a80.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89908365"
+   },
+   {
+    "id": "R90260445",
+    "address": "Grace Road, Liverpool, Merseyside, L9",
+    "precise_address": "38, GRACE ROAD, LIVERPOOL, L9 2DB",
+    "postcode": "L9 2DB",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 115000,
+    "sqf": 920,
+    "days_on_market": 131,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.46259800",
+    "lng": "-2.95884300",
+    "distance_to": "7.93",
+    "price_history": [
+     {
+      "date": "2026-06-30",
+      "price": 135000
+     },
+     {
+      "date": "2026-08-17",
+      "price": 130000
+     },
+     {
+      "date": "2026-11-07",
+      "price": 115000
+     }
+    ],
+    "summary": "This freehold three-bedroom end-terrace house on Grace Road, Liverpool, is offered with no onward chain. The ground floor features a lounge diner and a fitted kitchen with garden access, while the first floor has three bedrooms and a family bathroom.\n\nExternally there is a rear courtyard and on-street parking to the front. The property is being sold via the modern method of auction, with a starting bid of \u00a3115,000 subject to an undisclosed reserve. Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e2ec86f5c/90260445/e2ec86f5c7d211d363667714af282aa4.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90260445"
+   },
+   {
+    "id": "R172348535",
+    "address": "Poets Place, 6 Great Homer St, Liverpool, L5",
+    "precise_address": "FLAT 212, 6, GREAT HOMER STREET, LIVERPOOL, L5 3AB",
+    "postcode": "L5 3AB",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 80000,
+    "sqf": 401,
+    "days_on_market": 264,
+    "days_since_price_change": 25,
+    "sstc": 0,
+    "lat": "53.41828000",
+    "lng": "-2.97753000",
+    "distance_to": "7.98",
+    "price_history": [
+     {
+      "date": "2026-02-18",
+      "price": 100000
+     },
+     {
+      "date": "2026-05-11",
+      "price": 90000
+     },
+     {
+      "date": "2026-10-14",
+      "price": 80000
+     }
+    ],
+    "summary": "This one-bedroom furnished apartment is located in the sought-after Poets Place development, ideally positioned within walking distance of Liverpool city centre and close to Liverpool John Moores University. Currently fully tenanted at \u00a3815 PCM on a dual tenancy basis, it offers excellent rental yield potential in a high-performing postcode.\n\nThe property will be sold by online auction, providing flexibility for investors or owner-occupiers who may also purchase with vacant possession. With a 250-year lease and positioned near the business district and main station, this is a prime opportunity in one of Liverpool's most popular rental hotspots.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3039b67ac/172348535/3039b67ac6b954e74f7cf0d9b00e9700.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/172348535"
+   },
+   {
+    "id": "R93315285",
+    "address": "Cross Street, Warrington, Cheshire, WA2",
+    "precise_address": "13, CROSS STREET, ORFORD, WARRINGTON, WA2 7PL",
+    "postcode": "WA2 7PL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 722,
+    "days_on_market": 52,
+    "days_since_price_change": 51,
+    "sstc": 0,
+    "lat": "53.39996000",
+    "lng": "-2.59088000",
+    "distance_to": "8.01",
+    "price_history": [
+     {
+      "date": "2026-09-18",
+      "price": 110000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace house is being sold by auction and is ideally positioned within walking distance of Warrington town centre, local schools, and amenities. The property would suit first-time buyers, couples, or investors.\n\nThe ground floor features a spacious open-plan living and dining area, modern kitchen with rear yard access, and a three-piece bathroom. Two well-proportioned bedrooms are located on the first floor. The property benefits from a practical rear yard and excellent transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d25889dab/93315285/d25889dab0763911604b645f97ea0c8f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93315285"
+   },
+   {
+    "id": "R92705649",
+    "address": "Oakhouse Park, Walton, Liverpool, Merseyside, L9",
+    "precise_address": null,
+    "postcode": "L9 1EP",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 67,
+    "days_since_price_change": 66,
+    "sstc": 0,
+    "lat": "53.44839800",
+    "lng": "-2.97029800",
+    "distance_to": "8.02",
+    "price_history": [
+     {
+      "date": "2026-09-03",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold via online auction with a starting bid of \u00a3100,000. Located in Walton, Liverpool, it offers a large entrance hallway, study, fitted kitchen, and spacious L-shaped lounge/dining room with downstairs WC.\n\nThe property features three double bedrooms with ensuite to the master, family bathroom, gas central heating, and stunning sash windows. A rear car park is included. With an estimated rental income of approximately \u00a3850 per month, it appeals to both owner-occupiers and investors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/29a4c0f87/92705649/29a4c0f87949bface5058573a2410462.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92705649"
+   },
+   {
+    "id": "R94931871",
+    "address": "Dunluce Street, Liverpool, Merseyside",
+    "precise_address": "8, DUNLUCE STREET, LIVERPOOL, L4 3RQ",
+    "postcode": "L4 3RQ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 50000,
+    "sqf": 956,
+    "days_on_market": 10,
+    "days_since_price_change": 7,
+    "sstc": 0,
+    "lat": "53.44150200",
+    "lng": "-2.97400000",
+    "distance_to": "8.05",
+    "price_history": [
+     {
+      "date": "2026-11-01",
+      "price": 50000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house in the established residential area of Walton, North Liverpool, is offered for sale by online auction with a six-week completion period. The traditional layout includes two interlinked reception rooms, a kitchen, two bedrooms and a first floor bathroom, with scope to add value.\n\nThe property is close to local shops, supermarkets and bus services towards Liverpool city centre. Kirkdale and Bank Hall stations are within roughly 0.4 and 0.7 miles, and nearby primary schools are within walking distance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2c21a02ba/94931871/2c21a02baa98ce3a80cb88ee948afa70.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94931871"
+   },
+   {
+    "id": "R92480295",
+    "address": "Dudley Street, Orford, Warrington, Cheshire, WA2 7BG",
+    "precise_address": null,
+    "postcode": "WA2 7BG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 95000,
+    "sqf": 807,
+    "days_on_market": 74,
+    "days_since_price_change": 71,
+    "sstc": 0,
+    "lat": "53.39820000",
+    "lng": "-2.58800000",
+    "distance_to": "8.15",
+    "price_history": [
+     {
+      "date": "2026-08-29",
+      "price": 95000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by auction with tenants currently in situ, generating \u00a3695 monthly rental income. Located in a popular residential area within walking distance of Warrington city centre, the property offers two reception rooms and on-street parking.\n\nThe property requires full modernisation and presents an investment opportunity for buyers seeking a rental-generating asset. Council Tax Band A, leasehold with 861 years remaining on the lease.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d8c82aa8e/92480295/d8c82aa8edcf7f7caad89ca23d198a14.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92480295"
+   },
+   {
+    "id": "R94239648",
+    "address": "Hawthorne Road, Bootle, Merseyside, L20",
+    "precise_address": "FLAT 2, 96, HAWTHORNE ROAD, BOOTLE, L20 9JX",
+    "postcode": "L20 9JX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 980,
+    "days_on_market": 27,
+    "days_since_price_change": 25,
+    "sstc": 0,
+    "lat": "53.44446600",
+    "lng": "-2.98214800",
+    "distance_to": "8.42",
+    "price_history": [
+     {
+      "date": "2026-10-14",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on Hawthorne Road, Bootle, is arranged as two self-contained flats, one on the ground floor and one on the first floor, sharing a communal entrance hallway. The property is being sold by the modern method of auction, with a starting bid of \u00a3100,000 subject to a reserve price, and the vendor would like to exchange and complete quickly.\n\nThe flats currently generate a combined rent of \u00a31,190 per calendar month. The property lies within walking distance of Bootle city centre and local amenities, and the listing states an EPC rating of C for both flats and Council Tax Band A. Buyers should note the reservation fee and additional auction terms before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1ef8a94b5/94239648/1ef8a94b5e86b93123a3f0fb3ca34dc7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94239648"
+   },
+   {
+    "id": "R90963486",
+    "address": "Bridge Lane, Frodsham, Cheshire, WA6",
+    "precise_address": "42, DAVENPORT TERRACE, BRIDGE LANE, FRODSHAM, WA6 7HN",
+    "postcode": "WA6 7HN",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 116,
+    "days_since_price_change": 38,
+    "sstc": 0,
+    "lat": "53.29906200",
+    "lng": "-2.71306400",
+    "distance_to": "8.49",
+    "price_history": [
+     {
+      "date": "2026-07-17",
+      "price": 175000
+     },
+     {
+      "date": "2026-09-15",
+      "price": 169500
+     },
+     {
+      "date": "2026-10-01",
+      "price": 140000
+     }
+    ],
+    "summary": "This two-bedroom end terrace is sold by auction with a Modern Method of Auction process, allowing completion within 56 days. Featuring two reception rooms, a loft room with velux window, and a rear yard, it's positioned as an ideal first-time buyer home close to Frodsham town centre.\n\nThe property benefits from no onward chain and enjoys excellent connectivity. Frodsham train station offers direct routes to Chester, Liverpool and Warrington, whilst the property has good access to road and motorway networks. Local amenities including shops, bars and cafes are within walking distance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/aa61bac9e/90963486/aa61bac9e73436eedebd341e9bd0bbde.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90963486"
+   },
+   {
+    "id": "R93155709",
+    "address": "19 Worcester Road, Bootle, Merseyside, L20 9AA",
+    "precise_address": null,
+    "postcode": "L20 9AA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": null,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 55,
+    "days_since_price_change": 54,
+    "sstc": 0,
+    "lat": "53.45015700",
+    "lng": "-2.98190100",
+    "distance_to": "8.52",
+    "price_history": [
+     {
+      "date": "2026-09-15",
+      "price": 140000
+     }
+    ],
+    "summary": "This three-storey terraced house is being sold by auction on 3rd November 2026 and has been converted into three one-bedroom flats. The property is currently fully let, generating \u00a315,900 per annum in rental income with potential for rent increases.\n\nLocated on Worcester Road in Bootle, the property benefits from double glazing and central heating throughout. It sits in a popular residential area within walking distance of local amenities, schools, transport links and a public park, approximately 5 miles from Liverpool City Centre.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/66b501a91/93155709/66b501a91eeeb4b9025d4fd17c5bd495.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93155709"
+   },
+   {
+    "id": "R92839617",
+    "address": "Beatrice Street, Bootle, L20",
+    "precise_address": null,
+    "postcode": "L20 2EQ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 85000,
+    "sqf": 961,
+    "days_on_market": 105,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.44220700",
+    "lng": "-2.98668600",
+    "distance_to": "8.57",
+    "price_history": [
+     {
+      "date": "2026-09-07",
+      "price": 110000
+     },
+     {
+      "date": "2026-11-02",
+      "price": 85000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on Beatrice Street, Bootle, is offered for sale by the Modern Method of Auction, with completion due within 56 days. It has two double bedrooms, a single bedroom and two reception rooms, and is being sold with no onward chain.\n\nThe home sits in a popular residential area close to schools, shops, parks and transport links, and within walking distance of Bootle town centre. Buyers must review the Buyer Information Pack and pay a non-refundable reservation fee.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5708a7f9e/92839617/5708a7f9ed7359f6919833f498ca4cbf.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92839617"
+   },
+   {
+    "id": "R92334327",
+    "address": " 15, Castlehey, Skelmersdale, Lancashire, WN89DU",
+    "precise_address": null,
+    "postcode": "WN8 9DU",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 5,
+    "price": 155000,
+    "sqf": null,
+    "days_on_market": 77,
+    "days_since_price_change": 75,
+    "sstc": 0,
+    "lat": "53.53723000",
+    "lng": "-2.74926000",
+    "distance_to": "8.61",
+    "price_history": [
+     {
+      "date": "2026-08-25",
+      "price": 155000
+     }
+    ],
+    "summary": "This well-presented 5-bedroom semi-detached house is set over three floors in a quiet cul-de-sac location in Skelmersdale. It comprises an entrance hallway, lounge with patio doors to the garden, kitchen with dining area, downstairs shower room, five bedrooms, and family bathroom. The property benefits from mains gas central heating and is fully double glazed.\n\nExternally, there is a rear garden, brick-built garage, and parking. Located within walking distance of Skelmersdale town centre with excellent local amenities and shops, it offers good access to the M58 for commuters. This property will be sold by timed online auction on 27 August 2026.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fd7fd89b6/92334327/fd7fd89b6838af39c72c02578e3cf582.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92334327"
+   },
+   {
+    "id": "R94366635",
+    "address": "39 Orlando Street, Bootle, Merseyside, L20 7DU",
+    "precise_address": null,
+    "postcode": "L20 7DU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 50000,
+    "sqf": 781,
+    "days_on_market": 25,
+    "days_since_price_change": 23,
+    "sstc": 0,
+    "lat": "53.44116900",
+    "lng": "-2.98906200",
+    "distance_to": "8.65",
+    "price_history": [
+     {
+      "date": "2026-10-16",
+      "price": 50000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace house is arranged over ground and first floors, offering two reception rooms, a kitchen, two bedrooms and a bathroom. The property has been recently refurbished and benefits from a rear garden. It is leasehold on a 999-year lease from 1923, with approximately 896 years unexpired.\n\nSituated on a residential road close to local shops and amenities, it is within easy reach of Bootle South Recreation Ground and Liverpool Lime Street rail station. The property will be sold by public auction on 11th November 2026. The EPC rating is D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5035c53f5/94366635/5035c53f533b558083c05fb65e46ece3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94366635"
+   },
+   {
+    "id": "R94185099",
+    "address": "23, Gorsey Lane, Warrington, WA1 3PT, Warrington",
+    "precise_address": null,
+    "postcode": "WA1 3PT",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 28,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.39846000",
+    "lng": "-2.57424000",
+    "distance_to": "8.71",
+    "price_history": [
+     {
+      "date": "2026-10-13",
+      "price": 115000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 98000
+     },
+     {
+      "date": "2026-11-06",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom terraced house in Warrington is offered as a buy-to-let investment, to be sold by online auction on 21st or 22nd October 2026 unless sold prior. It is currently let with a tenant in situ, providing rental income from completion, and sits within walking distance of Warrington town centre.\n\nArranged over two floors, the property offers two reception rooms, a rear kitchen and two bedrooms with a family bathroom. Front and rear outdoor spaces are included, with a low-maintenance courtyard to the rear. Nearby shops, schools and rail links to Manchester and Liverpool add to its appeal for tenants.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0abe93d3f/94185099/0abe93d3fdf50845b1b3dbd173199fb1.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94185099"
+   },
+   {
+    "id": "R93416916",
+    "address": "Grimshaw Street, Golborne, Warrington, Greater Manchester, WA3 3SD",
+    "precise_address": null,
+    "postcode": "WA3 3SD",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 48,
+    "days_since_price_change": 47,
+    "sstc": 0,
+    "lat": "53.47810000",
+    "lng": "-2.60120000",
+    "distance_to": "8.71",
+    "price_history": [
+     {
+      "date": "2026-09-22",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house is being sold by auction via Secure Sale online bidding, starting at \u00a390,000. Located on Grimshaw Street in Golborne, it features two reception rooms, a kitchen, bathroom, and a garden. The property benefits from having no onward chain, ensuring a more straightforward transaction.\n\nThe home offers versatile living spaces across two floors with clearly defined rooms including a lounge, dining room, and two bedrooms. Immediate exchange of contracts is available, providing speed and certainty for buyers. Viewings are strictly by appointment and are advised prior to bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/bc4fa5088/93416916/bc4fa508886ef97a52d08b88fd443fa5.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93416916"
+   },
+   {
+    "id": "R89834148",
+    "address": "Beechtrees, Skelmersdale, Lancashire, WN8 9EZ",
+    "precise_address": "255, BEECHTREES, DIGMOOR, SKELMERSDALE, WN8 9EZ",
+    "postcode": "WN8 9EZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 60000,
+    "sqf": null,
+    "days_on_market": 145,
+    "days_since_price_change": 52,
+    "sstc": 0,
+    "lat": "53.54010000",
+    "lng": "-2.76200000",
+    "distance_to": "8.73",
+    "price_history": [
+     {
+      "date": "2026-06-19",
+      "price": 75000
+     },
+     {
+      "date": "2026-09-17",
+      "price": 60000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by auction as an investment opportunity with a tenant already in occupation, providing immediate rental income. The property comprises a lounge, kitchen/diner, three bedrooms, family bathroom and rear garden.\n\nSituated in a popular residential area of Skelmersdale, it is conveniently located close to local amenities, schools and transport links. Please note that internal viewings are not possible due to the tenant in situ, and interested parties should make all necessary enquiries prior to bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8658ef1eb/89834148/8658ef1eb489a75c3e002fbee7b748b8.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89834148"
+   },
+   {
+    "id": "R94293993",
+    "address": "Charles Street, Golborne",
+    "precise_address": "5, CHARLES STREET, GOLBORNE, WA3 3DB",
+    "postcode": "WA3 3DB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": null,
+    "days_on_market": 26,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.47727200",
+    "lng": "-2.59722700",
+    "distance_to": "8.82",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 85000
+     },
+     {
+      "date": "2026-10-23",
+      "price": 80000
+     },
+     {
+      "date": "2026-10-31",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace house sits in central Golborne, close to local amenities, and is offered with no onward chain. Built as a traditional terrace, it retains some original features and generous room sizes. Accommodation includes an entrance porch, living room, dining room and kitchen downstairs, with two bedrooms and a family bathroom upstairs, plus a concreted and paved rear yard.\n\nThe property is sold by the Modern Method of Auction and is offered on a 999-year lease from 1889 with a ground rent of \u00a31.17 per annum. Buyers must pay a non-refundable reservation fee and complete within 56 days of receiving the draft contract. The listing notes it may suit investors seeking to add value.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1e199c220/94293993/1e199c220ab8d55d36aae1263c430c6a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94293993"
+   },
+   {
+    "id": "R92637129",
+    "address": "Ormskirk Road, Skelmersdale, Lancashire, WN8",
+    "precise_address": null,
+    "postcode": "WN8 9AJ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 70000,
+    "sqf": 751,
+    "days_on_market": 68,
+    "days_since_price_change": 45,
+    "sstc": 0,
+    "lat": "53.54155100",
+    "lng": "-2.75713300",
+    "distance_to": "8.85",
+    "price_history": [
+     {
+      "date": "2026-09-02",
+      "price": 75000
+     },
+     {
+      "date": "2026-09-24",
+      "price": 70000
+     }
+    ],
+    "summary": "This semi-detached cottage is located in the popular Holland Moor area of Skelmersdale and offers excellent potential for first-time buyers or investors. The property comprises a lounge, dining kitchen, utility room and bathroom on the ground floor, with two good-sized double bedrooms upstairs.\n\nThe home benefits from gas central heating and features a low-maintenance courtyard garden. Rated EPC Grade D with freehold tenure and Council Tax Band A. The property is being sold via the Modern Method of Sale (auction), requiring completion within 56 days of draft contract.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1d9c214c6/92637129/1d9c214c601ac669d275994798e6c63c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92637129"
+   },
+   {
+    "id": "R94785564",
+    "address": "Ashton Road, Golborne, Warrington, Greater Manchester, WA3 3UN",
+    "precise_address": "44, ASHTON ROAD, GOLBORNE, WA3 3UN",
+    "postcode": "WA3 3UN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 85000,
+    "sqf": 764,
+    "days_on_market": 13,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.48350000",
+    "lng": "-2.59820000",
+    "distance_to": "9.01",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 85000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on Ashton Road, Golborne, is offered for sale by auction via online bidding, subject to terms and conditions. The property is in need of finishing off, offering scope to personalise the kitchen and living areas, and includes a brand new bathroom suite. It is sold with no onward chain and benefits from a location close to East Lancs and local shops.\n\nThe home has three well-proportioned bedrooms and a rear yard. A previous survey flagged some areas as needing attention, and prospective buyers are advised to make their own enquiries, particularly if seeking a mortgage. The property is leasehold with 865 years remaining.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ad7b4873f/94785564/ad7b4873f5ae2842919865a65520c4da.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94785564"
+   },
+   {
+    "id": "R94730016",
+    "address": "3 Lunt Road, Bootle, L20 5EY",
+    "precise_address": null,
+    "postcode": "L20 5EY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 35000,
+    "sqf": null,
+    "days_on_market": 14,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.45968700",
+    "lng": "-2.99022600",
+    "distance_to": "9.05",
+    "price_history": [
+     {
+      "date": "2026-10-28",
+      "price": 37000
+     },
+     {
+      "date": "2026-10-30",
+      "price": 35000
+     }
+    ],
+    "summary": "This two-bedroom leasehold terraced house in Bootle is being sold by Under the Hammer online auction on 4th November 2026, and is vacant on completion. It offers two reception rooms, a galley-style fitted kitchen, a bathroom with WC and a rear garden, with scope to modernise. The lease has around 900 years remaining.\n\nLunt Road is close to Bootle town centre, Bootle New Strand station, supermarkets and local schools. Buyers should review the legal pack and auction terms before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/149c10e62/94730016/149c10e62e1b01ff1d05f6ad50f6a156.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94730016"
+   },
+   {
+    "id": "R94088271",
+    "address": "94 Derby Road, Golborne, Warrington, Cheshire, WA3 3JN",
+    "precise_address": "122, DERBY ROAD, GOLBORNE, WA3 3JN",
+    "postcode": "WA3 3JN",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.47468200",
+    "lng": "-2.58721200",
+    "distance_to": "9.10",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 135000
+     },
+     {
+      "date": "2026-11-02",
+      "price": 125000
+     }
+    ],
+    "summary": "This three-bedroom double-fronted semi-detached house is offered for sale by auction on 3rd November 2026. The property benefits from double glazing, central heating, front and rear gardens and a conservatory, and is described as being in good order throughout.\n\nIt is situated off Nook Lane in an established residential area close to local amenities and schools, approximately 7 miles from Warrington Town Centre. The listing notes potential suitability for immediate occupation or investment, with an estimated rental income of around \u00a312,000 per annum.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7418b1c38/94088271/7418b1c38d34647d324045f81e4644a3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94088271"
+   }
+  ]
+ }
+}

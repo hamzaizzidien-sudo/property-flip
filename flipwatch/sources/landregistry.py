@@ -20,7 +20,7 @@ COLS = ["transaction_id", "price", "date", "postcode", "property_type", "new_bui
 TYPE = {"D": "detached", "S": "semi-detached", "T": "terraced", "F": "flat", "O": "other"}
 
 # Postcode areas within reach of a 15-mile radius of L35; distance is applied per search later.
-DEFAULT_AREAS = ("L", "WA", "WN", "CH")
+DEFAULT_AREAS = ("L", "WA", "WN", "CH", "BL", "CW")
 
 
 def load_year(year: int, areas=DEFAULT_AREAS) -> int:

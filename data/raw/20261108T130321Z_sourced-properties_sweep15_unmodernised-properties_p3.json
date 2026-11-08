@@ -1,0 +1,1850 @@
+{
+ "source": "propertydata",
+ "endpoint": "sourced-properties",
+ "fetched_via": "mcp",
+ "fetched_at": "2026-11-08T13:03:21.671498+00:00",
+ "run_id": "sweep15-20261108",
+ "request": {
+  "list": "unmodernised-properties",
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "max_price": 180000,
+  "standardised_type": "!flat",
+  "exclude_sstc": 1,
+  "results": 100,
+  "page": 3
+ },
+ "response": {
+  "status": "success",
+  "image_copyright": "All image URLs link to third-party content that may be protected by copyright; you must obtain any necessary rights or permissions before downloading, storing, or reusing those images.",
+  "list": {
+   "id": "unmodernised-properties",
+   "name": "Unmodernised properties"
+  },
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "page": 3,
+  "result_count": 65,
+  "api_calls_cost": 7,
+  "properties": [
+   {
+    "id": "R87685179",
+    "address": "St. Helens Road, Leigh, Greater Manchester, WN7 4HW",
+    "precise_address": null,
+    "postcode": "WN7 4HW",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 252,
+    "days_since_price_change": 250,
+    "sstc": 0,
+    "lat": "53.49200000",
+    "lng": "-2.52300000",
+    "distance_to": "12.00",
+    "price_history": [
+     {
+      "date": "2026-03-03",
+      "price": 165000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction with no onward chain, offering a reliable transaction. The property requires updating and would suit someone looking for a project.\n\nThe home comprises an entrance hallway, living room, dining room, kitchen, and utility room on the ground floor, with three double bedrooms and a family bathroom upstairs. Externally, there's a front garden and enclosed rear yard. Freehold tenure, Council Tax Band B.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/24f475429/87685179/24f475429b6c89657b835f9e1a8550d3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87685179"
+   },
+   {
+    "id": "R94481133",
+    "address": "Camberwell Crescent, Wigan, WN2",
+    "precise_address": "127, CAMBERWELL CRESCENT, WIGAN, WN2 1BB",
+    "postcode": "WN2 1BB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 115000,
+    "sqf": 366,
+    "days_on_market": 21,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.55307700",
+    "lng": "-2.60722500",
+    "distance_to": "12.02",
+    "price_history": [
+     {
+      "date": "2026-10-21",
+      "price": 125000
+     },
+     {
+      "date": "2026-10-31",
+      "price": 115000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is offered for sale via the Modern Method of Auction, with a 56-day reservation period and no onward chain. The property requires modernisation throughout and offers a downstairs WC, separate sitting room, kitchen/diner, three first-floor bedrooms and a family bathroom.\n\nExternally there is a driveway providing off-road parking and a generous rear garden overlooking a neighbouring nature reserve. The listing notes a non-refundable reservation fee of 4.5% of the purchase price, subject to a minimum of \u00a36,600 inc. VAT, and an EPC rating of C.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/69c813c9f/94481133/69c813c9f82086137ed5ea01bd75f8c1.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94481133"
+   },
+   {
+    "id": "R92755518",
+    "address": "Nel Pan Lane, Leigh, Greater Manchester, WN7 5LJ",
+    "precise_address": null,
+    "postcode": "WN7 5LJ",
+    "type": "Detached",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 170000,
+    "sqf": 1119,
+    "days_on_market": 66,
+    "days_since_price_change": 65,
+    "sstc": 0,
+    "lat": "53.51160000",
+    "lng": "-2.54130000",
+    "distance_to": "12.03",
+    "price_history": [
+     {
+      "date": "2026-09-04",
+      "price": 170000
+     }
+    ],
+    "summary": "Four-bedroom detached house being sold by auction with no onward chain, making it a potentially reliable transaction. The property requires modernisation throughout but offers spacious accommodation across two floors.\n\nGround floor comprises entrance hallway, lounge, dining room, kitchen, utility room and WC. First floor features four bedrooms and family bathroom. Off-road parking for multiple vehicles. Council Tax Band D, leasehold with 907 years remaining.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/30e07dbfe/92755518/30e07dbfe00a652ec3720e480a5d61cb.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92755518"
+   },
+   {
+    "id": "R92733180",
+    "address": "Nel Pan Lane, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 5LJ",
+    "type": "Detached",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 170000,
+    "sqf": 1206,
+    "days_on_market": 66,
+    "days_since_price_change": 65,
+    "sstc": 0,
+    "lat": "53.51207500",
+    "lng": "-2.53932300",
+    "distance_to": "12.11",
+    "price_history": [
+     {
+      "date": "2026-09-04",
+      "price": 170000
+     }
+    ],
+    "summary": "This four-bedroom detached house is being sold by online auction with no onward chain, offering a reliable transaction. The property requires modernisation throughout but provides spacious accommodation across two floors, including an entrance hallway, lounge, dining room, kitchen, utility room, and downstairs WC on the ground floor.\n\nUpstairs comprises four bedrooms and a family bathroom. With off-road parking for multiple vehicles and significant renovation potential, this detached property represents an exciting opportunity for buyers seeking a project. Immediate exchange of contracts is required upon successful bid acceptance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/61b2ac899/92733180/61b2ac899c37e9d6e5a54c82ad5d2314.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92733180"
+   },
+   {
+    "id": "R95780129",
+    "address": "Change Lane, Willaston, Cheshire, CH64",
+    "precise_address": null,
+    "postcode": "CH64 1TE",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 191,
+    "days_since_price_change": 188,
+    "sstc": 0,
+    "lat": "53.29386800",
+    "lng": "-2.99751800",
+    "distance_to": "12.12",
+    "price_history": [
+     {
+      "date": "2022-12-31",
+      "price": 170000
+     }
+    ],
+    "summary": "A rare opportunity to purchase a single building plot in Willaston, Cheshire, with detailed planning permission already granted for a two-storey detached house. All mains services are connected, and the property benefits from a pleasant cul-de-sac location close to Willaston Village Centre with its shops and amenities.\n\nThe planning permission was granted on 15th July 2021 (application 21/01900/REM). This is an ideal opportunity for those looking to build their own home in an established residential area, with the planning process already completed.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a700f7e57/95780129/a700f7e57296352ffa132dfce0b66b38.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95780129"
+   },
+   {
+    "id": "R94984452",
+    "address": "Windermere Road, Leigh",
+    "precise_address": null,
+    "postcode": "WN7 1XA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 908,
+    "days_on_market": 8,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.49951900",
+    "lng": "-2.52349100",
+    "distance_to": "12.22",
+    "price_history": [
+     {
+      "date": "2026-11-02",
+      "price": 125000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Windermere Road in Leigh offers two spacious reception rooms, a kitchen, a garden and useful outbuildings for storage. The bathroom is functional but may benefit from modernisation, leaving scope to add your own personal touch.\n\nThe property has no onward chain, which can make the purchase process more straightforward. It would suit those looking for a project, investors or buyers seeking a family home with potential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e8b5af855/94984452/e8b5af855bf72cb8710ce0d6784c0bc9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94984452"
+   },
+   {
+    "id": "R94365291",
+    "address": "Grasmere Street, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 1XE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 140000,
+    "sqf": 753,
+    "days_on_market": 25,
+    "days_since_price_change": 22,
+    "sstc": 0,
+    "lat": "53.49910700",
+    "lng": "-2.52262100",
+    "distance_to": "12.24",
+    "price_history": [
+     {
+      "date": "2026-10-17",
+      "price": 140000
+     }
+    ],
+    "summary": "This two-bedroom garden-fronted mid-terraced house on Grasmere Street, Leigh, is offered for sale with no onward chain. It is close to Leigh town centre and offers a lounge, a kitchen/diner with rear yard access, and a first-floor four-piece family bathroom.\n\nThe property is in need of modernisation, so buyers should factor in updating costs. Externally there is a front garden, an enclosed rear yard and on-street bay parking, with a front aspect overlooking the local church. The EPC rating is D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/27f0a8289/94365291/27f0a82894dc5499016e2eaf222b6bbc.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94365291"
+   },
+   {
+    "id": "R92575884",
+    "address": "Castle Hill Road, Hindley, WN2",
+    "precise_address": "78, CASTLE HILL ROAD, HINDLEY, WN2 4BH",
+    "postcode": "WN2 4BH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 125000,
+    "sqf": 829,
+    "days_on_market": 69,
+    "days_since_price_change": 67,
+    "sstc": 0,
+    "lat": "53.53808600",
+    "lng": "-2.57057100",
+    "distance_to": "12.25",
+    "price_history": [
+     {
+      "date": "2026-09-02",
+      "price": 125000
+     }
+    ],
+    "summary": "This mid-terrace house offers a generous living room, kitchen/diner, and two spacious bedrooms with natural light. The practical layout provides flexibility for your needs, whether that's a guest room, home office, or comfortable main bedroom.\n\nThe property is in need of modernisation, presenting an opportunity to add value and create your ideal home at your own pace. With no onward chain, this is a more reliable transaction. EPC Rating: D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d0d849257/92575884/d0d849257f62e90d201689d66b280163.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92575884"
+   },
+   {
+    "id": "R93490260",
+    "address": "Glebe Street, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 1RF",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 829,
+    "days_on_market": 47,
+    "days_since_price_change": 45,
+    "sstc": 0,
+    "lat": "53.50009300",
+    "lng": "-2.52109500",
+    "distance_to": "12.33",
+    "price_history": [
+     {
+      "date": "2026-09-24",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom mid-terraced property is conveniently located for Leigh town centre with easy access to shops, amenities and transport links. Offered with no onward chain, providing a more reliable transaction.\n\nThe property requires updating and offers well-proportioned accommodation over two floors, including a lounge, kitchen/diner, three bedrooms and bathroom. A rear yard provides outdoor space. Excellent opportunity for first-time buyers or investors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cd59defda/93490260/cd59defdaaeb57a4b507d31dfefc6f06.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93490260"
+   },
+   {
+    "id": "R172862732",
+    "address": "Chapel Lane, Burscough, L40",
+    "precise_address": "1, CHAPEL LANE, BURSCOUGH, L40 7RA",
+    "postcode": "L40 7RA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 160000,
+    "sqf": 1047,
+    "days_on_market": 297,
+    "days_since_price_change": 107,
+    "sstc": 0,
+    "lat": "53.59157900",
+    "lng": "-2.84406800",
+    "distance_to": "12.49",
+    "price_history": [
+     {
+      "date": "2026-03-04",
+      "price": 250000
+     },
+     {
+      "date": "2026-03-20",
+      "price": 230000
+     },
+     {
+      "date": "2026-05-13",
+      "price": 200000
+     },
+     {
+      "date": "2026-07-24",
+      "price": 160000
+     }
+    ],
+    "summary": "This charming two-bedroom semi-detached home is ideally positioned in the sought-after village of Burscough, offering traditional brick-built character with well-proportioned accommodation across two floors. The property features a spacious lounge, second reception room with fireplace, fitted kitchen, and family bathroom.\n\nWith an internal area of 1047 sqft, this home presents exciting potential for conversion to three bedrooms. The layout offers excellent scope for modernisation throughout, including the kitchen and bathroom. A low-maintenance rear courtyard garden provides private outdoor space, making it appealing to first-time buyers and investors alike.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a1fa5f2b8/172862732/a1fa5f2b8f6591798a2605b8c2c62aab.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/172862732"
+   },
+   {
+    "id": "R90601479",
+    "address": "Grasswood Road, Wirral, Merseyside, CH49",
+    "precise_address": "27, GRASSWOOD ROAD, WOODCHURCH, CH49 7NT",
+    "postcode": "CH49 7NT",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": 831,
+    "days_on_market": 125,
+    "days_since_price_change": 57,
+    "sstc": 0,
+    "lat": "53.37622000",
+    "lng": "-3.08028000",
+    "distance_to": "12.49",
+    "price_history": [
+     {
+      "date": "2026-07-08",
+      "price": 140000
+     },
+     {
+      "date": "2026-09-04",
+      "price": 130000
+     },
+     {
+      "date": "2026-09-12",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in Woodchurch requires modernisation throughout but offers excellent potential for buyers seeking to add value. The property comprises two reception rooms, fitted kitchen, three bedrooms and family bathroom.\n\nWith front and rear gardens and convenient access to local amenities, schools and transport links, it presents an opportunity for first-time buyers or investors looking to renovate a property in a sought-after residential area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f46ba638e/90601479/f46ba638e14dfcd04177b97bbcfc1c5d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90601479"
+   },
+   {
+    "id": "R95201946",
+    "address": "Arley Close, Aspull, Wigan",
+    "precise_address": "9, ARLEY CLOSE, ASPULL, WN2 1JH",
+    "postcode": "WN2 1JH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 3,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.55705600",
+    "lng": "-2.59594600",
+    "distance_to": "12.52",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 150000
+     }
+    ],
+    "summary": "This three-bedroom mid-terraced home in the popular Aspull area of Wigan extends to approximately 952 sq ft over two floors. It offers a spacious front living room, a separate dining room, a kitchen leading to a useful conservatory, a ground floor WC and a first floor shower room. The property requires a programme of modernisation and improvement, giving buyers scope to reconfigure or extend to suit their needs.\n\nOutside, there is a gated front garden and an enclosed rear garden with a patio and brick-built outbuilding. The gardens would benefit from tidying and landscaping. Aspull offers local shops, schools and countryside walks, with Wigan and Hindley nearby for wider amenities and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1ec9c306c/95201946/1ec9c306c19ada69626c16a3b31e2934.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95201946"
+   },
+   {
+    "id": "R94643364",
+    "address": "Granville Street, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 1SF",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": 926,
+    "days_on_market": 17,
+    "days_since_price_change": 14,
+    "sstc": 0,
+    "lat": "53.50536300",
+    "lng": "-2.52046600",
+    "distance_to": "12.53",
+    "price_history": [
+     {
+      "date": "2026-10-25",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Granville Street, Leigh, is offered for sale with no onward chain. The accommodation includes an entrance hall, two reception rooms, a kitchen, three bedrooms and a family bathroom. The dining room has French doors opening onto the garden.\n\nExternally, a double driveway provides off-road parking. The property would benefit from updating, offering scope for buyers to personalise and improve the home to their own requirements.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2cc8a2a3b/94643364/2cc8a2a3b171891ffa9d3d3ceab2f2eb.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94643364"
+   },
+   {
+    "id": "R89140584",
+    "address": "Holden Road, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 1EX",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 1141,
+    "days_on_market": 161,
+    "days_since_price_change": 66,
+    "sstc": 0,
+    "lat": "53.50007300",
+    "lng": "-2.51318000",
+    "distance_to": "12.61",
+    "price_history": [
+     {
+      "date": "2026-06-03",
+      "price": 190000
+     },
+     {
+      "date": "2026-07-21",
+      "price": 170000
+     },
+     {
+      "date": "2026-09-03",
+      "price": 150000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is offered for sale with no onward chain, making it a reliable transaction. The property requires modernisation throughout but offers spacious period-style accommodation with flexible living spaces.\n\nThe ground floor features a generous double-fronted lounge with bay window, separate dining room, and rear kitchen with yard access. Three well-proportioned bedrooms and family bathroom complete the first floor. Ideally suited to renovators and investors seeking to add their own stamp on this property.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9f15ea03d/89140584/9f15ea03d1fef805ac907e0f6efa5e3e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89140584"
+   },
+   {
+    "id": "R94850505",
+    "address": "Rivington Way, Standish, Wigan",
+    "precise_address": "1, RIVINGTON WAY, STANDISH, WN6 0EL",
+    "postcode": "WN6 0EL",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 861,
+    "days_on_market": 12,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.58293500",
+    "lng": "-2.65619200",
+    "distance_to": "12.77",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Standish, Wigan, is offered for sale with vacant possession and no onward chain. It requires some updating, offering scope for a buyer to personalise the property. The roof has recently been renewed.\n\nInside, there is a bay-fronted lounge, a spacious dining kitchen with a Rangemaster cooker and garden access, and a family bathroom. Externally, there is driveway parking, on-road parking and a rear garden with mature trees.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a18f6921e/94850505/a18f6921eba2478492f141747998679b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94850505"
+   },
+   {
+    "id": "R93688629",
+    "address": "Mill Lane, Leigh, WN7",
+    "precise_address": "16, MILL LANE, LEIGH, WN7 2BU",
+    "postcode": "WN7 2BU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 105000,
+    "sqf": 786,
+    "days_on_market": 41,
+    "days_since_price_change": 39,
+    "sstc": 0,
+    "lat": "53.49362900",
+    "lng": "-2.50253600",
+    "distance_to": "12.80",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 105000
+     }
+    ],
+    "summary": "This two-bedroom terraced house is being sold with a tenant in situ, currently generating \u00a3700 per calendar month rental income. Ideally positioned within walking distance of Leigh town centre with good access to schools, amenities and transport links.\n\nThe property requires modernisation, presenting an excellent opportunity for investors seeking existing rental income with potential to add value through refurbishment. Accommodation comprises a sitting room, kitchen/diner with rear garden access, two bedrooms and a family bathroom. The property is sold in its current condition with low-maintenance rear garden.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/85bac48f8/93688629/85bac48f8c7aaa3c3508dbf5a6a140bb.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93688629"
+   },
+   {
+    "id": "R95106528",
+    "address": "Land off Delamere Road, Ashton Hayes",
+    "precise_address": null,
+    "postcode": "CH3 8AH",
+    "type": "Farm Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.23224600",
+    "lng": "-2.72227000",
+    "distance_to": "12.84",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 175000
+     }
+    ],
+    "summary": "This approximately 10.25-acre (4.14 hectare) plot on the outskirts of Mouldsworth comprises gently undulating grassland, a centrally positioned pond and a timber-framed agricultural building measuring around 14.4m by 7.2m. The building includes open-fronted bays, a workshop, storage and a mezzanine, and offers scope for improvement. Several smaller timber sheds are also present.\n\nThe land is well fenced with post and rail and mature hedgerows, and is close to Delamere Forest and its extensive bridleways, including the 35km Delamere Loop. The sale is subject to a 30-year development clawback, under which 30% of any value uplift from non-agricultural or equestrian planning permission would be payable to the sellers or their successors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c0ffc9446/95106528/c0ffc9446c995aef6d9d0dd24d467a99.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95106528"
+   },
+   {
+    "id": "R92409279",
+    "address": "Sandfield Road, Woodchurch, Wirral, Merseyside, CH49",
+    "precise_address": null,
+    "postcode": "CH49 7LZ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 75,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.37114900",
+    "lng": "-3.08683800",
+    "distance_to": "12.83",
+    "price_history": [
+     {
+      "date": "2026-08-27",
+      "price": 170000
+     },
+     {
+      "date": "2026-10-20",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom end-terraced home occupies a rare corner plot with generous wraparound gardens, offering excellent potential for extension and development subject to permissions. Two spacious dual-aspect reception rooms and a galley kitchen that could be reconfigured into open-plan living.\n\nThe property requires modernisation but is perfectly liveable and offers a blank canvas for buyers seeking value. Conveniently located in a quiet cul-de-sac with easy access to local amenities, bus routes and Arrowe Park Hospital. Sold with no onward chain for a reliable transaction.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ba9dc779f/92409279/ba9dc779f35047ecb5f4b58ca6ab4e0b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92409279"
+   },
+   {
+    "id": "R87925470",
+    "address": "Village View, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 2BT",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 145000,
+    "sqf": 829,
+    "days_on_market": 192,
+    "days_since_price_change": 136,
+    "sstc": 0,
+    "lat": "53.49458300",
+    "lng": "-2.50232100",
+    "distance_to": "12.84",
+    "price_history": [
+     {
+      "date": "2026-04-30",
+      "price": 150000
+     },
+     {
+      "date": "2026-06-25",
+      "price": 145000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house is offered for sale with no onward chain, making it an attractive prospect for a straightforward transaction. The property requires modernisation but offers excellent potential throughout, with a front driveway and rear yard.\n\nAccommodation includes a porch, spacious lounge, kitchen/diner, two well-proportioned bedrooms, and family bathroom. Ideally positioned for first-time buyers, investors, or those seeking a renovation project, it's conveniently located near Leigh town centre, local amenities, schools, and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b9ccfd388/87925470/b9ccfd38895d5acfce5cff1ab60d085a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87925470"
+   },
+   {
+    "id": "R92178861",
+    "address": "Lower Green, Woodchurch, Wirral",
+    "precise_address": "14, LOWER GREEN, WOODCHURCH, CH49 8HR",
+    "postcode": "CH49 8HR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 140000,
+    "sqf": 946,
+    "days_on_market": 82,
+    "days_since_price_change": 5,
+    "sstc": 0,
+    "lat": "53.37637100",
+    "lng": "-3.09231400",
+    "distance_to": "12.97",
+    "price_history": [
+     {
+      "date": "2026-08-19",
+      "price": 155000
+     },
+     {
+      "date": "2026-09-10",
+      "price": 150000
+     },
+     {
+      "date": "2026-11-03",
+      "price": 140000
+     }
+    ],
+    "summary": "Three-bedroom mid-terrace terraced house requiring updating, offering a blank canvas for new owners. Ground floor features spacious lounge, utility area and well-sized kitchen. Three good-sized bedrooms and family bathroom upstairs.\n\nIdeally positioned near local amenities, schools and transport links with Arrowe Park Hospital within easy reach. Rear garden and shed provide outdoor space. Being sold with no onward chain, making it suitable for first-time buyers and investors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/93daa3bac/92178861/93daa3bac81e2c96c64c9f69235b660f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92178861"
+   },
+   {
+    "id": "R93501597",
+    "address": "Big Meadow Road, Woodchurch, Wirral",
+    "precise_address": null,
+    "postcode": "CH49 9AN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 897,
+    "days_on_market": 47,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.38047500",
+    "lng": "-3.09527000",
+    "distance_to": "13.04",
+    "price_history": [
+     {
+      "date": "2026-09-25",
+      "price": 170000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house in a quiet residential area offers a blank canvas for new owners. The spacious lounge benefits from front and rear windows flooding the room with natural light, while the kitchen and shower room provide practical spaces ready for personalisation.\n\nThe property features three generous bedrooms, good-sized front and rear gardens, and two storage sheds. Well-suited to first-time buyers or growing families seeking a home with potential and outdoor space in an established neighbourhood.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/07d2a1b65/93501597/07d2a1b65e2676b7da67186685e6fa02.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93501597"
+   },
+   {
+    "id": "R89822130",
+    "address": "Chapelhill Road, Moreton, Wirral",
+    "precise_address": null,
+    "postcode": "CH46 9QW",
+    "type": "Plot",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 55000,
+    "sqf": null,
+    "days_on_market": 144,
+    "days_since_price_change": 80,
+    "sstc": 0,
+    "lat": "53.39801000",
+    "lng": "-3.10026400",
+    "distance_to": "13.08",
+    "price_history": [
+     {
+      "date": "2026-06-17",
+      "price": 100000
+     },
+     {
+      "date": "2026-08-20",
+      "price": 55000
+     }
+    ],
+    "summary": "An excellent development opportunity: this plot comes with full planning permission already granted by Wirral Council (December 2024) for a substantial four-bedroom detached dwelling. The approved scheme is ready for implementation, with development required to commence within three years.\n\nSituated in an established residential area of Moreton, the site offers strong appeal for developers or those seeking to build a bespoke family home. The area provides good local amenities, schools, transport links and convenient access to Wirral's coastline and green spaces.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6390538a4/89822130/6390538a4366e98653c420ff33212487.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89822130"
+   },
+   {
+    "id": "R94410639",
+    "address": "Wearish Lane, Westhoughton, BL5 2DR",
+    "precise_address": null,
+    "postcode": "BL5 2DR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 120000,
+    "sqf": 829,
+    "days_on_market": 24,
+    "days_since_price_change": 22,
+    "sstc": 0,
+    "lat": "53.53840000",
+    "lng": "-2.53818000",
+    "distance_to": "13.25",
+    "price_history": [
+     {
+      "date": "2026-10-17",
+      "price": 120000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house on Wearish Lane in Westhoughton is offered for sale with no onward chain. The property requires full refurbishment throughout, making it suited to buyers seeking a renovation project or investors and developers looking to add value.\n\nAccommodation includes a lounge with a traditional fireplace, a fitted wooden kitchen, a rear porch, two first-floor bedrooms, a family bathroom and a loft room. Externally there is a rear garden, with parking available on Wearish Lane. The property is freehold and in Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6d381c78c/94410639/6d381c78c0db47fa1336e1dc13065032.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94410639"
+   },
+   {
+    "id": "R90686823",
+    "address": "Rendelsham Close, Greasby, Wirral",
+    "precise_address": null,
+    "postcode": "CH49 6PE",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": 678,
+    "days_on_market": 123,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.38555000",
+    "lng": "-3.10879300",
+    "distance_to": "13.53",
+    "price_history": [
+     {
+      "date": "2026-07-10",
+      "price": 190000
+     },
+     {
+      "date": "2026-11-05",
+      "price": 180000
+     }
+    ],
+    "summary": "This semi-detached house is offered for sale with no onward chain, providing a reliable transaction. Located in a sought-after cul-de-sac, it features two double bedrooms, spacious lounge, dining kitchen and conservatory.\n\nThe property requires updating and offers excellent scope to modernise, particularly the bathroom. It benefits from a generous driveway, rear garden with patio, and proximity to local amenities, schools and transport links, making it ideal for first-time buyers.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/4f659351e/90686823/4f659351e793f6bbb7dc487d58464751.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90686823"
+   },
+   {
+    "id": "R172404749",
+    "address": "Stanley Road, Aspull, Wigan",
+    "precise_address": "12, STANLEY ROAD, ASPULL, WN2 1YJ",
+    "postcode": "WN2 1YJ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 129995,
+    "sqf": 815,
+    "days_on_market": 130,
+    "days_since_price_change": 69,
+    "sstc": 0,
+    "lat": "53.57135000",
+    "lng": "-2.58315900",
+    "distance_to": "13.63",
+    "price_history": [
+     {
+      "date": "2026-02-19",
+      "price": 139995
+     },
+     {
+      "date": "2026-04-28",
+      "price": 129995
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Aspull is a renovation project offering excellent potential for buyers seeking to add value. The property features a lounge with fireplace, kitchen/diner, garden room, and three well-proportioned bedrooms with family bathroom.\n\nBenefiting from no onward chain for a reliable transaction, the home is ideally situated near Wigan town centre, local schools, shops, and excellent motorway access via the M6 and M61. The generously sized rear garden offers transformation potential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/086908374/172404749/08690837401919a3b224b416e905f98b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/172404749"
+   },
+   {
+    "id": "R95147991",
+    "address": "Beckett Drive, Lymm",
+    "precise_address": null,
+    "postcode": "WA13 9TA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": 960,
+    "days_on_market": 4,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.40257600",
+    "lng": "-2.45319800",
+    "distance_to": "13.64",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 170000
+     }
+    ],
+    "summary": "This mid terraced house sits in a semi-rural setting in Lymm and offers a hallway, WC, lounge open to dining room, and kitchen with access to the rear garden and brick outbuilding. A long front garden with pedestrian access and rear parking are included.\n\nUpstairs, there are three bedrooms and a bathroom. The property is described as needing modernisation, though the location is noted as lovely. It is priced 43% below the average \u00a3/sqft for the nearby WA13 area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/33bd7a27d/95147991/33bd7a27d315a4c09448727e8f2d8cda.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95147991"
+   },
+   {
+    "id": "R93774195",
+    "address": "St Georges Avenue, Westhoughton, BL5 2EU",
+    "precise_address": null,
+    "postcode": "BL5 2EU",
+    "type": "Bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 40,
+    "days_since_price_change": 16,
+    "sstc": 0,
+    "lat": "53.53900000",
+    "lng": "-2.52191000",
+    "distance_to": "13.79",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 190000
+     },
+     {
+      "date": "2026-10-23",
+      "price": 180000
+     }
+    ],
+    "summary": "This extended semi-detached bungalow offers excellent potential for buyers seeking a project property. Currently requiring updating and cosmetic work, it features a spacious lounge, additional room via rear extension, and flexibility to configure as two or three bedrooms. The kitchen needs replacement, offering scope for modernisation.\n\nExternally, the property benefits from a large driveway with ample parking and a low-maintenance paved rear garden. Significantly, it is offered with no onward chain, providing a more reliable transaction. The sought-after location and generous proportions make this ideal for buyers looking to add their own stamp.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f3d1767bc/93774195/f3d1767bcb1d3b843a15f141f71cfd09.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93774195"
+   },
+   {
+    "id": "R91261104",
+    "address": "Hamilton Street, Atherton, M46",
+    "precise_address": null,
+    "postcode": "M46 0BB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 120000,
+    "sqf": 840,
+    "days_on_market": 109,
+    "days_since_price_change": 106,
+    "sstc": 0,
+    "lat": "53.52091200",
+    "lng": "-2.49825800",
+    "distance_to": "13.86",
+    "price_history": [
+     {
+      "date": "2026-07-25",
+      "price": 120000
+     }
+    ],
+    "summary": "This four-bedroom mid-terraced house is located on popular Hamilton Street in Atherton, overlooking Atherton Park. Although requiring refurbishment, it benefits from a sought-after location within walking distance of the town centre and public transport.\n\nThe property comprises a ground floor with living room, dining room, fitted kitchen, utility room and bathroom, plus four first-floor bedrooms. It features a small front garden and enclosed rear yard. Importantly, there is no onward chain, making this an attractive option for investors or those wanting to personalise their home.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e06a0dc29/91261104/e06a0dc29eb41c9d553c403dff6332ef.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91261104"
+   },
+   {
+    "id": "R93767316",
+    "address": "Runcorn Road, Northwich",
+    "precise_address": "115, RUNCORN ROAD, BARNTON, NORTHWICH, CW8 4EX",
+    "postcode": "CW8 4EX",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 40,
+    "days_since_price_change": 38,
+    "sstc": 0,
+    "lat": "53.27035500",
+    "lng": "-2.54919200",
+    "distance_to": "13.88",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 140000
+     }
+    ],
+    "summary": "This split-level end terraced home offers three bedrooms and a converted cellar providing additional space. The ground floor features an open-plan lounge and dining area, with a bathroom and utility area. The property requires modernisation but presents excellent scope for improvement and potential extension.\n\nOffered with no onward chain, this property is ideally suited to first-time buyers and investors alike. Set in a pleasant village location with an extensive rear garden offering development potential, it presents an exciting opportunity to create something special.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/955692673/93767316/95569267309441f3a76c5ebaf988f54b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93767316"
+   },
+   {
+    "id": "R170916542",
+    "address": "Hunts Bank, Westhoughton, Bolton",
+    "precise_address": null,
+    "postcode": "BL5 2LA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 145000,
+    "sqf": 721,
+    "days_on_market": 301,
+    "days_since_price_change": 156,
+    "sstc": 0,
+    "lat": "53.54031300",
+    "lng": "-2.51827000",
+    "distance_to": "13.96",
+    "price_history": [
+     {
+      "date": "2026-01-14",
+      "price": 160000
+     },
+     {
+      "date": "2026-03-09",
+      "price": 155000
+     },
+     {
+      "date": "2026-03-27",
+      "price": 150000
+     },
+     {
+      "date": "2026-06-05",
+      "price": 145000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house is freehold with no onward chain, offering a reliable transaction. Located in Westhoughton with walking distance to Daisy Hill train station and local amenities, it features spacious accommodation including a large kitchen/diner and two generous bedrooms.\n\nThe property requires modernisation but offers huge potential. It benefits from a private front outlook, large front garden, and courtyard rear garden with gated access. Close to Westhoughton town centre, schools, and excellent transport links including the M61 motorway.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5b9c75d6c/170916542/5b9c75d6c4214384f428798c3213cf8f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/170916542"
+   },
+   {
+    "id": "R90486138",
+    "address": "Wastdale Drive, Moreton, Merseyside, CH46",
+    "precise_address": null,
+    "postcode": "CH46 7SE",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 150000,
+    "sqf": 823,
+    "days_on_market": 129,
+    "days_since_price_change": 127,
+    "sstc": 0,
+    "lat": "53.40472000",
+    "lng": "-3.12428400",
+    "distance_to": "14.03",
+    "price_history": [
+     {
+      "date": "2026-07-04",
+      "price": 150000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached property requires modernisation throughout but offers excellent potential for buyers seeking a renovation project or investment opportunity. Located on Wastdale Drive in Moreton, it features a through lounge/diner, conservatory, and first-floor wet room.\n\nThe property is sold with vacant possession and no ongoing chain. It benefits from a driveway with off-road parking, front garden overlooking the green, and a spacious rear garden with storage shed. Council Tax Band A, freehold.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/275751509/90486138/275751509380a7abda685e1674c63d9e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90486138"
+   },
+   {
+    "id": "R95041359",
+    "address": "8 Coniston Road, Irby",
+    "precise_address": null,
+    "postcode": "CH61 4UU",
+    "type": "Bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 5,
+    "sstc": 0,
+    "lat": "53.35506000",
+    "lng": "-3.11416000",
+    "distance_to": "14.21",
+    "price_history": [
+     {
+      "date": "2026-11-03",
+      "price": 160000
+     }
+    ],
+    "summary": "This two-bedroom bungalow in Irby is offered for sale by public auction on 2 December 2026 and is in need of refurbishment. It sits in a tree-lined no-through road in a well-regarded residential area of the Wirral.\n\nThe property has gas central heating, double glazing and extensive south-facing gardens, with a rear garden around 45 metres long offering potential to extend, subject to the necessary consents.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d6cf1ca1f/95041359/d6cf1ca1f1f060492afa278bf3975714.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95041359"
+   },
+   {
+    "id": "R93991941",
+    "address": "Wesley Street, Westhoughton, Bolton",
+    "precise_address": null,
+    "postcode": "BL5 3ST",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 130000,
+    "sqf": null,
+    "days_on_market": 34,
+    "days_since_price_change": 32,
+    "sstc": 0,
+    "lat": "53.55476700",
+    "lng": "-2.52533500",
+    "distance_to": "14.39",
+    "price_history": [
+     {
+      "date": "2026-10-07",
+      "price": 130000
+     }
+    ],
+    "summary": "This two-bedroom mid terraced house is positioned on popular Wesley Street, within walking distance of Westhoughton train station and town centre. The property comprises a comfortable lounge, kitchen/diner, two generous bedrooms, and family shower room.\n\nThe property requires some modernisation, offering buyers an excellent opportunity to add their own touches. A key advantage is that there is no onward chain, ensuring a more straightforward transaction. External features include a low-maintenance paved rear garden and front pebbled garden.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/de5b12866/93991941/de5b12866e7dacab354b74654576aef1.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93991941"
+   },
+   {
+    "id": "R94857084",
+    "address": "St Georges Ct, Manchester, M29 8GX",
+    "precise_address": null,
+    "postcode": "M29 8GX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 147500,
+    "sqf": null,
+    "days_on_market": 12,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.51345400",
+    "lng": "-2.47075700",
+    "distance_to": "14.59",
+    "price_history": [
+     {
+      "date": "2026-10-30",
+      "price": 147500
+     }
+    ],
+    "summary": "This two-bedroom terraced house on St Georges Ct in Manchester is offered for sale and requires modernisation and improvement. It sits within good distance of the Town Centre and has good transport links, with no onward chain involved.\n\nThe accommodation includes an entrance hall, living room, dining room and kitchen, with two good-sized bedrooms and a bathroom on the first floor. There is also a good-sized rear garden. The property may suit an investor or first-time buyer, and viewings are essential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/87755ea9a/94857084/87755ea9a031bfc960091bc9cfc79844.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94857084"
+   },
+   {
+    "id": "R92957721",
+    "address": "Solvay Road, Northwich",
+    "precise_address": "71, SOLVAY ROAD, NORTHWICH, CW8 4DP",
+    "postcode": "CW8 4DP",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": 713,
+    "days_on_market": 61,
+    "days_since_price_change": 36,
+    "sstc": 0,
+    "lat": "53.26488000",
+    "lng": "-2.52994000",
+    "distance_to": "14.71",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 100000
+     },
+     {
+      "date": "2026-10-03",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house is being sold by Modern Auction and is restricted to cash buyers only. The property requires updating and modernisation, making it ideal for investment buyers or those looking to refurbish and resell. It benefits from no onward chain, providing a more straightforward transaction.\n\nThe home features two reception rooms, a dining kitchen, ground floor bathroom, and two double bedrooms. Externally, there's a small front garden and walled rear yard with gated access. Located on popular Solvay Road, it's within walking distance of Northwich Town Centre, local amenities, schools, and a new doctors surgery.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d6570255e/92957721/d6570255e3c96f2c022e2149dd9ce63a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92957721"
+   },
+   {
+    "id": "R93383001",
+    "address": "New Street, Mawdesley, L40",
+    "precise_address": null,
+    "postcode": "L40 2QP",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 49,
+    "days_since_price_change": 48,
+    "sstc": 0,
+    "lat": "53.62857700",
+    "lng": "-2.76742900",
+    "distance_to": "14.81",
+    "price_history": [
+     {
+      "date": "2026-09-21",
+      "price": 80000
+     }
+    ],
+    "summary": "This three-bedroom end-terraced property in Mawdesley requires comprehensive renovation and modernisation throughout, presenting an exciting opportunity for investors and developers. The ground floor comprises living areas and kitchen space, while upstairs offers three bedrooms and bathroom facilities, all needing updating.\n\nThe property benefits from rear yard and garden space with a brick-built outbuilding. Sold by auction with a starting bid of \u00a380,000, it offers substantial scope for improvement and reconfiguration to create a characterful home or investment opportunity.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/392238c69/93383001/392238c69257573e52222d4ceb534d14.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93383001"
+   },
+   {
+    "id": "R94240059",
+    "address": "178 New Street, Blackrod, Bolton, Lancashire BL6 5AU",
+    "precise_address": null,
+    "postcode": "BL6 5AU",
+    "type": "Cottage",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 70000,
+    "sqf": null,
+    "days_on_market": 27,
+    "days_since_price_change": 24,
+    "sstc": 0,
+    "lat": "53.59209600",
+    "lng": "-2.58000000",
+    "distance_to": "14.86",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 70000
+     }
+    ],
+    "summary": "This two-bedroom property on New Street in Blackrod is offered for sale by online auction, with the auction running 10th to 11th November 2026. It is described as requiring complete renovation, with a lounge, large dining room, kitchen, utility room and rear yard on the ground floor, and two bedrooms and a family bathroom upstairs.\n\nThe home is leasehold with a 999-year lease from 1877, is in Council Tax Band B, and has an EPC rating of G. Views are available over Rivington Pike to the front and Belmont to the rear, and the area is close to local amenities, schools and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1db8d4f9f/94240059/1db8d4f9f345e4279bd68659fa4cf91a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94240059"
+   },
+   {
+    "id": "R93814326",
+    "address": "Seven Row, Little Neston, Neston",
+    "precise_address": "4, SEVEN ROW, LITTLE NESTON, NESTON, CH64 0SX",
+    "postcode": "CH64 0SX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 39,
+    "days_since_price_change": 36,
+    "sstc": 0,
+    "lat": "53.27762600",
+    "lng": "-3.06482500",
+    "distance_to": "14.95",
+    "price_history": [
+     {
+      "date": "2026-10-03",
+      "price": 160000
+     }
+    ],
+    "summary": "This two-bedroom terraced house is offered for sale with no onward chain, making it a reliable transaction. Located in popular Little Neston, it offers excellent potential for first-time buyers or investors, with gas central heating and double glazing throughout.\n\nThe property comprises two reception rooms and a spacious kitchen/diner opening onto a south-facing courtyard. Upstairs are two well-proportioned bedrooms and a wet room. The property would benefit from modernisation and provides an excellent opportunity to improve and personalise a home in this sought-after location.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/17940f51e/93814326/17940f51ece9903d3743291f6149bfa6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93814326"
+   },
+   {
+    "id": "Z74505441",
+    "address": "New Street, St. Helens WA9",
+    "precise_address": null,
+    "postcode": "WA9 3UX",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 764,
+    "days_on_market": 26,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.42785900",
+    "lng": "-2.72037400",
+    "distance_to": "2.78",
+    "price_history": [
+     {
+      "date": "2026-10-18",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is offered for sale with no onward chain and requires some modernisation, providing scope to tailor the home to your own taste. Features include a lounge, separate dining area, kitchen with potential, driveway parking and a side garage.\n\nLocated within walking distance of the train station with rail links to Liverpool and Manchester, the property is close to a popular primary school opposite, a nearby high school, and two local parks, making it well suited to families and commuters.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/53a5fcb39e483015324a932f9bb06daa3f48962c.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74505441"
+   },
+   {
+    "id": "Z74615339",
+    "address": "Olga Road, St Helens, 3 WA9",
+    "precise_address": null,
+    "postcode": "WA9 3TB",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 13,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.43568400",
+    "lng": "-2.71730800",
+    "distance_to": "3.11",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Olga Road, St Helens, is offered with no onward chain. It has been extended to the rear and includes two reception rooms, a kitchen with scope to modernise, and a family bathroom. Driveway parking and a detached garage are included.\n\nThe large rear garden features a flagged seating area, lawn, established trees and a decking area, and the property is within easy reach of Sutton and Sherdley Park. The listing notes probate is being applied for and the EPC is to be confirmed.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/338d9f11e2b3b5de9f6a1b2277cb9223b93becb2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74615339"
+   },
+   {
+    "id": "Z74655865",
+    "address": "Gorsey Lane, Clock Face, St. Helens WA9",
+    "precise_address": null,
+    "postcode": "WA9 4XB",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 7,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.41604200",
+    "lng": "-2.70644300",
+    "distance_to": "3.19",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 165000
+     }
+    ],
+    "summary": "This freehold three-bedroom semi-detached house sits in a semi-rural location on Gorsey Lane, Clock Face, St. Helens. It offers two reception rooms, a first-floor bathroom, a large rear garden, a garage, and double glazing, with a not-overlooked position providing privacy.\n\nThe property is unmodernised and would benefit from updating. It is close to a playing field and to a large development site with planning granted for 220 dwellings, approximately 0.19 miles away.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/de94aed09cde8075454fe30275e72dddd1e7130d.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74655865"
+   },
+   {
+    "id": "Z74644164",
+    "address": "West End Road, Haydock WA11",
+    "precise_address": null,
+    "postcode": "WA11 0AN",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 65000,
+    "sqf": null,
+    "days_on_market": 10,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.46640300",
+    "lng": "-2.69323500",
+    "distance_to": "5.18",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 65000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house in Haydock, St Helens, is offered for sale with no onward chain. It requires full modernisation and improvement throughout, offering scope for investors or renovation buyers. The layout includes two reception rooms, a kitchen, a ground-floor bathroom and two first-floor bedrooms.\n\nOutside, there is a small front garden and an enclosed rear yard and side passage, both of which would benefit from clearance and landscaping. The property is close to local shops, St Helens town centre, Haydock Park Racecourse, and rail and road links to Liverpool and Manchester.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/8d627ebfbfba9c458dd5e60fe96cadcb46ed02df.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74644164"
+   },
+   {
+    "id": "Z74134366",
+    "address": "Greenway Road, Speke, Liverpool L24",
+    "precise_address": null,
+    "postcode": "L24 7RZ",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 67,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.34208600",
+    "lng": "-2.82430300",
+    "distance_to": "5.27",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 130000
+     },
+     {
+      "date": "2026-10-26",
+      "price": 120000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house in south Liverpool requires updating but offers excellent potential for modernisation. The property features a spacious lounge/diner, bright conservatory, separate kitchen, two generously sized bedrooms and family bathroom across well-proportioned living accommodation.\n\nOutside, there are front and rear gardens and ample off-road parking. The sought-after location provides convenient access to local amenities, schools, Speke Retail Park, major motorway links, railway connections and Liverpool John Lennon Airport. Long lease with peppercorn ground rent.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/106b5a8b1dee8a4d22928f84916116c9253a26b2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74134366"
+   },
+   {
+    "id": "Z74606762",
+    "address": "Maple Avenue, Runcorn WA7",
+    "precise_address": null,
+    "postcode": "WA7 5LF",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 872,
+    "days_on_market": 14,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.33000000",
+    "lng": "-2.71234400",
+    "distance_to": "6.53",
+    "price_history": [
+     {
+      "date": "2026-10-27",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on Maple Avenue in Runcorn is offered to the market with no onward chain. It features a spacious lounge, a kitchen with generous proportions, a separate WC and a bathroom, with large windows providing plenty of natural light throughout.\n\nThe property is in need of modernisation, so it suits buyers willing to update it to their own taste. A small front garden adds kerb appeal, and local amenities, schools and transport links are nearby.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/340ffd76ceedce6433e15b6a068dde62dd8c5b85.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74606762"
+   },
+   {
+    "id": "Z74214499",
+    "address": "Long Lane, Walton, Liverpool L9",
+    "precise_address": null,
+    "postcode": "L9 6AD",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 59,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.45566200",
+    "lng": "-2.92990700",
+    "distance_to": "6.65",
+    "price_history": [
+     {
+      "date": "2026-09-19",
+      "price": 160000
+     }
+    ],
+    "summary": "Three-bedroom semi-detached house in Walton, Liverpool, offered on a 999-year leasehold with peppercorn rent. The property requires updating throughout but offers generous room sizes, two reception rooms, a conservatory, and a fitted kitchen with pleasant garden views.\n\nUpstairs are three bedrooms including two doubles, plus a family bathroom with walk-in shower. Outside space front and rear needs attention but offers clear potential. Excellent local amenities nearby, with Orrell Park and Rice Lane stations providing regular transport links to Liverpool Lime Street in 10\u201315 minutes.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/450d312e0cfd178125ae2d6b5562ac081a834d32.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74214499"
+   },
+   {
+    "id": "Z73592208",
+    "address": "Ling Street, Liverpool L7",
+    "precise_address": null,
+    "postcode": "L7 2QF",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 874,
+    "days_on_market": 131,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.40924900",
+    "lng": "-2.94965400",
+    "distance_to": "6.84",
+    "price_history": [
+     {
+      "date": "2026-07-05",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is located on Ling Street in the popular Kensington area of Liverpool, walking distance from University of Liverpool. Available with no onward chain, it features an entrance hall, bay-fronted lounge, second reception room with French doors, fitted kitchen, three bedrooms and bathroom.\n\nThe property requires updating and offers plenty of potential for buyers seeking a project. It benefits from a low-maintenance rear yard and EPC Rating D. Ideally suited for investors or residential buyers wanting to add their own touches.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/c3c30fe7df5b891b8dfb90d028672ddb632774b2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73592208"
+   },
+   {
+    "id": "Z73997599",
+    "address": "Ling Street, Liverpool L7",
+    "precise_address": null,
+    "postcode": "L7 2QF",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 1074,
+    "days_on_market": 84,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.40941800",
+    "lng": "-2.94985300",
+    "distance_to": "6.84",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 140000
+     },
+     {
+      "date": "2026-10-31",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Ling Street in the residential area of Kensington, L7, is offered for sale with no onward chain. It presents a renovation opportunity, with the property needing updating throughout. The ground floor includes an entrance hall, a bay-fronted family lounge, a second reception room and a large kitchen.\n\nUpstairs, there are three bedrooms and a three-piece family bathroom suite. The property also includes a cellar and a low-maintenance rear yard. The EPC rating is D.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/183d5be8e2558fc17a7e800d4fe203169b1e4464.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73997599"
+   },
+   {
+    "id": "Z74326619",
+    "address": "37 Euston Street, Liverpool, Merseyside L4",
+    "precise_address": null,
+    "postcode": "L4 5PR",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 50000,
+    "sqf": null,
+    "days_on_market": 10,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.44566700",
+    "lng": "-2.96937600",
+    "distance_to": "7.93",
+    "price_history": [
+     {
+      "date": "2026-10-30",
+      "price": 50000
+     }
+    ],
+    "summary": "This two-bedroom end terraced house off Bedford Road, Liverpool, is offered for sale by auction on 3rd November 2026. It has double glazing and central heating, with accommodation across ground, first and loft floors. The vendor describes it as suitable for resale or investment after a full upgrade refurbishment, with potential rental income above \u00a310,800 per year.\n\nThe listing states the property is for cash purchase only due to structural defects, and a structural survey report is included in the legal pack. It has an EPC rating of E and sits close to local amenities, schools and transport links, about 3.5 miles from Liverpool City Centre.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/bf3a1f866ff1fd3b4c3ceb259fd806d3750c1bd2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74326619"
+   },
+   {
+    "id": "Z74564630",
+    "address": "Quebec Road, Warrington WA2",
+    "precise_address": null,
+    "postcode": "WA2 7RS",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 958,
+    "days_on_market": 19,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.39970300",
+    "lng": "-2.57864800",
+    "distance_to": "8.51",
+    "price_history": [
+     {
+      "date": "2026-10-27",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Quebec Road, Warrington, is offered freehold with no onward chain. It comprises a lounge, separate dining kitchen, first-floor bathroom, ground-floor WC, and a private enclosed rear garden with external storage.\n\nThe property is in need of full modernisation, offering scope to tailor the home to your own tastes. On-street residents' parking is available, and the location provides access to Warrington town centre and the M6 and M62 motorway links.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/1aa97f5797359024ffa61bce127791704637e16e.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74564630"
+   },
+   {
+    "id": "Z74486603",
+    "address": "Slater Street, Warrington WA4",
+    "precise_address": null,
+    "postcode": "WA4 1AZ",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 125000,
+    "sqf": 575,
+    "days_on_market": 28,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.38350600",
+    "lng": "-2.58111800",
+    "distance_to": "8.62",
+    "price_history": [
+     {
+      "date": "2026-10-18",
+      "price": 130000
+     },
+     {
+      "date": "2026-11-02",
+      "price": 125000
+     }
+    ],
+    "summary": "This Victorian mid terraced house sits in the sought-after Latchford area of Warrington, offered for sale with no onward chain. It provides a living room, kitchen with access to the rear garden, two bedrooms with built-in wardrobes in the primary, and a three piece bathroom. The property is rated EPC D.\n\nThe home is in need of updating, offering scope for buyers to personalise the layout and improve the space. A generous paved rear garden with a rear gate to the alleyway and nearby on-street parking complete the property, with Warrington town centre within walking distance.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/5a7b4e53f219214a197114bc41a56c1e3a4cec31.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74486603"
+   },
+   {
+    "id": "Z74330175",
+    "address": "Martins Lane, Skelmersdale WN8",
+    "precise_address": null,
+    "postcode": "WN8 9AY",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 732,
+    "days_on_market": 46,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.54140900",
+    "lng": "-2.75877500",
+    "distance_to": "8.84",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 150000
+     }
+    ],
+    "summary": "This spacious three-bedroom semi-detached family home on Martins Lane, Skelmersdale offers a lounge, separate dining room, fitted kitchen, bathroom and private front and rear gardens. The property is freehold and sold with no onward chain.\n\nThe interior is unmodernised and offers good potential to reconfigure or extend, subject to the necessary planning permissions and consents. Buyers looking to tailor a home to their own requirements may find this a suitable opportunity.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/8f9ba15c08a8b976ef252932985a2ce7ade01984.png",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74330175"
+   },
+   {
+    "id": "Z74198063",
+    "address": "Hawthorne Road, Litherland, Merseyside L20",
+    "precise_address": null,
+    "postcode": "L20 6JU",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 140000,
+    "sqf": 797,
+    "days_on_market": 61,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.46511900",
+    "lng": "-2.99131600",
+    "distance_to": "9.23",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 149950
+     },
+     {
+      "date": "2026-10-26",
+      "price": 140000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house requires updating but offers excellent potential for buyers seeking to add value. Located on Hawthorne Road in Litherland, it benefits from a practical layout with spacious reception areas, three bedrooms, and a sunny rear garden with development potential.\n\nThe property is chain-free, ensuring a more straightforward transaction. Situated in a high-yield postcode district averaging 8.2% gross yield, it appeals to first-time buyers, families, and investors alike. Local amenities, schools, and transport links are all within easy reach.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/19c462e25e659b541e12449c098b12a99c7ae2f3.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74198063"
+   },
+   {
+    "id": "Z72978528",
+    "address": "Croxteth Road, Bootle L20",
+    "precise_address": null,
+    "postcode": "L20 5DX",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 105000,
+    "sqf": null,
+    "days_on_market": 203,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.45949300",
+    "lng": "-2.99749400",
+    "distance_to": "9.33",
+    "price_history": [
+     {
+      "date": "2026-04-28",
+      "price": 110000
+     },
+     {
+      "date": "2026-07-11",
+      "price": 105000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house requires updating and modernisation throughout. It features two reception rooms, a kitchen/breakfast room, cellar, and shower room across two storeys.\n\nSituated in a high-yield postcode district achieving average 7.6% gross rental yield, this property presents an attractive investment opportunity. Council tax band A and leasehold tenure with 868 years remaining.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/fb84b5525c743e5da5c3ac4f1a6d699e6cac3daf.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72978528"
+   },
+   {
+    "id": "Z74006162",
+    "address": "Poolstock Lane, Wigan WN3",
+    "precise_address": null,
+    "postcode": "WN3 5QR",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 83,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.52370000",
+    "lng": "-2.65005000",
+    "distance_to": "9.34",
+    "price_history": [
+     {
+      "date": "2026-08-20",
+      "price": 180000
+     },
+     {
+      "date": "2026-10-18",
+      "price": 170000
+     }
+    ],
+    "summary": "This semi-detached home on Poolstock Lane offers genuine potential for buyers seeking to add value through modernisation. The property features a spacious lounge, separate dining room, and kitchen with scope for updating. Upstairs provides three first-floor bedrooms and a shower room.\n\nSold with no onward chain, the home benefits from a rear extension, good-sized garden, front garden and driveway. Located in well-connected Marus Bridge with convenient access to schools, supermarkets, leisure facilities and rail links, it appeals to those with vision to create their own stylish home.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/70e99017b5dac847a5c34059f9a31edf412ba30a.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74006162"
+   },
+   {
+    "id": "Z69536080",
+    "address": "Hinton Street, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 8LS",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 95000,
+    "sqf": 810,
+    "days_on_market": 101,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.46422700",
+    "lng": "-2.99695900",
+    "distance_to": "9.42",
+    "price_history": [
+     {
+      "date": "2025-03-01",
+      "price": 100000
+     },
+     {
+      "date": "2026-08-16",
+      "price": 95000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace family home on Hinton Street, Liverpool, requires refurbishment but offers excellent potential for buyers seeking to add their own character. The property features an open-plan lounge and dining room flooded with natural light, a fitted kitchen, and a family bathroom, all needing updating.\n\nUpstairs are two generously sized bedrooms offering customisation opportunities. A rear courtyard provides private outdoor space. Located in a popular residential area with good access to local amenities, schools, and transport links, making it ideal for families or first-time buyers.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/f60fd0ca38c61b263e641bd5c682358bdb12a2c7.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/69536080"
+   },
+   {
+    "id": "Z74316462",
+    "address": "Daley Road, Litherland, Merseyside L21",
+    "precise_address": null,
+    "postcode": "L21 7QQ",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": 667,
+    "days_on_market": 47,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.47501600",
+    "lng": "-2.99126000",
+    "distance_to": "9.51",
+    "price_history": [
+     {
+      "date": "2026-09-27",
+      "price": 150000
+     },
+     {
+      "date": "2026-10-12",
+      "price": 135000
+     }
+    ],
+    "summary": "A spacious three-bedroom mid-terrace family home in the popular L21 Litherland area. The property features a bright lounge with bay window, large kitchen/dining room, and three well-proportioned bedrooms with modern bathroom. External spaces include front and rear gardens with brick-built storage.\n\nOffered with no onward chain, this is ideal for first-time buyers, families, or investors seeking a reliable transaction. The property demonstrates good potential and is conveniently positioned near local amenities, schools, and transport links.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/782dd4bb352721911d2bbc5e88794b83a6af5d8f.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74316462"
+   },
+   {
+    "id": "Z73864612",
+    "address": "Ocean Road, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 8NH",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 549,
+    "days_on_market": 101,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.46816400",
+    "lng": "-2.99893300",
+    "distance_to": "9.60",
+    "price_history": [
+     {
+      "date": "2026-08-16",
+      "price": 150000
+     }
+    ],
+    "summary": "This extended three-bedroom terraced house is offered with no onward chain, making it an attractive option for buyers seeking a reliable transaction. The property features two spacious reception rooms with French doors opening to a rear yard, plus a kitchen with modernisation potential.\n\nUpstairs are two double bedrooms and a single bedroom suitable for various uses. The property requires updating throughout, allowing buyers to add their own finishing touches and create a contemporary home. Its practical layout, extended living space and chain-free status make it ideal for those looking to move quickly.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/ce30143ab20f04deb44e1b73f4ff1767b1529481.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73864612"
+   },
+   {
+    "id": "Z74530609",
+    "address": "Moorland Road, Birkenhead CH42",
+    "precise_address": null,
+    "postcode": "CH42 5NU",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 70000,
+    "sqf": null,
+    "days_on_market": 24,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.37723500",
+    "lng": "-3.01768400",
+    "distance_to": "9.97",
+    "price_history": [
+     {
+      "date": "2026-10-20",
+      "price": 70000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house on Moorland Road, Birkenhead, requires full renovation throughout. It offers scope for modernisation and improvement, suiting buyers looking for a project or investors seeking a renovation opportunity.\n\nThe accommodation includes a living room, dining room, kitchen, bathroom and two bedrooms. The property is convenient for local amenities and transport links. Council Tax band A and EPC rating D. No survey has been carried out.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/1d144687f31b72fbc4ebfe92080abb1157f1949e.png",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74530609"
+   },
+   {
+    "id": "Z74453666",
+    "address": "Britannia Road, Wigan WN5",
+    "precise_address": null,
+    "postcode": "WN5 0EN",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": 0,
+    "sstc": 0,
+    "lat": "53.54772900",
+    "lng": "-2.68055800",
+    "distance_to": "10.14",
+    "price_history": [
+     {
+      "date": "2026-10-10",
+      "price": 135000
+     },
+     {
+      "date": "2026-11-08",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom mid terrace house on Britannia Road in Marsh Green, Wigan, offers a sunshine lounge, a dining kitchen, a family bathroom and central heating. Outside there is a large rear garden and a driveway for convenient parking.\n\nThe property does require some updating, so it may suit buyers looking to personalise a home over time. Supermarkets, schools, leisure facilities and healthcare services are all within easy reach of the location.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/e1588e2abab67bb3b4a5455c5949acc6b3969e36.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74453666"
+   },
+   {
+    "id": "Z74372495",
+    "address": "Hylton Avenue, Wallasey CH44",
+    "precise_address": null,
+    "postcode": "CH44 5XA",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 40,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.41778100",
+    "lng": "-3.04796400",
+    "distance_to": "10.88",
+    "price_history": [
+     {
+      "date": "2026-10-04",
+      "price": 165000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house sits on a cul-de-sac on Hylton Avenue, Wallasey. It offers two reception rooms, a kitchen, a family bathroom, off-road parking and a rear garden, with double glazing and gas central heating.\n\nThe property would benefit from some refurbishment, giving buyers the chance to personalise the space. The vendor would like to exchange and complete quickly. The home is around 0.2 miles from LISCARD HOUSE, where planning has been granted for fire safety and re-cladding works.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/aee92b47e24b6d4f9f8b9cbfa30b50c7220d1eb3.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74372495"
+   },
+   {
+    "id": "Z74321593",
+    "address": "Marshlands Road, Wallasey CH45",
+    "precise_address": null,
+    "postcode": "CH45 8JE",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 179995,
+    "sqf": null,
+    "days_on_market": 47,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.42594500",
+    "lng": "-3.06845100",
+    "distance_to": "11.74",
+    "price_history": [
+     {
+      "date": "2026-09-25",
+      "price": 179995
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Marshlands Road in Wallasey is offered for sale in need of modernisation throughout. It includes an open-plan lounge and dining area, a kitchen, a first-floor landing with three bedrooms, a shower room and an enclosed rear yard.\n\nThe property suits buyers looking for a renovation project or an investment opportunity. It is located within reach of local shops, schools, transport links and the amenities of Wallasey and New Brighton.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/be2dfbf55b41ebf187da32e9f22e293382446098.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74321593"
+   },
+   {
+    "id": "Z74174744",
+    "address": "Atherton Road, Hindley WN2",
+    "precise_address": null,
+    "postcode": "WN2 3EH",
+    "type": "",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 120000,
+    "sqf": 1047,
+    "days_on_market": 107,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.53198200",
+    "lng": "-2.57640300",
+    "distance_to": "11.78",
+    "price_history": [
+     {
+      "date": "2026-09-15",
+      "price": 130000
+     },
+     {
+      "date": "2026-10-19",
+      "price": 120000
+     }
+    ],
+    "summary": "This two-bedroom detached house is offered for sale with no onward chain, located close to Hindley Town Centre. It includes a fitted kitchen, two reception rooms, a spacious bathroom and two generous bedrooms.\n\nThe property is perhaps in need of some updating but offers potential, with larger than average rear gardens, a brick outbuilding requiring work, and a rear plot housing a two-storey garage. Access via secure gates may allow for off-road parking, subject to any necessary consents.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/23669b2814285f7ccdd3e76498675fb422fd4cec.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74174744"
+   },
+   {
+    "id": "Z74584776",
+    "address": "Mossy Lea Road, Standish, Wigan, Lancashire WN6",
+    "precise_address": null,
+    "postcode": "WN6 9RB",
+    "type": "semi_detached_bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 130000,
+    "sqf": 741,
+    "days_on_market": 17,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.59157500",
+    "lng": "-2.69514700",
+    "distance_to": "12.77",
+    "price_history": [
+     {
+      "date": "2026-10-27",
+      "price": 130000
+     }
+    ],
+    "summary": "This detached bungalow on Mossy Lea Road in Standish, Wigan, sits in a semi-rural setting near countryside walks, local schools and M6 links. It offers a spacious lounge, separate dining room, two bedrooms, a family bathroom and a substantial plot with mature gardens and off-road parking.\n\nThe property requires renovation throughout, including the kitchen, and has leasehold tenure of 999 years from 1938. The sale is restricted to cash buyers only, and the vendor is seeking a quick exchange and completion.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/1672324b13bf4d3b1286f60c6f1eac5cdc2c4d9f.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74584776"
+   },
+   {
+    "id": "Z74447580",
+    "address": "New Drake Green, Westhoughton, Bolton BL5",
+    "precise_address": null,
+    "postcode": "BL5 2RF",
+    "type": "semi_detached_bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 135000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.53413000",
+    "lng": "-2.52654500",
+    "distance_to": "13.43",
+    "price_history": [
+     {
+      "date": "2026-10-11",
+      "price": 135000
+     }
+    ],
+    "summary": "This one-bedroom semi-detached true bungalow is offered for sale with no onward chain, in a location within walking distance of local shops, amenities and bus routes. The property would benefit from some modernisation but offers scope to create a comfortable home. Accommodation includes an entrance hallway, spacious lounge, kitchen/diner, bedroom and shower room.\n\nExternally there is a large private rear garden with mature trees and shrubs, a driveway for off-road parking, and a carport with a large shed to the side. The vendor notes potential to extend to the side and rear, subject to the necessary planning permissions. The tenure is leasehold with 951 years remaining.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/7d66be293ce17c1384974a5b5e9999c2f6c252fc.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74447580"
+   },
+   {
+    "id": "Z74175106",
+    "address": "Lambeth Street, Atherton M46",
+    "precise_address": null,
+    "postcode": "M46 0JE",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 872,
+    "days_on_market": 90,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.52360100",
+    "lng": "-2.49940700",
+    "distance_to": "13.92",
+    "price_history": [
+     {
+      "date": "2026-09-11",
+      "price": 190000
+     },
+     {
+      "date": "2026-10-29",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house sits on the Ls development in Atherton, offered for sale with no onward chain. Ground-floor accommodation includes a bay-fronted sitting room, a separate lounge with patio doors to the rear garden, a fitted kitchen, a dining room and a spacious orangery. The first floor provides three bedrooms, a family bathroom and a separate WC.\n\nOutside, the property occupies a cul-de-sac position with off-road parking to the front and a larger-than-average enclosed rear garden offering good privacy. The sitting room is noted as needing some modernisation, and the property may offer scope for development.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/41c2b37a6af3468e55b71020d87fdf263f2a2182.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74175106"
+   }
+  ]
+ }
+}

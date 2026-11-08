@@ -1,0 +1,2391 @@
+{
+ "source": "propertydata",
+ "endpoint": "sourced-properties",
+ "fetched_via": "mcp",
+ "fetched_at": "2026-11-08T13:04:37.670367+00:00",
+ "run_id": "sweep15-20261108",
+ "request": {
+  "list": "slow-to-sell-properties",
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "max_price": 180000,
+  "standardised_type": "!flat",
+  "exclude_sstc": 1,
+  "results": 100,
+  "page": 1
+ },
+ "response": {
+  "status": "success",
+  "image_copyright": "All image URLs link to third-party content that may be protected by copyright; you must obtain any necessary rights or permissions before downloading, storing, or reusing those images.",
+  "list": {
+   "id": "slow-to-sell-properties",
+   "name": "Slow to sell properties"
+  },
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "page": 1,
+  "result_count": 73,
+  "api_calls_cost": 8,
+  "properties": [
+   {
+    "id": "R164749301",
+    "address": "St Winifred Road, Rainhill, Liverpool",
+    "precise_address": null,
+    "postcode": "L35 8PY",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": 786,
+    "days_on_market": 396,
+    "days_since_price_change": 124,
+    "sstc": 0,
+    "lat": "53.42335300",
+    "lng": "-2.77385500",
+    "distance_to": "0.74",
+    "price_history": [
+     {
+      "date": "2025-10-08",
+      "price": 210000
+     },
+     {
+      "date": "2025-10-14",
+      "price": 195000
+     },
+     {
+      "date": "2026-02-11",
+      "price": 190000
+     },
+     {
+      "date": "2026-03-17",
+      "price": 185000
+     },
+     {
+      "date": "2026-07-07",
+      "price": 175000
+     }
+    ],
+    "summary": "This semi-detached house has been sitting on the market since October 2025. The asking price has been reduced 4 times by a total of 17% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b170b93d9/164749301/b170b93d9114fd03705e099ae3aa7468.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/164749301"
+   },
+   {
+    "id": "R153829484",
+    "address": "Coral Avenue, Huyton, Liverpool",
+    "precise_address": "75, CORAL AVENUE, HUYTON, L36 2PY",
+    "postcode": "L36 2PY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 721,
+    "days_on_market": 754,
+    "days_since_price_change": 752,
+    "sstc": 0,
+    "lat": "53.41505000",
+    "lng": "-2.84686000",
+    "distance_to": "2.59",
+    "price_history": [
+     {
+      "date": "2024-10-18",
+      "price": 150000
+     }
+    ],
+    "summary": "This terraced house is in walking distance of a public green space (Public Park Or Garden). It has been sitting on the market since October 2024.",
+    "months_on_market": "25",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2ab55d08b/153829484/2ab55d08b0f711eac3ab31fea3484c46.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/153829484"
+   },
+   {
+    "id": "R158563745",
+    "address": "Irwin Road, St Helens",
+    "precise_address": null,
+    "postcode": "WA9 3UQ",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 99950,
+    "sqf": null,
+    "days_on_market": 136,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.43442100",
+    "lng": "-2.71799800",
+    "distance_to": "3.05",
+    "price_history": [
+     {
+      "date": "2025-02-21",
+      "price": 120000
+     },
+     {
+      "date": "2025-08-06",
+      "price": 99950
+     }
+    ],
+    "summary": "This is a building plot with previous planning permission for a four-bedroom detached house with integral garage. Located on a corner plot in a popular residential area with good access to local schools and commuter networks.\n\nThe footing and slab have already been completed on site. The property benefits from a 17% price reduction and has been on the market since February 2025. Full plans are available under previous planning application P/2007/1078.",
+    "months_on_market": "21",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b11517f5e/158563745/b11517f5ebb6f02455f589bd2d6c2397.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/158563745"
+   },
+   {
+    "id": "R166375646",
+    "address": "Clovelly Avenue, St. Helens, WA9",
+    "precise_address": "8, CLOVELLY AVENUE, SUTTON LEACH, ST HELENS, WA9 4HT",
+    "postcode": "WA9 4HT",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 732,
+    "days_on_market": 432,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.42833100",
+    "lng": "-2.70901900",
+    "distance_to": "3.23",
+    "price_history": [
+     {
+      "date": "2025-09-03",
+      "price": 100000
+     }
+    ],
+    "summary": "This semi-detached house has been sitting on the market since September 2025. It is 37% cheaper than the average of \u00a3219/sqft near WA9 4HT.",
+    "months_on_market": "14",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2b152ca4a/166375646/2b152ca4a4476ce129f8851095578d12.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166375646"
+   },
+   {
+    "id": "R164314445",
+    "address": "Church Street, St. Helens",
+    "precise_address": null,
+    "postcode": "WA10 1AJ",
+    "type": "Shop",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 179950,
+    "sqf": null,
+    "days_on_market": 486,
+    "days_since_price_change": 422,
+    "sstc": 0,
+    "lat": "53.45171700",
+    "lng": "-2.73313900",
+    "distance_to": "3.32",
+    "price_history": [
+     {
+      "date": "2025-07-10",
+      "price": 180000
+     },
+     {
+      "date": "2025-09-12",
+      "price": 179950
+     }
+    ],
+    "summary": "This detached house is 0.23 miles from Honey Rose Foundation 2 - 4 Cotham Street St Helens WA10 1SA (planning granted for 11 Flats (Conversion)). It has the potential to develop. It has been sitting on the market since July 2025. The asking price has been reduced by 0% from the first listing price.",
+    "months_on_market": "16",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7c7e6bf81/164314445/7c7e6bf81af5473c84614c910a0529fd.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/164314445"
+   },
+   {
+    "id": "R167469254",
+    "address": "Standish Street, St. Helens, WA10",
+    "precise_address": "55, STANDISH STREET, ST HELENS, WA10 1HY",
+    "postcode": "WA10 1HY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 689,
+    "days_on_market": 409,
+    "days_since_price_change": 397,
+    "sstc": 0,
+    "lat": "53.45768400",
+    "lng": "-2.73336200",
+    "distance_to": "3.64",
+    "price_history": [
+     {
+      "date": "2025-10-07",
+      "price": 110000
+     }
+    ],
+    "summary": "This 2-bedroom terraced house in St Helens represents a hassle-free investment opportunity. Currently occupied by a reliable long-term tenant, it generates a monthly rental income of \u00a3725, achieving an attractive 7.9% yield. The property is well-located near the town centre, with good transport links. Exclusively available to buy-to-let investors, this is a secure and profitable addition to any landlord's portfolio.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/212aef433/167469254/212aef433c751345c63cea283a040622.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167469254"
+   },
+   {
+    "id": "R168252578",
+    "address": "171 Hollowcroft, Liverpool L28 4EE",
+    "precise_address": "171, HOLLOW CROFT, STOCKBRIDGE VILLAGE, L28 4EE",
+    "postcode": "L28 4EE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 144950,
+    "sqf": null,
+    "days_on_market": 383,
+    "days_since_price_change": 29,
+    "sstc": 0,
+    "lat": "53.43999000",
+    "lng": "-2.86602000",
+    "distance_to": "3.82",
+    "price_history": [
+     {
+      "date": "2025-10-21",
+      "price": 179950
+     },
+     {
+      "date": "2025-10-29",
+      "price": 175000
+     },
+     {
+      "date": "2025-12-02",
+      "price": 169999
+     },
+     {
+      "date": "2026-02-04",
+      "price": 159950
+     },
+     {
+      "date": "2026-05-07",
+      "price": 154950
+     },
+     {
+      "date": "2026-07-30",
+      "price": 149950
+     },
+     {
+      "date": "2026-10-02",
+      "price": 147950
+     },
+     {
+      "date": "2026-10-10",
+      "price": 144950
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in Liverpool has an asking price of \u00a3179,950. It benefits from no onward chain, making it a more reliable transaction. The property features central heating, double glazing, a conservatory, and a rear garden.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3b5591468/168252578/3b5591468b951d0e835c2796e992a0af.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168252578"
+   },
+   {
+    "id": "R87351240",
+    "address": "Cygnet Gardens, St. Helens, Merseyside, WA9 1SE",
+    "precise_address": "50, CYGNET GARDENS, ST HELENS, WA9 1SE",
+    "postcode": "WA9 1SE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 376,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.44870000",
+    "lng": "-2.70920000",
+    "distance_to": "3.88",
+    "price_history": [
+     {
+      "date": "2025-10-31",
+      "price": 135000
+     },
+     {
+      "date": "2026-01-21",
+      "price": 125000
+     },
+     {
+      "date": "2026-11-07",
+      "price": 120000
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in St. Helens, Merseyside, has an asking price of \u00a3135,000 and will be sold by auction. The property features a modern fitted kitchen and a private, not-overlooked rear garden, providing a balance of convenience and tranquility.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d3181adb5/87351240/d3181adb5c2576e070c9a024005a3cab.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87351240"
+   },
+   {
+    "id": "R167673587",
+    "address": "Cygnet Gardens, St. Helens, Merseyside, WA9",
+    "precise_address": "50, CYGNET GARDENS, ST HELENS, WA9 1SE",
+    "postcode": "WA9 1SE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 731,
+    "days_on_market": 316,
+    "days_since_price_change": 290,
+    "sstc": 0,
+    "lat": "53.44931800",
+    "lng": "-2.70981800",
+    "distance_to": "3.89",
+    "price_history": [
+     {
+      "date": "2025-10-07",
+      "price": 159500
+     },
+     {
+      "date": "2025-10-31",
+      "price": 135000
+     },
+     {
+      "date": "2026-01-22",
+      "price": 125000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is being sold by auction and offers excellent value for families or first-time buyers. It features two double bedrooms and one single bedroom, with double-glazed windows, gas central heating, and a modern fitted kitchen with ample storage.\n\nThe property benefits from a private, non-overlooked rear garden ideal for relaxation and entertaining. Located in a peaceful area with good transport links and nearby parks, it's freehold with Council Tax Band B. Early viewing is recommended to appreciate this well-presented home.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0eca25fd5/167673587/0eca25fd5d1b087366279d207efcb2c5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167673587"
+   },
+   {
+    "id": "R167623457",
+    "address": "Antons Court, Liverpool, Merseyside, L26",
+    "precise_address": "1, ANTONS COURT, HALEWOOD, L26 9WA",
+    "postcode": "L26 9WA",
+    "type": "Mews",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 145000,
+    "sqf": 826,
+    "days_on_market": 405,
+    "days_since_price_change": 211,
+    "sstc": 0,
+    "lat": "53.35865000",
+    "lng": "-2.82711000",
+    "distance_to": "4.24",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 152500
+     },
+     {
+      "date": "2026-04-12",
+      "price": 145000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. It is 27% cheaper than the average of \u00a3240/sqft near L26 9WA. The asking price has been reduced by 5% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/eff5796c4/167623457/eff5796c48b784601d4e94b3eb8d4d6b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167623457"
+   },
+   {
+    "id": "R167139878",
+    "address": "Nicholson Street, St. Helens, Merseyside, WA9",
+    "precise_address": "31, NICHOLSON STREET, ST HELENS, WA9 2DR",
+    "postcode": "WA9 2DR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 721,
+    "days_on_market": 56,
+    "days_since_price_change": 51,
+    "sstc": 0,
+    "lat": "53.45428000",
+    "lng": "-2.70231000",
+    "distance_to": "4.34",
+    "price_history": [
+     {
+      "date": "2025-09-18",
+      "price": 120000
+     },
+     {
+      "date": "2026-09-18",
+      "price": 110000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since September 2025. It is being sold with the benefit of tenants in situ. The asking price has been reduced by 8% from the first listing price.",
+    "months_on_market": "14",
+    "image_url": "https://media.rightmove.co.uk/property-photo/62526b06c/167139878/62526b06c7bb04e95d0a9768312c13e0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167139878"
+   },
+   {
+    "id": "R168501281",
+    "address": "Boundary Farm Road, Liverpool, Merseyside, L26",
+    "precise_address": "59, BOUNDARY FARM ROAD, HALEWOOD, L26 1TZ",
+    "postcode": "L26 1TZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 872,
+    "days_on_market": 379,
+    "days_since_price_change": 227,
+    "sstc": 0,
+    "lat": "53.35640000",
+    "lng": "-2.84124600",
+    "distance_to": "4.65",
+    "price_history": [
+     {
+      "date": "2025-10-25",
+      "price": 190000
+     },
+     {
+      "date": "2025-11-28",
+      "price": 180000
+     },
+     {
+      "date": "2026-02-18",
+      "price": 170000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 5% from the first listing price.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6e1c582fb/168501281/6e1c582fb6616a6f2770706ef2b0db9e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168501281"
+   },
+   {
+    "id": "R159902255",
+    "address": "Irwell Street, Widnes, Cheshire, WA8",
+    "precise_address": "50, IRWELL STREET, WIDNES, WA8 0EP",
+    "postcode": "WA8 0EP",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 14,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.35015200",
+    "lng": "-2.73626600",
+    "distance_to": "4.85",
+    "price_history": [
+     {
+      "date": "2025-03-28",
+      "price": 129950
+     },
+     {
+      "date": "2026-05-30",
+      "price": 120000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since March 2025. The asking price has been reduced by 8% from the first listing price.",
+    "months_on_market": "19",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6b46c3307/159902255/6b46c33073e2986129500dbc3940a698.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/159902255"
+   },
+   {
+    "id": "R163105586",
+    "address": "Clayford Way, Liverpool, Merseyside, L14",
+    "precise_address": null,
+    "postcode": "L14 1PP",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 925,
+    "days_on_market": 391,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.41671000",
+    "lng": "-2.90316000",
+    "distance_to": "4.91",
+    "price_history": [
+     {
+      "date": "2025-10-13",
+      "price": 150000
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in Liverpool is being sold with the benefit of tenants in situ. The property offers comfortable living and is conveniently located close to transport links, schools, and other local amenities. The south-facing garden provides outdoor space for entertaining or relaxing.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e5b194f61/163105586/e5b194f611987990958c3079c9e5c604.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/163105586"
+   },
+   {
+    "id": "R164627582",
+    "address": "West End Road, Haydock, St Helens, WA11 0AY",
+    "precise_address": "324, WEST END ROAD, HAYDOCK, ST HELENS, WA11 0AY",
+    "postcode": "WA11 0AY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": 1034,
+    "days_on_market": 24,
+    "days_since_price_change": 22,
+    "sstc": 0,
+    "lat": "53.46729200",
+    "lng": "-2.69096300",
+    "distance_to": "5.29",
+    "price_history": [
+     {
+      "date": "2025-10-07",
+      "price": 135000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3368654b2/164627582/3368654b25b6f66c34a3d270631102af.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/164627582"
+   },
+   {
+    "id": "R160373924",
+    "address": "Carr Lane East, Croxteth, Liverpool, L11",
+    "precise_address": "34, CARR LANE EAST, LIVERPOOL, L11 4SQ",
+    "postcode": "L11 4SQ",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 850,
+    "days_on_market": 456,
+    "days_since_price_change": 246,
+    "sstc": 0,
+    "lat": "53.45058900",
+    "lng": "-2.90404300",
+    "distance_to": "5.54",
+    "price_history": [
+     {
+      "date": "2025-08-09",
+      "price": 185000
+     },
+     {
+      "date": "2026-03-07",
+      "price": 180000
+     }
+    ],
+    "summary": "This beautifully refurbished 3-bedroom end-terrace home in Croxteth, Liverpool, offers a perfect blend of modern comfort and classic charm. With no onward chain, it would be a reliable transaction. The property features a spacious living room, separate dining room, well-equipped kitchen, and a substantial garden with an outbuilding.",
+    "months_on_market": "15",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2c549d94d/160373924/2c549d94dd5e12176fd25799721c332a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/160373924"
+   },
+   {
+    "id": "R150181835",
+    "address": "Halton Road, Runcorn, WA7  5SB",
+    "precise_address": "80, HALTON ROAD, RUNCORN, WA7 5SB",
+    "postcode": "WA7 5SB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 135000,
+    "sqf": 1249,
+    "days_on_market": 704,
+    "days_since_price_change": 200,
+    "sstc": 0,
+    "lat": "53.33998600",
+    "lng": "-2.71804600",
+    "distance_to": "5.81",
+    "price_history": [
+     {
+      "date": "2024-07-13",
+      "price": 140000
+     },
+     {
+      "date": "2025-01-01",
+      "price": 136000
+     },
+     {
+      "date": "2026-04-22",
+      "price": 135000
+     }
+    ],
+    "summary": "This spacious four-bedroom detached house is located in a popular residential area on the fringe of Runcorn Old Town, adjacent to Bridgewater Canal. The ground floor features a lounge, dining room, breakfast kitchen with cellar access, and a fourth bedroom with en-suite. Upstairs offers three further bedrooms and a family bathroom.\n\nThe property benefits from UPVC double glazing throughout, a large enclosed rear courtyard with raised lawn and ornamental pond, and street parking to the front. Council Tax Band A. Cash buyers only.",
+    "months_on_market": "28",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cf730517d/150181835/cf730517d1244e3cad2f001edc88a34a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/150181835"
+   },
+   {
+    "id": "R168594320",
+    "address": "Eastdale Road, Liverpool",
+    "precise_address": null,
+    "postcode": "L15 4HW",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 381,
+    "days_since_price_change": 127,
+    "sstc": 0,
+    "lat": "53.40073000",
+    "lng": "-2.92313000",
+    "distance_to": "5.81",
+    "price_history": [
+     {
+      "date": "2025-10-27",
+      "price": 180000
+     },
+     {
+      "date": "2026-07-04",
+      "price": 170000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. The asking price has been reduced by 6% from the first listing price.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5736c5dd2/168594320/5736c5dd21f84ee2b41794ee74e39e36.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168594320"
+   },
+   {
+    "id": "R99719399",
+    "address": "Grange Park Avenue, Runcorn, Cheshire, WA7",
+    "precise_address": null,
+    "postcode": "WA7 5UU",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 144995,
+    "sqf": null,
+    "days_on_market": 73,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.33832000",
+    "lng": "-2.71933000",
+    "distance_to": "5.89",
+    "price_history": [
+     {
+      "date": "2023-02-07",
+      "price": 150000
+     },
+     {
+      "date": "2026-01-13",
+      "price": 144995
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Runcorn, Cheshire, is offered to cash buyers only. It has been fully refurbished, with a modern fitted kitchen and bathroom, a bright living room, a separate dining room, and gas central heating with double glazing. The property is currently vacant and sits in a popular residential area with good commuter links to Liverpool and Manchester.\n\nOutside, there is a driveway offering off-road parking, low-maintenance front and rear gardens, and a converted garage that could serve as storage, a home office or a hobby room. The freehold property is suitable as a first home or buy-to-let investment.",
+    "months_on_market": "45",
+    "image_url": "https://media.rightmove.co.uk/property-photo/aa0810a66/99719399/aa0810a66e391a65fc5a001ae8c7a92c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/99719399"
+   },
+   {
+    "id": "R151799411",
+    "address": "Marlborough Road, LIVERPOOL, Merseyside, L13",
+    "precise_address": "41, MARLBOROUGH ROAD, LIVERPOOL, L13 8AU",
+    "postcode": "L13 8AU",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 180000,
+    "sqf": 1433,
+    "days_on_market": 803,
+    "days_since_price_change": 800,
+    "sstc": 0,
+    "lat": "53.42573000",
+    "lng": "-2.93375000",
+    "distance_to": "6.22",
+    "price_history": [
+     {
+      "date": "2024-08-30",
+      "price": 180000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 6.8% gross yield. It has been sitting on the market since August 2024. It is 48% cheaper than the average of \u00a3241/sqft near L13 8AU.",
+    "months_on_market": "26",
+    "image_url": "https://media.rightmove.co.uk/property-photo/308ab5328/151799411/308ab5328317d72bcae193169522c17a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/151799411"
+   },
+   {
+    "id": "R167673494",
+    "address": "Gribble Road, Liverpool, Merseyside, L10",
+    "precise_address": "6, GRIBBLE ROAD, LIVERPOOL, L10 7NF",
+    "postcode": "L10 7NF",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 731,
+    "days_on_market": 391,
+    "days_since_price_change": 289,
+    "sstc": 0,
+    "lat": "53.46669900",
+    "lng": "-2.91565100",
+    "distance_to": "6.52",
+    "price_history": [
+     {
+      "date": "2025-10-13",
+      "price": 135000
+     },
+     {
+      "date": "2026-01-23",
+      "price": 125000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. It is being sold with the benefit of tenants in situ. The asking price has been reduced by 7% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a37139727/167673494/a37139727597747433fa0c8b2a42adbe.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167673494"
+   },
+   {
+    "id": "R168867194",
+    "address": "Cotton Lane, Runcorn, WA7",
+    "precise_address": null,
+    "postcode": "WA7 5NB",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 137000,
+    "sqf": 1301,
+    "days_on_market": 371,
+    "days_since_price_change": 303,
+    "sstc": 0,
+    "lat": "53.32904100",
+    "lng": "-2.70732800",
+    "distance_to": "6.69",
+    "price_history": [
+     {
+      "date": "2025-11-02",
+      "price": 140000
+     },
+     {
+      "date": "2026-01-09",
+      "price": 137000
+     }
+    ],
+    "summary": "This 4-bedroom terraced house in Runcorn is currently tenanted, providing an immediate rental yield for investors. The property has undergone recent refurbishments and benefits from no onward chain, making it a reliable transaction.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c7c03705b/168867194/c7c03705b2f2b9d31923d8b6729a0197.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168867194"
+   },
+   {
+    "id": "R166784330",
+    "address": "8 Ardrossan Road, Liverpool l4 7XN",
+    "precise_address": null,
+    "postcode": "L4 7XN",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 169999,
+    "sqf": null,
+    "days_on_market": 426,
+    "days_since_price_change": 134,
+    "sstc": 0,
+    "lat": "53.43694000",
+    "lng": "-2.94875000",
+    "distance_to": "6.96",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 179950
+     },
+     {
+      "date": "2026-02-21",
+      "price": 174950
+     },
+     {
+      "date": "2026-06-27",
+      "price": 169999
+     }
+    ],
+    "summary": "This semi-detached house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It is 0.16 miles from 25-29 Utting Avenue, Liverpool, L4 7UN (planning granted for 10 Flats (Conversion)). It is suitable for splitting, as smaller properties achieve much better \u00a3/sqft in this area. It has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 6% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/690990866/166784330/690990866f8638fa490d73cb9d0d555b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166784330"
+   },
+   {
+    "id": "R168569297",
+    "address": "Handforth Lane, Runcorn",
+    "precise_address": "46, HANDFORTH LANE, RUNCORN, WA7 5YX",
+    "postcode": "WA7 5YX",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 110000,
+    "sqf": 1111,
+    "days_on_market": 24,
+    "days_since_price_change": 22,
+    "sstc": 0,
+    "lat": "53.32232300",
+    "lng": "-2.71143500",
+    "distance_to": "7.03",
+    "price_history": [
+     {
+      "date": "2025-10-28",
+      "price": 110000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. It benefits from having no onward chain, so would be a more reliable transaction. It is 52% cheaper than the average of \u00a3205/sqft near WA7 5YX.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d2b44be00/168569297/d2b44be00898e8887ada0c883c8c6344.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168569297"
+   },
+   {
+    "id": "R163598495",
+    "address": "Leopold Road, Kensington, Liverpool",
+    "precise_address": "109, LEOPOLD ROAD, LIVERPOOL, L7 8SS",
+    "postcode": "L7 8SS",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 391,
+    "days_since_price_change": 115,
+    "sstc": 0,
+    "lat": "53.40803000",
+    "lng": "-2.95533000",
+    "distance_to": "7.07",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 190000
+     },
+     {
+      "date": "2026-01-24",
+      "price": 180000
+     },
+     {
+      "date": "2026-07-16",
+      "price": 170000
+     }
+    ],
+    "summary": "This semi-detached house is walking distance (0.47 miles) from University of Liverpool. It is 0.18 miles from Land Bound By Royston Street, Dorothy Drive And Gladstone Road, L7, Liverpool, (planning granted for Non-Material Amendment for 188 Housing Units). It has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 11% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/87cf638ed/163598495/87cf638ed8fe67c199295debe060a233.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/163598495"
+   },
+   {
+    "id": "R165806471",
+    "address": "Stanley Park Avenue South, Liverpool, Merseyside, L4",
+    "precise_address": "193, STANLEY PARK AVENUE SOUTH, LIVERPOOL, L4 7XE",
+    "postcode": "L4 7XE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": null,
+    "days_on_market": 314,
+    "days_since_price_change": 5,
+    "sstc": 0,
+    "lat": "53.43864300",
+    "lng": "-2.95128700",
+    "distance_to": "7.09",
+    "price_history": [
+     {
+      "date": "2025-09-28",
+      "price": 160000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 155000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It is back on the market after being off the market for 90 days between 30 September and 29 December. It has been sitting on the market since September 2025. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced by 3% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/647f99084/165806471/647f990843742f4b298678a1f0bbb974.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/165806471"
+   },
+   {
+    "id": "R162582257",
+    "address": "Walton Breck Road, Liverpool L4 0SY",
+    "precise_address": "339, WALTON BRECK ROAD, LIVERPOOL, L4 0SY",
+    "postcode": "L4 0SY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 529,
+    "days_since_price_change": 254,
+    "sstc": 0,
+    "lat": "53.42852000",
+    "lng": "-2.95564000",
+    "distance_to": "7.14",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 189000
+     },
+     {
+      "date": "2026-01-30",
+      "price": 175000
+     },
+     {
+      "date": "2026-02-27",
+      "price": 165000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It is 0.17 miles from Land To The Rear Of Cabbage Hall Bar And Grill Walton Breck Road, Liverpool, L4 2RB (planning granted for 22 Residential Apartments (New Development)). It is suitable for splitting, as smaller properties achieve much better \u00a3/sqft in this area. It has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 13% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f634031ab/162582257/f634031ab0ba75aa6fde013d6588d3fa.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/162582257"
+   },
+   {
+    "id": "R168701597",
+    "address": "Connaught Road, LIVERPOOL, Merseyside, L7",
+    "precise_address": "6, CONNAUGHT ROAD, LIVERPOOL, L7 8RN",
+    "postcode": "L7 8RN",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": 1131,
+    "days_on_market": 62,
+    "days_since_price_change": 60,
+    "sstc": 0,
+    "lat": "53.40877000",
+    "lng": "-2.95899000",
+    "distance_to": "7.22",
+    "price_history": [
+     {
+      "date": "2025-10-30",
+      "price": 170000
+     }
+    ],
+    "summary": "This semi-detached house is walking distance (0.38 miles) from University of Liverpool. It has been sitting on the market since October 2025.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/bf183a591/168701597/bf183a591e1a41348297ab4f8eeb0fa3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168701597"
+   },
+   {
+    "id": "R156276944",
+    "address": "First Avenue, Liverpool, L9",
+    "precise_address": null,
+    "postcode": "L9 9DN",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 678,
+    "days_on_market": 12,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.46738800",
+    "lng": "-2.94308800",
+    "distance_to": "7.50",
+    "price_history": [
+     {
+      "date": "2024-12-28",
+      "price": 160000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 162 days between 4 February and 16 July. It has been sitting on the market since December 2024.",
+    "months_on_market": "22",
+    "image_url": "https://media.rightmove.co.uk/property-photo/95e8c4f70/156276944/95e8c4f7014737e771f711450163dab5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/156276944"
+   },
+   {
+    "id": "R168417695",
+    "address": "65 Kempston Street, Liverpool, Liverpool, L3 8HE",
+    "precise_address": null,
+    "postcode": "L3 8HE",
+    "type": "Commercial Property",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 375,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.41076700",
+    "lng": "-2.97103500",
+    "distance_to": "7.71",
+    "price_history": [
+     {
+      "date": "2025-10-29",
+      "price": 100000
+     }
+    ],
+    "summary": "This detached house is walking distance (0.48 miles) from University of Liverpool. It is 0.04 miles from Land East & West Of Gildart Street, Fabric District, Liverpool, L3 8HA (planning granted for Residential Development (419 Apartments & Retail Unit)). This property is within walking distance of Liverpool city centre (population 513,441). It is or includes building land / plot. It has the potential to extend/enlarge. It has the potential to develop. It has been sitting on the market since October 2025.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/008b0880c/168417695/008b0880c3896bcc2b2ccd227ec37123.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168417695"
+   },
+   {
+    "id": "R166922180",
+    "address": "Church Terrace, Ashton-In-Makerfield, WN4",
+    "precise_address": null,
+    "postcode": "WN4 9DZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 170000,
+    "sqf": 829,
+    "days_on_market": 423,
+    "days_since_price_change": 281,
+    "sstc": 0,
+    "lat": "53.48541300",
+    "lng": "-2.63817700",
+    "distance_to": "7.75",
+    "price_history": [
+     {
+      "date": "2025-10-07",
+      "price": 175000
+     },
+     {
+      "date": "2026-01-31",
+      "price": 170000
+     }
+    ],
+    "summary": "This terraced house is in walking distance of a public green space (Religious Grounds). It has been sitting on the market since October 2025. The asking price has been reduced by 3% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/74d1b69d2/166922180/74d1b69d2113c50ff82018a9e718070d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166922180"
+   },
+   {
+    "id": "R161373131",
+    "address": "A Court, Ashton In Makerfield, Wigan, WN4 9DX",
+    "precise_address": "11, A COURT, ASHTON-IN-MAKERFIELD, WN4 9DX",
+    "postcode": "WN4 9DX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 94000,
+    "sqf": 678,
+    "days_on_market": 555,
+    "days_since_price_change": 305,
+    "sstc": 0,
+    "lat": "53.48601700",
+    "lng": "-2.63741800",
+    "distance_to": "7.80",
+    "price_history": [
+     {
+      "date": "2025-05-02",
+      "price": 99995
+     },
+     {
+      "date": "2026-01-07",
+      "price": 94000
+     }
+    ],
+    "summary": "This two-bedroom end-terraced house is situated on a desirable corner plot in Ashton-in-Makerfield, Wigan. The property requires refurbishment but offers excellent potential, particularly for first-time buyers. It features a spacious lounge, kitchen with utility room, two well-proportioned bedrooms, and a modern fitted bathroom.\n\nThe rear garden is low-maintenance, and the corner plot location provides privacy and potential for landscaping. Council tax band A, no onward chain, and close to local amenities. The property has been on the market since May 2025 with a 6% price reduction from initial listing.",
+    "months_on_market": "18",
+    "image_url": "https://media.rightmove.co.uk/property-photo/173ae486e/161373131/173ae486e0b0b30e113c0de05777be4f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/161373131"
+   },
+   {
+    "id": "R87306711",
+    "address": "160 Richmond Row, Liverpool, Merseyside, L3 3BL",
+    "precise_address": null,
+    "postcode": "L3 3BL",
+    "type": "Leisure Facility",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 372,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.41450000",
+    "lng": "-2.97790000",
+    "distance_to": "7.99",
+    "price_history": [
+     {
+      "date": "2025-11-01",
+      "price": 140000
+     }
+    ],
+    "summary": "This property is within walking distance of Liverpool city centre (population 513,441). This detached house has been sitting on the market since November 2025.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0ec200c3c/87306711/0ec200c3c0384b6bcff9d3c8e4017df5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87306711"
+   },
+   {
+    "id": "R168162275",
+    "address": "Princess Road, Ashton-In-Makerfield, WN4 9DD",
+    "precise_address": "103, PRINCESS ROAD, ASHTON-IN-MAKERFIELD, WN4 9DD",
+    "postcode": "WN4 9DD",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 155000,
+    "sqf": 963,
+    "days_on_market": 94,
+    "days_since_price_change": 37,
+    "sstc": 0,
+    "lat": "53.48669800",
+    "lng": "-2.63027000",
+    "distance_to": "8.06",
+    "price_history": [
+     {
+      "date": "2025-10-19",
+      "price": 159950
+     },
+     {
+      "date": "2026-10-02",
+      "price": 155000
+     }
+    ],
+    "summary": "This garden-fronted end-terrace home offers 963 sq ft of accommodation across two floors. It features an open-plan lounge/dining room, fitted kitchen, two large double bedrooms, and a spacious four-piece family bathroom. The property benefits from no onward chain, making it a reliable transaction.\n\nSituated in Ashton-In-Makerfield near the town centre, the home needs modernisation but presents an excellent opportunity for buyers to add value. A key feature is the sizeable plot of land to the rear, ideal for parking, building a garage/workshop, or extending the garden. The property is freehold, council tax band A.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5a306a85c/168162275/5a306a85c3c60fa1c19930c0654c2752.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168162275"
+   },
+   {
+    "id": "R151935437",
+    "address": "Chavasse Apartments, 19 Lydia Ann St, Liverpool, L1",
+    "precise_address": null,
+    "postcode": "L1 5DX",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 149950,
+    "sqf": 772,
+    "days_on_market": 796,
+    "days_since_price_change": 390,
+    "sstc": 0,
+    "lat": "53.40063000",
+    "lng": "-2.98103000",
+    "distance_to": "8.17",
+    "price_history": [
+     {
+      "date": "2024-09-03",
+      "price": 155000
+     },
+     {
+      "date": "2024-09-05",
+      "price": 165000
+     },
+     {
+      "date": "2025-02-04",
+      "price": 159000
+     },
+     {
+      "date": "2025-10-14",
+      "price": 149950
+     }
+    ],
+    "summary": "This 2-bedroom detached house in Liverpool is for sale at \u00a3149,950. It is walking distance to the University of Liverpool and Liverpool city centre. The asking price has been reduced 3 times since first listed in September 2024.",
+    "months_on_market": "26",
+    "image_url": "https://media.rightmove.co.uk/property-photo/61c81dfca/151935437/61c81dfca41ac87f8738f8f22e842252.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/151935437"
+   },
+   {
+    "id": "R166017032",
+    "address": "Bryn Road South, Ashton-In-Makerfield, WN4",
+    "precise_address": null,
+    "postcode": "WN4 8QR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 143000,
+    "sqf": 840,
+    "days_on_market": 397,
+    "days_since_price_change": 59,
+    "sstc": 0,
+    "lat": "53.49156900",
+    "lng": "-2.63151700",
+    "distance_to": "8.23",
+    "price_history": [
+     {
+      "date": "2025-10-07",
+      "price": 160000
+     },
+     {
+      "date": "2025-11-14",
+      "price": 155000
+     },
+     {
+      "date": "2026-03-18",
+      "price": 150000
+     },
+     {
+      "date": "2026-06-12",
+      "price": 145000
+     },
+     {
+      "date": "2026-09-10",
+      "price": 143000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. The asking price has been reduced 4 times by a total of 11% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/65952ff89/166017032/65952ff898a1b3d7ace8b1ac33418275.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166017032"
+   },
+   {
+    "id": "R164047412",
+    "address": "Brick Street, Liverpool",
+    "precise_address": null,
+    "postcode": "L1 0BN",
+    "type": "House",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 165000,
+    "sqf": 508,
+    "days_on_market": 495,
+    "days_since_price_change": 494,
+    "sstc": 0,
+    "lat": "53.39562200",
+    "lng": "-2.98139800",
+    "distance_to": "8.24",
+    "price_history": [
+     {
+      "date": "2025-07-02",
+      "price": 165000
+     }
+    ],
+    "summary": "This property is within walking distance of Liverpool city centre (population 513,441). This detached house has been sitting on the market since July 2025.",
+    "months_on_market": "16",
+    "image_url": "https://media.rightmove.co.uk/property-photo/24b647505/164047412/24b6475056e779754e0521b8e657ba94.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/164047412"
+   },
+   {
+    "id": "R165019550",
+    "address": "The Courtyard, 3 Stanhope Street, Liverpool, Merseyside, L8",
+    "precise_address": null,
+    "postcode": "L8 5TE",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 391,
+    "days_since_price_change": 229,
+    "sstc": 0,
+    "lat": "53.39290000",
+    "lng": "-2.98131000",
+    "distance_to": "8.27",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 119950
+     },
+     {
+      "date": "2026-03-25",
+      "price": 100000
+     }
+    ],
+    "summary": "This two-bedroom, two-bathroom apartment is located in the popular Courtyard development, just a 10-minute walk from Liverpool One, Albert Dock, and local universities. The spacious second-floor property features an open-plan living room and kitchen with integrated appliances, two double bedrooms, and an en-suite shower room to the master.\n\nThe apartment is currently tenanted until July 2026 at \u00a31,200 per month, offering an 8.3% net yield. The development provides excellent security with fob access, CCTV, lift access, and a secure intercom system. The property is leasehold with 988 years remaining. Cash buyers only.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fcf999adc/165019550/fcf999adc78b4c0ad8f6f228beb74606.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/165019550"
+   },
+   {
+    "id": "R154733963",
+    "address": "Summer Seat, Liverpool, Merseyside, L3",
+    "precise_address": "47, SUMMER SEAT, LIVERPOOL, L3 6HB",
+    "postcode": "L3 6HB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": 367,
+    "days_on_market": 729,
+    "days_since_price_change": 535,
+    "sstc": 0,
+    "lat": "53.41694300",
+    "lng": "-2.98530100",
+    "distance_to": "8.30",
+    "price_history": [
+     {
+      "date": "2024-11-09",
+      "price": 120000
+     },
+     {
+      "date": "2025-05-22",
+      "price": 110000
+     }
+    ],
+    "summary": "This terraced house is 0.25 miles from 9 - 27 Freemasons Row, Liverpool, L3 2DJ (planning granted for 656 Flats & Commercial (Amendments)). It is in walking distance of a public green space (Public Park Or Garden). This property is within walking distance of Liverpool city centre (population 513,441). It has been sitting on the market since November 2024. The asking price has been reduced by 8% from the first listing price.",
+    "months_on_market": "24",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f8fb08923/154733963/f8fb089237d3b3741beeba8cf1fc7092.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/154733963"
+   },
+   {
+    "id": "R168242231",
+    "address": "Lemon Street, Kirkdale, Liverpool, Merseyside, L5",
+    "precise_address": "5, LEMON STREET, LIVERPOOL, L5 7TB",
+    "postcode": "L5 7TB",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": 915,
+    "days_on_market": 389,
+    "days_since_price_change": 135,
+    "sstc": 0,
+    "lat": "53.42874000",
+    "lng": "-2.98409000",
+    "distance_to": "8.30",
+    "price_history": [
+     {
+      "date": "2025-10-21",
+      "price": 160000
+     },
+     {
+      "date": "2026-06-26",
+      "price": 155000
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in Kirkdale, Liverpool, is well-presented with an open-plan kitchen/living room and off-street parking. Located in a high-yield area, it benefits from no onward chain and proximity to green spaces.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/47395533a/168242231/47395533a9552d42d27f2976911f6725.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168242231"
+   },
+   {
+    "id": "R158561492",
+    "address": "Granite House, 8-10 Stanley Street, Liverpool, L1",
+    "precise_address": "STUDIO 22, GRANITE HOUSE 8 - 10, STANLEY STREET, CITY CENTRE, LIVERPOOL, L1 6AF",
+    "postcode": "L1 6AF",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": 1,
+    "price": 40000,
+    "sqf": null,
+    "days_on_market": 692,
+    "days_since_price_change": 263,
+    "sstc": 0,
+    "lat": "53.40750000",
+    "lng": "-2.98781000",
+    "distance_to": "8.41",
+    "price_history": [
+     {
+      "date": "2025-10-13",
+      "price": 45000
+     },
+     {
+      "date": "2026-02-18",
+      "price": 40000
+     }
+    ],
+    "summary": "This detached house is 0.10 miles from 1 Union Court, Liverpool, L2 4SJ (planning granted for 47 Apartments (Conversion)). This property is within walking distance of Liverpool city centre (population 513,441). It has been sitting on the market since October 2025. The asking price has been reduced by 11% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/bfd840b9d/158561492/bfd840b9d5d7210c5c1de1923dad1955.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/158561492"
+   },
+   {
+    "id": "R140983796",
+    "address": "Claude Street, Warrington, Cheshire",
+    "precise_address": "17, CLAUDE STREET, FAIRFIELD AND HOWLEY, WARRINGTON, WA1 3GJ",
+    "postcode": "WA1 3GJ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 1,
+    "price": 125000,
+    "sqf": 486,
+    "days_on_market": 1119,
+    "days_since_price_change": 37,
+    "sstc": 0,
+    "lat": "53.39502900",
+    "lng": "-2.58115200",
+    "distance_to": "8.46",
+    "price_history": [
+     {
+      "date": "2023-10-17",
+      "price": 180000
+     },
+     {
+      "date": "2026-10-02",
+      "price": 125000
+     }
+    ],
+    "summary": "This two-bedroom detached house in Warrington is currently for sale with an asking price of \u00a3180,000. The property consists of a first-floor one-bedroom apartment and a ground-floor studio apartment, both of which are currently tenanted, generating a rental yield of 8.99%.",
+    "months_on_market": "37",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ac1c9fccc/140983796/ac1c9fccc6a1fecd8ee0b81ea2f2dd50.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/140983796"
+   },
+   {
+    "id": "R164914331",
+    "address": "Lichfield Close, BOOTLE, Merseyside, L30",
+    "precise_address": "13, LICHFIELD CLOSE, NETHERTON, L30 1PU",
+    "postcode": "L30 1PU",
+    "type": "Detached",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 890,
+    "days_on_market": 390,
+    "days_since_price_change": 144,
+    "sstc": 0,
+    "lat": "53.47646000",
+    "lng": "-2.96319000",
+    "distance_to": "8.53",
+    "price_history": [
+     {
+      "date": "2025-10-14",
+      "price": 200000
+     },
+     {
+      "date": "2026-01-10",
+      "price": 190000
+     },
+     {
+      "date": "2026-06-17",
+      "price": 180000
+     }
+    ],
+    "summary": "This detached house has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 10% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/347e97643/164914331/347e976434ab0bd7ffcc4e76256c6a4b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/164914331"
+   },
+   {
+    "id": "R153388025",
+    "address": "Kings Dock, Hurst Street",
+    "precise_address": null,
+    "postcode": "L1 8DW",
+    "type": "Town House",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 720,
+    "days_since_price_change": 253,
+    "sstc": 0,
+    "lat": "53.39477900",
+    "lng": "-2.98941300",
+    "distance_to": "8.57",
+    "price_history": [
+     {
+      "date": "2024-11-18",
+      "price": 185000
+     },
+     {
+      "date": "2025-01-08",
+      "price": 180356
+     },
+     {
+      "date": "2025-02-01",
+      "price": 176856
+     },
+     {
+      "date": "2025-06-27",
+      "price": 180375
+     },
+     {
+      "date": "2026-02-28",
+      "price": 180000
+     }
+    ],
+    "summary": "This 2-bedroom terraced house is part of the exclusive Kings Dock development in Liverpool, just minutes from the city centre. The property has been on the market since November 2024 and the asking price has been reduced by 3% over that time.",
+    "months_on_market": "24",
+    "image_url": "https://media.rightmove.co.uk/property-photo/361105df1/153388025/361105df1434ea7066437e5267804d50.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/153388025"
+   },
+   {
+    "id": "R160482392",
+    "address": "Aintree Road, Bootle, L20",
+    "precise_address": null,
+    "postcode": "L20 9DN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": null,
+    "price": 109000,
+    "sqf": 764,
+    "days_on_market": 699,
+    "days_since_price_change": 192,
+    "sstc": 0,
+    "lat": "53.45611500",
+    "lng": "-2.98200900",
+    "distance_to": "8.65",
+    "price_history": [
+     {
+      "date": "2025-08-09",
+      "price": 115000
+     },
+     {
+      "date": "2026-04-30",
+      "price": 109000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 7.9% gross yield. It has been sitting on the market since August 2025. The asking price has been reduced by 5% from the first listing price.",
+    "months_on_market": "15",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cdb039966/160482392/cdb039966c5df506dc57535880897d34.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/160482392"
+   },
+   {
+    "id": "R168561059",
+    "address": "Waywell Close, Fearnhead, WA2",
+    "precise_address": "37, WAYWELL CLOSE, POULTON-WITH-FEARNHEAD, WARRINGTON, WA2 0AZ",
+    "postcode": "WA2 0AZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 152000,
+    "sqf": 931,
+    "days_on_market": 378,
+    "days_since_price_change": 346,
+    "sstc": 0,
+    "lat": "53.41806900",
+    "lng": "-2.55788300",
+    "distance_to": "9.31",
+    "price_history": [
+     {
+      "date": "2025-10-26",
+      "price": 160000
+     },
+     {
+      "date": "2025-11-27",
+      "price": 152000
+     }
+    ],
+    "summary": "This terraced house is unmodernised and requires updating. It has been sitting on the market since October 2025. It is 26% cheaper than the average of \u00a3220/sqft near WA2 0AZ. The asking price has been reduced by 5% from the first listing price.",
+    "months_on_market": "12",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9cd37af52/168561059/9cd37af52c5787352b68c1bf658e4e84.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168561059"
+   },
+   {
+    "id": "R166811834",
+    "address": "Croft Green, Bromborough, Wirral",
+    "precise_address": "27, CROFT GREEN, BROMBOROUGH, CH62 3LL",
+    "postcode": "CH62 3LL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 394,
+    "days_since_price_change": 38,
+    "sstc": 0,
+    "lat": "53.34150300",
+    "lng": "-2.98009000",
+    "distance_to": "9.53",
+    "price_history": [
+     {
+      "date": "2025-10-10",
+      "price": 185000
+     },
+     {
+      "date": "2025-10-12",
+      "price": 180000
+     },
+     {
+      "date": "2026-03-11",
+      "price": 175000
+     },
+     {
+      "date": "2026-10-01",
+      "price": 165000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced three times by a total of 11% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/03dbfb7a3/166811834/03dbfb7a344622a93882fc16df6e0608.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166811834"
+   },
+   {
+    "id": "R167039474",
+    "address": "Newland Avenue, Wigan, WN5",
+    "precise_address": null,
+    "postcode": "WN5 9HA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 1035,
+    "days_on_market": 115,
+    "days_since_price_change": 86,
+    "sstc": 0,
+    "lat": "53.53491500",
+    "lng": "-2.66727200",
+    "distance_to": "9.61",
+    "price_history": [
+     {
+      "date": "2025-09-17",
+      "price": 190000
+     },
+     {
+      "date": "2025-12-27",
+      "price": 180000
+     },
+     {
+      "date": "2026-08-14",
+      "price": 150000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by modern method of auction, offering a reliable transaction with no onward chain. The property features a bright lounge/dining room with fireplace, fitted kitchen, utility room, and versatile reception space suitable for home office or playroom use.\n\nUpstairs comprises two spacious double bedrooms (one with fitted wardrobes), a single bedroom, and modern shower room. The fully paved rear garden requires minimal maintenance, while a gated driveway provides secure off-street parking. Located near excellent road links and local amenities including parks and green spaces.",
+    "months_on_market": "14",
+    "image_url": "https://media.rightmove.co.uk/property-photo/57579565c/167039474/57579565c37121418b1a0542fa81ced9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167039474"
+   },
+   {
+    "id": "R157894349",
+    "address": "Kingsley Road, Frodsham, Cheshire, WA6",
+    "precise_address": null,
+    "postcode": "WA6 6SL",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 639,
+    "days_since_price_change": 411,
+    "sstc": 0,
+    "lat": "53.28114600",
+    "lng": "-2.70681100",
+    "distance_to": "9.74",
+    "price_history": [
+     {
+      "date": "2025-02-07",
+      "price": 175000
+     },
+     {
+      "date": "2025-09-23",
+      "price": 150000
+     }
+    ],
+    "summary": "This detached house in Frodsham, Cheshire presents an opportunity for developers, investors, and speculators. The 0.35-acre plot has an elevated, private position with a pleasant rural aspect and potential for development, subject to the necessary consents.",
+    "months_on_market": "21",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6a49ba404/157894349/6a49ba404cc0b6b42528f60016ee3127.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/157894349"
+   },
+   {
+    "id": "R155965598",
+    "address": "Larch Avenue, Pemberton, Wigan, WN5 9PB",
+    "precise_address": "30, LARCH AVENUE, WIGAN, WN5 9PB",
+    "postcode": "WN5 9PB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 179000,
+    "sqf": 764,
+    "days_on_market": 312,
+    "days_since_price_change": 36,
+    "sstc": 0,
+    "lat": "53.53711300",
+    "lng": "-2.66495300",
+    "distance_to": "9.79",
+    "price_history": [
+     {
+      "date": "2024-12-16",
+      "price": 190000
+     },
+     {
+      "date": "2025-04-17",
+      "price": 185000
+     },
+     {
+      "date": "2026-07-07",
+      "price": 181000
+     },
+     {
+      "date": "2026-10-03",
+      "price": 179000
+     }
+    ],
+    "summary": "This semi-detached house has been sitting on the market since December 2024. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced three times by a total of 6% from the first listing price.",
+    "months_on_market": "23",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fc66d234d/155965598/fc66d234d49ad09e9fb9d65444968246.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/155965598"
+   },
+   {
+    "id": "R168262817",
+    "address": "Victoria Street, Wigan, WN5",
+    "precise_address": "97, VICTORIA STREET, WIGAN, WN5 9BL",
+    "postcode": "WN5 9BL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": null,
+    "days_on_market": 389,
+    "days_since_price_change": 144,
+    "sstc": 0,
+    "lat": "53.53757200",
+    "lng": "-2.65494100",
+    "distance_to": "10.03",
+    "price_history": [
+     {
+      "date": "2025-10-22",
+      "price": 140000
+     },
+     {
+      "date": "2026-06-17",
+      "price": 130000
+     }
+    ],
+    "summary": "This 3-bedroom terraced house in Wigan is being sold with the benefit of tenants in situ, providing a reliable investment opportunity. The property also benefits from no onward chain, making the transaction more straightforward.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5606251d7/168262817/5606251d7b48c85ed3f27080f3f8c10c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168262817"
+   },
+   {
+    "id": "R157811753",
+    "address": "Collingwood Road, Bebington, Wirral",
+    "precise_address": "11, COLLINGWOOD ROAD, BEBINGTON, CH63 7RL",
+    "postcode": "CH63 7RL",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 881,
+    "days_on_market": 642,
+    "days_since_price_change": 282,
+    "sstc": 0,
+    "lat": "53.34770900",
+    "lng": "-2.99968500",
+    "distance_to": "10.02",
+    "price_history": [
+     {
+      "date": "2025-02-06",
+      "price": 185000
+     },
+     {
+      "date": "2026-01-30",
+      "price": 160000
+     }
+    ],
+    "summary": "This property is within walking distance of Bebington city centre (population 57,336). This terraced house has been sitting on the market since February 2025. It is 30% cheaper than the average of \u00a3259/sqft near CH63 7RL. The asking price has been reduced by 14% from the first listing price.",
+    "months_on_market": "21",
+    "image_url": "https://media.rightmove.co.uk/property-photo/27cbe62a9/157811753/27cbe62a98a549ae61f8769539c8b4c5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/157811753"
+   },
+   {
+    "id": "R144218468",
+    "address": "Barkeley Drive, Liverpool, L21",
+    "precise_address": "35, BARKELEY DRIVE, SEAFORTH, L21 4LX",
+    "postcode": "L21 4LX",
+    "type": "House",
+    "type_standardised": "Detached house",
+    "bedrooms": 5,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 123,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.46348600",
+    "lng": "-3.01447500",
+    "distance_to": "10.08",
+    "price_history": [
+     {
+      "date": "2024-02-02",
+      "price": 170000
+     },
+     {
+      "date": "2024-04-10",
+      "price": 160000
+     },
+     {
+      "date": "2026-03-24",
+      "price": 166500
+     }
+    ],
+    "summary": "This five-bedroom detached house is being offered for quick sale to cash buyers only. Located on Barkeley Drive, Liverpool, it spans three floors with a fitted kitchen, lounge, separate dining room, and top-floor sauna. The property requires modernisation throughout.\n\nA key advantage is the no onward chain status, making this a more straightforward transaction. The vendor is motivated to complete quickly, and early viewing is recommended given the competitive pricing strategy.",
+    "months_on_market": "33",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b619727c6/144218468/b619727c697e58af19da325e0b5be973.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/144218468"
+   },
+   {
+    "id": "R152836652",
+    "address": "Walsingham Road, Wallasey",
+    "precise_address": "33, WALSINGHAM ROAD, POULTON, CH44 9DX",
+    "postcode": "CH44 9DX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 139950,
+    "sqf": 1152,
+    "days_on_market": 315,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.41321900",
+    "lng": "-3.02929900",
+    "distance_to": "10.11",
+    "price_history": [
+     {
+      "date": "2024-09-25",
+      "price": 144950
+     },
+     {
+      "date": "2024-10-17",
+      "price": 139950
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since September 2024. The asking price has been reduced by 3% from the first listing price.",
+    "months_on_market": "25",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9ba99eded/152836652/9ba99eded1b4638f0bb918fa9c3ddaf0.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/152836652"
+   },
+   {
+    "id": "R167606306",
+    "address": "St. Brides Road, Wallasey, CH44",
+    "precise_address": "5, ST BRIDES ROAD, EGREMONT, CH44 8BN",
+    "postcode": "CH44 8BN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 118000,
+    "sqf": 1152,
+    "days_on_market": 7,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.42171500",
+    "lng": "-3.02906800",
+    "distance_to": "10.11",
+    "price_history": [
+     {
+      "date": "2025-10-17",
+      "price": 135000
+     },
+     {
+      "date": "2025-11-16",
+      "price": 130000
+     },
+     {
+      "date": "2026-11-02",
+      "price": 118000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. It is being sold with the benefit of tenants in situ. The asking price has been reduced twice by a total of 13% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c75a26e97/167606306/c75a26e97f838073edc0145d3d37deec.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167606306"
+   },
+   {
+    "id": "R142901543",
+    "address": "Warrington Road, WN2",
+    "precise_address": null,
+    "postcode": "WN2 5RJ",
+    "type": "Coach House",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 1062,
+    "days_since_price_change": 73,
+    "sstc": 0,
+    "lat": "53.50863000",
+    "lng": "-2.59239000",
+    "distance_to": "10.22",
+    "price_history": [
+     {
+      "date": "2023-12-14",
+      "price": 110000
+     }
+    ],
+    "summary": "This two-bedroom coach house in Abram, near Wigan, forms part of a former council office and workshop converted into three coach houses around a cobbled courtyard. The property is freehold and currently generates rental income of \u00a35,400 per annum, with stairs leading to two bedrooms, one with an en-suite shower room.\n\nThe wider site extends to approximately 0.075 hectares and is described as having development potential, and the sourcing notes indicate scope to extend, develop or convert. Viewings are strictly by appointment only.",
+    "months_on_market": "35",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0a6af1262/142901543/0a6af12622f0b69f28acbcbb9919101b.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/142901543"
+   },
+   {
+    "id": "R165064298",
+    "address": "Poulton Road, Wallasey, Wirral, CH44",
+    "precise_address": "122, POULTON ROAD, POULTON, CH44 9DJ",
+    "postcode": "CH44 9DJ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 234,
+    "days_since_price_change": 231,
+    "sstc": 0,
+    "lat": "53.41215000",
+    "lng": "-3.03335000",
+    "distance_to": "10.27",
+    "price_history": [
+     {
+      "date": "2025-08-04",
+      "price": 150000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since August 2025. It is being sold with the benefit of tenants in situ.",
+    "months_on_market": "15",
+    "image_url": "https://media.rightmove.co.uk/property-photo/86b9b4c29/165064298/86b9b4c296b6bbb47cc68c202ddc6155.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/165064298"
+   },
+   {
+    "id": "R133009952",
+    "address": "Salisbury Street, Birkenhead, CH41",
+    "precise_address": null,
+    "postcode": "CH41 2RL",
+    "type": "Commercial Property",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 1213,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.38871200",
+    "lng": "-3.02981900",
+    "distance_to": "10.28",
+    "price_history": [
+     {
+      "date": "2023-07-15",
+      "price": 170000
+     }
+    ],
+    "summary": "This detached house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It has been sitting on the market since July 2023.",
+    "months_on_market": "40",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9455e18f1/133009952/9455e18f1cb4f922e66bba97484cba64.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/133009952"
+   },
+   {
+    "id": "R138615761",
+    "address": "Church Road, Birkenhead, Merseyside, CH42 0LJ",
+    "precise_address": null,
+    "postcode": "CH42 0LJ",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 986,
+    "days_since_price_change": 355,
+    "sstc": 0,
+    "lat": "53.37630000",
+    "lng": "-3.02660000",
+    "distance_to": "10.34",
+    "price_history": [
+     {
+      "date": "2024-02-26",
+      "price": 175000
+     },
+     {
+      "date": "2024-04-12",
+      "price": 155000
+     },
+     {
+      "date": "2025-11-18",
+      "price": 125000
+     }
+    ],
+    "summary": "This detached house is or includes building land / plot. It has been sitting on the market since February 2024. It has had planning permission granted. The asking price has been reduced twice by a total of 29% from the first listing price.",
+    "months_on_market": "32",
+    "image_url": "https://media.rightmove.co.uk/property-photo/6ef765a6c/138615761/6ef765a6c264274ad0133294ab55cae0.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/138615761"
+   },
+   {
+    "id": "R156822398",
+    "address": "Taylors Lane, Springview, Wigan WN3 4TZ",
+    "precise_address": "31, TAYLORS LANE, INCE, WN3 4TZ",
+    "postcode": "WN3 4TZ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": null,
+    "days_on_market": 665,
+    "days_since_price_change": 207,
+    "sstc": 0,
+    "lat": "53.52624200",
+    "lng": "-2.61199500",
+    "distance_to": "10.47",
+    "price_history": [
+     {
+      "date": "2025-01-14",
+      "price": 160000
+     },
+     {
+      "date": "2026-04-15",
+      "price": 155000
+     }
+    ],
+    "summary": "This charming three-bedroom mid-terraced town house offers spacious family living in a popular residential location close to local amenities, shops and schools. The property features a generously proportioned lounge, well-appointed fitted kitchen, and three-piece family bathroom.\n\nBenefiting from UPVC windows and doors plus gas central heating, the residence ensures energy efficiency and security. With its comfortable living spaces and practical features, this town house presents an ideal opportunity for those seeking a family home in a well-established community.",
+    "months_on_market": "22",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d0d3d1542/156822398/d0d3d1542a4ea754e725c68a0088b6d7.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/156822398"
+   },
+   {
+    "id": "R154065896",
+    "address": "Warrington Road, Ince-in-Makerfield, Wigan WN3 4TB",
+    "precise_address": null,
+    "postcode": "WN3 4TB",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 4,
+    "price": 180000,
+    "sqf": 1647,
+    "days_on_market": 748,
+    "days_since_price_change": 316,
+    "sstc": 0,
+    "lat": "53.52622200",
+    "lng": "-2.60858600",
+    "distance_to": "10.57",
+    "price_history": [
+     {
+      "date": "2024-10-23",
+      "price": 180000
+     }
+    ],
+    "summary": "This semi-detached house has been sitting on the market since October 2024. It is 28% cheaper than the average of \u00a3152/sqft near WN3 4TB.",
+    "months_on_market": "25",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9d3d44580/154065896/9d3d4458084d06530d2ad01508564b26.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/154065896"
+   },
+   {
+    "id": "R149441267",
+    "address": "Mather Road, Prenton, Wirral",
+    "precise_address": "12, MATHER ROAD, OXTON, CH43 4UA",
+    "postcode": "CH43 4UA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 180000,
+    "sqf": 1160,
+    "days_on_market": 868,
+    "days_since_price_change": 37,
+    "sstc": 0,
+    "lat": "53.38570000",
+    "lng": "-3.03922100",
+    "distance_to": "10.70",
+    "price_history": [
+     {
+      "date": "2024-06-23",
+      "price": 210000
+     },
+     {
+      "date": "2024-08-23",
+      "price": 200000
+     },
+     {
+      "date": "2025-10-13",
+      "price": 190000
+     },
+     {
+      "date": "2026-10-02",
+      "price": 180000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since June 2024. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced three times by a total of 14% from the first listing price.",
+    "months_on_market": "29",
+    "image_url": "https://media.rightmove.co.uk/property-photo/42253d7a7/149441267/42253d7a75ac38b0ab502bb911f37bd7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/149441267"
+   },
+   {
+    "id": "R168159941",
+    "address": "Mendip Road, Birkenhead, Wirral",
+    "precise_address": null,
+    "postcode": "CH42 8NR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 392,
+    "days_since_price_change": 148,
+    "sstc": 0,
+    "lat": "53.36949500",
+    "lng": "-3.03289400",
+    "distance_to": "10.72",
+    "price_history": [
+     {
+      "date": "2025-10-20",
+      "price": 180000
+     },
+     {
+      "date": "2026-06-13",
+      "price": 175000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. The asking price has been reduced by 3% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/84b490542/168159941/84b490542cb0475c01fc1d91dfc1a3be.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/168159941"
+   },
+   {
+    "id": "R167634776",
+    "address": "Morley Avenue, Birkenhead",
+    "precise_address": "9, MORLEY AVENUE, BIRKENHEAD, CH41 8AJ",
+    "postcode": "CH41 8AJ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 405,
+    "days_since_price_change": 401,
+    "sstc": 0,
+    "lat": "53.39784200",
+    "lng": "-3.04275100",
+    "distance_to": "10.72",
+    "price_history": [
+     {
+      "date": "2025-10-03",
+      "price": 110000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It has been sitting on the market since October 2025.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/65ff13ca5/167634776/65ff13ca5f2d04d1efe3c57a8c224a7f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167634776"
+   },
+   {
+    "id": "R165187343",
+    "address": "Winifred Street, Ince, WN3",
+    "precise_address": "67, WINIFRED STREET, INCE, WN3 4SD",
+    "postcode": "WN3 4SD",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 1028,
+    "days_on_market": 117,
+    "days_since_price_change": 68,
+    "sstc": 0,
+    "lat": "53.53755600",
+    "lng": "-2.61923900",
+    "distance_to": "10.87",
+    "price_history": [
+     {
+      "date": "2025-07-31",
+      "price": 150000
+     },
+     {
+      "date": "2025-10-13",
+      "price": 140000
+     },
+     {
+      "date": "2026-03-06",
+      "price": 135000
+     },
+     {
+      "date": "2026-07-15",
+      "price": 145000
+     },
+     {
+      "date": "2026-09-01",
+      "price": 130000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since July 2025. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced 4 times by a total of 13% from the first listing price.",
+    "months_on_market": "15",
+    "image_url": "https://media.rightmove.co.uk/property-photo/139412575/165187343/1394125752c217149309f3cd3fab7472.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/165187343"
+   },
+   {
+    "id": "R161590616",
+    "address": "Kendal Street, Wigan",
+    "precise_address": null,
+    "postcode": "WN6 7DQ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 139999,
+    "sqf": null,
+    "days_on_market": 756,
+    "days_since_price_change": 290,
+    "sstc": 0,
+    "lat": "53.54863300",
+    "lng": "-2.64096700",
+    "distance_to": "10.98",
+    "price_history": [
+     {
+      "date": "2025-06-16",
+      "price": 140000
+     },
+     {
+      "date": "2026-01-22",
+      "price": 139999
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since June 2025. The asking price has been reduced by 0% from the first listing price.",
+    "months_on_market": "17",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0740e98b5/161590616/0740e98b5d28576f234ee79e81a485a7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/161590616"
+   },
+   {
+    "id": "R166500071",
+    "address": "Market Place, Wigan",
+    "precise_address": null,
+    "postcode": "WN1 1PJ",
+    "type": "Commercial Property",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 100000,
+    "sqf": null,
+    "days_on_market": 427,
+    "days_since_price_change": 39,
+    "sstc": 0,
+    "lat": "53.54666900",
+    "lng": "-2.63144700",
+    "distance_to": "11.08",
+    "price_history": [
+     {
+      "date": "2025-09-07",
+      "price": 126000
+     },
+     {
+      "date": "2025-10-13",
+      "price": 117000
+     },
+     {
+      "date": "2026-07-30",
+      "price": 70000
+     },
+     {
+      "date": "2026-09-30",
+      "price": 100000
+     }
+    ],
+    "summary": "This detached house is 0.13 miles from 33 - 53 Library Street And Arcade House 2 Arcade Street Wigan WN1 1NN (planning granted for 26 Apartments & 4 Class E Units (Conversion/Alteration)). It has been sitting on the market since September 2025. The asking price has been reduced three times by a total of 21% from the first listing price.",
+    "months_on_market": "14",
+    "image_url": "https://media.rightmove.co.uk/property-photo/32cb733c2/166500071/32cb733c22a06864061949f8192e9ce8.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/166500071"
+   },
+   {
+    "id": "R167928389",
+    "address": "Darlington Street East, Wigan, WN1 3EA",
+    "precise_address": "223, DARLINGTON STREET EAST, WIGAN, WN1 3EA",
+    "postcode": "WN1 3EA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": null,
+    "days_on_market": 109,
+    "days_since_price_change": 59,
+    "sstc": 0,
+    "lat": "53.54460500",
+    "lng": "-2.61593600",
+    "distance_to": "11.34",
+    "price_history": [
+     {
+      "date": "2025-10-17",
+      "price": 150000
+     },
+     {
+      "date": "2026-01-31",
+      "price": 140000
+     },
+     {
+      "date": "2026-09-10",
+      "price": 135000
+     }
+    ],
+    "summary": "This terraced house has been sitting on the market since October 2025. The asking price has been reduced twice by a total of 10% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ba9e8e8e0/167928389/ba9e8e8e028581d53ccf241fc38418c2.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167928389"
+   },
+   {
+    "id": "R167257337",
+    "address": "Tapestry Gardens, Birkenhead",
+    "precise_address": "31, TAPESTRY GARDENS, BIRKENHEAD, CH41 7BQ",
+    "postcode": "CH41 7BQ",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 394,
+    "days_since_price_change": 268,
+    "sstc": 0,
+    "lat": "53.40229000",
+    "lng": "-3.06034000",
+    "distance_to": "11.42",
+    "price_history": [
+     {
+      "date": "2025-10-10",
+      "price": 180000
+     },
+     {
+      "date": "2025-10-26",
+      "price": 170000
+     },
+     {
+      "date": "2026-02-13",
+      "price": 160000
+     }
+    ],
+    "summary": "This semi-detached house is in a high yield area, with properties in this postcode district on average achieving a 7.4% gross yield. It has been sitting on the market since October 2025. It has off-street parking. The asking price has been reduced twice by a total of 11% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/dc8a1c65a/167257337/dc8a1c65a121ae4e304157cfb425cae4.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167257337"
+   },
+   {
+    "id": "R167009858",
+    "address": "Mill Lane, Appley Bridge, WN6",
+    "precise_address": "2, MILL LANE, APPLEY BRIDGE, WN6 9DA",
+    "postcode": "WN6 9DA",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 404,
+    "days_since_price_change": 82,
+    "sstc": 0,
+    "lat": "53.57779600",
+    "lng": "-2.71974400",
+    "distance_to": "11.59",
+    "price_history": [
+     {
+      "date": "2025-09-30",
+      "price": 95000
+     },
+     {
+      "date": "2026-07-15",
+      "price": 87000
+     },
+     {
+      "date": "2026-08-18",
+      "price": 80000
+     }
+    ],
+    "summary": "This detached house is or includes building land / plot. It has been sitting on the market since September 2025. It has had planning permission granted. The asking price has been reduced twice by a total of 16% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3e915b92b/167009858/3e915b92b59f93f994c3f017c605c833.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167009858"
+   },
+   {
+    "id": "R167289743",
+    "address": "Land at Rear, 5 Peacock Fold, Leigh, Lancashire, WN7 5BG",
+    "precise_address": null,
+    "postcode": "WN7 5BG",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 50000,
+    "sqf": null,
+    "days_on_market": 397,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.50089300",
+    "lng": "-2.53144700",
+    "distance_to": "11.98",
+    "price_history": [
+     {
+      "date": "2025-10-08",
+      "price": 50000
+     }
+    ],
+    "summary": "This detached house is in walking distance of a public green space (Playing Field). It is or includes building land / plot. It has been sitting on the market since October 2025.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0749c8d9d/167289743/0749c8d9d92d7d65ab9f7eaa4ea55376.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/167289743"
+   },
+   {
+    "id": "R165998447",
+    "address": "Abbey Farm Caravan Park, Abbey Lane, Ormskirk, Lancashire, L40",
+    "precise_address": null,
+    "postcode": "L40 5TX",
+    "type": "Lodge",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 94995,
+    "sqf": null,
+    "days_on_market": 391,
+    "days_since_price_change": 369,
+    "sstc": 0,
+    "lat": "53.58270000",
+    "lng": "-2.85692000",
+    "distance_to": "12.01",
+    "price_history": [
+     {
+      "date": "2025-10-13",
+      "price": 109995
+     },
+     {
+      "date": "2025-11-04",
+      "price": 94995
+     }
+    ],
+    "summary": "This detached house has been sitting on the market since October 2025. The asking price has been reduced by 14% from the first listing price.",
+    "months_on_market": "13",
+    "image_url": "https://media.rightmove.co.uk/property-photo/bfd7246a7/165998447/bfd7246a7941e02e321ad72c7c639c04.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/165998447"
+   },
+   {
+    "id": "R95780129",
+    "address": "Change Lane, Willaston, Cheshire, CH64",
+    "precise_address": null,
+    "postcode": "CH64 1TE",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 191,
+    "days_since_price_change": 188,
+    "sstc": 0,
+    "lat": "53.29386800",
+    "lng": "-2.99751800",
+    "distance_to": "12.12",
+    "price_history": [
+     {
+      "date": "2022-12-31",
+      "price": 170000
+     }
+    ],
+    "summary": "A rare opportunity to purchase a single building plot in Willaston, Cheshire, with detailed planning permission already granted for a two-storey detached house. All mains services are connected, and the property benefits from a pleasant cul-de-sac location close to Willaston Village Centre with its shops and amenities.\n\nThe planning permission was granted on 15th July 2021 (application 21/01900/REM). This is an ideal opportunity for those looking to build their own home in an established residential area, with the planning process already completed.",
+    "months_on_market": "46",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a700f7e57/95780129/a700f7e57296352ffa132dfce0b66b38.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95780129"
+   }
+  ]
+ }
+}

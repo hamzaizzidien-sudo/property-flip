@@ -1,0 +1,2016 @@
+{
+ "source": "propertydata",
+ "endpoint": "sourced-properties",
+ "fetched_via": "mcp",
+ "fetched_at": "2026-11-08T13:03:45.708111+00:00",
+ "run_id": "sweep15-20261108",
+ "request": {
+  "list": "auction-properties",
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "max_price": 180000,
+  "standardised_type": "!flat",
+  "exclude_sstc": 1,
+  "results": 100,
+  "page": 2
+ },
+ "response": {
+  "status": "success",
+  "image_copyright": "All image URLs link to third-party content that may be protected by copyright; you must obtain any necessary rights or permissions before downloading, storing, or reusing those images.",
+  "list": {
+   "id": "auction-properties",
+   "name": "Auction properties"
+  },
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "page": 2,
+  "result_count": 70,
+  "api_calls_cost": 7,
+  "properties": [
+   {
+    "id": "R92810511",
+    "address": "Royden Avenue, Wigan, WN3",
+    "precise_address": "8, ROYDEN AVENUE, WIGAN, WN3 5QU",
+    "postcode": "WN3 5QU",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": 1116,
+    "days_on_market": 63,
+    "days_since_price_change": 37,
+    "sstc": 0,
+    "lat": "53.52070100",
+    "lng": "-2.64976400",
+    "distance_to": "9.19",
+    "price_history": [
+     {
+      "date": "2026-09-08",
+      "price": 180000
+     },
+     {
+      "date": "2026-10-02",
+      "price": 175000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Wigan is being sold by modern method of auction. It offers spacious living accommodation with a feature fireplace, modern fitted kitchen, and bright dining room with garden access. Three versatile bedrooms include two doubles and one single, with the principal bedroom featuring fitted wardrobes.\n\nThe property benefits from a contemporary family bathroom, single garage with electric roller door, and generous enclosed rear garden with patio and outbuildings. Well-positioned near Mesnes Park and Wigan Flashes Nature Reserve, with excellent motorway access to Manchester and Liverpool. Close to highly-regarded schools including St Jude's Catholic Primary and Hawkley Hall High School.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/52734a2c6/92810511/52734a2c6d70f68c9735b98857263ccf.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92810511"
+   },
+   {
+    "id": "R94607298",
+    "address": "Poolstock Lane, Wigan, Greater Manchester, WN3 5RA",
+    "precise_address": null,
+    "postcode": "WN3 5RA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 18,
+    "days_since_price_change": 16,
+    "sstc": 0,
+    "lat": "53.52370000",
+    "lng": "-2.65010000",
+    "distance_to": "9.34",
+    "price_history": [
+     {
+      "date": "2026-10-23",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Poolstock Lane, Wigan, is being sold by online auction, with bidding managed through Secure Sale. It is leasehold and sits within easy reach of the motorway network and Wigan town centre.\n\nThe property requires a full schedule of refurbishment and includes an entrance porch, hallway, lounge, dining room, kitchen with extension, three bedrooms and a bathroom. Gardens to the front and rear and a driveway offering off-road parking are included.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cbcb601a4/94607298/cbcb601a4c8211c7dddd7deebca62afa.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94607298"
+   },
+   {
+    "id": "R92522415",
+    "address": "13 Calder Drive, Maghull, Liverpool, Merseyside, L31 9DR",
+    "precise_address": "39, CALDER DRIVE, MAGHULL, L31 9DR",
+    "postcode": "L31 9DR",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": null,
+    "days_on_market": 252,
+    "days_since_price_change": 70,
+    "sstc": 0,
+    "lat": "53.51874200",
+    "lng": "-2.92847500",
+    "distance_to": "9.34",
+    "price_history": [
+     {
+      "date": "2026-08-30",
+      "price": 155000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction on 3rd November 2026. Located in Maghull, Liverpool, it benefits from double glazing, central heating, an integrated garage, driveway, and front and rear gardens.\n\nThe property is currently occupied, though the Receivers have no details of the tenancy. Situated off Wasdale Avenue in a well-established residential area close to local amenities, schools and transport links, with Liverpool city centre approximately 11 miles away.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/55be195cc/92522415/55be195cc51324d32fd0fcd55d057d00.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92522415"
+   },
+   {
+    "id": "R95019471",
+    "address": "3 River Grove, Wirral, Merseyside CH62 1EA",
+    "precise_address": "3, RIVER GROVE, NEW FERRY, CH62 1EA",
+    "postcode": "CH62 1EA",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 99000,
+    "sqf": null,
+    "days_on_market": 7,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.36521900",
+    "lng": "-2.99509600",
+    "distance_to": "9.34",
+    "price_history": [
+     {
+      "date": "2026-11-02",
+      "price": 99000
+     }
+    ],
+    "summary": "This three-bedroom terraced house on River Grove, Wirral, is offered freehold by auction on 25 November 2026. It has a lounge with bay window, dining room, kitchen, utility room, workshop and family bathroom, with gas central heating and double glazing.\n\nBebington Rail Station is about 0.75 miles away, with motorway junctions and local bus stops nearby. Buyers should note the auctioneers have not personally inspected the property and should make their own enquiries before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8e88cd8d4/95019471/8e88cd8d475e778e90542937b412aa25.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95019471"
+   },
+   {
+    "id": "R93402036",
+    "address": "Church Lane, Lowton, WA3",
+    "precise_address": "151, CHURCH LANE, LOWTON, WA3 2RH",
+    "postcode": "WA3 2RH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 743,
+    "days_on_market": 49,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.47253400",
+    "lng": "-2.57769100",
+    "distance_to": "9.39",
+    "price_history": [
+     {
+      "date": "2026-09-22",
+      "price": 180000
+     },
+     {
+      "date": "2026-11-07",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold through Modern Method of Auction with no onward chain, offering a reliable transaction. Well-presented and conveniently located in Lowton near schools, transport links and local amenities.\n\nThe property features a sitting room, modern fitted kitchen/diner with garden access, and three good-sized bedrooms with family bathroom. Externally, there's a driveway for off-road parking and a well-maintained private rear garden ideal for entertaining.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/300581fe0/93402036/300581fe077f6a85ef2f857a4d810341.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93402036"
+   },
+   {
+    "id": "R94095210",
+    "address": "St. John Street, Wigan, Greater Manchester, WN5",
+    "precise_address": null,
+    "postcode": "WN5 0DT",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": 30,
+    "sstc": 0,
+    "lat": "53.53733500",
+    "lng": "-2.68423900",
+    "distance_to": "9.43",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom end-terrace house on St John Street, Pemberton, is offered for sale through the modern method of auction. The ground floor includes a porch, lounge, fitted kitchen, utility area and shower room, with two bedrooms and a family bathroom upstairs.\n\nExternally there is a rear yard and a driveway, a useful feature for a terraced property in this location. The area offers good access to the M6 and M58 motorway networks. The property holds an EPC rating of C and Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e76b492c1/94095210/e76b492c1dea4ed56ffc96d378b11d6e.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94095210"
+   },
+   {
+    "id": "R174769418",
+    "address": "Lichfield Street, Wigan, WN5",
+    "precise_address": "17, LICHFIELD STREET, WIGAN, WN5 9JY",
+    "postcode": "WN5 9JY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": 846,
+    "days_on_market": 55,
+    "days_since_price_change": 53,
+    "sstc": 0,
+    "lat": "53.53511300",
+    "lng": "-2.67368700",
+    "distance_to": "9.49",
+    "price_history": [
+     {
+      "date": "2026-04-23",
+      "price": 130000
+     },
+     {
+      "date": "2026-09-16",
+      "price": 110000
+     }
+    ],
+    "summary": "This three-bedroom terraced house is situated on popular Lichfield Street in Pemberton, Wigan. It offers excellent potential for first-time buyers and investors, featuring a generous lounge, open-plan kitchen and dining area, ground floor WC, and lean-to space. Three well-proportioned bedrooms and family bathroom are on the first floor.\n\nThe property benefits from a private rear garden and on-street parking. Conveniently located near schools, local amenities, bus routes and Pemberton train station, it is sold by modern auction with no onward chain, ensuring a straightforward purchase process. Completion required within 56 days.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/684f24e83/174769418/684f24e830c5fe6ad38a89f2bde26f86.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/174769418"
+   },
+   {
+    "id": "R94110471",
+    "address": "Fulwood Road, Lowton, Warrington, Greater Manchester, WA3 2AX",
+    "precise_address": null,
+    "postcode": "WA3 2AX",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 31,
+    "days_since_price_change": 28,
+    "sstc": 0,
+    "lat": "53.46840000",
+    "lng": "-2.57090000",
+    "distance_to": "9.53",
+    "price_history": [
+     {
+      "date": "2026-10-11",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached home is offered for sale by auction through secure online bidding, subject to terms and conditions. It sits within a popular Lowton development close to local shops, schools and transport links.\n\nInside, the ground floor offers a lounge, a kitchen opening to a conservatory with French doors to the garden, two bedrooms and a bathroom, with a third bedroom on the first floor. Outside there is a garden, a driveway and a single garage. The property has gas central heating and is listed as Council Tax Band C, with leasehold tenure noted.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/889f59b45/94110471/889f59b45d7c9029cc1e90396fbc83fb.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94110471"
+   },
+   {
+    "id": "R95168742",
+    "address": "Winfrith Road, Fearnhead, WA2",
+    "precise_address": null,
+    "postcode": "WA2 0QE",
+    "type": "Semi-Detached Bungalow",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": 614,
+    "days_on_market": 4,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.41028300",
+    "lng": "-2.55259400",
+    "distance_to": "9.53",
+    "price_history": [
+     {
+      "date": "2026-11-06",
+      "price": 180000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached bungalow on Winfrith Road in Fearnhead is offered for sale by Modern Method of Auction, with a 56-day reservation period. It includes a lounge with gas fire, a fitted kitchen, a master bedroom with fitted wardrobes, a second bedroom that could serve as a dining room, and a bathroom with walk-in shower.\n\nExternally there is a driveway for off-road parking and a fully paved, enclosed rear garden. The property needs updating and is offered as a project for buyers wanting to tailor a home. Buyers should note the non-refundable reservation fee and buyer information pack requirements.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/432aafeb9/95168742/432aafeb9582efd697759c0197ee76e9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95168742"
+   },
+   {
+    "id": "R94959783",
+    "address": "4, Bridgeside Drive, Helsby",
+    "precise_address": null,
+    "postcode": "WA6 0BS",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 125000,
+    "sqf": 706,
+    "days_on_market": 10,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.27622700",
+    "lng": "-2.76903500",
+    "distance_to": "9.57",
+    "price_history": [
+     {
+      "date": "2026-10-31",
+      "price": 125000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house in Helsby is to be sold by online auction on 11th-12th November 2026, unless sold prior under auction terms. It offers scope for investors, landlords or owner-occupiers to refurbish and add value, with an entrance hall, separate kitchen, living room, conservatory, and a first floor with two bedrooms and a bathroom.\n\nExternally there is a garden with room for landscaping and a driveway providing off-road parking. The village setting offers local shops, schools and countryside walks around Helsby Hill, with Frodsham nearby and road and rail links including Helsby station and the M56. The property is sold as seen and has an EPC rating of D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3f6856f49/94959783/3f6856f49377afcf66efc33575e26bce.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94959783"
+   },
+   {
+    "id": "R93600210",
+    "address": "Gray Street, Bootle, Merseyside, L20",
+    "precise_address": "74, GRAY STREET, BOOTLE, L20 4PR",
+    "postcode": "L20 4PR",
+    "type": "Plot",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 55000,
+    "sqf": null,
+    "days_on_market": 44,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.46135000",
+    "lng": "-3.00353400",
+    "distance_to": "9.60",
+    "price_history": [
+     {
+      "date": "2026-09-25",
+      "price": 55000
+     }
+    ],
+    "summary": "This detached house will be sold by online auction on 21st October 2026. Located in the established L20 area with excellent amenities including shopping, dining and transport links.\n\nThe property comprises vacant garages with planning permission already granted (reference DC/2020/00772) for construction of a three-bedroom and two-bedroom residential home. The site is leasehold and situated in a high-yield postcode area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7adc3924d/93600210/7adc3924dc4f976286503eb2bbb9e160.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93600210"
+   },
+   {
+    "id": "R91647762",
+    "address": "Brunswick Mews, Birkenhead, CH41",
+    "precise_address": "25, BRUNSWICK MEWS, BIRKENHEAD, CH41 6SE",
+    "postcode": "CH41 6SE",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 100000,
+    "sqf": 871,
+    "days_on_market": 96,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.39412000",
+    "lng": "-3.01863000",
+    "distance_to": "9.77",
+    "price_history": [
+     {
+      "date": "2026-08-05",
+      "price": 110000
+     },
+     {
+      "date": "2026-10-20",
+      "price": 100000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Birkenhead is being sold by auction, offering a streamlined purchase process with completion within 56 days. The property features a modern kitchen, spacious lounge with conservatory access, three well-proportioned bedrooms, and family bathroom. Recently benefitted from a new roof.\n\nExternally, there's an enclosed rear garden with patio area and allocated parking. Located in central Birkenhead close to amenities, transport links and schools, the property has no onward chain, making it a reliable transaction. Ideal for first-time buyers and investors seeking high-yield potential in this area.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/de48aada3/91647762/de48aada36677f66aa67db6325064ecd.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91647762"
+   },
+   {
+    "id": "R95116479",
+    "address": "St. David Road, Wirral",
+    "precise_address": null,
+    "postcode": "CH62 0BU",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 1309,
+    "days_on_market": 5,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.31801000",
+    "lng": "-2.96067000",
+    "distance_to": "9.87",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached family home sits in the heart of Eastham and is offered by Modern Method of Auction, with a reserve price that is undisclosed. Accommodation includes a porch, hall, lounge, dining room, kitchen, conservatory, three bedrooms, a family bathroom and separate WC.\n\nOutside there is off-road parking leading to a garage, a front garden, and a rear garden with a patio, shed, lawn and mature trees. Local primary and secondary schools, shops and transport links are nearby. Buyers should note the auction terms, including a non-refundable reservation fee and a 56-day completion period.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7c524604f/95116479/7c524604f84c7438bf31add85028b432.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95116479"
+   },
+   {
+    "id": "R90722907",
+    "address": "Manley View, Elton, Chester",
+    "precise_address": null,
+    "postcode": "CH2 4QF",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": 951,
+    "days_on_market": 122,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.27049000",
+    "lng": "-2.81101000",
+    "distance_to": "10.01",
+    "price_history": [
+     {
+      "date": "2026-07-12",
+      "price": 210000
+     },
+     {
+      "date": "2026-10-30",
+      "price": 200000
+     },
+     {
+      "date": "2026-11-07",
+      "price": 175000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in the village of Elton, near Chester, is offered for sale by modern method of auction, with a reserve price undisclosed and buyer fees applying. The sale is subject to no onward chain, and the buyer must complete within 56 days.\n\nThe home offers off-street parking, a generous rear garden, and a garage conversion providing an office with its own shower room, suiting home workers or guests. Accommodation includes a lounge, kitchen/diner, three bedrooms and a family bathroom.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/58d63a80c/90722907/58d63a80ca8e02141ec2f8db840d86d5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90722907"
+   },
+   {
+    "id": "R94916370",
+    "address": "Holt Road, Birkenhead, CH41 9EW, Birkenhead",
+    "precise_address": "81, HOLT ROAD, TRANMERE, CH41 9EW",
+    "postcode": "CH41 9EW",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 170000,
+    "sqf": 636,
+    "days_on_market": 11,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.38056400",
+    "lng": "-3.02056000",
+    "distance_to": "10.03",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 183000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 170000
+     }
+    ],
+    "summary": "This recently fully renovated four-bedroom, three-bathroom terraced house is being sold by online auction on 11-12 November, unless sold prior. It has a new boiler, full rewire and rear extension, and is vacant. The current owner holds an HMO licence, though a new licence would be needed by the buyer.\n\nThe property is in Birkenhead, about three miles west of Liverpool city centre, with local shops, caf\u00e9s, restaurants and rail links to the city. The vendor quotes HMO rental figures of \u00a32,480-\u00a32,500 per month, which have not been verified by the agent.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/06fd01660/94916370/06fd01660a831400dc252009a9dc10ce.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94916370"
+   },
+   {
+    "id": "R94109745",
+    "address": "Grace Road, Ellesmere Port, Cheshire, CH65 2BH",
+    "precise_address": null,
+    "postcode": "CH65 2BH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": null,
+    "days_on_market": 31,
+    "days_since_price_change": 30,
+    "sstc": 0,
+    "lat": "53.28660000",
+    "lng": "-2.90000000",
+    "distance_to": "10.04",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 130000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached freehold house on Grace Road, Ellesmere Port, is being sold via online auction through Secure Sale, subject to terms and conditions. It offers a driveway with ample on-road parking, double glazed windows, and a low-maintenance rear garden. The property is currently vacant.\n\nInside, a bright hallway leads to two generously sized reception rooms, a kitchen opening onto a conservatory, and upstairs a two-way landing serving three bedrooms and a family bathroom. It is within walking distance of a public green space. Council Tax Band B.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/4f6cc2d33/94109745/4f6cc2d332eee6f6dd1dfb173914f395.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94109745"
+   },
+   {
+    "id": "R91819323",
+    "address": "The Rake, Bromborough, Wirral, Merseyside, CH62",
+    "precise_address": null,
+    "postcode": "CH62 7AF",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 145000,
+    "sqf": 942,
+    "days_on_market": 91,
+    "days_since_price_change": 11,
+    "sstc": 0,
+    "lat": "53.33068000",
+    "lng": "-2.98333000",
+    "distance_to": "10.05",
+    "price_history": [
+     {
+      "date": "2026-08-11",
+      "price": 190000
+     },
+     {
+      "date": "2026-09-30",
+      "price": 160000
+     },
+     {
+      "date": "2026-10-28",
+      "price": 145000
+     }
+    ],
+    "summary": "This spacious three-bedroom mid-terrace home is being sold by auction and offers excellent value with a 16% price reduction. The property features generous accommodation throughout, including a bright lounge, separate dining room, fitted kitchen, and versatile garden room currently used as utility space.\n\nUpstairs are three well-proportioned bedrooms, ideal for families or home workers. Externally, the property boasts a gated rear courtyard and separate lawned garden\u2014a substantial outdoor space rarely found with properties of this type. Conveniently located near local amenities, schools, and transport links.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/381fba175/91819323/381fba1754eded15c5b012d72f7272ad.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91819323"
+   },
+   {
+    "id": "R92214366",
+    "address": "Crescent Road, Ellesmere Port",
+    "precise_address": "9, CRESCENT ROAD, ELLESMERE PORT, CH65 4DY",
+    "postcode": "CH65 4DY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 843,
+    "days_on_market": 81,
+    "days_since_price_change": 79,
+    "sstc": 0,
+    "lat": "53.28402000",
+    "lng": "-2.89286000",
+    "distance_to": "10.07",
+    "price_history": [
+     {
+      "date": "2026-08-21",
+      "price": 110000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house is being sold by auction and is ideally situated in a popular residential area of Ellesmere Port, within walking distance of the town centre. The property benefits from excellent public transport links, including nearby Ellesmere Port Railway Station, making it suitable for commuters.\n\nThe home comprises a lounge, kitchen diner with integrated appliances, two bedrooms, and a bathroom. It features a private rear garden and is close to local amenities including shops and restaurants. The property offers potential for both first-time buyers and investors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3430bc6d0/92214366/3430bc6d081e7c38c636ace4adf6de5c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92214366"
+   },
+   {
+    "id": "R94652859",
+    "address": "38 Barkeley Drive, Liverpool, Sefton, L21 4LX",
+    "precise_address": null,
+    "postcode": "L21 4LX",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 4,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 17,
+    "days_since_price_change": 15,
+    "sstc": 0,
+    "lat": "53.46371500",
+    "lng": "-3.01365000",
+    "distance_to": "10.05",
+    "price_history": [
+     {
+      "date": "2026-10-24",
+      "price": 125000
+     }
+    ],
+    "summary": "This vacant four-bedroom freehold end terrace in Liverpool, L21, is offered via Modern Method of Auction, with a secured sale running from 26th November. The property has a large yard. Buyers pay a non-refundable reservation fee of 4.5% including VAT (minimum \u00a36,600) and should review the Auction Legal Pack before bidding.\n\nLicensing, planning and finance are buyers' responsibilities. Any HMO or other licences are personal to the holder and do not transfer on sale. The seller may consider pre-auction offers, which would follow the same auction terms.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/fcbc66389/94652859/fcbc663896edc6b5c257e4312eb28819.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94652859"
+   },
+   {
+    "id": "R94294680",
+    "address": "85 Albert Street, Wigan, Lancashire, WN5 9DR",
+    "precise_address": null,
+    "postcode": "WN5 9DR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 50000,
+    "sqf": 346,
+    "days_on_market": 26,
+    "days_since_price_change": 24,
+    "sstc": 0,
+    "lat": "53.53883400",
+    "lng": "-2.65610700",
+    "distance_to": "10.08",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 50000
+     }
+    ],
+    "summary": "This two bedroom mid terrace house on Albert Street, Wigan, is vacant and in need of refurbishment. It is offered by public auction on 11 November 2026 and includes a rear yard and off-street parking. An EPC rating of D applies.\n\nThe property sits on a residential road close to local shops, with Alexandra Park nearby and Pemberton rail station providing transport links. Viewings require no booking and are scheduled on several dates in late October and early November.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f05b45aaa/94294680/f05b45aaa1e109a1fa149b36dfac88a5.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94294680"
+   },
+   {
+    "id": "R93915225",
+    "address": "Lowwood Road, Birkenhead, Merseyside, CH41",
+    "precise_address": "8, LOWWOOD ROAD, TRANMERE, CH41 2SR",
+    "postcode": "CH41 2SR",
+    "type": "Detached",
+    "type_standardised": "Detached house",
+    "bedrooms": 4,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 34,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.38746900",
+    "lng": "-3.02538800",
+    "distance_to": "10.12",
+    "price_history": [
+     {
+      "date": "2026-10-05",
+      "price": 150000
+     }
+    ],
+    "summary": "This Grade II listed detached house offers generous accommodation across three storeys, with four bedrooms total. The ground floor features two reception rooms, large kitchen and shower room, whilst the first floor provides three large bedrooms and bathroom. A self-contained basement flat adds rental income potential, with separate access and its own driveway.\n\nThe property is located on Lowwood Road in Birkenhead with good access to amenities, Birkenhead Central railway station and the M53. Sold by online auction on 21st October 2026, this freehold property is situated in a high-yield investment area, with the postcode district averaging 7.8% gross yield.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2393cb0f8/93915225/2393cb0f8e09263107f935c092aab75f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93915225"
+   },
+   {
+    "id": "R94144446",
+    "address": "20 Hampden Road, Birkenhead, Merseyside CH42 5LH",
+    "precise_address": "20, HAMPDEN ROAD, TRANMERE, CH42 5LH",
+    "postcode": "CH42 5LH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 6,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 31,
+    "days_since_price_change": 28,
+    "sstc": 0,
+    "lat": "53.38052500",
+    "lng": "-3.02319700",
+    "distance_to": "10.13",
+    "price_history": [
+     {
+      "date": "2026-10-11",
+      "price": 175000
+     }
+    ],
+    "summary": "This bay-fronted semi-detached house in Birkenhead is offered for sale by auction on behalf of receivers, with the auctioneers not having inspected the interior. It comprises six bedrooms, all en-suite, and a communal kitchen, and is believed to be tenanted, with any existing tenancies sold on. An estimated rental value of \u00a334,000 per annum is quoted if fully let.\n\nThe property stands on a corner plot with gardens to the front and rear and is close to the local hospital, shops, supermarkets and a train station. Bus stops are a short walk away, with Liverpool city centre reachable in around 25 minutes. Prospective buyers should review the legal pack and arrange their own inspection before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/280d880ab/94144446/280d880ab25630ef8fa74ea650cd8785.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94144446"
+   },
+   {
+    "id": "R92660259",
+    "address": "Silverdale Road, Wirral",
+    "precise_address": null,
+    "postcode": "CH63 5JH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 80000,
+    "sqf": 989,
+    "days_on_market": 68,
+    "days_since_price_change": 55,
+    "sstc": 0,
+    "lat": "53.36010000",
+    "lng": "-3.01271000",
+    "distance_to": "10.15",
+    "price_history": [
+     {
+      "date": "2026-09-02",
+      "price": 110000
+     },
+     {
+      "date": "2026-09-15",
+      "price": 80000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by auction and offers no onward chain, making it a reliable transaction. The property needs renovation and updating but is attractively priced and bursting with potential.\n\nThe home features a light hallway, two reception rooms with scope for open-plan living, and three bedrooms including two doubles with one boasting bay windows. There's a shower wet room, south-facing garden laid to lawn, and a brick storage outhouse.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/9e2c273ce/92660259/9e2c273ce853229352f9a2ea7b0fb85d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92660259"
+   },
+   {
+    "id": "R93885252",
+    "address": "Darlington Close, WALLASEY",
+    "precise_address": null,
+    "postcode": "CH44 8HA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 125000,
+    "sqf": 547,
+    "days_on_market": 37,
+    "days_since_price_change": 36,
+    "sstc": 0,
+    "lat": "53.41753800",
+    "lng": "-3.03026300",
+    "distance_to": "10.15",
+    "price_history": [
+     {
+      "date": "2026-10-03",
+      "price": 125000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house is situated in a sought-after residential cul-de-sac with no onward chain, making it a reliable transaction. The property offers spacious accommodation with a bright entrance hallway, generous lounge, well-appointed kitchen with direct garden access, and two well-proportioned bedrooms.\n\nExternally, front and rear gardens provide excellent outdoor space, with driveway parking and garage. Ideal for first-time buyers, growing families, or investors. Sold by Modern Auction with completion required within 56 days; buyers must pay a 4.5% non-refundable reservation fee.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/79f8f72af/93885252/79f8f72af5d187d9279656d5b3e14eed.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93885252"
+   },
+   {
+    "id": "R94297032",
+    "address": "Taylors Lane, Ince-in-Makerfield",
+    "precise_address": null,
+    "postcode": "WN3 4TZ",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 5000,
+    "sqf": null,
+    "days_on_market": 24,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.52261700",
+    "lng": "-2.61266800",
+    "distance_to": "10.27",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 8000
+     },
+     {
+      "date": "2026-10-29",
+      "price": 5000
+     }
+    ],
+    "summary": "This freehold plot of around 0.5 acres sits in a semi-rural setting in Ince-in-Makerfield, roughly 1.7 miles south of Wigan town centre. Westwood Way provides convenient access to the M6 and the wider North West motorway network. The land has not been formally measured, so the stated area is indicative only.\n\nThe property is offered by online auction, with bidding running from 10 to 11 November 2026. The description notes potential for a variety of uses, subject to obtaining the necessary consents. Buyers are advised to review the legal pack and check for lot updates before bidding.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b9d7f41f6/94297032/b9d7f41f67d2a1bd9703fe2eff6a8280.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94297032"
+   },
+   {
+    "id": "R94738374",
+    "address": "Exeter Road, Wallasey, Wirral, CH44",
+    "precise_address": "14, EXETER ROAD, EGREMONT, CH44 1DS",
+    "postcode": "CH44 1DS",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 90000,
+    "sqf": 947,
+    "days_on_market": 14,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.42140000",
+    "lng": "-3.03373000",
+    "distance_to": "10.30",
+    "price_history": [
+     {
+      "date": "2026-10-26",
+      "price": 90000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Exeter Road in Wallasey is offered for sale by modern auction, with bids starting at \u00a390,000 and no onward chain. It features a through reception room, fitted kitchen, enclosed rear garden and a bathroom with shower over bath. The property is unmodernised and would benefit from redecoration and updating.\n\nThe agent estimates a potential market rent of around \u00a3950 per month following refurbishment, though achievable rent will depend on the completed standard and market conditions. The property is located in the Liscard area, close to shops, schools and transport links. Buyers should assess the condition and any proposed works through viewing and survey.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cbc4fbfa1/94738374/cbc4fbfa102c6438704c9e927564ebc7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94738374"
+   },
+   {
+    "id": "R95161281",
+    "address": "Whetstone Lane, Birkenhead, Merseyside, CH41",
+    "precise_address": null,
+    "postcode": "CH41 2QR",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": null,
+    "price": 110000,
+    "sqf": null,
+    "days_on_market": 4,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.38853200",
+    "lng": "-3.03029100",
+    "distance_to": "10.31",
+    "price_history": [
+     {
+      "date": "2026-11-07",
+      "price": 110000
+     }
+    ],
+    "summary": "This large double-fronted freehold building on Whetstone Lane, Birkenhead, was previously two units and has long been occupied as a solicitors' practice. It offers a main shop floor plus nine offices across two floors, with a kitchen and separate cloakrooms. Located just off Borough Road within walking distance of Birkenhead Town Centre and the railway station.\n\nThe property is offered for sale by online auction on 9th December 2026 and would benefit from renovation. Potential future uses include retail, business, or residential accommodation, subject to appropriate planning. Buyers should note the buyer's administration fee of 1% + VAT (minimum \u00a33,500 + VAT).",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5c978aa49/95161281/5c978aa49414ca19101c2bd46d0aa766.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95161281"
+   },
+   {
+    "id": "R93911562",
+    "address": "99 Greenway Road, Birkenhead, Cheshire CH42 0NE",
+    "precise_address": "99, GREENWAY ROAD, TRANMERE, CH42 0NE",
+    "postcode": "CH42 0NE",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": 822,
+    "days_on_market": 35,
+    "days_since_price_change": 34,
+    "sstc": 0,
+    "lat": "53.37584600",
+    "lng": "-3.02575300",
+    "distance_to": "10.31",
+    "price_history": [
+     {
+      "date": "2026-10-05",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom end-of-terrace house in Birkenhead is being sold by online unconditional auction and requires updating throughout. It offers spacious accommodation with potential for modernisation and value addition, presented as a practical opportunity for buyers seeking a project.\n\nThe property benefits from a well-positioned location with excellent local amenities including shops, schools and leisure facilities. Strong connectivity to Liverpool city centre and wider Wirral access by road and public transport make this an attractive prospect for investors or those looking to acquire property with development potential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8967c8702/93911562/8967c87023509e146980c00ed2cfc22a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93911562"
+   },
+   {
+    "id": "R90833877",
+    "address": "Farley Lane, Roby Mill, Skelmersdale, Lancashire, WN8",
+    "precise_address": "29, FARLEY LANE, ROBY MILL, UP HOLLAND, WN8 0QG",
+    "postcode": "WN8 0QG",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 165000,
+    "sqf": null,
+    "days_on_market": 119,
+    "days_since_price_change": 34,
+    "sstc": 0,
+    "lat": "53.56054200",
+    "lng": "-2.72989100",
+    "distance_to": "10.34",
+    "price_history": [
+     {
+      "date": "2026-07-15",
+      "price": 190000
+     },
+     {
+      "date": "2026-07-25",
+      "price": 170000
+     },
+     {
+      "date": "2026-09-01",
+      "price": 185000
+     },
+     {
+      "date": "2026-10-06",
+      "price": 165000
+     }
+    ],
+    "summary": "This charming two-bedroom mid-terrace property is being sold by auction in the sought-after village of Roby Mill. It features an entrance porch, lounge, fitted kitchen and wet room on the ground floor, with two bedrooms, bathroom and separate WC upstairs. An air source heat pump provides efficient heating.\n\nThe property enjoys views over farmland to the rear and mature woodland to the front, with tiered gardens offering private outdoor space. Located on Farley Lane, it benefits from excellent connectivity to the M6 motorway and nearby towns, whilst maintaining a peaceful semi-rural setting with access to local amenities including a traditional pub and farm shop.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c849dab82/90833877/c849dab8293e15d877fb9a0eed628fc9.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90833877"
+   },
+   {
+    "id": "R89267721",
+    "address": "Greenwood Lane, Wallasey",
+    "precise_address": null,
+    "postcode": "CH44 1DN",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": 738,
+    "days_on_market": 159,
+    "days_since_price_change": 54,
+    "sstc": 0,
+    "lat": "53.42220000",
+    "lng": "-3.03450000",
+    "distance_to": "10.33",
+    "price_history": [
+     {
+      "date": "2026-06-05",
+      "price": 110000
+     },
+     {
+      "date": "2026-09-15",
+      "price": 90000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced property on Greenwood Lane is being sold by Modern Auction with the significant advantage of no onward chain, making it a reliable transaction. The property comprises two well-proportioned bedrooms, two reception rooms, kitchen and bathroom.\n\nWhile requiring renovation, it presents an excellent opportunity for first-time buyers, investors, or DIY enthusiasts to create their perfect home. You can choose every finish and fixture to your specification. Outside, there's a low-maintenance rear yard. Council Tax Band A.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f9430f348/89267721/f9430f3486cc96bf8bf0280f9a635662.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89267721"
+   },
+   {
+    "id": "R93006771",
+    "address": "Cliftonville Road, Woolston, Warrington, Cheshire, WA1",
+    "precise_address": "46, CLIFTONVILLE ROAD, WOOLSTON, WARRINGTON, WA1 4BH",
+    "postcode": "WA1 4BH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 953,
+    "days_on_market": 60,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.39600000",
+    "lng": "-2.53488000",
+    "distance_to": "10.34",
+    "price_history": [
+     {
+      "date": "2026-09-12",
+      "price": 180000
+     },
+     {
+      "date": "2026-10-20",
+      "price": 160000
+     }
+    ],
+    "summary": "This extended three-bedroom semi-detached house is situated in the popular Woolston area, offering spacious accommodation ideal for families or first-time buyers. The property features a bright lounge with exposed brick fireplace, separate dining room with conservatory access, and a well-equipped kitchen.\n\nUpstairs comprises three double bedrooms with views over the mature rear garden, plus family bathroom and separate WC. The enclosed garden offers lawned areas and patio seating. Located near Kings Academy, local amenities, and motorway networks, this property is sold by Modern Method of Auction with completion within 56 days.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1ca4525cd/93006771/1ca4525cdf6667a4849e841719864474.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93006771"
+   },
+   {
+    "id": "R94031313",
+    "address": "Priestfield Road, Ellesmere Port, Cheshire West And Chester",
+    "precise_address": "37, PRIESTFIELD ROAD, ELLESMERE PORT, CH65 8BH",
+    "postcode": "CH65 8BH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 95000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 30,
+    "sstc": 0,
+    "lat": "53.28171800",
+    "lng": "-2.90065200",
+    "distance_to": "10.35",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 95000
+     }
+    ],
+    "summary": "This three-bedroom freehold terraced house in Ellesmere Port is being sold by the Modern Method of Auction, with a 56-day exchange and completion period. The ground floor offers a generous lounge/dining room and a separate fitted kitchen with garden access, while upstairs there are three bedrooms and a family bathroom.\n\nOutside, the property has an enclosed front forecourt and a low-maintenance rear yard, with on-street parking nearby. It sits within walking distance of Ellesmere Port town centre, with Cheshire Oaks and rail links to Liverpool and Birkenhead also within reach. The property is only available to buyers not in a chain.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/cd52932bc/94031313/cd52932bcaec6cc92c0f96ffbb54fb11.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94031313"
+   },
+   {
+    "id": "R171720500",
+    "address": "Seabank Road, Wallasey",
+    "precise_address": null,
+    "postcode": "CH45 7PB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 1038,
+    "days_on_market": 113,
+    "days_since_price_change": 51,
+    "sstc": 0,
+    "lat": "53.42535000",
+    "lng": "-3.03443000",
+    "distance_to": "10.34",
+    "price_history": [
+     {
+      "date": "2026-02-03",
+      "price": 240000
+     },
+     {
+      "date": "2026-03-27",
+      "price": 230000
+     },
+     {
+      "date": "2026-09-18",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Seabank Road requires modernisation but offers excellent potential for those willing to invest. It features spacious living areas, well-proportioned bedrooms, and a generous rear garden with brick-built shed for storage.\n\nWith no onward chain, this property provides a reliable transaction. Located in desirable Wallasey near schools, amenities, and transport links, it's suitable for families or investors. The property is back on the market after 67 days, with the asking price reduced by 4%.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/55ae2d7c5/171720500/55ae2d7c57e548c0adb8ab763b1555aa.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/171720500"
+   },
+   {
+    "id": "R92137179",
+    "address": "Priestfield Road, Ellesmere Port, Cheshire, CH65",
+    "precise_address": null,
+    "postcode": "CH65 8BH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 538,
+    "days_on_market": 83,
+    "days_since_price_change": 17,
+    "sstc": 0,
+    "lat": "53.28145200",
+    "lng": "-2.90149800",
+    "distance_to": "10.39",
+    "price_history": [
+     {
+      "date": "2026-08-19",
+      "price": 109000
+     },
+     {
+      "date": "2026-10-08",
+      "price": 108000
+     },
+     {
+      "date": "2026-10-22",
+      "price": 110000
+     }
+    ],
+    "summary": "This two-bedroom terraced house in Ellesmere Port is scheduled for online auction and comes with a tenant already in place, generating \u00a37,800 annual rental income. The property features spacious rooms, a three-piece bathroom, well-equipped kitchen, and private front and back gardens.\n\nLocated within walking distance of Ellesmere Port city centre, this is positioned as an investment opportunity with rewarding rental returns in a high-demand area. The sale will proceed under unconditional auction terms with 28 days completion, unless a pre-auction offer is accepted.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5b59c5524/92137179/5b59c552470bf149b6f3b3e4cf28135a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92137179"
+   },
+   {
+    "id": "R95202441",
+    "address": "79 Raffles Road, Birkenhead",
+    "precise_address": "79, RAFFLES ROAD, TRANMERE, CH42 0HH",
+    "postcode": "CH42 0HH",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 65000,
+    "sqf": null,
+    "days_on_market": 3,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.38564700",
+    "lng": "-3.03162700",
+    "distance_to": "10.40",
+    "price_history": [
+     {
+      "date": "2026-11-07",
+      "price": 65000
+     }
+    ],
+    "summary": "This freehold three-bedroom semi-detached house in Birkenhead is offered for sale by modern auction with no onward chain. It requires a full renovation and modernisation, and includes an open-plan kitchen and dining area with rear courtyard access, a living room, a utility room, and a family bathroom upstairs.\n\nThe property suits buyers seeking a renovation project, whether for a bespoke family home or a buy-to-let investment. Buyers should note that auction terms apply, including a non-refundable reservation fee and a buyer information pack fee.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b738fb866/95202441/b738fb8669e4208617d2a8654fe1aaa1.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95202441"
+   },
+   {
+    "id": "R93819180",
+    "address": "Agnes Grove, Wallasey",
+    "precise_address": null,
+    "postcode": "CH44 1DH",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 95000,
+    "sqf": 880,
+    "days_on_market": 39,
+    "days_since_price_change": 36,
+    "sstc": 0,
+    "lat": "53.42200000",
+    "lng": "-3.03705000",
+    "distance_to": "10.44",
+    "price_history": [
+     {
+      "date": "2026-10-03",
+      "price": 95000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house is being sold by auction and benefits from no onward chain, making it a straightforward transaction. Located in a popular residential area of Wallasey, the property requires general modernisation throughout but offers excellent potential for those seeking a project.\n\nThe accommodation comprises an entrance hallway, lounge, dining room, and fitted kitchen on the ground floor, with two bedrooms and a family bathroom upstairs. Externally, there is a private rear yard. The property is conveniently positioned near local amenities, schools, and transport links, making it suitable for first-time buyers and investors alike.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/b7d2a5163/93819180/b7d2a5163187bf4cf333ec5859b9e108.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93819180"
+   },
+   {
+    "id": "R94032711",
+    "address": "13 Stafford Gardens, Ellesmere Port, Cheshire CH65 8DB",
+    "precise_address": "13, STAFFORD GARDENS, ELLESMERE PORT, CH65 8DB",
+    "postcode": "CH65 8DB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 70000,
+    "sqf": null,
+    "days_on_market": 33,
+    "days_since_price_change": 30,
+    "sstc": 0,
+    "lat": "53.28066900",
+    "lng": "-2.90334600",
+    "distance_to": "10.47",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 70000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace house on Stafford Gardens requires a full scheme of refurbishment and is offered with vacant possession. It is being sold by live-streamed auction on a leasehold basis, with an annual ground rent of \u00a34.50 and an EPC rating of D. Internally it offers two ground-floor reception rooms, a kitchen, two first-floor bedrooms and a bathroom, plus a rear yard.\n\nThe property sits in a small residential development accessed via Enfield Lane, within easy walking distance of Ellesmere Port town centre and its shops, caf\u00e9s and pubs. Buyers should note the auction terms, including a 10% deposit (minimum \u00a35,000) and a buyer's fee of 1.8% inc. VAT (minimum \u00a32,400 inc. VAT), and review the Legal Pack carefully.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ab9fc43a7/94032711/ab9fc43a7df547f11f2168b1a72ac2bc.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94032711"
+   },
+   {
+    "id": "R94406349",
+    "address": "Amaury Road, Liverpool, Merseyside, L23",
+    "precise_address": null,
+    "postcode": "L23 9UY",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": 872,
+    "days_on_market": 24,
+    "days_since_price_change": 21,
+    "sstc": 0,
+    "lat": "53.49454200",
+    "lng": "-3.00074500",
+    "distance_to": "10.50",
+    "price_history": [
+     {
+      "date": "2026-10-18",
+      "price": 135000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house on Amaury Road in the L23 area of Liverpool is being sold via the modern method of auction, with a starting bid and reserve price. It offers a lounge, kitchen dining room, utility room, downstairs WC, family bathroom, and front and rear gardens, with on-street parking to the front. The property is unmodernised and offered with no onward chain.\n\nThe listing highlights a location within reach of local shops, schools and transport links, with access to Crosby. Buyers should note the auction terms, including a non-refundable reservation fee, a 56-day completion period and the need to complete their own due diligence. An EPC is awaiting and the property is freehold in Council Tax Band B.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5a986563c/94406349/5a986563c68b50b039b45aa147f2444f.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94406349"
+   },
+   {
+    "id": "R94866348",
+    "address": "Magazine Lane, WALLASEY",
+    "precise_address": null,
+    "postcode": "CH45 1LT",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 4,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 12,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.43242000",
+    "lng": "-3.03836000",
+    "distance_to": "10.55",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 150000
+     }
+    ],
+    "summary": "This substantial freehold four-bedroom end terrace bay-fronted house sits on a corner plot between Magazine Lane and Gordon Road in Wallasey. It is offered at auction on 17 November 2026 with full vacant possession, and it requires modernisation throughout. Accommodation comprises three reception rooms, a kitchen and entrance hall on the ground floor, four bedrooms and a bathroom on the first floor, plus a rear garden.\n\nThe property lies close to New Brighton Rail Station and local bus services, with road links to the A554, the Kingsway Tunnel and the M53. Local shops and amenities are available in New Brighton, and Vale Park and the promenade are nearby. The EPC rating is awaited.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/37dfd9736/94866348/37dfd9736f9f55d52000c9fd779efa9c.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94866348"
+   },
+   {
+    "id": "R92335188",
+    "address": "Thornton Road, Ellesmere Port",
+    "precise_address": null,
+    "postcode": "CH65 5DE",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 155000,
+    "sqf": 1096,
+    "days_on_market": 77,
+    "days_since_price_change": 59,
+    "sstc": 0,
+    "lat": "53.27365000",
+    "lng": "-2.88440000",
+    "distance_to": "10.57",
+    "price_history": [
+     {
+      "date": "2026-08-25",
+      "price": 180000
+     },
+     {
+      "date": "2026-09-10",
+      "price": 155000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached family home is being sold by Modern Auction and benefits from having no onward chain, making it an attractive option for buyers seeking a reliable transaction. Located in a popular residential area of Ellesmere Port, the property is conveniently positioned near Cheshire Oaks Designer Outlet and well-regarded schools.\n\nThe home features a lounge with electric fire, separate dining room, fitted kitchen with double oven, and conservatory. Upstairs are three bedrooms with fitted wardrobes and a fully tiled bathroom. Externally, there is a large private rear garden, driveway with off-road parking, covered car port, and detached garage. Solar panels are also installed.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/c3e3d5709/92335188/c3e3d57092960eeed5bfe41bcb549121.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92335188"
+   },
+   {
+    "id": "R93583488",
+    "address": "22 Halcyon Road, Birkenhead, Merseyside, CH41 2UQ",
+    "precise_address": "22, HALCYON ROAD, OXTON, CH41 2UQ",
+    "postcode": "CH41 2UQ",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 99000,
+    "sqf": null,
+    "days_on_market": 45,
+    "days_since_price_change": 42,
+    "sstc": 0,
+    "lat": "53.38301100",
+    "lng": "-3.03521600",
+    "distance_to": "10.58",
+    "price_history": [
+     {
+      "date": "2026-09-27",
+      "price": 99000
+     }
+    ],
+    "summary": "This three-bedroom mid-terrace house in Birkenhead is being sold by Modern Method of Auction, with bidding closing 29th October. Currently tenanted at \u00a3750 per calendar month with freehold tenure.\n\nThe property is located in a high-yield area, with properties in this postcode district achieving an average gross yield of 7.6%. A non-refundable Reservation Fee of 4.5% including VAT applies to the successful buyer.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/447938dce/93583488/447938dce6a45afbc86a766411c4f508.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93583488"
+   },
+   {
+    "id": "R95041329",
+    "address": "73 Briardale Road, Oxton",
+    "precise_address": null,
+    "postcode": "CH42 9NE",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 75000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 5,
+    "sstc": 0,
+    "lat": "53.38175000",
+    "lng": "-3.03517000",
+    "distance_to": "10.59",
+    "price_history": [
+     {
+      "date": "2026-11-03",
+      "price": 75000
+     }
+    ],
+    "summary": "This two-bedroom terraced house in Oxton is offered for sale by public auction on 2 December 2026 as Lot 4. The property has been vacant for around two years and needs updating and decoration, with gas central heating and uPVC double glazing already in place.\n\nThe layout includes a lounge, living room, kitchen, two double bedrooms, a study, a box room/wet room and a WC. There is potential to create a third bedroom, and the arrangement could be revisited if required. It sits off Woodchurch Road with a front set back and rear garden.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/07d3a6b71/95041329/07d3a6b712581a0175bb323a4d9a3755.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95041329"
+   },
+   {
+    "id": "R95041371",
+    "address": "84 Woodchurch Road, Birkenhead",
+    "precise_address": null,
+    "postcode": "CH42 9LP",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.38182000",
+    "lng": "-3.03728000",
+    "distance_to": "10.68",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 120000
+     }
+    ],
+    "summary": "This vacant double-fronted two-storey property sits on the corner of Woodchurch Road and Clive Road in an established residential area of Birkenhead, being sold by public auction. It offers flexible accommodation suitable for continued commercial use or residential occupation, including an HMO. Gas central heating, roller shutter doors front and rear, a rear yard and storage are included.\n\nSeparate access to the first floor allows conversion into separate ground and first floor units if required. Ground floor comprises a reception office, three offices, kitchen, WC and storage; the first floor provides three offices, a kitchen and shower room with WC. Viewings are by appointment with the auctioneers.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a5a2fa223/95041371/a5a2fa223a788fc3e556a7a4a91c3632.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95041371"
+   },
+   {
+    "id": "R92138274",
+    "address": "Apartments 1-44, Wallgate Apartments, Miry Lane, Wigan, Lancashire WN3 4FQ",
+    "precise_address": null,
+    "postcode": "WN3 4FQ",
+    "type": "Block of Apartments",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 77500,
+    "sqf": null,
+    "days_on_market": 160,
+    "days_since_price_change": 81,
+    "sstc": 0,
+    "lat": "53.54300000",
+    "lng": "-2.63904000",
+    "distance_to": "10.70",
+    "price_history": [
+     {
+      "date": "2026-08-19",
+      "price": 77500
+     }
+    ],
+    "summary": "This is a ground rent investment opportunity comprising 43 apartments across Wallgate Apartments in Wigan town centre. The property generates an annual rental return of \u00a36,460, with apartments held on 250-year leases from January 2018 featuring 10-year RPI reviews.\n\nThe mixed one and two-bedroom flats offer a rental investment portfolio. The property will be sold by auction on 28 September 2026 under unconditional sale terms, with binding contracts exchanged at point of sale.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ce5ceca2a/92138274/ce5ceca2a03c8fb13ab44078adf8e657.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92138274"
+   },
+   {
+    "id": "R90123672",
+    "address": "Singleton Avenue, Birkenhead",
+    "precise_address": null,
+    "postcode": "CH42 9JH",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": 984,
+    "days_on_market": 137,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.37743000",
+    "lng": "-3.03582000",
+    "distance_to": "10.69",
+    "price_history": [
+     {
+      "date": "2026-06-25",
+      "price": 160000
+     },
+     {
+      "date": "2026-09-04",
+      "price": 150000
+     },
+     {
+      "date": "2026-11-03",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom mid-terraced house on Singleton Avenue in Birkenhead is offered for sale by modern method of auction, subject to an undisclosed reserve price and buyer fees. The ground floor offers a spacious lounge and dining room, plus a newly fitted kitchen with good storage. Upstairs are two double bedrooms and a single, along with a family bathroom.\n\nRecent improvements include partial replastering, new flooring and ventilation installed on external walls to help prevent damp. The rear garden features fruit trees, flagstone paving and borders. Buyers must complete the purchase within 56 days and pay a non-refundable reservation fee.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/ac7a69338/90123672/ac7a69338bdc5eb0e76577b9ca200967.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/90123672"
+   },
+   {
+    "id": "R94555668",
+    "address": "Canaan, Leigh, Greater Manchester, WN7 3QS",
+    "precise_address": "7, CANAAN, LOWTON, WN7 3QS",
+    "postcode": "WN7 3QS",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 80,
+    "days_since_price_change": 16,
+    "sstc": 0,
+    "lat": "53.47570000",
+    "lng": "-2.54390000",
+    "distance_to": "10.75",
+    "price_history": [
+     {
+      "date": "2026-10-23",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is offered for sale by online auction through Secure Sale, with no onward chain involved. The property includes a spacious lounge with dining space, three bedrooms and a family bathroom, and is described as needing updating and modernisation.\n\nExternally, there is a driveway for off-road parking, a garage, a front garden and a good-sized rear garden. Located close to local amenities, schools and transport links, it suits investors or buyers looking for a renovation project. The property is leasehold with a lease length of 943 years.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8b4a4ca4b/94555668/8b4a4ca4be1b57f92886f8b6e5e41453.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94555668"
+   },
+   {
+    "id": "R92266032",
+    "address": "Canaan, Leigh, WN7",
+    "precise_address": null,
+    "postcode": "WN7 3QS",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 818,
+    "days_on_market": 80,
+    "days_since_price_change": 77,
+    "sstc": 0,
+    "lat": "53.47588000",
+    "lng": "-2.54270600",
+    "distance_to": "10.80",
+    "price_history": [
+     {
+      "date": "2026-08-23",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached property is being sold by auction and offers excellent potential for investors or those seeking a renovation project. The property comprises a spacious lounge with dining space, three good-sized bedrooms, and a family bathroom. There is significant scope to update and modernise throughout.\n\nExternally, the property benefits from a driveway, front garden, garage, and good-sized rear garden. Located close to local amenities, schools and transport links, the property has no onward chain, making it a reliable transaction. Early viewing is highly recommended to appreciate the potential.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/93ef1df9f/92266032/93ef1df9f27c25ee7b6eef3cfd49bbc3.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92266032"
+   },
+   {
+    "id": "R93927186",
+    "address": "Poulton Road, 405 - 405A, Wallasey, Cheshire CH44 4DF",
+    "precise_address": null,
+    "postcode": "CH44 4DF",
+    "type": "Block of Apartments",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 32,
+    "days_since_price_change": null,
+    "sstc": 0,
+    "lat": "53.41174100",
+    "lng": "-3.04630900",
+    "distance_to": "10.81",
+    "price_history": [
+     {
+      "date": "2026-10-07",
+      "price": 90000
+     }
+    ],
+    "summary": "This mixed-use freehold property is being sold by online auction on 16th-17th November. It comprises a ground floor commercial unit (currently vacant shop premises) and a two-bedroom flat across the first and second floors, both with rental potential.\n\nThe commercial space offers potential rental income of \u00a38,400 per annum, while the well-presented flat could achieve \u00a37,800 per annum. The property is in a prominent terrace location with brick elevations and includes a rear yard. Buyers should note that auction purchase is a contractual commitment requiring immediate deposit and fees payment.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/28f210bff/93927186/28f210bff215b29e0f412754b08c6892.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93927186"
+   },
+   {
+    "id": "R92884266",
+    "address": "Vale Gardens, Whitby, Ellesmere Port",
+    "precise_address": null,
+    "postcode": "CH65 9BB",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 1227,
+    "days_on_market": 62,
+    "days_since_price_change": 60,
+    "sstc": 0,
+    "lat": "53.27493000",
+    "lng": "-2.90602000",
+    "distance_to": "10.87",
+    "price_history": [
+     {
+      "date": "2026-09-09",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached family home is being sold by Modern Auction and benefits from having no onward chain, making it a reliable transaction. Located in a quiet cul-de-sac in Whitby, it features three reception rooms, a kitchen, integral garage, and off-road parking.\n\nThe property is conveniently positioned within walking distance of Ellesmere Port city centre, local shops, transport links, and well-regarded schools. An internal inspection is recommended to appreciate the potential and opportunity this home offers.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/7731a9457/92884266/7731a9457532fed567da37fe74f5d7f6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92884266"
+   },
+   {
+    "id": "R93049881",
+    "address": "Hylton Avenue, Wallasey",
+    "precise_address": null,
+    "postcode": "CH44 5XA",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 1080,
+    "days_on_market": 59,
+    "days_since_price_change": 26,
+    "sstc": 0,
+    "lat": "53.41768000",
+    "lng": "-3.04808000",
+    "distance_to": "10.88",
+    "price_history": [
+     {
+      "date": "2026-09-13",
+      "price": 140000
+     },
+     {
+      "date": "2026-10-13",
+      "price": 125000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Hylton Avenue is being sold by auction with no onward chain, offering a reliable transaction path. The property requires updating throughout but presents excellent potential for buyers seeking a renovation project or investment opportunity.\n\nInside, you'll find a welcoming hallway, spacious living room, separate dining room, and a kitchen ready for modernisation. Upstairs offers three generously sized bedrooms with natural light and a family bathroom. Externally, there are manageable front and rear yards. Ideal for DIY enthusiasts or investors.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3d46ea1e6/93049881/3d46ea1e63e525bc39248eae51be7535.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93049881"
+   },
+   {
+    "id": "R94068426",
+    "address": "Woodhouse Lane, Wigan, WN6",
+    "precise_address": null,
+    "postcode": "WN6 7LN",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 135000,
+    "sqf": 1153,
+    "days_on_market": 32,
+    "days_since_price_change": 30,
+    "sstc": 0,
+    "lat": "53.55050400",
+    "lng": "-2.64705000",
+    "distance_to": "10.96",
+    "price_history": [
+     {
+      "date": "2026-10-09",
+      "price": 135000
+     }
+    ],
+    "summary": "This spacious end-terrace house on Woodhouse Lane, Wigan, is offered for sale with no onward chain and is being sold by modern method of auction. It has two reception rooms, a fitted kitchen, two double bedrooms, a shower room, a rear yard and an outbuilding.\n\nThe property needs updating and has potential to convert to a third bedroom, subject to the necessary permissions. It lies within walking distance of Wigan town centre, with local amenities, schools and bus routes nearby.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/84ea750ce/94068426/84ea750ce207a843bb5420251a2de650.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94068426"
+   },
+   {
+    "id": "R94590264",
+    "address": "Christopher Street, Ince, Wigan, Greater Manchester, WN3 4QY",
+    "precise_address": null,
+    "postcode": "WN3 4QY",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 80000,
+    "sqf": null,
+    "days_on_market": 18,
+    "days_since_price_change": 16,
+    "sstc": 0,
+    "lat": "53.53650000",
+    "lng": "-2.61260000",
+    "distance_to": "10.99",
+    "price_history": [
+     {
+      "date": "2026-10-23",
+      "price": 80000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house in Ince, Wigan, is being sold by auction via online bidding, subject to terms and conditions. It offers two bathrooms, an additional WC, a large front porch and spacious accommodation, with a local nursery and amenities nearby.\n\nThe property is listed as leasehold with a lease length of 845 years and Council Tax Band A. Estimated rental potential is \u00a3800\u2013\u00a3850 per calendar month, and it is located around 0.05 miles from development land at Phoenix Way.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3501326a9/94590264/3501326a9382a37e65ecc35cdb6a8f46.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94590264"
+   },
+   {
+    "id": "R94282338",
+    "address": "Faraday Road, Whitby, Ellesmere Port, Cheshire, CH65 7DE",
+    "precise_address": null,
+    "postcode": "CH65 7DE",
+    "type": "Bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 26,
+    "days_since_price_change": 24,
+    "sstc": 0,
+    "lat": "53.27570000",
+    "lng": "-2.91480000",
+    "distance_to": "11.00",
+    "price_history": [
+     {
+      "date": "2026-10-15",
+      "price": 120000
+     }
+    ],
+    "summary": "This three-bedroom detached bungalow in Whitby, Ellesmere Port, is being sold via online auction. It features a hallway, spacious living area, fitted kitchen/dining room, wetroom, utility room, separate WC, and a generous rear garden with driveway parking for approximately two vehicles.\n\nThe property has non-standard aluminium construction, so buyers should make their own enquiries if seeking a mortgage. It is offered with no onward chain, is freehold, and is in Council Tax Band A. Sale is restricted to cash buyers only.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/74b439bcd/94282338/74b439bcdd43dec63942d09f5e1e3596.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94282338"
+   },
+   {
+    "id": "R93565110",
+    "address": "Birch Road, Oxton, CH43 5UE",
+    "precise_address": null,
+    "postcode": "CH43 5UE",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": 870,
+    "days_on_market": 45,
+    "days_since_price_change": 24,
+    "sstc": 0,
+    "lat": "53.37803300",
+    "lng": "-3.04431100",
+    "distance_to": "11.02",
+    "price_history": [
+     {
+      "date": "2026-09-27",
+      "price": 190000
+     },
+     {
+      "date": "2026-10-15",
+      "price": 170000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house is being sold by Modern Method of Auction with no onward chain, offering a straightforward transaction. Located in Prenton near Oxton Village, it features two reception rooms, a kitchen, bathroom and ground floor WC across approximately 1,400 sq ft.\n\nThe property requires updating throughout, presenting an opportunity to create a home tailored to your taste. It benefits from a walled rear courtyard and proximity to local amenities and transport links. Completion must occur within 56 days of reservation.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/a395614f6/93565110/a395614f6ceaf2f4c2e408cb98fefa80.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93565110"
+   },
+   {
+    "id": "R94906152",
+    "address": "37 Springfield Road, Wigan, WN6 7BB",
+    "precise_address": null,
+    "postcode": "WN6 7BB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 50000,
+    "sqf": null,
+    "days_on_market": 11,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.55368600",
+    "lng": "-2.64788300",
+    "distance_to": "11.13",
+    "price_history": [
+     {
+      "date": "2026-10-31",
+      "price": 50000
+     }
+    ],
+    "summary": "This three-bedroom terraced house in Gidlow, Wigan, is offered for sale by Under the Hammer online auction on 18 November 2026. It is vacant on completion and sits on a long leasehold with 875 years remaining, subject to the legal pack.\n\nAccommodation includes a bay-fronted lounge, a kitchen diner, a storage room, and a first-floor landing with three bedrooms and a shower room, plus a rear garden. The property is described as offering scope to modernise, and local schools, shops and rail links are within easy reach.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/11b0471fc/94906152/11b0471fcd934bec792b3f8345ddbef1.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94906152"
+   },
+   {
+    "id": "R89520468",
+    "address": "Grappenhall Road, Great Sutton, Ellesmere Port, Cheshire, CH65",
+    "precise_address": "15, GRAPPENHALL ROAD, GREAT SUTTON, ELLESMERE PORT, CH65 7AP",
+    "postcode": "CH65 7AP",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 1159,
+    "days_on_market": 152,
+    "days_since_price_change": 64,
+    "sstc": 0,
+    "lat": "53.27322000",
+    "lng": "-2.91768000",
+    "distance_to": "11.21",
+    "price_history": [
+     {
+      "date": "2026-06-11",
+      "price": 160000
+     },
+     {
+      "date": "2026-09-05",
+      "price": 150000
+     }
+    ],
+    "summary": "This three-bedroom mid-terraced house is being sold by Modern Auction with a 56-day reservation period. It offers comfortable living space ideal for families or first-time buyers, featuring a welcoming living room, fitted kitchen with ample storage, and three well-proportioned bedrooms with family bathroom.\n\nExternally, the property benefits from a generous rear garden perfect for entertaining or family use. Conveniently located near local amenities, schools, and transport links, with a nearby public playing field within walking distance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5c626b41a/89520468/5c626b41aa0289c0b3d9e6b28b70f85d.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/89520468"
+   },
+   {
+    "id": "R92342958",
+    "address": "Darlington Street East, Wigan, Greater Manchester, WN1",
+    "precise_address": null,
+    "postcode": "WN1 3BH",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": null,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 77,
+    "days_since_price_change": 11,
+    "sstc": 0,
+    "lat": "53.54375200",
+    "lng": "-2.61935500",
+    "distance_to": "11.21",
+    "price_history": [
+     {
+      "date": "2026-08-25",
+      "price": 220000
+     },
+     {
+      "date": "2026-09-30",
+      "price": 200000
+     },
+     {
+      "date": "2026-10-28",
+      "price": 170000
+     }
+    ],
+    "summary": "This semi-detached mixed-use property comprises a ground floor commercial shop with rear kitchen and WC, plus a self-contained first-floor apartment accessed separately. The shop is sold with vacant possession, whilst the apartment is sold with an existing tenant providing immediate rental income.\n\nLocated on Darlington Street close to Wigan town centre, the property benefits from excellent accessibility to shops, amenities and transport links including nearby railway stations and motorway networks. Being sold by modern method of auction, this represents an investment opportunity combining commercial and residential income streams.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/534b28977/92342958/534b289776848dd36e5508b0a5beb0ac.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92342958"
+   },
+   {
+    "id": "R95043009",
+    "address": "Ground Rent Portfolio, Wirral",
+    "precise_address": null,
+    "postcode": "CH43 2JJ",
+    "type": "Not Specified",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 50000,
+    "sqf": null,
+    "days_on_market": 6,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.38466000",
+    "lng": "-3.05208000",
+    "distance_to": "11.24",
+    "price_history": [
+     {
+      "date": "2026-11-04",
+      "price": 50000
+     }
+    ],
+    "summary": "This lot is a portfolio of 31 ground rents generating a total annual income of \u00a34,503, secured on modern purpose-built flat developments in Oxton and Bebington, plus a terrace of modern town houses in Neston. The developments include Bexley Court, Holin Court, Oakland Court, Galtres Court, and properties on Mellock Close and Mellock Lane.\n\nThe ground rents are being sold by public auction on 2 December 2026 as Lot 3, with a guide price of \u00a350,000 to \u00a360,000. Full schedule details are contained within the legal documents available on the website.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/f79aec409/95043009/f79aec409eabfe81605e6665df901673.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95043009"
+   },
+   {
+    "id": "R174833573",
+    "address": "Thicknesse Avenue, Wigan, WN6",
+    "precise_address": "73, THICKNESSE AVENUE, WIGAN, WN6 8PW",
+    "postcode": "WN6 8PW",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 100000,
+    "sqf": 866,
+    "days_on_market": 200,
+    "days_since_price_change": 15,
+    "sstc": 0,
+    "lat": "53.55961800",
+    "lng": "-2.65538600",
+    "distance_to": "11.34",
+    "price_history": [
+     {
+      "date": "2026-04-23",
+      "price": 125000
+     },
+     {
+      "date": "2026-09-22",
+      "price": 105000
+     },
+     {
+      "date": "2026-10-24",
+      "price": 100000
+     }
+    ],
+    "summary": "This two-bedroom end-terrace is sold by auction with no onward chain, offering a reliable transaction for buyers. The well-presented home features a welcoming lounge, spacious kitchen/diner, ground floor study/storage, and low-maintenance yard with decking.\n\nUpstairs provides two generously sized bedrooms and a large family bathroom with bath and shower. Council Tax Band A and EPC-D rated. Completion required within 56 days of winning the auction bid.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/2fc431c85/174833573/2fc431c85ef09ac204a0476c09b6c698.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/174833573"
+   },
+   {
+    "id": "R87895872",
+    "address": "Balmoral Drive, Hindley, Wigan, Greater Manchester, WN2",
+    "precise_address": "14, BALMORAL DRIVE, HINDLEY, WN2 3HS",
+    "postcode": "WN2 3HS",
+    "type": "Bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 160000,
+    "sqf": 1083,
+    "days_on_market": 192,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.52871000",
+    "lng": "-2.58422000",
+    "distance_to": "11.39",
+    "price_history": [
+     {
+      "date": "2026-04-30",
+      "price": 200000
+     },
+     {
+      "date": "2026-06-19",
+      "price": 190000
+     },
+     {
+      "date": "2026-08-02",
+      "price": 170000
+     },
+     {
+      "date": "2026-10-29",
+      "price": 160000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached dorma bungalow is being sold by auction. It features a spacious lounge/dining room, fitted kitchen, family bathroom, and conservatory on the ground floor, with a loft room currently used as a double bedroom with en-suite.\n\nThe property includes off-road driveway parking and both front and rear enclosed gardens. The Modern Method of Auction applies, requiring completion within 56 days of draft contract. A non-refundable Reservation Fee of 4.5% (minimum \u00a36,600 including VAT) is payable in addition to the purchase price.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/79cbefc05/87895872/79cbefc051d2ef16d962138105009500.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/87895872"
+   },
+   {
+    "id": "R95146728",
+    "address": "Station Road, Ormskirk, L39",
+    "precise_address": null,
+    "postcode": "L39 2XB",
+    "type": "Terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 150000,
+    "sqf": 924,
+    "days_on_market": 4,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.57005300",
+    "lng": "-2.88218900",
+    "distance_to": "11.49",
+    "price_history": [
+     {
+      "date": "2026-11-05",
+      "price": 150000
+     }
+    ],
+    "summary": "This two-bedroom terraced house in Ormskirk is for sale by auction, with bidding running from Thursday 26th November at 10am to 1pm. It offers two reception rooms with traditional fireplaces, a fitted kitchen with rear access, a generous main bedroom and a family bathroom. The property has a 924 sq ft internal area and may be suitable for conversion to three bedrooms.\n\nExternally there is a front garden, a rear courtyard with storage and a paved garden. The home needs modernisation, and buyers should note the 10% deposit and the 4% plus VAT auction reservation fee. The property is freehold, council tax band B and has an EPC rating of D.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/8fb675903/95146728/8fb6759034439efb0a87424501ed4287.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/95146728"
+   },
+   {
+    "id": "R94911681",
+    "address": "Beech Avenue, Culcheth, Warrington, Cheshire, WA3",
+    "precise_address": "12, BEECH AVENUE, CULCHETH AND GLAZEBURY, WARRINGTON, WA3 4JF",
+    "postcode": "WA3 4JF",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 940,
+    "days_on_market": 11,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.45372000",
+    "lng": "-2.51316000",
+    "distance_to": "11.47",
+    "price_history": [
+     {
+      "date": "2026-10-31",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom end-terrace house in Culcheth, Warrington, is offered for sale by modern auction with no onward chain. Arranged over two floors, it includes a lounge, dining room, kitchen, family bathroom and separate WC, with off-road parking and an enclosed lawned garden to the rear.\n\nThe property requires modernisation, so buyers should factor in updating costs. Culcheth is a village with local shops, cafes, schooling options and good motorway links. Buyers should note the buyer's information pack fee, reservation fee and AML charge.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/08c5873d9/94911681/08c5873d96d535e95bd0b280a9a7c5b7.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94911681"
+   },
+   {
+    "id": "R93510900",
+    "address": "Whittlewood Close, WARRINGTON, Cheshire, WA3",
+    "precise_address": "6, WHITTLEWOOD CLOSE, BIRCHWOOD, WARRINGTON, WA3 6TU",
+    "postcode": "WA3 6TU",
+    "type": "End of Terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 130000,
+    "sqf": 536,
+    "days_on_market": 46,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.42777000",
+    "lng": "-2.50593000",
+    "distance_to": "11.48",
+    "price_history": [
+     {
+      "date": "2026-09-24",
+      "price": 140000
+     },
+     {
+      "date": "2026-10-20",
+      "price": 130000
+     }
+    ],
+    "summary": "This semi-detached house is being sold by auction and situated in a quiet, popular cul-de-sac in Warrington. It offers two well-proportioned bedrooms, a spacious open-plan living and dining area, and a fitted kitchen with garden views. The property has front and rear gardens, a family bathroom, and off-road rear parking.\n\nThe home is ideal for first-time buyers, young families, or investors seeking a low-maintenance property. Located near excellent local amenities, schools, and transport links including the M6, M60, and M62 networks, with convenient access to Birchwood shopping centre and train station.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/e642e82ec/93510900/e642e82ecb6c120bde9bfb51a4c2f2a6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93510900"
+   },
+   {
+    "id": "R172860461",
+    "address": "Cottage Lane, Ormskirk, L39",
+    "precise_address": null,
+    "postcode": "L39 3NF",
+    "type": "Detached Bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": 592,
+    "days_on_market": 397,
+    "days_since_price_change": 25,
+    "sstc": 0,
+    "lat": "53.56764900",
+    "lng": "-2.89366500",
+    "distance_to": "11.51",
+    "price_history": [
+     {
+      "date": "2026-03-04",
+      "price": 220000
+     },
+     {
+      "date": "2026-10-14",
+      "price": 180000
+     }
+    ],
+    "summary": "This two-bedroom detached bungalow sits in Ormskirk, within walking distance of the town centre, shops and schools. It is being sold by auction and offered with no onward chain. The layout includes a bay-windowed lounge, a contemporary kitchen/diner opening onto the rear garden, and a modern family bathroom.\n\nTwo double bedrooms, a large loft room with a pull-down ladder and a private garden with paved seating add further space. The property has freehold tenure, council tax band information is listed, and ample parking is provided to the front.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/5735cbaa6/172860461/5735cbaa6a0a41fbe8b9135d90f221f6.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/172860461"
+   },
+   {
+    "id": "R94902957",
+    "address": "Cartmel Drive, Great Sutton, Ellesmere Port",
+    "precise_address": null,
+    "postcode": "CH66 2SQ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": 802,
+    "days_on_market": 11,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.26806000",
+    "lng": "-2.92222000",
+    "distance_to": "11.61",
+    "price_history": [
+     {
+      "date": "2026-10-29",
+      "price": 160000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached family home sits in a quiet cul-de-sac in Great Sutton, close to local shops, schools and bus routes. It offers a lounge, dining room, kitchen, a wet room, a private rear garden and a front driveway providing off-road parking.\n\nThe property is offered through Modern Method of Auction, requiring completion within 56 days, with a non-refundable reservation fee and a Buyer Information Pack. It is offered with no onward chain.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/3b017db81/94902957/3b017db813bf3fc254abdacf70ca2262.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/94902957"
+   },
+   {
+    "id": "R93720255",
+    "address": "Malpas Avenue, Wigan, Greater Manchester, WN1",
+    "precise_address": null,
+    "postcode": "WN1 3PN",
+    "type": "Land",
+    "type_standardised": "Detached house",
+    "bedrooms": null,
+    "price": 90000,
+    "sqf": null,
+    "days_on_market": 39,
+    "days_since_price_change": 19,
+    "sstc": 0,
+    "lat": "53.55200500",
+    "lng": "-2.62006300",
+    "distance_to": "11.65",
+    "price_history": [
+     {
+      "date": "2026-10-01",
+      "price": 120000
+     },
+     {
+      "date": "2026-10-21",
+      "price": 90000
+     }
+    ],
+    "summary": "This approximately 0.14 acre plot is being sold by auction in the popular Whelley area of Wigan. The site has previous planning permission history for 3 residential dwellings, though this permission has now expired. Any future development would require new planning consent.\n\nThe substantial parcel of land is situated in an established residential location with good access to local amenities, the Whelley Loop Line walking and cycling route, and convenient transport links including bus services and nearby railway stations. The site provides an interesting opportunity for future development subject to obtaining necessary planning permissions.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/0017b0510/93720255/0017b051010e297d869dc481e3a1ae30.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93720255"
+   },
+   {
+    "id": "R91983354",
+    "address": "Summertrees Road, Great Sutton, Ellesmere Port",
+    "precise_address": null,
+    "postcode": "CH66 2RN",
+    "type": "Detached",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": 913,
+    "days_on_market": 88,
+    "days_since_price_change": 25,
+    "sstc": 0,
+    "lat": "53.26804000",
+    "lng": "-2.92507000",
+    "distance_to": "11.67",
+    "price_history": [
+     {
+      "date": "2026-08-13",
+      "price": 225000
+     },
+     {
+      "date": "2026-09-28",
+      "price": 200000
+     },
+     {
+      "date": "2026-10-14",
+      "price": 180000
+     }
+    ],
+    "summary": "This two-bedroom detached family home is being sold by Modern Auction and benefits from having no onward chain, making it a reliable transaction. Located in popular Great Sutton, it features a lounge, dining room, kitchen, downstairs WC, and detached garage with off-road parking.\n\nUpstairs comprises two bedrooms and a fully tiled shower room. The property is within walking distance of local shops and schools, with good travel links nearby. The rear garden provides private outdoor space, ideal for families seeking a straightforward purchase.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/d7c495df4/91983354/d7c495df4c23db4660de045631d85882.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/91983354"
+   },
+   {
+    "id": "R88073220",
+    "address": "Malton Close, Leigh, Greater Manchester, WN7 5BZ",
+    "precise_address": null,
+    "postcode": "WN7 5BZ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": null,
+    "days_on_market": 188,
+    "days_since_price_change": 41,
+    "sstc": 0,
+    "lat": "53.50000000",
+    "lng": "-2.53970000",
+    "distance_to": "11.66",
+    "price_history": [
+     {
+      "date": "2026-05-05",
+      "price": 200000
+     },
+     {
+      "date": "2026-06-08",
+      "price": 190000
+     },
+     {
+      "date": "2026-09-28",
+      "price": 175000
+     }
+    ],
+    "summary": "This extended three-bedroom semi-detached house is positioned at the head of a quiet cul-de-sac and will be sold by auction. The property offers well-proportioned accommodation including a sitting room, separate dining room, lounge, conservatory, fitted kitchen with utility room, and ground floor shower room.\n\nUpstairs are three generous bedrooms and a bathroom with separate shower enclosure. The property benefits from no onward chain, making it an ideal choice for buyers seeking a reliable transaction. Outside, there is off-road parking and enclosed rear gardens providing privacy and low maintenance.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/1965c4f09/88073220/1965c4f0992883968d5ec02952f8d778.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/88073220"
+   },
+   {
+    "id": "R92874999",
+    "address": "Malton Close, Leigh, WN7",
+    "precise_address": "11, MALTON CLOSE, LEIGH, WN7 5BZ",
+    "postcode": "WN7 5BZ",
+    "type": "House",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": 1252,
+    "days_on_market": 61,
+    "days_since_price_change": 41,
+    "sstc": 0,
+    "lat": "53.50077100",
+    "lng": "-2.53851600",
+    "distance_to": "11.73",
+    "price_history": [
+     {
+      "date": "2026-09-08",
+      "price": 190000
+     },
+     {
+      "date": "2026-09-28",
+      "price": 175000
+     }
+    ],
+    "summary": "This three-bedroom detached house is being sold by auction with no onward chain, offering a reliable transaction. The property features a well-proportioned sitting room, separate dining room, conservatory, fitted kitchen with utility room, and additional lounge. Three generous bedrooms and two bathrooms complete the accommodation, with boarded loft space accessible via steps.\n\nOutside, the property benefits from private rear gardens, off-road parking, and is positioned at the head of a quiet cul-de-sac. Low-maintenance enclosed gardens provide good privacy. The property is in walking distance of a public park or garden, and immediate exchange of contracts is available once your bid is accepted.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/693e6d566/92874999/693e6d5665c1a894bdd34e40c04a644a.jpeg",
+    "url": "https://propertydata.co.uk/outbound/rightmove/92874999"
+   },
+   {
+    "id": "R93417048",
+    "address": "Croftson Avenue, Ormskirk, L39",
+    "precise_address": null,
+    "postcode": "L39 1NJ",
+    "type": "Semi-Detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 1304,
+    "days_on_market": 48,
+    "days_since_price_change": 46,
+    "sstc": 0,
+    "lat": "53.57416400",
+    "lng": "-2.88173100",
+    "distance_to": "11.75",
+    "price_history": [
+     {
+      "date": "2026-09-23",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Ormskirk requires comprehensive modernisation throughout but offers excellent potential for transformation. The property features generous proportions with multiple reception spaces, well-proportioned bedrooms, a substantial conservatory, and useful loft space.\n\nExternally, a standout feature is the generous rear garden with a detached garage/outbuilding. Ideal for investors, developers or buyers seeking a substantial renovation project, the property will be sold by auction on 29th October.",
+    "image_url": "https://media.rightmove.co.uk/property-photo/831028e87/93417048/831028e87a18d4a604d2a0509996f53b.png",
+    "url": "https://propertydata.co.uk/outbound/rightmove/93417048"
+   }
+  ]
+ }
+}

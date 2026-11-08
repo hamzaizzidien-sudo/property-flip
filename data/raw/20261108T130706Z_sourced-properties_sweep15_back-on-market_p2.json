@@ -1,0 +1,1240 @@
+{
+ "source": "propertydata",
+ "endpoint": "sourced-properties",
+ "fetched_via": "mcp",
+ "fetched_at": "2026-11-08T13:07:06.795366+00:00",
+ "run_id": "sweep15-20261108",
+ "request": {
+  "list": "back-on-market",
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "max_price": 180000,
+  "standardised_type": "!flat",
+  "exclude_sstc": 1,
+  "results": 100,
+  "page": 2
+ },
+ "response": {
+  "status": "success",
+  "image_copyright": "All image URLs link to third-party content that may be protected by copyright; you must obtain any necessary rights or permissions before downloading, storing, or reusing those images.",
+  "list": {
+   "id": "back-on-market",
+   "name": "Back on market properties"
+  },
+  "location": "53.4144,-2.7839",
+  "radius": 15,
+  "page": 2,
+  "result_count": 40,
+  "api_calls_cost": 4,
+  "properties": [
+   {
+    "id": "Z72602100",
+    "address": "Kilburn Street, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 8HW",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 100000,
+    "sqf": 710,
+    "days_on_market": 248,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.46177100",
+    "lng": "-2.99803000",
+    "distance_to": "9.40",
+    "price_history": [
+     {
+      "date": "2026-03-17",
+      "price": 110000
+     },
+     {
+      "date": "2026-07-19",
+      "price": 100000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 57 days between 3 August and 28 September. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced by 9% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/dc468e3918fdfc5d88f32bee763c51aa19e8e18b.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72602100"
+   },
+   {
+    "id": "Z72422769",
+    "address": "Fearnhead Lane, Fearnhead WA2",
+    "precise_address": null,
+    "postcode": "WA2 0BQ",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 170000,
+    "sqf": 829,
+    "days_on_market": 269,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.41231400",
+    "lng": "-2.55539900",
+    "distance_to": "9.41",
+    "price_history": [
+     {
+      "date": "2026-03-20",
+      "price": 190000
+     },
+     {
+      "date": "2026-04-04",
+      "price": 180000
+     },
+     {
+      "date": "2026-06-27",
+      "price": 170000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 84 days between 12 August and 4 November. It benefits from having no onward chain, so would be a more reliable transaction. It is 26% cheaper than the average of \u00a3276/sqft near WA2 0BQ. The asking price has been reduced twice by a total of 11% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/b7442ce605f8ed5b4d58f5a431ca4f2a9aec463c.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72422769"
+   },
+   {
+    "id": "Z69536080",
+    "address": "Hinton Street, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 8LS",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 95000,
+    "sqf": 810,
+    "days_on_market": 101,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.46422700",
+    "lng": "-2.99695900",
+    "distance_to": "9.42",
+    "price_history": [
+     {
+      "date": "2025-03-01",
+      "price": 100000
+     },
+     {
+      "date": "2026-08-16",
+      "price": 95000
+     }
+    ],
+    "summary": "This two-bedroom mid-terrace family home on Hinton Street, Liverpool, requires refurbishment but offers excellent potential for buyers seeking to add their own character. The property features an open-plan lounge and dining room flooded with natural light, a fitted kitchen, and a family bathroom, all needing updating.\n\nUpstairs are two generously sized bedrooms offering customisation opportunities. A rear courtyard provides private outdoor space. Located in a popular residential area with good access to local amenities, schools, and transport links, making it ideal for families or first-time buyers.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/f60fd0ca38c61b263e641bd5c682358bdb12a2c7.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/69536080"
+   },
+   {
+    "id": "Z73052274",
+    "address": "Norton Street, Bootle, Merseyside L20",
+    "precise_address": null,
+    "postcode": "L20 4SQ",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 115000,
+    "sqf": 910,
+    "days_on_market": 195,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.45844600",
+    "lng": "-3.00137200",
+    "distance_to": "9.45",
+    "price_history": [
+     {
+      "date": "2026-05-06",
+      "price": 115000
+     }
+    ],
+    "summary": "This terraced house is in a high yield area, with properties in this postcode district on average achieving a 7.9% gross yield. It is back on the market after being off the market for 104 days between 3 July and 15 October. It benefits from having no onward chain, so would be a more reliable transaction.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/53021c80d05e3c6ff5083c1e3519f62e06713aed.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73052274"
+   },
+   {
+    "id": "Z72853896",
+    "address": "Gorsey Lane, Litherland L21",
+    "precise_address": null,
+    "postcode": "L21 0DR",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 120000,
+    "sqf": 807,
+    "days_on_market": 216,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.48246400",
+    "lng": "-2.99653900",
+    "distance_to": "9.93",
+    "price_history": [
+     {
+      "date": "2026-04-11",
+      "price": 120000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 153 days between 11 April and 11 September. It is being sold with the benefit of tenants in situ. It is 40% cheaper than the average of \u00a3250/sqft near L21 0DR.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/a146f8154df09e9824506efb000728939211843d.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72853896"
+   },
+   {
+    "id": "Z71691726",
+    "address": "Parkside Road, Birkenhead CH42",
+    "precise_address": null,
+    "postcode": "CH42 5NY",
+    "type": "end_terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 79950,
+    "sqf": null,
+    "days_on_market": 18,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.37744900",
+    "lng": "-3.01714800",
+    "distance_to": "9.94",
+    "price_history": [
+     {
+      "date": "2025-11-13",
+      "price": 72500
+     },
+     {
+      "date": "2026-04-22",
+      "price": 74950
+     },
+     {
+      "date": "2026-10-29",
+      "price": 79950
+     }
+    ],
+    "summary": "This two-bedroom end terrace home is being sold with no onward chain and requires modernisation, offering scope for buyers to update it to their own taste. It features a living room, dining room, kitchen and bathroom on the ground floor, two double bedrooms upstairs, gas central heating and uPVC double glazing.\n\nThe property sits a short walk from Mersey Park and close to a Lidl supermarket, frequent bus services and Birkenhead town centre. Rock Ferry train station, local schools and St Catherines Hospital are also nearby, and there is a pleasant rear courtyard garden.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/5737e4e6c60822c19356dcf9b886409ea44c9d01.png",
+    "url": "https://propertydata.co.uk/outbound/zoopla/71691726"
+   },
+   {
+    "id": "Z72517012",
+    "address": "29 Thomson Road, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 1AN",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 138000,
+    "sqf": null,
+    "days_on_market": 81,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.46614800",
+    "lng": "-3.01009400",
+    "distance_to": "9.97",
+    "price_history": [
+     {
+      "date": "2026-03-17",
+      "price": 140000
+     },
+     {
+      "date": "2026-09-08",
+      "price": 138000
+     }
+    ],
+    "summary": "This terraced house is 0.12 miles from Site Of 50 Sandy Road Seaforth L21 3TW (planning granted for 63 Apartments (New Build)). It is back on the market after being off the market for 71 days between 25 April and 5 July. The asking price has been reduced by 1% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/659c5478be588ac45e38addace7951ed7c54bfe2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72517012"
+   },
+   {
+    "id": "Z74018090",
+    "address": "Holt Road, Birkenhead CH41",
+    "precise_address": null,
+    "postcode": "CH41 9EW",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 120000,
+    "sqf": null,
+    "days_on_market": 10,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.38053900",
+    "lng": "-3.02049900",
+    "distance_to": "10.02",
+    "price_history": [
+     {
+      "date": "2026-08-22",
+      "price": 120000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 62 days between 5 September and 6 November. It is 0.15 miles from Land At The Corner Of Holt Road And Old Chester Road, Tranmere, Wirral, (planning granted for Fencing Height Variation for 30 Apartment Development).",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/d25a3404f7057af7c59b366a580bfb069210cf60.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/74018090"
+   },
+   {
+    "id": "Z66531791",
+    "address": "Barkeley Drive, Liverpool L21",
+    "precise_address": null,
+    "postcode": "L21 4LX",
+    "type": "",
+    "type_standardised": "Detached house",
+    "bedrooms": 5,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 1013,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.46348600",
+    "lng": "-3.01447500",
+    "distance_to": "10.08",
+    "price_history": [
+     {
+      "date": "2024-02-01",
+      "price": 170000
+     },
+     {
+      "date": "2024-05-08",
+      "price": 160000
+     },
+     {
+      "date": "2026-04-01",
+      "price": 166500
+     }
+    ],
+    "summary": "This five-bedroom end terrace house spans three floors and requires modernisation throughout. It features a fitted kitchen, lounge, separate dining room, and a top-floor sauna. The enclosed rear garden adds outdoor space.\n\nThe vendor is motivated to sell quickly and the property has no onward chain, making it an attractive option for cash buyers seeking a reliable transaction. Early viewing is recommended given the quick-sale pricing.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/a977e6f9b339c2d6ce6555ecbb1e4168ed243358.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/66531791"
+   },
+   {
+    "id": "Z68386361",
+    "address": "Walsingham Road, Wallasey CH44",
+    "precise_address": null,
+    "postcode": "CH44 9DX",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 139950,
+    "sqf": 1152,
+    "days_on_market": 776,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.41321900",
+    "lng": "-3.02929900",
+    "distance_to": "10.11",
+    "price_history": [
+     {
+      "date": "2024-09-24",
+      "price": 144950
+     },
+     {
+      "date": "2024-10-19",
+      "price": 139950
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 133 days between 6 August and 17 December. It has been sitting on the market since September 2024. The asking price has been reduced by 3% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/fb45f7683f33ba9964a4dc4ab0aecd6f7d09d026.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/68386361"
+   },
+   {
+    "id": "Z73064083",
+    "address": "Fielders Close, Wigan WN3",
+    "precise_address": null,
+    "postcode": "WN3 5AX",
+    "type": "end_terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 757,
+    "days_on_market": 194,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.53506900",
+    "lng": "-2.63929700",
+    "distance_to": "10.24",
+    "price_history": [
+     {
+      "date": "2026-05-02",
+      "price": 190000
+     },
+     {
+      "date": "2026-11-04",
+      "price": 180000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 121 days between 2 June and 1 October. It stands on a corner plot. The asking price has been reduced by 5% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/dd1d1a9203ab9186b53ddaeeae547c2dceb34327.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73064083"
+   },
+   {
+    "id": "Z70905722",
+    "address": "Poulton Road, Wallasey, Wirral CH44",
+    "precise_address": null,
+    "postcode": "CH44 9DJ",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 468,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.41221400",
+    "lng": "-3.03332300",
+    "distance_to": "10.27",
+    "price_history": [
+     {
+      "date": "2025-08-07",
+      "price": 150000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 91 days between 22 December and 24 March. It has been sitting on the market since August 2025. It is being sold with the benefit of tenants in situ. It benefits from having no onward chain, so would be a more reliable transaction.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/0a40387c0b69b59441bb6aafd5d0c2ce8145b0a3.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/70905722"
+   },
+   {
+    "id": "Z72649957",
+    "address": "Princes Road, Ellesmere Port, Cheshire CH65",
+    "precise_address": null,
+    "postcode": "CH65 8AX",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 110000,
+    "sqf": 840,
+    "days_on_market": 242,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.28173900",
+    "lng": "-2.89887300",
+    "distance_to": "10.32",
+    "price_history": [
+     {
+      "date": "2026-03-23",
+      "price": 128000
+     },
+     {
+      "date": "2026-05-29",
+      "price": 120000
+     },
+     {
+      "date": "2026-07-29",
+      "price": 110000
+     }
+    ],
+    "summary": "This property is within walking distance of Ellesmere Port city centre (population 61,090). This terraced house is back on the market after being off the market for 53 days between 28 August and 20 October. It is 40% cheaper than the average of \u00a3219/sqft near CH65 8AX. The asking price has been reduced twice by a total of 14% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/64fec849713824a0d4214945ba7f68ac7bc61db3.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72649957"
+   },
+   {
+    "id": "Z72322347",
+    "address": "Seabank Road, Wallasey CH45",
+    "precise_address": null,
+    "postcode": "CH45 7PB",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 1038,
+    "days_on_market": 280,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.42539100",
+    "lng": "-3.03442600",
+    "distance_to": "10.34",
+    "price_history": [
+     {
+      "date": "2026-03-23",
+      "price": 240000
+     },
+     {
+      "date": "2026-04-08",
+      "price": 230000
+     },
+     {
+      "date": "2026-10-01",
+      "price": 180000
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house on Seabank Road requires modernisation but offers excellent potential for buyers wanting to add value. It features spacious living areas, two reception rooms, and well-proportioned bedrooms ready to be decorated to your taste.\n\nThe property benefits from no onward chain, ensuring a more reliable transaction. Located in desirable Wallasey with easy access to local amenities, schools, transport links and the Wirral coastline, it boasts a generous rear garden, brick-built shed, and potential for a front driveway.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/c5c75366f15235cf6536ce59ca83b88ea497f7e6.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72322347"
+   },
+   {
+    "id": "Z72769180",
+    "address": "Princes Road, Ellesmere Port CH65",
+    "precise_address": null,
+    "postcode": "CH65 8AU",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 140000,
+    "sqf": null,
+    "days_on_market": 28,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.28212600",
+    "lng": "-2.90458000",
+    "distance_to": "10.41",
+    "price_history": [
+     {
+      "date": "2026-03-31",
+      "price": 140000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 181 days between 15 April and 12 October. This property is within walking distance of Ellesmere Port city centre (population 61,090).",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/55e5b7d10a1c97e52a884751c39a1a40635715f9.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72769180"
+   },
+   {
+    "id": "Z73218504",
+    "address": "Walthew Lane, Platt Bridge, Wigan WN2",
+    "precise_address": null,
+    "postcode": "WN2 5AA",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 109950,
+    "sqf": 1088,
+    "days_on_market": 175,
+    "days_since_price_change": 9,
+    "sstc": 0,
+    "lat": "53.52314300",
+    "lng": "-2.60281700",
+    "distance_to": "10.58",
+    "price_history": [
+     {
+      "date": "2026-05-19",
+      "price": 115000
+     },
+     {
+      "date": "2026-10-16",
+      "price": 109950
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 136 days between 2 June and 16 October. It is 37% cheaper than the average of \u00a3161/sqft near WN2 5AA. The asking price has been reduced by 4% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/9b8484c5b0e200fc9907c828a789aa728e28729a.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73218504"
+   },
+   {
+    "id": "Z73973564",
+    "address": "Broughton Road, Wallasey CH44",
+    "precise_address": null,
+    "postcode": "CH44 4DT",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 169995,
+    "sqf": null,
+    "days_on_market": 88,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.41328000",
+    "lng": "-3.04088700",
+    "distance_to": "10.58",
+    "price_history": [
+     {
+      "date": "2026-08-14",
+      "price": 169995
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 62 days between 28 August and 29 October. It benefits from having no onward chain, so would be a more reliable transaction.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/20f7bfc7a5690086ac07fea99a093f8401729000.png",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73973564"
+   },
+   {
+    "id": "Z72585914",
+    "address": "Molyneux Road, Waterloo, Liverpool L22",
+    "precise_address": null,
+    "postcode": "L22 4QY",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 179950,
+    "sqf": 1066,
+    "days_on_market": 187,
+    "days_since_price_change": 5,
+    "sstc": 0,
+    "lat": "53.48020000",
+    "lng": "-3.02100000",
+    "distance_to": "10.76",
+    "price_history": [
+     {
+      "date": "2026-03-17",
+      "price": 195000
+     },
+     {
+      "date": "2026-10-05",
+      "price": 179950
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 59 days between 17 March and 14 May. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced by 8% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/8c928b296a38f19bf5e6f8522dc8eb767a9e5719.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72585914"
+   },
+   {
+    "id": "Z72925906",
+    "address": "West Street, Wallasey CH45",
+    "precise_address": null,
+    "postcode": "CH45 4LY",
+    "type": "end_terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 125000,
+    "sqf": null,
+    "days_on_market": 209,
+    "days_since_price_change": 2,
+    "sstc": 0,
+    "lat": "53.42262600",
+    "lng": "-3.04529900",
+    "distance_to": "10.78",
+    "price_history": [
+     {
+      "date": "2026-04-17",
+      "price": 125000
+     }
+    ],
+    "summary": "This two-bedroom end-row home on West Street, Wallasey, is offered for sale with no ongoing chain and needs some modernisation. It features UPVC double glazing, gas central heating, a living room with a bay window, a dining room, a fitted kitchen, and a family bathroom.\n\nOutside, there is a paved courtyard-style rear garden with a brick outhouse for storage. The property is a short walk from Liscard's shops and amenities, with access to the M53 motorway and public transport links.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/f066906466057df964788131f7d56aca384c01ca.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72925906"
+   },
+   {
+    "id": "Z70933490",
+    "address": "Winifred Street, Ince WN3",
+    "precise_address": null,
+    "postcode": "WN3 4RY",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 130000,
+    "sqf": 1028,
+    "days_on_market": 466,
+    "days_since_price_change": 13,
+    "sstc": 0,
+    "lat": "53.53755600",
+    "lng": "-2.61923900",
+    "distance_to": "10.87",
+    "price_history": [
+     {
+      "date": "2025-08-07",
+      "price": 150000
+     },
+     {
+      "date": "2025-12-14",
+      "price": 140000
+     },
+     {
+      "date": "2026-03-06",
+      "price": 135000
+     },
+     {
+      "date": "2026-07-18",
+      "price": 145000
+     },
+     {
+      "date": "2026-09-13",
+      "price": 130000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 80 days between 25 September and 14 December. It has been sitting on the market since August 2025. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced 4 times by a total of 13% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/a4cd0b7ed942116cd091e20a708b31497062a217.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/70933490"
+   },
+   {
+    "id": "Z73229621",
+    "address": "Lyster Close, Birchwood WA3",
+    "precise_address": null,
+    "postcode": "WA3 6QE",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 175000,
+    "sqf": 871,
+    "days_on_market": 196,
+    "days_since_price_change": 1,
+    "sstc": 0,
+    "lat": "53.41577700",
+    "lng": "-2.51513000",
+    "distance_to": "11.07",
+    "price_history": [
+     {
+      "date": "2026-05-27",
+      "price": 180000
+     },
+     {
+      "date": "2026-10-10",
+      "price": 175000
+     }
+    ],
+    "summary": "This well-presented three-bedroom terraced house on Lyster Close in Birchwood offers a modern fitted kitchen diner, a contemporary family bathroom and woodland views to the front and rear. Off-road parking and a small front garden with a rear terraced patio complete the outdoor space.\n\nThe property is close to local amenities, schools and transport links, and is within walking distance of a public green space. It is of non-standard construction, and the sale is restricted to cash buyers only.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/09039533bfb4f8342a89481021acb6ba28b26b45.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73229621"
+   },
+   {
+    "id": "Z72297417",
+    "address": "Darlington Street East, Wigan WN1",
+    "precise_address": null,
+    "postcode": "WN1 3EF",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 135000,
+    "sqf": null,
+    "days_on_market": 284,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.54399500",
+    "lng": "-2.61910800",
+    "distance_to": "11.23",
+    "price_history": [
+     {
+      "date": "2026-02-24",
+      "price": 140000
+     },
+     {
+      "date": "2026-10-01",
+      "price": 135000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 139 days between 29 April and 15 September. It is 0.23 miles from Site Of Heatons Bakery Boundary Street Wigan (planning granted for Non-Material Amendment to Approved Application). The asking price has been reduced by 4% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/c7f3628a15ba843384c05c46b9e36b14c10d5741.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72297417"
+   },
+   {
+    "id": "Z73787191",
+    "address": "Cottage Lane, Ormskirk L39",
+    "precise_address": null,
+    "postcode": "L39 3LY",
+    "type": "detached_bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 180000,
+    "sqf": 592,
+    "days_on_market": 110,
+    "days_since_price_change": 8,
+    "sstc": 0,
+    "lat": "53.56764900",
+    "lng": "-2.89366500",
+    "distance_to": "11.51",
+    "price_history": [
+     {
+      "date": "2026-07-30",
+      "price": 220000
+     },
+     {
+      "date": "2026-10-17",
+      "price": 180000
+     }
+    ],
+    "summary": "This two-bedroom detached bungalow is being sold by auction and offers no onward chain, making it an attractive prospect for buyers seeking a reliable transaction. The property features a spacious lounge with bay window, contemporary kitchen/diner, two generous double bedrooms, and a modern family bathroom, all finished to a high standard.\n\nA substantial loft room adds versatility, whilst externally there's a private enclosed rear garden with patio and ample parking to the front. Located within walking distance of Ormskirk town centre, shops, schools and transport links, this move-in ready home combines modern styling with practical single-level living.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/999e4c80f4f024a337631a3cf5ca56efabd553a9.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73787191"
+   },
+   {
+    "id": "Z73658112",
+    "address": "Gilbert Street, Hindley, Wigan, Greater Manchester WN2",
+    "precise_address": null,
+    "postcode": "WN2 3HE",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 160000,
+    "sqf": null,
+    "days_on_market": 5,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.53223500",
+    "lng": "-2.58209500",
+    "distance_to": "11.63",
+    "price_history": [
+     {
+      "date": "2026-07-09",
+      "price": 160000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 104 days between 23 July and 4 November. It has off-street parking.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/bb0a8798b8bb1d439252d37da145aa622c0e1152.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73658112"
+   },
+   {
+    "id": "Z73355108",
+    "address": "Websters Lane, Great Sutton, Ellesmere Port CH66",
+    "precise_address": null,
+    "postcode": "CH66 2LH",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": null,
+    "days_on_market": 160,
+    "days_since_price_change": 10,
+    "sstc": 0,
+    "lat": "53.26648700",
+    "lng": "-2.91873400",
+    "distance_to": "11.63",
+    "price_history": [
+     {
+      "date": "2026-06-07",
+      "price": 180000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 94 days between 7 June and 8 September. It benefits from having no onward chain, so would be a more reliable transaction.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/198b6341316c8bc2c599bbfbfb039cb0ee741623.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73355108"
+   },
+   {
+    "id": "Z71380883",
+    "address": "Laxey Crescent, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 5HF",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 149950,
+    "sqf": 958,
+    "days_on_market": 412,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.50696500",
+    "lng": "-2.54011000",
+    "distance_to": "11.89",
+    "price_history": [
+     {
+      "date": "2025-09-25",
+      "price": 169950
+     },
+     {
+      "date": "2026-04-07",
+      "price": 159950
+     },
+     {
+      "date": "2026-05-20",
+      "price": 149950
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 87 days between 25 September and 20 December. The asking price has been reduced twice by a total of 12% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/b138960ce729dc08708a706856348e3ca0eff455.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/71380883"
+   },
+   {
+    "id": "Z71589618",
+    "address": "Twist Lane, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 4ED",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 110000,
+    "sqf": 355,
+    "days_on_market": 110,
+    "days_since_price_change": 3,
+    "sstc": 0,
+    "lat": "53.49667000",
+    "lng": "-2.52687200",
+    "distance_to": "12.00",
+    "price_history": [
+     {
+      "date": "2025-12-18",
+      "price": 110000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 140 days between 7 March and 26 July. It is being sold with the benefit of tenants in situ.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/c6999845b13ff031716ef2a146d2364c6227e839.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/71589618"
+   },
+   {
+    "id": "Z73649874",
+    "address": "Alpine Drive, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 5HU",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 170000,
+    "sqf": 743,
+    "days_on_market": 125,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.51105300",
+    "lng": "-2.54057700",
+    "distance_to": "12.03",
+    "price_history": [
+     {
+      "date": "2026-07-09",
+      "price": 175000
+     },
+     {
+      "date": "2026-08-20",
+      "price": 170000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 76 days between 20 August and 4 November. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced by 3% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/07d6cb1d2f22cf4e91b58b7077972a9782916790.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73649874"
+   },
+   {
+    "id": "Z72880544",
+    "address": "Pennine Grove, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 5HU",
+    "type": "mews",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 180000,
+    "sqf": 716,
+    "days_on_market": 17,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.51110100",
+    "lng": "-2.53993000",
+    "distance_to": "12.06",
+    "price_history": [
+     {
+      "date": "2026-04-15",
+      "price": 180000
+     }
+    ],
+    "summary": "This detached house is back on the market after being off the market for 170 days between 10 May and 27 October.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/e5d80316d13c62b2fa41394289b3eeba9e01bac0.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72880544"
+   },
+   {
+    "id": "Z71500469",
+    "address": "Henry Street, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 3HA",
+    "type": "mews",
+    "type_standardised": "Detached house",
+    "bedrooms": 3,
+    "price": 149950,
+    "sqf": null,
+    "days_on_market": 398,
+    "days_since_price_change": 0,
+    "sstc": 0,
+    "lat": "53.49111500",
+    "lng": "-2.51247000",
+    "distance_to": "12.36",
+    "price_history": [
+     {
+      "date": "2025-12-20",
+      "price": 154995
+     },
+     {
+      "date": "2026-04-21",
+      "price": 149950
+     }
+    ],
+    "summary": "This detached house is back on the market after being off the market for 101 days between 20 May and 29 August. The asking price has been reduced by 3% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/c15ae68554a4ea29dc7bd1edb56ef3dd572ff112.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/71500469"
+   },
+   {
+    "id": "Z73428516",
+    "address": "Colwyn Drive, Hindley Green WN2",
+    "precise_address": null,
+    "postcode": "WN2 4TX",
+    "type": "detached_bungalow",
+    "type_standardised": "Detached house",
+    "bedrooms": 2,
+    "price": 170000,
+    "sqf": null,
+    "days_on_market": 151,
+    "days_since_price_change": 0,
+    "sstc": 0,
+    "lat": "53.52160500",
+    "lng": "-2.54111900",
+    "distance_to": "12.43",
+    "price_history": [
+     {
+      "date": "2026-06-13",
+      "price": 195000
+     },
+     {
+      "date": "2026-06-27",
+      "price": 180000
+     },
+     {
+      "date": "2026-07-13",
+      "price": 175000
+     },
+     {
+      "date": "2026-11-08",
+      "price": 170000
+     }
+    ],
+    "summary": "This detached house is back on the market after being off the market for 90 days between 13 July and 10 October. The asking price has been reduced three times by a total of 13% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/407948dd8d819a05c6cbdb7bfabb7209867e889c.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73428516"
+   },
+   {
+    "id": "Z69394982",
+    "address": "Hope Street, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 1LU",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 125000,
+    "sqf": 958,
+    "days_on_market": 637,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.49938600",
+    "lng": "-2.51615700",
+    "distance_to": "12.48",
+    "price_history": [
+     {
+      "date": "2025-02-11",
+      "price": 130000
+     },
+     {
+      "date": "2025-03-20",
+      "price": 125000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 95 days between 17 May and 20 August. It is being sold with the benefit of tenants in situ. The asking price has been reduced by 4% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/7e36f3de53bc642b1c9087a1afb04bdd8544fdf5.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/69394982"
+   },
+   {
+    "id": "Z72362782",
+    "address": "Ledbury Street, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 1PY",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 764,
+    "days_on_market": 276,
+    "days_since_price_change": 6,
+    "sstc": 0,
+    "lat": "53.50288400",
+    "lng": "-2.51583800",
+    "distance_to": "12.61",
+    "price_history": [
+     {
+      "date": "2026-03-21",
+      "price": 160000
+     },
+     {
+      "date": "2026-05-03",
+      "price": 150000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 129 days between 17 May and 23 September. It benefits from having no onward chain, so would be a more reliable transaction. The asking price has been reduced by 6% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/bae396ab80523f14f882ef4c7857076f2f431df2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72362782"
+   },
+   {
+    "id": "Z73075205",
+    "address": "Village View, Leigh WN7",
+    "precise_address": null,
+    "postcode": "WN7 2BT",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 145000,
+    "sqf": 829,
+    "days_on_market": 193,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.49458200",
+    "lng": "-2.50232100",
+    "distance_to": "12.84",
+    "price_history": [
+     {
+      "date": "2026-05-02",
+      "price": 150000
+     },
+     {
+      "date": "2026-06-30",
+      "price": 145000
+     }
+    ],
+    "summary": "This two-bedroom mid-terraced house in Leigh is offered with no onward chain and parking to the front. It is in need of modernisation, offering scope for improvement throughout, and suits first-time buyers, investors or renovation projects.\n\nThe ground floor comprises a porch, a spacious lounge and a kitchen/diner with access to the rear yard. Upstairs are two well-proportioned bedrooms and a family bathroom. The property is leasehold, with an EPC rating of D, and sits close to local amenities, schools and transport links.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/741b057d0bbfc2160e02e2bc1a7ed2f979904a01.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73075205"
+   },
+   {
+    "id": "Z73034784",
+    "address": "Church Street, Standish WN6",
+    "precise_address": null,
+    "postcode": "WN6 0JS",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 145000,
+    "sqf": null,
+    "days_on_market": 196,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.58575800",
+    "lng": "-2.66093800",
+    "distance_to": "12.87",
+    "price_history": [
+     {
+      "date": "2026-05-02",
+      "price": 159950
+     },
+     {
+      "date": "2026-05-19",
+      "price": 154950
+     },
+     {
+      "date": "2026-06-02",
+      "price": 149950
+     },
+     {
+      "date": "2026-07-02",
+      "price": 145000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 103 days between 16 July and 27 October. The asking price has been reduced three times by a total of 9% from the first listing price.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/edc0e16d59dc2b722c7abe5a3926ad1d0274fcea.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73034784"
+   },
+   {
+    "id": "Z72688358",
+    "address": "Westfield Grove, Barnton, Northwich, Cheshire CW8",
+    "precise_address": null,
+    "postcode": "CW8 4QB",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 165000,
+    "sqf": 858,
+    "days_on_market": 237,
+    "days_since_price_change": 7,
+    "sstc": 0,
+    "lat": "53.27595800",
+    "lng": "-2.55773100",
+    "distance_to": "13.36",
+    "price_history": [
+     {
+      "date": "2026-03-23",
+      "price": 160000
+     },
+     {
+      "date": "2026-08-12",
+      "price": 170000
+     },
+     {
+      "date": "2026-10-04",
+      "price": 165000
+     }
+    ],
+    "summary": "This semi-detached house is back on the market after being off the market for 96 days between 23 April and 28 July.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/64b824ba63a2b61fe643293a0e71db9f90d8adb6.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72688358"
+   },
+   {
+    "id": "Z72470627",
+    "address": "Stanley Road, Aspull, Wigan WN2",
+    "precise_address": null,
+    "postcode": "WN2 1YJ",
+    "type": "semi_detached",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 3,
+    "price": 129995,
+    "sqf": 815,
+    "days_on_market": 263,
+    "days_since_price_change": 0,
+    "sstc": 0,
+    "lat": "53.57135000",
+    "lng": "-2.58315900",
+    "distance_to": "13.63",
+    "price_history": [
+     {
+      "date": "2026-03-21",
+      "price": 139995
+     },
+     {
+      "date": "2026-05-03",
+      "price": 129995
+     }
+    ],
+    "summary": "This three-bedroom semi-detached house in Aspull, Wigan, is offered for sale with no onward chain. Approximately 815 sq ft, it includes a lounge with fireplace, a kitchen/diner, a rear garden room and three bedrooms, two of them doubles, plus a family bathroom.\n\nThe property needs renovation and has an overgrown rear garden with potential. It is close to Wigan town centre, local schools and amenities, with access to the M6 and M61. EPC rating D.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/4e885ce26bb708a34ae873d25c688d71022dd8c2.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72470627"
+   },
+   {
+    "id": "Z72441189",
+    "address": "New Street, Blackrod, Bolton BL6",
+    "precise_address": null,
+    "postcode": "BL6 5AG",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 3,
+    "price": 150000,
+    "sqf": 954,
+    "days_on_market": 33,
+    "days_since_price_change": 4,
+    "sstc": 0,
+    "lat": "53.59303600",
+    "lng": "-2.58265700",
+    "distance_to": "14.86",
+    "price_history": [
+     {
+      "date": "2026-06-14",
+      "price": 150000
+     }
+    ],
+    "summary": "This terraced house is back on the market after being off the market for 79 days between 2 August and 20 October. It benefits from having no onward chain, so would be a more reliable transaction.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/491f7c2425af32afcf2e67ae8258849a8c0cc4ae.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/72441189"
+   },
+   {
+    "id": "Z73219265",
+    "address": "Manchester Road, Westhoughton, Bolton BL5",
+    "precise_address": null,
+    "postcode": "BL5 3EH",
+    "type": "end_terrace",
+    "type_standardised": "Semi-detached house",
+    "bedrooms": 2,
+    "price": 150000,
+    "sqf": null,
+    "days_on_market": 175,
+    "days_since_price_change": 11,
+    "sstc": 0,
+    "lat": "53.55488500",
+    "lng": "-2.51008300",
+    "distance_to": "14.86",
+    "price_history": [
+     {
+      "date": "2026-05-20",
+      "price": 179950
+     },
+     {
+      "date": "2026-07-06",
+      "price": 155000
+     },
+     {
+      "date": "2026-09-04",
+      "price": 150000
+     }
+    ],
+    "summary": "This two-bedroom semi-detached house on Manchester Road in Westhoughton is offered freehold with no onward chain. Inside, it includes a spacious lounge, a large dining room, a kitchen, a utility room with French doors to the garden, two double bedrooms and a family bathroom.\n\nOutside there is a paved rear garden that can be used for off-road parking, plus a detached single garage. The property is within walking distance of local shops and amenities, with Westhoughton town centre and Lostock and Westhoughton train stations nearby.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/a40047f9826690c4b3e5e1ef2cc1a6e540b142f8.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73219265"
+   },
+   {
+    "id": "Z73366151",
+    "address": "Moreton Street, Northwich CW8",
+    "precise_address": null,
+    "postcode": "CW8 4DH",
+    "type": "terraced",
+    "type_standardised": "Terraced house",
+    "bedrooms": 2,
+    "price": 170000,
+    "sqf": 851,
+    "days_on_market": 159,
+    "days_since_price_change": 12,
+    "sstc": 0,
+    "lat": "53.26221600",
+    "lng": "-2.52782300",
+    "distance_to": "14.90",
+    "price_history": [
+     {
+      "date": "2026-06-07",
+      "price": 170000
+     }
+    ],
+    "summary": "This terraced house is 0.23 miles from Winnington Urban Village Winnington Avenue Northwich (planning granted for 31 Dwellings (Condition Discharge)). It is back on the market after being off the market for 68 days between 7 June and 14 August. It benefits from having no onward chain, so would be a more reliable transaction. It is 46% cheaper than the average of \u00a3371/sqft near CW8 4DH.",
+    "image_url": "https://lid.zoocdn.com/u/1024/768/3f8d97f04dee426538b79bc0a045f75a97082394.jpg",
+    "url": "https://propertydata.co.uk/outbound/zoopla/73366151"
+   }
+  ]
+ }
+}
