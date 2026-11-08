@@ -95,8 +95,12 @@ def search_postcode(s, client: EpcClient, postcode: str) -> int:
     """Cache certificate headers for a postcode once. Returns headers added."""
     if s.get(EpcPostcode, postcode):
         return 0
+    return store_headers(s, postcode, client.search_postcode(postcode))
+
+
+def store_headers(s, postcode: str, headers: list[dict]) -> int:
     added = 0
-    for h in client.search_postcode(postcode):
+    for h in headers:
         number = h.get("certificateNumber")
         if not number or s.get(EpcCertificate, number):
             continue
@@ -111,6 +115,23 @@ def search_postcode(s, client: EpcClient, postcode: str) -> int:
     s.add(EpcPostcode(postcode=postcode, searched_at=datetime.now(timezone.utc)))
     s.flush()
     return added
+
+
+def enrich(s, client: EpcClient, wanted: dict[str, set[str]], workers: int = 8) -> tuple[int, int]:
+    """search_postcode + fetch_floor_areas for many postcodes, with HTTP calls in parallel threads
+    (the API allows 6000 requests / 5 min). Database writes stay on this thread."""
+    from concurrent.futures import ThreadPoolExecutor
+    todo = [pc for pc in wanted if not s.get(EpcPostcode, pc)]
+    with ThreadPoolExecutor(workers) as pool:
+        listed = sum(store_headers(s, pc, rows) for pc, rows in zip(todo, pool.map(client.search_postcode, todo)))
+        need = [c for c in s.scalars(select(EpcCertificate).where(EpcCertificate.postcode.in_(wanted),
+                                                                  EpcCertificate.detail_fetched.is_(False)))
+                if epc_address_key(c) in wanted[c.postcode]]
+        for c, full in zip(need, pool.map(client.certificate, [c.certificate_number for c in need])):
+            c.floor_area_sqm = floor_area_sqm(full or {})
+            c.detail_fetched = True
+    s.flush()
+    return listed, len(need)
 
 
 def fetch_floor_areas(s, client: EpcClient, postcode: str, keys: set[str]) -> int:

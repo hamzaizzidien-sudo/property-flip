@@ -227,12 +227,13 @@ def cmd_enrich_epc(args):
                 wanted[p.postcode].add(epc.address_key(p.precise_address.split(",")[0]))
     print(f"{len(props)} subjects, {len(wanted)} postcodes", flush=True)
     searched = fetched = 0
-    for i, (pc, keys) in enumerate(sorted(wanted.items()), 1):
+    pcs = sorted(wanted)
+    for i in range(0, len(pcs), 100):  # commit every 100 postcodes so an interruption keeps progress
         with Session.begin() as s:
-            searched += epc.search_postcode(s, client, pc)
-            fetched += epc.fetch_floor_areas(s, client, pc, keys)
-        if i % 25 == 0:
-            print(f"  {i}/{len(wanted)} postcodes, {searched} certificates listed, {fetched} fetched", flush=True)
+            a, b = epc.enrich(s, client, {pc: wanted[pc] for pc in pcs[i:i + 100]})
+        searched, fetched = searched + a, fetched + b
+        print(f"  {min(i + 100, len(pcs))}/{len(pcs)} postcodes, {searched} certificates listed, "
+              f"{fetched} fetched", flush=True)
     with Session.begin() as s:
         matched = epc.match_sales(s, set(wanted))
     print(f"done: {searched} certificates listed, {fetched} fetched, {matched} sales now have a floor area")
