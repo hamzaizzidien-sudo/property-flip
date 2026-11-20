@@ -1,10 +1,10 @@
 # Ince Green Lane, Wigan
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1345 sq ft (listing)
 - Asking £175,000
-- Listing: 38 days on market; needs modernising; 1345 sq ft
+- Listing: 50 days on market; needs modernising; 1345 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93860073
 
 

@@ -1,10 +1,10 @@
 # 22, GLEN ROAD, LIVERPOOL, L13 4DF
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 797 sq ft (estimated from nearby EPCs)
 - Asking £85,000 · expected purchase £106,250
-- Listing: 19 days on market; auction 10 December 2026; EPC E
+- Listing: 31 days on market; auction 10 December 2026; EPC E
 - Portal: https://www.rightmove.co.uk/properties/94554678
 
 
@@ -31,13 +31,13 @@
 | 78 Rossall Road Liverpool | Oct 2025 | £168,500 | 732 | £230 | 0.09 |
 | 31 Glen Road Liverpool | Dec 2024 | £160,000 | 915 | £175 | 0.02 |
 | 27 Gorton Road Liverpool | Mar 2025 | £183,500 | 678 | £271 | 0.05 |
-| … 90 more | | | | | |
+| … 86 more | | | | | |
 
-Basis: £/sqft v1: n=105 ±25% size, £208/229/254 psf x 797 sqft (estimated from nearby EPCs) street=0 spread=0.204
+Basis: £/sqft v1: n=101 ±25% size, £210/229/254 psf x 797 sqft (estimated from nearby EPCs) street=0 spread=0.194
 
 ## After-works value
 
-- Low £165,000 (£207/sq ft)
+- Low £167,000 (£210/sq ft)
 - **Base £182,000** (£228/sq ft)
 - High £202,000 (£253/sq ft)
 
@@ -58,8 +58,8 @@ Basis: £/sqft v1: n=105 ±25% size, £208/229/254 psf x 797 sqft (estimated fro
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £106,250 | £14,972 | **£31,727** | £51,439 |
-| Max offer for £40k profit | £82,000 | **£98,000** | £117,000 |
+| Profit at £106,250 | £16,943 | **£31,727** | £51,439 |
+| Max offer for £40k profit | £84,000 | **£98,000** | £117,000 |
 
 Opening offer £90,000 · asking is £8,250 above max offer
 

@@ -1,41 +1,41 @@
-# Navigation close, Murdishaw, WA7 6DE
+# 33, NAVIGATION CLOSE, RUNCORN, WA7 6DE
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 969 sq ft (listing)
 - Asking £95,000
-- Listing: 18 days on market; no chain; 969 sq ft
+- Listing: 30 days on market; no chain; 969 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94620096
 
 
-## Comparable sales (HM Land Registry)
+## Comparable sales (HM Land Registry + EPC floor areas)
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
-| 25 Navigation Close Runcorn | Sep 2026 | £150,000 | – | – | 0.02 |
-| 55 Navigation Close Runcorn | Feb 2025 | £142,000 | – | – | 0.02 |
-| 79 Navigation Close Runcorn | Jan 2025 | £114,000 | – | – | 0.02 |
-| 6 Navigation Close Runcorn | Dec 2024 | £120,000 | – | – | 0.03 |
-| 44 Bournemouth Close Runcorn | Mar 2026 | £145,500 | – | – | 0.15 |
-| 41 Compass Close Runcorn | Sep 2026 | £133,000 | – | – | 0.23 |
-| 15 Dover Close Runcorn | Apr 2026 | £170,000 | – | – | 0.17 |
-| 4 Hoylake Close Runcorn | Aug 2026 | £158,000 | – | – | 0.23 |
-| 22 Dover Close Runcorn | Mar 2026 | £150,000 | – | – | 0.17 |
-| 57 Falmouth Place Runcorn | May 2026 | £149,000 | – | – | 0.21 |
-| 97 Heysham Close Runcorn | Dec 2025 | £130,000 | – | – | 0.16 |
-| 50 The Hove Runcorn | Nov 2025 | £135,000 | – | – | 0.16 |
-| 89 The Hove Runcorn | Aug 2025 | £135,000 | – | – | 0.14 |
-| 53 Tilbury Place Runcorn | Sep 2025 | £136,000 | – | – | 0.16 |
-| 79 Sextant Close Runcorn | Jun 2025 | £87,000 | – | – | 0.13 |
-| … 19 more | | | | | |
+| 25 Navigation Close Runcorn | Sep 2026 | £150,000 | 947 | £158 | 0.02 |
+| 55 Navigation Close Runcorn | Feb 2025 | £142,000 | 1163 | £122 | 0.02 |
+| 79 Navigation Close Runcorn | Jan 2025 | £114,000 | 947 | £120 | 0.02 |
+| 44 Bournemouth Close Runcorn | Mar 2026 | £145,500 | 1012 | £144 | 0.15 |
+| 41 Compass Close Runcorn | Sep 2026 | £133,000 | 947 | £140 | 0.23 |
+| 4 Hoylake Close Runcorn | Aug 2026 | £158,000 | 980 | £161 | 0.23 |
+| 22 Dover Close Runcorn | Mar 2026 | £150,000 | 969 | £155 | 0.17 |
+| 57 Falmouth Place Runcorn | May 2026 | £149,000 | 904 | £165 | 0.21 |
+| 97 Heysham Close Runcorn | Dec 2025 | £130,000 | 1023 | £127 | 0.16 |
+| 50 The Hove Runcorn | Nov 2025 | £135,000 | 786 | £172 | 0.16 |
+| 89 The Hove Runcorn | Aug 2025 | £135,000 | 926 | £146 | 0.14 |
+| 53 Tilbury Place Runcorn | Sep 2025 | £136,000 | 1033 | £132 | 0.16 |
+| 79 Sextant Close Runcorn | Jun 2025 | £87,000 | 829 | £105 | 0.13 |
+| 20 Compass Close Runcorn | Jan 2026 | £160,000 | 1195 | £134 | 0.23 |
+| 16 Falmouth Place Runcorn | Nov 2025 | £130,000 | 840 | £155 | 0.21 |
+| … 12 more | | | | | |
 
-Basis: LR comps v0: n=34 street=4 spread=0.053
+Basis: £/sqft v1: n=27 ±25% size, £144/155/158 psf x 969 sqft (listing) street=0 spread=0.094
 
 ## After-works value
 
-- Low £142,000 (£147/sq ft)
+- Low £139,000 (£143/sq ft)
 - **Base £150,000** (£155/sq ft)
-- High £150,000 (£155/sq ft)
+- High £153,000 (£158/sq ft)
 
 ## Costs at £95,000
 
@@ -53,8 +53,8 @@ Basis: LR comps v0: n=34 street=4 spread=0.053
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £95,000 | £-2,485 | **£5,400** | £5,400 |
-| Max offer for £40k profit | £54,500 | **£62,000** | £62,000 |
+| Profit at £95,000 | £-5,442 | **£5,400** | £8,357 |
+| Max offer for £40k profit | £51,500 | **£62,000** | £64,500 |
 
 Opening offer £57,000 · asking is £33,000 above max offer
 

@@ -1,10 +1,10 @@
 # Cliftonville Road, Woolston, Warrington
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 710 sq ft (estimated from nearby EPCs)
 - Asking £179,995
-- Listing: Reduced 1x £185k→£180.0k (−3%), last cut 2026-05-20; 244 days on market; leasehold; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £185k→£180.0k (−3%), last cut 2026-05-20; 256 days on market; leasehold; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/173082326
 
 
@@ -29,9 +29,9 @@
 | 8 Oakdene Avenue Warrington | Dec 2025 | £225,000 | 732 | £307 | 0.24 |
 | 30 Oakdene Avenue Warrington | Oct 2025 | £222,500 | 646 | £344 | 0.24 |
 | 258 Manchester Road Warrington | Sep 2026 | £218,000 | 775 | £281 | 0.46 |
-| … 31 more | | | | | |
+| … 30 more | | | | | |
 
-Basis: £/sqft v1: n=46 ±25% size, £301/337/349 psf x 710 sqft (estimated from nearby EPCs) street=8 spread=0.141
+Basis: £/sqft v1: n=45 ±25% size, £301/337/349 psf x 710 sqft (estimated from nearby EPCs) street=8 spread=0.141
 
 ## After-works value
 

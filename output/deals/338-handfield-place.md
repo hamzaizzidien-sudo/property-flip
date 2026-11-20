@@ -1,10 +1,10 @@
 # Handfield Place, Liverpool, Merseyside, L5
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £70,000 · expected purchase £87,500
-- Listing: 6 days on market; auction 9 December 2026; leasehold; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 18 days on market; auction 9 December 2026; leasehold; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/95081859
 
 
@@ -25,14 +25,13 @@
 | 128 Long Lane Liverpool | Jan 2025 | £210,000 | 807 | £260 | 0.67 |
 | 26 Bonchurch Drive Liverpool | Mar 2025 | £238,000 | 926 | £257 | 0.83 |
 | 1 Thorley Close Liverpool | Nov 2024 | £288,000 | 840 | £343 | 0.85 |
-| 61 Wavertree Nook Road Liverpool | Nov 2024 | £216,500 | 689 | £314 | 0.95 |
 
-Basis: £/sqft v1: n=10 ±25% size, £294/304/307 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.041
+Basis: £/sqft v1: n=9 ±25% size, £294/294/307 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.042
 
 ## After-works value
 
 - Low £235,000 (£294/sq ft)
-- **Base £243,000** (£304/sq ft)
+- **Base £235,000** (£294/sq ft)
 - High £245,000 (£306/sq ft)
 
 ## Costs at £87,500
@@ -44,18 +43,18 @@ Basis: £/sqft v1: n=10 ±25% size, £294/304/307 psf x 800 sqft (estimated from
 | SDLT (incl. 5% surcharge) | 4,375 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,699 |
+| Sale agent + legal | 4,584 |
 | Auction uplift / fee | 17,500 |
-| **Total costs** | **44,074** |
+| **Total costs** | **43,959** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £87,500 | £103,541 | **£111,426** | £113,397 |
-| Max offer for £40k profit | £147,500 | **£154,500** | £156,500 |
+| Profit at £87,500 | £103,541 | **£103,541** | £113,397 |
+| Max offer for £40k profit | £147,500 | **£147,500** | £156,500 |
 
-Opening offer £80,000 · asking is £67,000 below max offer
+Opening offer £80,000 · asking is £60,000 below max offer
 
 Risks: auction_guide_price, gdv_bedroom_mismatch, leasehold, tenanted, value_far_above_price
 

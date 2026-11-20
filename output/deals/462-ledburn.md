@@ -1,10 +1,10 @@
 # 126, LEDBURN, SKELMERSDALE, WN8 6TX
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 1007 sq ft (listing)
 - Asking £125,000
-- Listing: Reduced 1x £150k→£125k (−17%), last cut 2026-05-22; 249 days on market; repossessed; no chain; freehold; 1007 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £150k→£125k (−17%), last cut 2026-05-22; 261 days on market; repossessed; no chain; freehold; 1007 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/172926422
 
 
@@ -27,9 +27,9 @@
 | 7 Inchfield Skelmersdale | Mar 2026 | £225,000 | 1109 | £203 | 0.39 |
 | 34 Felstead Skelmersdale | Jul 2025 | £169,000 | 807 | £209 | 0.25 |
 | 14 Lulworth Skelmersdale | Mar 2025 | £130,000 | 947 | £137 | 0.20 |
-| … 24 more | | | | | |
+| … 23 more | | | | | |
 
-Basis: £/sqft v1: n=39 ±25% size, £209/236/246 psf x 1007 sqft (listing) street=0 spread=0.157
+Basis: £/sqft v1: n=38 ±25% size, £209/236/246 psf x 1007 sqft (listing) street=0 spread=0.156
 
 ## After-works value
 

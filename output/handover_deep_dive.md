@@ -1,4 +1,4 @@
-# Property flip handover: 24 priority properties + 46 second-tier (08 Nov 2026)
+# Property flip handover: 21 priority properties + 64 second-tier (20 Nov 2026)
 
 ## Brief for Claude
 
@@ -35,180 +35,37 @@ challenge, not a fact. Where the listing contradicts the data, the listing wins.
 
 | # | Verdict | Property | Asking | After-works base | Max offer for £40k | Size | Flags |
 |---:|---|---|---:|---:|---:|---|---|
-| 1 | CALL AGENT | Beckett Drive, WA13 9TA | £170,000 | £328,000 | £227,000 | 960 sq ft |  |
-| 2 | CALL AGENT | Taylor Street, WA4 6HD | £150,000 | £288,000 | £194,000 | 867 sq ft |  |
-| 3 | CALL AGENT | Nel Pan Lane, WN7 5LJ | £170,000 | £369,000 | £256,000 | 1206 sq ft | auction guide price |
-| 4 | CALL AGENT | 11 Malton Close, WN7 5BZ | £175,000 | £374,000 | £259,000 | 1252 sq ft | auction guide price |
-| 5 | CALL AGENT | 14 Balmoral Drive, WN2 3HS | £160,000 | £295,000 | £192,500 | 1083 sq ft | auction guide price, bungalow valued from houses |
-| 6 | CALL AGENT | 1 Chapel Lane, L40 7RA | £160,000 | £279,000 | £179,000 | 1047 sq ft | gdv bedroom mismatch |
-| 7 | CALL AGENT | 126 Ledburn, WN8 6TX | £125,000 | £237,000 | £142,000 | 1007 sq ft | gdv bedroom mismatch |
-| 8 | CALL AGENT | 12 Stanley Road, WN2 1YJ | £129,995 | £233,000 | £145,000 | 815 sq ft |  |
-| 9 | CALL AGENT | Lime Grove, WN2 4LT | £170,000 | £286,000 | £181,000 | 1169 sq ft | bungalow valued from houses |
-| 10 | CALL AGENT | 28 Wood Street, WA9 1NH | £92,500 | £183,000 | £102,000 | 720 sq ft |  |
-| 11 | CALL AGENT | School Road, WA2 8PN | £150,000 | £247,000 | £152,500 | 958 sq ft | gdv bedroom mismatch |
-| 12 | CALL AGENT | Mersey Road, WN5 8NY | £150,000 | £253,000 | £160,000 | 904 sq ft | auction guide price, bungalow valued from houses |
-| 13 | CALL AGENT | 5 Dyers Lane, L39 4RN | £180,000 | £285,000 | £180,500 | 1152 sq ft |  |
-| 14 | INVESTIGATE | Ormskirk Road, WN8 9AJ | £70,000 | £168,000 | £86,500 | 751 sq ft | auction guide price, gdv bedroom mismatch |
-| 15 | INVESTIGATE | 8 Clovelly Avenue, WA9 4HT | £100,000 | £180,000 | £98,500 | 732 sq ft |  |
-| 16 | INVESTIGATE | Gairloch Close, WA2 0SG | £150,000 | £228,000 | £147,000 | 633 sq ft | bungalow valued from houses |
-| 17 | INVESTIGATE | Newman Street, WN1 3UD | £120,000 | £217,000 | £116,000 | 1203 sq ft |  |
-| 18 | INVESTIGATE | Greenfield Road, WA10 6SG | £80,000 | £158,000 | £75,500 | 807 sq ft |  |
-| 19 | INVESTIGATE | Knowles Street, WA8 6QX | £150,000 | £235,000 | £143,000 | 914 sq ft |  |
-| 20 | INVESTIGATE | 21 Leonard Street, WA7 4JD | £85,000 | £164,000 | £77,000 | 915 sq ft |  |
-| 21 | INVESTIGATE | 13 Lichfield Close, L30 1PU | £180,000 | £262,000 | £169,000 | 890 sq ft |  |
-| 22 | INVESTIGATE | 51 Royton Road, L22 4RB | £140,000 | £220,000 | £129,000 | 929 sq ft |  |
-| 23 | INVESTIGATE | 28 South Avenue, L34 1LY | £160,000 | £237,000 | £147,000 | 865 sq ft |  |
-| 24 | INVESTIGATE | Wargrave Road, WA12 8RP | £175,000 | £254,000 | £161,000 | 899 sq ft | gdv bedroom mismatch |
+| 1 | CALL AGENT | Nel Pan Lane, WN7 5LJ | £170,000 | £369,000 | £256,000 | 1206 sq ft | auction guide price |
+| 2 | CALL AGENT | 14 Balmoral Drive, WN2 3HS | £160,000 | £295,000 | £192,500 | 1083 sq ft | auction guide price, bungalow valued from houses |
+| 3 | CALL AGENT | 1 Chapel Lane, L40 7RA | £160,000 | £279,000 | £179,000 | 1047 sq ft | gdv bedroom mismatch |
+| 4 | CALL AGENT | 126 Ledburn, WN8 6TX | £125,000 | £237,000 | £142,000 | 1007 sq ft | gdv bedroom mismatch |
+| 5 | CALL AGENT | 12 Stanley Road, WN2 1YJ | £129,995 | £233,000 | £145,000 | 815 sq ft |  |
+| 6 | CALL AGENT | Lime Grove, WN2 4LT | £170,000 | £286,000 | £181,000 | 1169 sq ft | bungalow valued from houses |
+| 7 | CALL AGENT | 28 Wood Street, WA9 1NH | £92,500 | £183,000 | £102,000 | 720 sq ft |  |
+| 8 | CALL AGENT | Mersey Road, WN5 8NY | £150,000 | £255,000 | £162,000 | 904 sq ft | auction guide price, gdv bedroom mismatch |
+| 9 | CALL AGENT | School Road, WA2 8PN | £150,000 | £247,000 | £152,500 | 958 sq ft | gdv bedroom mismatch, leasehold |
+| 10 | CALL AGENT | 5 Dyers Lane, L39 4RN | £180,000 | £285,000 | £180,500 | 1152 sq ft |  |
+| 11 | INVESTIGATE | Ormskirk Road, WN8 9AJ | £70,000 | £168,000 | £86,500 | 751 sq ft | auction guide price, gdv bedroom mismatch |
+| 12 | INVESTIGATE | 8 Clovelly Avenue, WA9 4HT | £100,000 | £180,000 | £98,500 | 732 sq ft |  |
+| 13 | INVESTIGATE | Audlem Avenue, CH43 2NN | £160,000 | £254,000 | £156,500 | 1029 sq ft |  |
+| 14 | INVESTIGATE | Knowles Street, WA8 6QX | £150,000 | £235,000 | £143,000 | 914 sq ft |  |
+| 15 | INVESTIGATE | 21 Leonard Street, WA7 4JD | £85,000 | £164,000 | £77,000 | 915 sq ft |  |
+| 16 | INVESTIGATE | 9 Marsh House Lane, WA2 7QP | £110,000 | £190,000 | £100,000 | 947 sq ft |  |
+| 17 | INVESTIGATE | 151 Church Lane, WA3 2RH | £150,000 | £233,000 | £147,500 | 743 sq ft | auction guide price |
+| 18 | INVESTIGATE | 13 Lichfield Close, L30 1PU | £180,000 | £262,000 | £169,000 | 890 sq ft |  |
+| 19 | INVESTIGATE | 51 Royton Road, L22 4RB | £140,000 | £219,000 | £128,000 | 929 sq ft |  |
+| 20 | INVESTIGATE | 28 South Avenue, L34 1LY | £160,000 | £237,000 | £147,000 | 865 sq ft |  |
+| 21 | INVESTIGATE | 7 Kintore Drive, WA5 3NW | £180,000 | £266,000 | £175,500 | 814 sq ft | auction guide price |
 
 ---
 
-## 1. Beckett Drive, Lymm
+## 1. Nel Pan Lane, Leigh, Greater Manchester, WN7 5LJ
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
-
-- terraced, 3 bed, 960 sq ft (listing)
-- Asking £170,000
-- Listing: 4 days on market; needs modernising; 960 sq ft
-- Portal: https://www.rightmove.co.uk/properties/95147991
-
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 15 Paddock Lane Lymm | Mar 2025 | £295,000 | 861 | £343 | 0.02 |
-| 36 Chaise Meadow Lymm | Apr 2026 | £355,000 | 1195 | £297 | 0.92 |
-| 2 Millington Gardens Lymm | Nov 2025 | £315,000 | 1012 | £311 | 1.00 |
-| 5 Old Mill Close Lymm | Aug 2024 | £445,000 | 1141 | £390 | 0.61 |
-| 8 Millington Gardens Lymm | Feb 2025 | £344,000 | 1109 | £310 | 1.00 |
-| 4 School Drive Lymm | Jan 2025 | £280,000 | 1173 | £239 | 0.97 |
-| 3 Hollytree Gardens Lymm | Jun 2024 | £138,000 | 1076 | £128 | 0.98 |
-| 5 Hollytree Gardens Lymm | May 2024 | £360,000 | 1066 | £338 | 0.98 |
-
-Basis: £/sqft v1: n=8 ±25% size, £311/343/343 psf x 960 sqft (listing) street=0 spread=0.092
-
-### After-works value
-
-- Low £298,000 (£310/sq ft)
-- **Base £328,000** (£342/sq ft)
-- High £328,000 (£342/sq ft)
-
-### Costs at £170,000
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 960 sqft) | 33,600 |
-| Contingency (10% of refurb) | 3,360 |
-| SDLT (incl. 5% surcharge) | 9,400 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 5,923 |
-| **Total costs** | **56,483** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £170,000 | £71,949 | **£101,517** | £101,517 |
-| Max offer for £40k profit | £199,500 | **£227,000** | £227,000 |
-
-Opening offer £156,000 · asking is £57,000 below max offer
-
-Risks: none flagged from listing text
-
-### Listing data
-
-- Price history: 2026-11-06 £170,000
-- Days on market: 4
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This mid terraced house sits in a semi-rural setting in Lymm and offers a hallway, WC, lounge open to dining room, and kitchen with access to the rear garden and brick outbuilding. A long front garden with pedestrian access and rear parking are included.  Upstairs, there are three bedrooms and a bathroom. The property is described as needing modernisation, though the location is noted as lovely. It is priced 43% below the average £/sqft for the nearby WA13 area.
-
----
-
-## 2. Taylor Street, Warrington, Cheshire WA4
-
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
-
-- terraced, 2 bed, 867 sq ft (listing)
-- Asking £150,000
-- Listing: Reduced 2x £200k→£150k (−25%), last cut 2026-08-12; 160 days on market; no chain; 867 sq ft
-- Portal: https://www.zoopla.co.uk/for-sale/details/73347718/
-
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 3 Taylor Street Warrington | Jun 2026 | £240,000 | 721 | £333 | 0.00 |
-| 17 Taylor Street Warrington | Feb 2025 | £210,000 | 818 | £257 | 0.00 |
-| 6 Weir Street Warrington | Aug 2026 | £160,000 | 732 | £219 | 0.04 |
-| 15 Eastford Road Warrington | Mar 2025 | £260,000 | 904 | £288 | 0.03 |
-| 10 Morley Road Warrington | May 2025 | £263,500 | 990 | £266 | 0.04 |
-| 110 Ellesmere Road Warrington | Dec 2025 | £344,000 | 990 | £348 | 0.15 |
-| 2 Lulworth Place Warrington | May 2025 | £267,500 | 958 | £279 | 0.18 |
-| 78 Ellesmere Road Warrington | Nov 2025 | £372,500 | 1044 | £357 | 0.28 |
-| 4 Lulworth Place Warrington | Mar 2025 | £255,000 | 958 | £266 | 0.18 |
-| 39 Irwell Road Warrington | Mar 2026 | £235,000 | 786 | £299 | 0.42 |
-| 20 St John Avenue Warrington | Oct 2025 | £265,000 | 786 | £337 | 0.38 |
-| 118 Gainsborough Road Warrington | Nov 2025 | £270,000 | 829 | £326 | 0.46 |
-| 36 Brackley Street Warrington | Nov 2025 | £220,000 | 872 | £252 | 0.47 |
-| 17 Brackley Street Warrington | Nov 2025 | £271,650 | 980 | £277 | 0.47 |
-| 80 Silverdale Road Warrington | Jun 2025 | £238,000 | 872 | £273 | 0.44 |
-| … 3 more | | | | | |
-
-Basis: £/sqft v1: n=18 ±25% size, £277/333/333 psf x 867 sqft (listing) street=2 spread=0.167
-
-### After-works value
-
-- Low £240,000 (£277/sq ft)
-- **Base £288,000** (£332/sq ft)
-- High £288,000 (£332/sq ft)
-
-### Costs at £150,000
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 867 sqft) | 30,300 |
-| Contingency (10% of refurb) | 3,030 |
-| SDLT (incl. 5% surcharge) | 8,000 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 5,347 |
-| **Total costs** | **50,877** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £150,000 | £39,814 | **£87,123** | £87,123 |
-| Max offer for £40k profit | £149,500 | **£194,000** | £194,000 |
-
-Opening offer £138,000 · asking is £44,000 below max offer
-
-Risks: none flagged from listing text
-
-### Listing data
-
-- Price history: 2026-06-13 £200,000 → 2026-06-27 £185,000 → 2026-08-12 £150,000
-- Days on market: 160
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This two-bedroom mid-terrace home on Taylor Street, Warrington, is offered chain free and sits within walking distance of Stockton Heath Village and Warrington Town Centre. The ground floor offers a front living room, a rear dining room and a compact kitchen, while upstairs there are two double bedrooms and a bathroom. Externally, there is a private rear yard that is not overlooked, and the property is close to the Trans Pennine Trail and the disused Runcorn and Latchford Canal.
-
----
-
-## 3. Nel Pan Lane, Leigh, Greater Manchester, WN7 5LJ
-
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - detached, 4 bed, 1206 sq ft (listing)
 - Asking £170,000 · expected purchase £212,500
-- Listing: 66 days on market; auction (guide price); no chain; needs modernising; 1206 sq ft
+- Listing: 78 days on market; auction (guide price); no chain; needs modernising; 1206 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92755518
 - Portal: https://www.rightmove.co.uk/properties/92733180
 
@@ -271,7 +128,7 @@ Risks: auction_guide_price
 ### Listing data
 
 - Price history: 2026-09-04 £170,000
-- Days on market: 66
+- Days on market: 78
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -280,89 +137,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 4. 11, MALTON CLOSE, LEIGH, WN7 5BZ
+## 2. 14, BALMORAL DRIVE, HINDLEY, WN2 3HS
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
-
-- detached, 3 bed, 1252 sq ft (listing)
-- Asking £175,000 · expected purchase £218,750
-- Listing: Reduced 2x £200k→£175k (−12%), last cut 2026-09-28; 188 days on market; auction (guide price); no chain; 1252 sq ft
-- Portal: https://www.rightmove.co.uk/properties/88073220
-- Portal: https://www.rightmove.co.uk/properties/92874999
-
-
-**Auction:** purchase price assumes guide + 25%. Low guides often sell well above that.
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 10 Brookbank Leigh | Oct 2025 | £350,000 | 1249 | £280 | 0.39 |
-| 3 Arley Drive Leigh | Oct 2025 | £305,000 | 969 | £315 | 0.37 |
-| 28 Ledgard Avenue Leigh | Apr 2026 | £320,000 | 1152 | £278 | 0.59 |
-| 37 Armfield Grove Leigh | Jul 2026 | £353,000 | 1227 | £288 | 0.76 |
-| 8 Adamson Grove Leigh | Aug 2026 | £340,000 | 1076 | £316 | 0.85 |
-| 2 Brookbank Leigh | Feb 2025 | £290,000 | 969 | £299 | 0.39 |
-| 2 Baines Close Leigh | Apr 2026 | £360,000 | 1281 | £281 | 0.78 |
-| 12 Longacre Wigan | Apr 2026 | £290,000 | 1033 | £281 | 0.88 |
-| 15 Chinnor Close Leigh | Feb 2026 | £265,000 | 947 | £280 | 0.97 |
-| 26 Briscoe Close Leigh | Aug 2025 | £385,000 | 1345 | £286 | 0.93 |
-| 1 Brady Nook Leigh | Jul 2025 | £377,500 | 1227 | £308 | 0.90 |
-| 8 Chinnor Close Leigh | Aug 2025 | £268,000 | 958 | £280 | 0.97 |
-| 3 Ackers Fold Leigh | Feb 2025 | £318,000 | 1098 | £290 | 0.88 |
-| 3 Adamson Grove Leigh | Jan 2025 | £326,000 | 1206 | £270 | 0.85 |
-
-Basis: £/sqft v1: n=14 ±25% size, £281/299/315 psf x 1252 sqft (listing) street=0 spread=0.113
-
-### After-works value
-
-- Low £351,000 (£280/sq ft)
-- **Base £374,000** (£299/sq ft)
-- High £394,000 (£315/sq ft)
-
-### Costs at £218,750
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 1252 sqft) | 43,800 |
-| Contingency (10% of refurb) | 4,380 |
-| SDLT (incl. 5% surcharge) | 12,812 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 6,586 |
-| Auction uplift / fee | 43,750 |
-| **Total costs** | **71,778** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £218,750 | £60,804 | **£83,472** | £103,184 |
-| Max offer for £40k profit | £238,000 | **£259,000** | £277,000 |
-
-Opening offer £201,000 · asking is £40,250 below max offer
-
-Risks: auction_guide_price
-
-### Listing data
-
-- Price history: 2026-05-05 £200,000 → 2026-06-08 £190,000 → 2026-09-28 £175,000
-- Days on market: 188
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This three-bedroom detached house is being sold by auction with no onward chain, offering a reliable transaction. The property features a well-proportioned sitting room, separate dining room, conservatory, fitted kitchen with utility room, and additional lounge. Three generous bedrooms and two bathrooms complete the accommodation, with boarded loft space accessible via steps.  Outside, the property benefits from private rear gardens, off-road parking, and is positioned at the head of a quiet cul-de-sac. Low-maintenance enclosed gardens provide good privacy. The property is in walking distance of a public park or garden, and immediate exchange of contracts is available once your bid is accepted.
-
----
-
-## 5. 14, BALMORAL DRIVE, HINDLEY, WN2 3HS
-
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - bungalow, 2 bed, 1083 sq ft (listing)
 - Asking £160,000 · expected purchase £168,640
-- Listing: Reduced 3x £200k→£160k (−20%), last cut 2026-10-29; 192 days on market; Modern Method of Auction (buyer reservation fee); 1083 sq ft
+- Listing: Reduced 3x £200k→£160k (−20%), last cut 2026-10-29; 204 days on market; Modern Method of Auction (buyer reservation fee); 1083 sq ft
 - Portal: https://www.rightmove.co.uk/properties/87895872
 
 
@@ -422,7 +203,7 @@ Risks: auction_guide_price, bungalow_valued_from_houses
 ### Listing data
 
 - Price history: 2026-04-30 £200,000 → 2026-06-19 £190,000 → 2026-08-02 £170,000 → 2026-10-29 £160,000
-- Days on market: 192
+- Days on market: 204
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -431,13 +212,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 6. 1, CHAPEL LANE, BURSCOUGH, L40 7RA
+## 3. 1, CHAPEL LANE, BURSCOUGH, L40 7RA
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 1047 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 3x £250k→£160k (−36%), last cut 2026-07-24; 297 days on market; needs modernising; 1047 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 3x £250k→£160k (−36%), last cut 2026-07-24; 309 days on market; needs modernising; 1047 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/172862732
 
 
@@ -496,7 +277,7 @@ Risks: gdv_bedroom_mismatch
 ### Listing data
 
 - Price history: 2026-03-04 £250,000 → 2026-03-20 £230,000 → 2026-05-13 £200,000 → 2026-07-24 £160,000
-- Days on market: 297
+- Days on market: 309
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -505,13 +286,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 7. 126, LEDBURN, SKELMERSDALE, WN8 6TX
+## 4. 126, LEDBURN, SKELMERSDALE, WN8 6TX
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 1007 sq ft (listing)
 - Asking £125,000
-- Listing: Reduced 1x £150k→£125k (−17%), last cut 2026-05-22; 249 days on market; repossessed; no chain; freehold; 1007 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £150k→£125k (−17%), last cut 2026-05-22; 261 days on market; repossessed; no chain; freehold; 1007 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/172926422
 
 
@@ -534,9 +315,9 @@ Agent's description (from the feed, may be truncated):
 | 7 Inchfield Skelmersdale | Mar 2026 | £225,000 | 1109 | £203 | 0.39 |
 | 34 Felstead Skelmersdale | Jul 2025 | £169,000 | 807 | £209 | 0.25 |
 | 14 Lulworth Skelmersdale | Mar 2025 | £130,000 | 947 | £137 | 0.20 |
-| … 24 more | | | | | |
+| … 23 more | | | | | |
 
-Basis: £/sqft v1: n=39 ±25% size, £209/236/246 psf x 1007 sqft (listing) street=0 spread=0.157
+Basis: £/sqft v1: n=38 ±25% size, £209/236/246 psf x 1007 sqft (listing) street=0 spread=0.156
 
 ### After-works value
 
@@ -570,7 +351,7 @@ Risks: gdv_bedroom_mismatch
 ### Listing data
 
 - Price history: 2026-03-05 £150,000 → 2026-05-22 £125,000
-- Days on market: 249
+- Days on market: 261
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -579,13 +360,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 8. 12, STANLEY ROAD, ASPULL, WN2 1YJ
+## 5. 12, STANLEY ROAD, ASPULL, WN2 1YJ
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 815 sq ft (listing)
 - Asking £129,995
-- Listing: Reduced 1x £140.0k→£130.0k (−7%), last cut 2026-05-03; 263 days on market; no chain; EPC D; 815 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 1x £140.0k→£130.0k (−7%), last cut 2026-05-03; 275 days on market; no chain; EPC D; 815 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/172404749
 - Portal: https://www.zoopla.co.uk/for-sale/details/72470627/
 
@@ -645,7 +426,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2026-03-21 £139,995 → 2026-05-03 £129,995
-- Days on market: 263
+- Days on market: 275
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -654,13 +435,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 9. Lime Grove, Wigan, WN2
+## 6. Lime Grove, Wigan, WN2
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - bungalow, 2 bed, 1169 sq ft (listing)
 - Asking £170,000
-- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-09-14; 196 days on market; needs modernising; 1169 sq ft
+- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-09-14; 208 days on market; needs modernising; 1169 sq ft
 - Portal: https://www.rightmove.co.uk/properties/174943757
 
 
@@ -719,7 +500,7 @@ Risks: bungalow_valued_from_houses
 ### Listing data
 
 - Price history: 2026-04-27 £180,000 → 2026-09-14 £170,000
-- Days on market: 196
+- Days on market: 208
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -728,13 +509,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 10. 28, WOOD STREET, ST HELENS, WA9 1NH
+## 7. 28, WOOD STREET, ST HELENS, WA9 1NH
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 720 sq ft (listing)
 - Asking £92,500
-- Listing: 108 days on market; no chain; needs modernising; 720 sq ft
+- Listing: 120 days on market; no chain; needs modernising; 720 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91283439
 
 
@@ -790,7 +571,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2026-07-25 £92,500
-- Days on market: 108
+- Days on market: 120
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -799,14 +580,90 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 11. School Road, Warrington, WA2
+## 8. Mersey Road, Orrell, WN5
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
+
+- semi-detached, 2 bed, 904 sq ft (listing)
+- Asking £150,000 · expected purchase £158,100
+- Listing: Reduced 2x £190k→£150k (−21%), last cut 2026-08-17; 200 days on market; Modern Method of Auction (buyer reservation fee); no chain; 904 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Portal: https://www.rightmove.co.uk/properties/88060323
+
+
+### Comparable sales (HM Land Registry + EPC floor areas)
+
+| Address | Sold | Price | Sq ft | £/sq ft | Miles |
+|---|---|---:|---:|---:|---:|
+| 29 Mersey Road Wigan | Jul 2025 | £210,000 | 721 | £291 | 0.05 |
+| 5 Thames Drive Wigan | Jun 2026 | £251,000 | 818 | £307 | 0.05 |
+| 4 Winchester Close Wigan | May 2026 | £250,000 | 743 | £336 | 0.09 |
+| 3 Irwell Road Wigan | Jul 2026 | £250,000 | 807 | £310 | 0.12 |
+| 97 Gathurst Road Wigan | Jun 2026 | £295,000 | 1001 | £295 | 0.13 |
+| 5 Douglas Drive Wigan | Jul 2025 | £155,000 | 807 | £192 | 0.05 |
+| 4 Thames Drive Wigan | Aug 2025 | £249,999 | 915 | £273 | 0.05 |
+| 1 Windermere Road Wigan | May 2026 | £182,000 | 689 | £264 | 0.14 |
+| 39A Gathurst Road Wigan | Apr 2026 | £205,000 | 872 | £235 | 0.13 |
+| 6 Windermere Road Wigan | Feb 2026 | £190,000 | 678 | £280 | 0.14 |
+| 18 Broxton Avenue Wigan | Oct 2025 | £205,000 | 775 | £264 | 0.12 |
+| 25 Gordonstoun Crescent Wigan | Aug 2025 | £172,000 | 700 | £246 | 0.11 |
+| 45 Oxford Road Wigan | Feb 2026 | £170,000 | 1023 | £166 | 0.18 |
+| 4 Winchester Close Wigan | Jun 2025 | £157,500 | 743 | £212 | 0.09 |
+| 3 Winchester Close Wigan | May 2025 | £156,800 | 743 | £211 | 0.09 |
+| … 43 more | | | | | |
+
+Basis: £/sqft v1: n=58 ±25% size, £264/282/295 psf x 904 sqft (listing) street=1 spread=0.108
+
+### After-works value
+
+- Low £238,000 (£263/sq ft)
+- **Base £255,000** (£282/sq ft)
+- High £266,000 (£294/sq ft)
+
+### Costs at £158,100
+
+| Item | £ |
+|---|---:|
+| Refurb (modernise £35/sqft x 904 sqft) | 31,600 |
+| Contingency (10% of refurb) | 3,160 |
+| SDLT (incl. 5% surcharge) | 8,567 |
+| Buy legal + survey | 2,100 |
+| Holding (6 months) | 2,100 |
+| Sale agent + legal | 4,872 |
+| Auction uplift / fee | 8,100 |
+| **Total costs** | **52,399** |
+
+### Result
+
+| | Low | Base | High |
+|---|---:|---:|---:|
+| Profit at £158,100 | £27,746 | **£44,501** | £55,343 |
+| Max offer for £40k profit | £146,500 | **£162,000** | £172,000 |
+
+Opening offer £145,000 · asking is £3,900 below max offer
+
+Risks: auction_guide_price, gdv_bedroom_mismatch
+
+### Listing data
+
+- Price history: 2026-05-05 £190,000 → 2026-07-04 £180,000 → 2026-08-17 £150,000
+- Days on market: 200
+- Lists: –
+
+Agent's description (from the feed, may be truncated):
+
+> This spacious two-bedroom semi-detached property is being sold by Modern Method of Auction in the highly sought-after area of Orrell. It benefits from no onward chain, making it a reliable transaction. The home features a generous lounge, kitchen/diner, conservatory, detached garage, and ground floor WC, arranged over two floors.  The property offers excellent potential for buyers looking to personalise their home. Well-located near excellent schools and major transport links including the M6 and M58 motorways, it also provides easy access to local shops and amenities. Completion is required within 56 days of reservation.
+
+---
+
+## 9. School Road, Warrington, WA2
+
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 958 sq ft (listing)
 - Asking £150,000
-- Listing: 4 days on market; needs modernising; 958 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 16 days on market; needs modernising; leasehold; 958 sq ft; CHECK GDV: unusual beds for type, comps may be larger; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/95152767
+- Portal: https://www.zoopla.co.uk/for-sale/details/74690035/
 
 
 ### Comparable sales (HM Land Registry + EPC floor areas)
@@ -859,102 +716,27 @@ Basis: £/sqft v1: n=65 ±25% size, £241/258/272 psf x 958 sqft (listing) stree
 
 Opening offer £138,000 · asking is £2,500 below max offer
 
-Risks: gdv_bedroom_mismatch
+Risks: gdv_bedroom_mismatch, leasehold
 
 ### Listing data
 
-- Price history: 2026-11-06 £150,000
-- Days on market: 4
+- Price history: 2026-11-12 £150,000
+- Days on market: 16
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
 
-> This traditional semi-detached home on School Road offers scope for modernisation in a popular residential area near Warrington town centre and the M6/M62 motorway links. It features a bay-fronted lounge with a tiled fireplace, a separate dining room, and a rear kitchen extension.  Upstairs are two bedrooms, including a master with an original cast iron fireplace, plus a first-floor shower room. Outside there is driveway parking, a detached garage and a private enclosed rear garden overlooking a bowling green, within walking distance of Orford Park.
+> This traditional semi-detached family home on School Road, Warrington, is offered for sale as a leasehold property in need of modernisation. It features a bay-fronted lounge with a tiled fireplace, a separate dining room, and a rear kitchen extension, with two first-floor bedrooms including a master with an original cast iron fireplace.  Outside, there is driveway parking, a detached garage, and a private enclosed rear garden overlooking a bowling green. The property sits within walking distance of Orford Park and offers access to Warrington town centre and the M6 and M62 motorway links.
 
 ---
 
-## 12. Mersey Road, Orrell, WN5
+## 10. 5, DYERS LANE, ORMSKIRK, L39 4RN
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
-
-- bungalow, 2 bed, 904 sq ft (listing)
-- Asking £150,000 · expected purchase £158,100
-- Listing: Reduced 2x £190k→£150k (−21%), last cut 2026-08-17; 188 days on market; Modern Method of Auction (buyer reservation fee); no chain; 904 sq ft
-- Portal: https://www.rightmove.co.uk/properties/88060323
-
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 29 Mersey Road Wigan | Jul 2025 | £210,000 | 721 | £291 | 0.05 |
-| 5 Thames Drive Wigan | Jun 2026 | £251,000 | 818 | £307 | 0.05 |
-| 17 Thames Drive Wigan | Apr 2026 | £240,000 | 915 | £262 | 0.05 |
-| 4 Winchester Close Wigan | May 2026 | £250,000 | 743 | £336 | 0.09 |
-| 3 Irwell Road Wigan | Jul 2026 | £250,000 | 807 | £310 | 0.12 |
-| 97 Gathurst Road Wigan | Jun 2026 | £295,000 | 1001 | £295 | 0.13 |
-| 5 Douglas Drive Wigan | Jul 2025 | £155,000 | 807 | £192 | 0.05 |
-| 4 Thames Drive Wigan | Aug 2025 | £249,999 | 915 | £273 | 0.05 |
-| 1 Windermere Road Wigan | May 2026 | £182,000 | 689 | £264 | 0.14 |
-| 39A Gathurst Road Wigan | Apr 2026 | £205,000 | 872 | £235 | 0.13 |
-| 40 Coniston Avenue Wigan | Nov 2025 | £172,500 | 689 | £250 | 0.09 |
-| 6 Windermere Road Wigan | Feb 2026 | £190,000 | 678 | £280 | 0.14 |
-| 18 Broxton Avenue Wigan | Oct 2025 | £205,000 | 775 | £264 | 0.12 |
-| 25 Gordonstoun Crescent Wigan | Aug 2025 | £172,000 | 700 | £246 | 0.11 |
-| 45 Oxford Road Wigan | Feb 2026 | £170,000 | 1023 | £166 | 0.18 |
-| … 48 more | | | | | |
-
-Basis: £/sqft v1: n=63 ±25% size, £262/281/295 psf x 904 sqft (listing) street=1 spread=0.115
-
-### After-works value
-
-- Low £237,000 (£262/sq ft)
-- **Base £253,000** (£280/sq ft)
-- High £266,000 (£294/sq ft)
-
-### Costs at £158,100
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 904 sqft) | 31,600 |
-| Contingency (10% of refurb) | 3,160 |
-| SDLT (incl. 5% surcharge) | 8,567 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,843 |
-| Auction uplift / fee | 8,100 |
-| **Total costs** | **52,370** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £158,100 | £26,760 | **£42,530** | £55,343 |
-| Max offer for £40k profit | £145,500 | **£160,000** | £172,000 |
-
-Opening offer £145,000 · asking is £1,900 below max offer
-
-Risks: auction_guide_price, bungalow_valued_from_houses
-
-### Listing data
-
-- Price history: 2026-05-05 £190,000 → 2026-07-04 £180,000 → 2026-08-17 £150,000
-- Days on market: 188
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This spacious two-bedroom semi-detached property is being sold by Modern Method of Auction in the highly sought-after area of Orrell. It benefits from no onward chain, making it a reliable transaction. The home features a generous lounge, kitchen/diner, conservatory, detached garage, and ground floor WC, arranged over two floors.  The property offers excellent potential for buyers looking to personalise their home. Well-located near excellent schools and major transport links including the M6 and M58 motorways, it also provides easy access to local shops and amenities. Completion is required within 56 days of reservation.
-
----
-
-## 13. 5, DYERS LANE, ORMSKIRK, L39 4RN
-
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 1152 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 1x £185k→£180k (−3%), last cut 2026-11-08; 83 days on market; unmodernised; 1152 sq ft
+- Listing: Reduced 1x £185k→£180k (−3%), last cut 2026-11-08; 95 days on market; unmodernised; 1152 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92114067
 
 
@@ -962,23 +744,26 @@ Agent's description (from the feed, may be truncated):
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
+| 15 Prescot Road Ormskirk | May 2026 | £260,000 | 1066 | £244 | 0.18 |
 | 7 West View Ormskirk | Apr 2026 | £320,000 | 1292 | £248 | 0.37 |
+| 93 Prescot Road Ormskirk | Jun 2026 | £230,000 | 990 | £232 | 0.43 |
 | 27 Stanley Street Ormskirk | Feb 2026 | £185,000 | 1012 | £183 | 0.40 |
 | 33 Brighouse Close Ormskirk | Oct 2025 | £212,000 | 904 | £234 | 0.45 |
 | 57 Southport Road Ormskirk | Aug 2025 | £172,500 | 1227 | £141 | 0.41 |
 | 6 Church Fields Ormskirk | Jun 2025 | £337,500 | 1012 | £334 | 0.37 |
 | 23 Station Road Ormskirk | Oct 2025 | £190,000 | 893 | £213 | 0.48 |
+| 105 Prescot Road Ormskirk | Jul 2025 | £263,000 | 1055 | £249 | 0.43 |
 | 68 Derby Street Ormskirk | Aug 2025 | £205,000 | 1206 | £170 | 0.50 |
 | 145 Redgate Ormskirk | Feb 2025 | £256,500 | 958 | £268 | 0.38 |
 | 14 Rosecroft Close Ormskirk | Jan 2025 | £270,000 | 1033 | £261 | 0.40 |
 
-Basis: £/sqft v1: n=9 ±25% size, £235/248/268 psf x 1152 sqft (listing) street=0 spread=0.134
+Basis: £/sqft v1: n=12 ±25% size, £244/248/261 psf x 1152 sqft (listing) street=0 spread=0.071
 
 ### After-works value
 
-- Low £270,000 (£234/sq ft)
+- Low £280,000 (£243/sq ft)
 - **Base £285,000** (£247/sq ft)
-- High £308,000 (£267/sq ft)
+- High £301,000 (£261/sq ft)
 
 ### Costs at £180,000
 
@@ -996,8 +781,8 @@ Basis: £/sqft v1: n=9 ±25% size, £235/248/268 psf x 1152 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £180,000 | £26,282 | **£41,066** | £63,735 |
-| Max offer for £40k profit | £167,000 | **£180,500** | £202,000 |
+| Profit at £180,000 | £36,138 | **£41,066** | £56,836 |
+| Max offer for £40k profit | £176,000 | **£180,500** | £195,500 |
 
 Opening offer £165,000 · asking is £500 below max offer
 
@@ -1006,7 +791,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2026-08-20 £185,000 → 2026-11-08 £180,000
-- Days on market: 83
+- Days on market: 95
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1015,13 +800,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 14. Ormskirk Road, Skelmersdale, Lancashire, WN8
+## 11. Ormskirk Road, Skelmersdale, Lancashire, WN8
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 751 sq ft (listing)
 - Asking £70,000 · expected purchase £87,500
-- Listing: Reduced 1x £75k→£70k (−7%), last cut 2026-09-24; 68 days on market; auction (guide price); freehold; 751 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £75k→£70k (−7%), last cut 2026-09-24; 80 days on market; auction (guide price); freehold; 751 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/92637129
 
 
@@ -1046,9 +831,9 @@ Agent's description (from the feed, may be truncated):
 | 48 Beacon Green Skelmersdale | Nov 2025 | £185,000 | 915 | £202 | 0.35 |
 | 11 Courtfield Drive Skelmersdale | Apr 2026 | £149,000 | 667 | £223 | 0.47 |
 | 18 Mercury Way Skelmersdale | Dec 2025 | £180,000 | 786 | £229 | 0.39 |
-| … 9 more | | | | | |
+| … 8 more | | | | | |
 
-Basis: £/sqft v1: n=24 ±25% size, £202/225/229 psf x 751 sqft (listing) street=1 spread=0.118
+Basis: £/sqft v1: n=23 ±25% size, £202/225/229 psf x 751 sqft (listing) street=1 spread=0.118
 
 ### After-works value
 
@@ -1083,7 +868,7 @@ Risks: auction_guide_price, gdv_bedroom_mismatch
 ### Listing data
 
 - Price history: 2026-09-02 £75,000 → 2026-09-24 £70,000
-- Days on market: 68
+- Days on market: 80
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1092,13 +877,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 15. 8, CLOVELLY AVENUE, SUTTON LEACH, ST HELENS, WA9 4HT
+## 12. 8, CLOVELLY AVENUE, SUTTON LEACH, ST HELENS, WA9 4HT
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 732 sq ft (listing)
 - Asking £100,000
-- Listing: 432 days on market; 732 sq ft; listed on onthemarket+rightmove
+- Listing: 444 days on market; 732 sq ft; listed on onthemarket+rightmove
 - Portal: https://www.onthemarket.com/details/17010206/
 - Portal: https://www.rightmove.co.uk/properties/166375646
 
@@ -1158,7 +943,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2025-09-03 £100,000
-- Days on market: 432
+- Days on market: 444
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1167,235 +952,87 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 16. Gairloch Close, Fearnhead WA2
+## 13. Audlem Avenue, Prenton, CH43
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
-- bungalow, 1 bed, 633 sq ft (listing)
-- Asking £150,000
-- Listing: 115 days on market; back on market after 79 days off; no chain; 633 sq ft
-- Portal: https://www.zoopla.co.uk/for-sale/details/73740470/
-
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 20 Gairloch Close Warrington | Apr 2025 | £260,000 | 753 | £345 | 0.00 |
-| 12 Kilsyth Close Warrington | May 2026 | £205,000 | 538 | £381 | 0.07 |
-| 16 Kinross Close Warrington | Aug 2026 | £245,000 | 678 | £361 | 0.13 |
-| 4 Kilsyth Close Warrington | Dec 2025 | £172,500 | 603 | £286 | 0.07 |
-| 85 Montrose Close Warrington | May 2026 | £195,000 | 560 | £348 | 0.13 |
-| 36 Kilsyth Close Warrington | Nov 2025 | £245,000 | 527 | £465 | 0.07 |
-| 49 Kilsyth Close Warrington | Sep 2025 | £190,000 | 527 | £360 | 0.07 |
-| 67 Kinross Close Warrington | Mar 2026 | £232,500 | 678 | £343 | 0.14 |
-| 39 Montrose Close Warrington | Jan 2026 | £250,000 | 732 | £342 | 0.13 |
-| 97 Kinross Close Warrington | Feb 2026 | £233,000 | 560 | £416 | 0.14 |
-| 16 Kilsyth Close Warrington | Feb 2025 | £245,000 | 786 | £312 | 0.07 |
-| 94 Dundee Close Warrington | Dec 2025 | £225,000 | 635 | £354 | 0.18 |
-| 9 Coldstream Close Warrington | Aug 2026 | £208,500 | 538 | £388 | 0.32 |
-| 23 Dundee Close Warrington | Jan 2026 | £213,000 | 753 | £283 | 0.23 |
-| 78 Coldstream Close Warrington | Sep 2026 | £244,000 | 732 | £333 | 0.36 |
-| … 27 more | | | | | |
-
-Basis: £/sqft v1: n=42 ±25% size, £345/361/384 psf x 633 sqft (listing) street=1 spread=0.106
-
-### After-works value
-
-- Low £218,000 (£344/sq ft)
-- **Base £228,000** (£360/sq ft)
-- High £242,000 (£382/sq ft)
-
-### Costs at £150,000
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 633 sqft) | 22,200 |
-| Contingency (10% of refurb) | 2,220 |
-| SDLT (incl. 5% surcharge) | 8,000 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,483 |
-| **Total costs** | **41,103** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £150,000 | £27,041 | **£36,897** | £50,695 |
-| Max offer for £40k profit | £137,500 | **£147,000** | £159,500 |
-
-Opening offer £135,000 · asking is £3,000 above max offer
-
-Risks: bungalow_valued_from_houses
-
-### Listing data
-
-- Price history: 2026-07-17 £150,000
-- Days on market: 115
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This detached house is back on the market after being off the market for 79 days between 1 August and 18 October. It benefits from having no onward chain, so would be a more reliable transaction.
-
----
-
-## 17. Newman Street, Wigan, WN1
-
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
-
-- terraced, 2 bed, 1203 sq ft (listing)
-- Asking £120,000
-- Listing: 24 days on market; needs modernising; freehold; 1203 sq ft
-- Portal: https://www.rightmove.co.uk/properties/94412646
+- semi-detached, 3 bed, 1029 sq ft (listing)
+- Asking £160,000
+- Listing: Reduced 1x £190k→£160k (−16%), last cut 2026-11-10; 159 days on market; 1029 sq ft
+- Portal: https://www.rightmove.co.uk/properties/89689653
 
 
 ### Comparable sales (HM Land Registry + EPC floor areas)
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
-| 78 Swinley Lane Wigan | Sep 2026 | £255,000 | 1345 | £190 | 0.72 |
-| 10 Eccleston Street Wigan | Jun 2026 | £180,000 | 1475 | £122 | 0.64 |
-| 8 Colin Street Wigan | Nov 2025 | £180,000 | 1173 | £154 | 0.46 |
-| 13 Charles Street Wigan | Dec 2025 | £165,000 | 1044 | £158 | 0.55 |
-| 15 Hilton Street Wigan | Jan 2026 | £102,000 | 926 | £110 | 0.59 |
-| 12 Swinley Street Wigan | Feb 2026 | £182,000 | 1001 | £182 | 0.62 |
-| 10 Clifton Street Wigan | Sep 2025 | £160,000 | 1195 | £134 | 0.54 |
-| 18 Avondale Road Wigan | Jan 2026 | £192,000 | 1313 | £146 | 0.66 |
-| 7 Walkden Avenue Wigan | Jun 2026 | £185,000 | 936 | £198 | 0.85 |
-| 72 Widdrington Road Wigan | Feb 2025 | £230,000 | 1410 | £163 | 0.41 |
-| 6 Acton Street Wigan | Sep 2025 | £119,000 | 1012 | £118 | 0.59 |
-| 62 Widdrington Road Wigan | Jan 2025 | £225,000 | 1345 | £167 | 0.41 |
-| 8 Swinley Street Wigan | Sep 2025 | £181,000 | 990 | £183 | 0.62 |
-| 76 Widdrington Road Wigan | Dec 2024 | £217,000 | 1399 | £155 | 0.41 |
-| 29 Walkden Avenue Wigan | Feb 2026 | £189,250 | 947 | £200 | 0.85 |
-| … 14 more | | | | | |
+| 34 Audlem Avenue Prenton | Jul 2026 | £212,000 | 1001 | £212 | 0.01 |
+| 38 Audlem Avenue Prenton | Nov 2025 | £205,000 | 840 | £244 | 0.01 |
+| 1 Ince Close Prenton | Sep 2026 | £205,000 | 807 | £254 | 0.11 |
+| 13 Picton Close Prenton | Apr 2026 | £202,500 | 775 | £261 | 0.15 |
+| 31 Churton Avenue Prenton | Oct 2025 | £240,000 | 775 | £310 | 0.10 |
+| 4 Churton Avenue Prenton | Sep 2025 | £265,000 | 915 | £290 | 0.10 |
+| 16 Kelsall Close Prenton | Sep 2026 | £230,000 | 872 | £264 | 0.27 |
+| 53 Shavington Avenue Prenton | Mar 2026 | £228,000 | 926 | £246 | 0.19 |
+| 8 Overton Close Prenton | Jan 2026 | £240,000 | 1033 | £232 | 0.17 |
+| 29 Shavington Avenue Prenton | May 2025 | £213,000 | 775 | £275 | 0.10 |
+| 11 Eccleston Close Prenton | Feb 2025 | £248,000 | 958 | £259 | 0.07 |
+| 50 Shavington Avenue Prenton | May 2025 | £180,000 | 818 | £220 | 0.10 |
+| 4 Hatchmere Close Prenton | Jun 2025 | £260,000 | 1055 | £246 | 0.12 |
+| 24 Picton Close Prenton | Aug 2025 | £191,000 | 926 | £206 | 0.15 |
+| 37 Helton Close Prenton | Mar 2026 | £167,500 | 775 | £216 | 0.25 |
+| … 60 more | | | | | |
 
-Basis: £/sqft v1: n=29 ±25% size, £160/181/190 psf x 1203 sqft (listing) street=0 spread=0.17
+Basis: £/sqft v1: n=75 ±25% size, £242/247/266 psf x 1029 sqft (listing) street=2 spread=0.097
 
 ### After-works value
 
-- Low £191,000 (£159/sq ft)
-- **Base £217,000** (£180/sq ft)
-- High £228,000 (£190/sq ft)
+- Low £249,000 (£242/sq ft)
+- **Base £254,000** (£247/sq ft)
+- High £273,000 (£265/sq ft)
 
-### Costs at £120,000
+### Costs at £160,000
 
 | Item | £ |
 |---|---:|
-| Refurb (modernise £35/sqft x 1203 sqft) | 42,100 |
-| Contingency (10% of refurb) | 4,210 |
-| SDLT (incl. 5% surcharge) | 6,000 |
+| Refurb (modernise £35/sqft x 1029 sqft) | 36,000 |
+| Contingency (10% of refurb) | 3,600 |
+| SDLT (incl. 5% surcharge) | 8,700 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,325 |
-| **Total costs** | **60,835** |
+| Sale agent + legal | 4,858 |
+| **Total costs** | **57,358** |
 
 ### Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £120,000 | £10,540 | **£36,165** | £47,007 |
-| Max offer for £40k profit | £91,500 | **£116,000** | £126,500 |
+| Profit at £160,000 | £31,714 | **£36,642** | £55,369 |
+| Max offer for £40k profit | £152,000 | **£156,500** | £174,000 |
 
-Opening offer £106,000 · asking is £4,000 above max offer
+Opening offer £143,000 · asking is £3,500 above max offer
 
 Risks: none flagged from listing text
 
 ### Listing data
 
-- Price history: 2026-10-17 £120,000
-- Days on market: 24
+- Price history: 2026-06-15 £190,000 → 2026-11-10 £160,000
+- Days on market: 159
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
 
-> This garden-fronted end-terrace house on Newman Street, Wigan, provides around 1,203 sq ft across two reception rooms, two double bedrooms and a shower room. The property is set along a pedestrianised frontage with a lawned front garden, and benefits from a rear yard and two substantial brick-built outbuildings for storage.  The home would benefit from modernisation, so it suits buyers seeking a renovation project. Its generous proportions and existing layout offer scope to tailor the property to individual needs, and it is within easy reach of Wigan town centre. The property is freehold and in council tax band A.
+> This three-bedroom semi-detached house in Prenton offers spacious accommodation with two reception rooms, fitted kitchen, and generous rear garden with garage. Upstairs features three bedrooms and a family bathroom.  The property requires updating throughout but presents excellent potential to modernise and add value. Located in a sought-after residential area with excellent transport links, reputable schools, and local amenities, it's ideal for families seeking to create their ideal home.
 
 ---
 
-## 18. Greenfield Road, St Helens, Merseyside, WA10 6SG
+## 14. Knowles Street, Widnes WA8
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
-
-- terraced, 2 bed, 807 sq ft (listing)
-- Asking £80,000
-- Listing: 24 days on market; no chain; 807 sq ft
-- Portal: https://www.rightmove.co.uk/properties/94376892
-
-
-### Comparable sales (HM Land Registry + EPC floor areas)
-
-| Address | Sold | Price | Sq ft | £/sq ft | Miles |
-|---|---|---:|---:|---:|---:|
-| 140 Greenfield Road St Helens | Jul 2026 | £170,000 | 1001 | £170 | 0.05 |
-| 163 Greenfield Road St Helens | Apr 2026 | £158,000 | 807 | £196 | 0.05 |
-| 182 Greenfield Road St Helens | Dec 2025 | £150,000 | 915 | £164 | 0.05 |
-| 170 Greenfield Road St Helens | Oct 2025 | £160,000 | 840 | £190 | 0.05 |
-| 151 Greenfield Road St Helens | Oct 2025 | £135,000 | 936 | £144 | 0.06 |
-| 26 Greenfield Road St Helens | Jun 2026 | £130,000 | 732 | £178 | 0.18 |
-| 168 Greenfield Road St Helens | May 2025 | £163,000 | 829 | £197 | 0.05 |
-| 81 Greenfield Road St Helens | Nov 2025 | £152,000 | 678 | £224 | 0.12 |
-| 176 Greenfield Road St Helens | Nov 2024 | £162,500 | 926 | £176 | 0.05 |
-| 54 Greenfield Road St Helens | Dec 2024 | £170,000 | 807 | £211 | 0.12 |
-| 135 Speakman Road St Helens | Mar 2026 | £185,000 | 926 | £200 | 0.11 |
-| 91 Windleshaw Road St Helens | Mar 2026 | £167,500 | 990 | £169 | 0.11 |
-| 217 Speakman Road St Helens | May 2026 | £180,000 | 883 | £204 | 0.15 |
-| 146 Speakman Road St Helens | Jan 2026 | £185,000 | 861 | £215 | 0.11 |
-| 132 Speakman Road St Helens | Dec 2025 | £188,500 | 958 | £197 | 0.11 |
-| … 46 more | | | | | |
-
-Basis: £/sqft v1: n=61 ±25% size, £178/196/204 psf x 807 sqft (listing) street=10 spread=0.134
-
-### After-works value
-
-- Low £143,000 (£177/sq ft)
-- **Base £158,000** (£196/sq ft)
-- High £164,000 (£203/sq ft)
-
-### Costs at £80,000
-
-| Item | £ |
-|---|---:|
-| Refurb (modernise £35/sqft x 807 sqft) | 28,200 |
-| Contingency (10% of refurb) | 2,820 |
-| SDLT (incl. 5% surcharge) | 4,000 |
-| Buy legal + survey | 2,100 |
-| Holding (6 months) | 2,100 |
-| Sale agent + legal | 3,475 |
-| **Total costs** | **42,695** |
-
-### Result
-
-| | Low | Base | High |
-|---|---:|---:|---:|
-| Profit at £80,000 | £20,521 | **£35,305** | £41,218 |
-| Max offer for £40k profit | £61,000 | **£75,500** | £81,000 |
-
-Opening offer £69,000 · asking is £4,500 above max offer
-
-Risks: none flagged from listing text
-
-### Listing data
-
-- Price history: 2026-10-17 £80,000
-- Days on market: 24
-- Lists: –
-
-Agent's description (from the feed, may be truncated):
-
-> This traditional mid terraced house in the sought-after Dentons Green area of St Helens offers two double bedrooms, an open plan living and dining room, a kitchen and a guest cloakroom. Upstairs, a shower room has potential for a four piece suite. The property is offered with no onward chain and is being sold via Secure Sale online bidding, subject to terms and conditions.  The property has a good-sized rear yard accessible via a gate to the rear alley, offering scope for a garden or outdoor entertaining area. The area is well served by local shops, schools and leisure facilities, with access to the A580 and major motorway networks.
-
----
-
-## 19. Knowles Street, Widnes WA8
-
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 914 sq ft (listing)
 - Asking £150,000
-- Listing: Reduced 1x £160k→£150k (−6%), last cut 2026-07-29; 139 days on market; back on market after 68 days off; no chain; 914 sq ft
+- Listing: Reduced 1x £160k→£150k (−6%), last cut 2026-07-29; 151 days on market; back on market after 68 days off; no chain; 914 sq ft
 - Portal: https://www.zoopla.co.uk/for-sale/details/73520349/
 
 
@@ -1454,7 +1091,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2026-06-30 £160,000 → 2026-07-29 £150,000
-- Days on market: 139
+- Days on market: 151
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1463,13 +1100,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 20. 21, LEONARD STREET, RUNCORN, WA7 4JD
+## 15. 21, LEONARD STREET, RUNCORN, WA7 4JD
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 915 sq ft (listing)
 - Asking £85,000
-- Listing: Reduced 4x £115k→£85k (−26%), last cut 2026-09-03; 326 days on market; no chain; 915 sq ft
+- Listing: Reduced 4x £115k→£85k (−26%), last cut 2026-09-03; 338 days on market; no chain; 915 sq ft
 - Portal: https://www.rightmove.co.uk/properties/170431220
 
 
@@ -1528,7 +1165,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2025-12-21 £115,000 → 2026-03-19 £105,000 → 2026-05-12 £95,000 → 2026-07-29 £90,000 → 2026-09-03 £85,000
-- Days on market: 326
+- Days on market: 338
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1537,13 +1174,162 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 21. 13, LICHFIELD CLOSE, NETHERTON, L30 1PU
+## 16. 9, MARSH HOUSE LANE, WARRINGTON, WA2 7QP
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
+
+- terraced, 2 bed, 947 sq ft (listing)
+- Asking £110,000
+- Listing: Reduced 1x £120k→£110k (−8%), last cut 2026-09-18; 94 days on market; no chain; needs modernising; 947 sq ft
+- Portal: https://www.rightmove.co.uk/properties/92169039
+
+
+### Comparable sales (HM Land Registry + EPC floor areas)
+
+| Address | Sold | Price | Sq ft | £/sq ft | Miles |
+|---|---|---:|---:|---:|---:|
+| 44 Dickenson Street Warrington | Jun 2026 | £145,000 | 840 | £173 | 0.07 |
+| 28 Orford Avenue Warrington | Jan 2026 | £186,000 | 883 | £211 | 0.05 |
+| 20 Wilkinson Street Warrington | Jan 2026 | £184,500 | 850 | £217 | 0.07 |
+| 3 Rhodes Street Warrington | Apr 2026 | £190,000 | 980 | £194 | 0.11 |
+| 80 Marsh House Lane Warrington | May 2026 | £195,000 | 1001 | £195 | 0.13 |
+| 163 Longford Street Warrington | Jun 2026 | £129,000 | 915 | £141 | 0.16 |
+| 153 Longford Street Warrington | Jun 2026 | £165,000 | 1066 | £155 | 0.16 |
+| 147 Longford Street Warrington | Jun 2026 | £175,000 | 829 | £211 | 0.16 |
+| 41 Leonard Street Warrington | Nov 2025 | £125,000 | 753 | £166 | 0.10 |
+| 120 Wilkinson Street Warrington | May 2026 | £190,000 | 850 | £224 | 0.17 |
+| 22 Kiveton Walk Warrington | Apr 2025 | £225,000 | 1087 | £207 | 0.05 |
+| 11 Norris Street Warrington | Apr 2026 | £160,000 | 936 | £171 | 0.19 |
+| 9 Kiveton Walk Warrington | Feb 2025 | £190,500 | 1001 | £190 | 0.05 |
+| 20 Earl Street Warrington | Sep 2026 | £143,000 | 969 | £148 | 0.28 |
+| 134 Shaws Avenue Warrington | Jul 2026 | £170,000 | 721 | £236 | 0.26 |
+| … 91 more | | | | | |
+
+Basis: £/sqft v1: n=106 ±25% size, £185/201/216 psf x 947 sqft (listing) street=0 spread=0.153
+
+### After-works value
+
+- Low £175,000 (£185/sq ft)
+- **Base £190,000** (£201/sq ft)
+- High £204,000 (£215/sq ft)
+
+### Costs at £110,000
+
+| Item | £ |
+|---|---:|
+| Refurb (modernise £35/sqft x 947 sqft) | 33,100 |
+| Contingency (10% of refurb) | 3,310 |
+| SDLT (incl. 5% surcharge) | 5,500 |
+| Buy legal + survey | 2,100 |
+| Holding (6 months) | 2,100 |
+| Sale agent + legal | 3,936 |
+| **Total costs** | **50,046** |
+
+### Result
+
+| | Low | Base | High |
+|---|---:|---:|---:|
+| Profit at £110,000 | £15,170 | **£29,954** | £43,752 |
+| Max offer for £40k profit | £86,000 | **£100,000** | £113,500 |
+
+Opening offer £92,000 · asking is £10,000 above max offer
+
+Risks: none flagged from listing text
+
+### Listing data
+
+- Price history: 2026-08-21 £120,000 → 2026-09-18 £110,000
+- Days on market: 94
+- Lists: –
+
+Agent's description (from the feed, may be truncated):
+
+> This traditional Victorian mid-terrace property requires modernisation but offers excellent potential for investors or owner-occupiers. The spacious ground floor comprises a lounge, dining room and kitchen, while upstairs features two large bedrooms and a bathroom. Original features add character throughout.  Conveniently located within walking distance of Warrington town centre with nearby train stations offering direct links to Manchester, Manchester Airport and Liverpool. The property is offered with no onward chain, enabling a straightforward purchase. At 25% below local average price per square foot, it represents good value.
+
+---
+
+## 17. 151, CHURCH LANE, LOWTON, WA3 2RH
+
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
+
+- semi-detached, 3 bed, 743 sq ft (listing)
+- Asking £150,000 · expected purchase £158,100
+- Listing: Reduced 2x £180k→£150k (−17%), last cut 2026-11-17; 61 days on market; Modern Method of Auction (buyer reservation fee); no chain; 743 sq ft
+- Portal: https://www.rightmove.co.uk/properties/93402036
+
+
+### Comparable sales (HM Land Registry + EPC floor areas)
+
+| Address | Sold | Price | Sq ft | £/sq ft | Miles |
+|---|---|---:|---:|---:|---:|
+| 21 St Lukes Avenue Warrington | Nov 2025 | £219,950 | 743 | £296 | 0.05 |
+| 15 St Lukes Avenue Warrington | Sep 2025 | £165,000 | 850 | £194 | 0.05 |
+| 84 Church Lane Warrington | Jul 2025 | £210,000 | 829 | £253 | 0.06 |
+| 17 St Lukes Avenue Warrington | Apr 2025 | £185,000 | 753 | £246 | 0.05 |
+| 45 Stirrups Meadow Warrington | Jan 2026 | £258,000 | 818 | £315 | 0.14 |
+| 5 Mirfield Close Warrington | Oct 2025 | £225,000 | 710 | £317 | 0.13 |
+| 231 Church Lane Warrington | Oct 2025 | £250,000 | 926 | £270 | 0.13 |
+| 10 Norwich Avenue Warrington | Aug 2026 | £250,000 | 753 | £332 | 0.26 |
+| 11 Rostherne Avenue Warrington | Oct 2025 | £235,000 | 797 | £295 | 0.16 |
+| 229 Church Lane Warrington | Jul 2025 | £254,000 | 893 | £284 | 0.13 |
+| 51 Oak Green Road Warrington | Jun 2026 | £261,000 | 829 | £315 | 0.31 |
+| 4 Rutland Avenue Warrington | Mar 2025 | £254,000 | 710 | £358 | 0.10 |
+| 9 Little Lowes Meadow Warrington | Jul 2026 | £275,000 | 904 | £304 | 0.32 |
+| 19 Stoneacre Close Warrington | Jul 2026 | £240,100 | 775 | £310 | 0.33 |
+| 8 Mullein Close Warrington | Feb 2026 | £262,000 | 893 | £293 | 0.25 |
+| … 47 more | | | | | |
+
+Basis: £/sqft v1: n=62 ±25% size, £296/315/325 psf x 743 sqft (listing) street=0 spread=0.093
+
+### After-works value
+
+- Low £219,000 (£295/sq ft)
+- **Base £233,000** (£314/sq ft)
+- High £241,000 (£324/sq ft)
+
+### Costs at £158,100
+
+| Item | £ |
+|---|---:|
+| Refurb (modernise £35/sqft x 743 sqft) | 26,000 |
+| Contingency (10% of refurb) | 2,600 |
+| SDLT (incl. 5% surcharge) | 8,567 |
+| Buy legal + survey | 2,100 |
+| Holding (6 months) | 2,100 |
+| Sale agent + legal | 4,555 |
+| Auction uplift / fee | 8,100 |
+| **Total costs** | **45,922** |
+
+### Result
+
+| | Low | Base | High |
+|---|---:|---:|---:|
+| Profit at £158,100 | £15,179 | **£28,978** | £36,863 |
+| Max offer for £40k profit | £134,500 | **£147,500** | £155,000 |
+
+Opening offer £135,000 · asking is £10,600 above max offer
+
+Risks: auction_guide_price
+
+### Listing data
+
+- Price history: 2026-09-22 £180,000 → 2026-11-07 £160,000 → 2026-11-17 £150,000
+- Days on market: 61
+- Lists: –
+
+Agent's description (from the feed, may be truncated):
+
+> This three-bedroom semi-detached house is being sold through Modern Method of Auction with no onward chain, offering a reliable transaction. Well-presented and conveniently located in Lowton near schools, transport links and local amenities.  The property features a sitting room, modern fitted kitchen/diner with garden access, and three good-sized bedrooms with family bathroom. Externally, there's a driveway for off-road parking and a well-maintained private rear garden ideal for entertaining.
+
+---
+
+## 18. 13, LICHFIELD CLOSE, NETHERTON, L30 1PU
+
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - detached, 3 bed, 890 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 2x £200k→£180k (−10%), last cut 2026-06-26; 473 days on market; back on market after 52 days off; 890 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 2x £200k→£180k (−10%), last cut 2026-06-26; 485 days on market; back on market after 52 days off; 890 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/164914331
 - Portal: https://www.zoopla.co.uk/for-sale/details/70872750/
 
@@ -1599,7 +1385,7 @@ Risks: none flagged from listing text
 ### Listing data
 
 - Price history: 2025-08-02 £200,000 → 2026-01-09 £190,000 → 2026-06-26 £180,000
-- Days on market: 473
+- Days on market: 485
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1608,13 +1394,13 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 22. 51, ROYTON ROAD, WATERLOO, L22 4RB
+## 19. 51, ROYTON ROAD, WATERLOO, L22 4RB
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 929 sq ft (listing)
 - Asking £140,000
-- Listing: 108 days on market; 929 sq ft
+- Listing: 120 days on market; 929 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91303047
 
 
@@ -1637,14 +1423,14 @@ Agent's description (from the feed, may be truncated):
 | 28 Stuart Road Liverpool | Jan 2025 | £160,000 | 1098 | £146 | 0.05 |
 | 24 Kingswood Avenue Liverpool | Jun 2025 | £187,000 | 980 | £191 | 0.09 |
 | 57 Molyneux Road Liverpool | Oct 2025 | £157,000 | 1055 | £149 | 0.14 |
-| … 47 more | | | | | |
+| … 46 more | | | | | |
 
-Basis: £/sqft v1: n=62 ±25% size, £209/237/250 psf x 929 sqft (listing) street=0 spread=0.17
+Basis: £/sqft v1: n=61 ±25% size, £209/236/250 psf x 929 sqft (listing) street=0 spread=0.171
 
 ### After-works value
 
 - Low £194,000 (£209/sq ft)
-- **Base £220,000** (£237/sq ft)
+- **Base £219,000** (£236/sq ft)
 - High £232,000 (£250/sq ft)
 
 ### Costs at £140,000
@@ -1656,24 +1442,24 @@ Basis: £/sqft v1: n=62 ±25% size, £209/237/250 psf x 929 sqft (listing) stree
 | SDLT (incl. 5% surcharge) | 7,300 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,368 |
-| **Total costs** | **51,618** |
+| Sale agent + legal | 4,354 |
+| **Total costs** | **51,604** |
 
 ### Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £140,000 | £2,756 | **£28,382** | £40,209 |
-| Max offer for £40k profit | £104,500 | **£129,000** | £140,000 |
+| Profit at £140,000 | £2,756 | **£27,396** | £40,209 |
+| Max offer for £40k profit | £104,500 | **£128,000** | £140,000 |
 
-Opening offer £118,000 · asking is £11,000 above max offer
+Opening offer £117,000 · asking is £12,000 above max offer
 
 Risks: none flagged from listing text
 
 ### Listing data
 
 - Price history: 2026-07-25 £140,000
-- Days on market: 108
+- Days on market: 120
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
@@ -1682,14 +1468,15 @@ Agent's description (from the feed, may be truncated):
 
 ---
 
-## 23. 28, SOUTH AVENUE, PRESCOT, L34 1LY
+## 20. 28, SOUTH AVENUE, PRESCOT, L34 1LY
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 865 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-16; 54 days on market; 865 sq ft
+- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-17; 66 days on market; 865 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/93192189
+- Portal: https://www.zoopla.co.uk/for-sale/details/74251376/
 
 
 ### Comparable sales (HM Land Registry + EPC floor areas)
@@ -1746,87 +1533,88 @@ Risks: none flagged from listing text
 
 ### Listing data
 
-- Price history: 2026-09-16 £170,000 → 2026-10-16 £160,000
-- Days on market: 54
+- Price history: 2026-09-19 £170,000 → 2026-10-17 £160,000
+- Days on market: 66
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
 
-> This three-bedroom semi-detached house in Prescot is presented as an excellent opportunity for buyers seeking to modernise and personalise. The property features a spacious living room with feature fireplace, functional kitchen with scope for redesign, and a convenient ground floor WC.  Upstairs, three well-proportioned bedrooms and a family bathroom offer comfortable accommodation. Externally, generous front and rear gardens provide potential for off-road parking development and outdoor transformation. Ideal for families or first-time buyers wanting to add value through renovation.
+> This three bedroom semi-detached house on South Avenue in Prescot is offered for sale and requires updating throughout. Features include a spacious living room with a feature fireplace, a functional kitchen with scope for redesign, a ground floor WC and a family bathroom on the first floor.  Outside, there are generous front and rear gardens, with potential to develop off-road parking to the front. The property suits families or first time buyers looking to personalise a home and add value in a popular local area.
 
 ---
 
-## 24. Wargrave Road, Newton-Le-Willows WA12
+## 21. 7, KINTORE DRIVE, GREAT SANKEY, WARRINGTON, WA5 3NW
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
-- semi-detached, 2 bed, 899 sq ft (listing)
-- Asking £175,000
-- Listing: 146 days on market; back on market after 85 days off; no chain; 899 sq ft; CHECK GDV: unusual beds for type, comps may be larger
-- Portal: https://www.zoopla.co.uk/for-sale/details/73466809/
+- semi-detached, 3 bed, 814 sq ft (listing)
+- Asking £180,000 · expected purchase £189,720
+- Listing: Reduced 4x £260k→£180k (−31%), last cut 2026-11-14; 185 days on market; Modern Method of Auction (buyer reservation fee); no chain; 814 sq ft
+- Portal: https://www.rightmove.co.uk/properties/88718271
 
 
 ### Comparable sales (HM Land Registry + EPC floor areas)
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
-| 247 Wargrave Road Newton-Le-Willows | Jan 2026 | £195,000 | 883 | £221 | 0.24 |
-| 3 Bradlegh Road Newton-Le-Willows | Aug 2026 | £220,000 | 786 | £280 | 0.07 |
-| 84 Wargrave Road Newton-Le-Willows | Nov 2024 | £130,000 | 850 | £153 | 0.47 |
-| 3 Kenilworth Gardens Newton-Le-Willows | Nov 2025 | £187,000 | 872 | £214 | 0.06 |
-| 2 Kenilworth Gardens Newton-Le-Willows | Oct 2025 | £285,000 | 883 | £323 | 0.06 |
-| 22 Kenilworth Gardens Newton-Le-Willows | Oct 2025 | £215,000 | 893 | £241 | 0.06 |
-| 33 Kingsway Newton-Le-Willows | Feb 2026 | £254,000 | 1012 | £251 | 0.12 |
-| 33 Raleigh Close Newton-Le-Willows | Jul 2026 | £285,000 | 829 | £344 | 0.18 |
-| 24 Pine Avenue Newton-Le-Willows | Jun 2026 | £170,000 | 980 | £174 | 0.22 |
-| 40 Peartree Crescent Newton-Le-Willows | Mar 2026 | £257,500 | 1076 | £239 | 0.21 |
-| 8 Connaught Drive Newton-Le-Willows | Oct 2025 | £197,000 | 904 | £218 | 0.15 |
-| 4 Connaught Drive Newton-Le-Willows | Oct 2025 | £170,000 | 980 | £174 | 0.15 |
-| 21 Peninsula Drive Newton-Le-Willows | Jul 2026 | £245,000 | 850 | £288 | 0.29 |
-| 17 Park Avenue North Newton-Le-Willows | Jan 2026 | £210,300 | 840 | £250 | 0.21 |
-| 6 Connaught Drive Newton-Le-Willows | Jul 2025 | £235,000 | 1023 | £230 | 0.15 |
-| … 44 more | | | | | |
+| 41 Kintore Drive Warrington | Mar 2026 | £245,000 | 829 | £296 | 0.01 |
+| 8 Kintore Drive Warrington | Jul 2026 | £277,250 | 797 | £348 | 0.05 |
+| 55 Kintore Drive Warrington | May 2026 | £280,000 | 1001 | £280 | 0.06 |
+| 15 Kintore Drive Warrington | Jun 2025 | £194,000 | 872 | £222 | 0.01 |
+| 34 Kintore Drive Warrington | Sep 2025 | £255,000 | 980 | £260 | 0.05 |
+| 8 Keith Avenue Warrington | Nov 2025 | £200,000 | 721 | £277 | 0.07 |
+| 23 Kintore Drive Warrington | Jan 2025 | £260,000 | 807 | £322 | 0.01 |
+| 106 Wroxham Road Warrington | Mar 2026 | £260,000 | 807 | £322 | 0.12 |
+| 59 Keith Avenue Warrington | Feb 2026 | £282,000 | 915 | £308 | 0.13 |
+| 32 Keith Avenue Warrington | Dec 2025 | £275,000 | 980 | £281 | 0.13 |
+| 95 Wroxham Road Warrington | Mar 2026 | £182,000 | 829 | £220 | 0.18 |
+| 35 Keith Avenue Warrington | Nov 2025 | £232,000 | 861 | £270 | 0.13 |
+| 66 Hadleigh Close Warrington | Jul 2026 | £265,000 | 797 | £332 | 0.25 |
+| 513 Liverpool Road Warrington | Dec 2024 | £218,000 | 818 | £266 | 0.05 |
+| 45 Wroxham Road Warrington | Jul 2026 | £215,000 | 721 | £298 | 0.26 |
+| … 60 more | | | | | |
 
-Basis: £/sqft v1: n=59 ±25% size, £250/283/301 psf x 899 sqft (listing) street=2 spread=0.179
+Basis: £/sqft v1: n=75 ±25% size, £304/327/348 psf x 814 sqft (listing) street=0 spread=0.133
 
 ### After-works value
 
-- Low £225,000 (£250/sq ft)
-- **Base £254,000** (£283/sq ft)
-- High £270,000 (£300/sq ft)
+- Low £247,000 (£303/sq ft)
+- **Base £266,000** (£327/sq ft)
+- High £283,000 (£348/sq ft)
 
-### Costs at £175,000
+### Costs at £189,720
 
 | Item | £ |
 |---|---:|
-| Refurb (modernise £35/sqft x 899 sqft) | 31,500 |
-| Contingency (10% of refurb) | 3,150 |
-| SDLT (incl. 5% surcharge) | 9,750 |
+| Refurb (modernise £35/sqft x 814 sqft) | 28,500 |
+| Contingency (10% of refurb) | 2,850 |
+| SDLT (incl. 5% surcharge) | 10,780 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,858 |
-| **Total costs** | **53,458** |
+| Sale agent + legal | 5,030 |
+| Auction uplift / fee | 9,720 |
+| **Total costs** | **51,360** |
 
 ### Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £175,000 | £-3,040 | **£25,542** | £41,312 |
-| Max offer for £40k profit | £134,500 | **£161,000** | £176,000 |
+| Profit at £189,720 | £6,193 | **£24,920** | £41,675 |
+| Max offer for £40k profit | £158,000 | **£175,500** | £191,000 |
 
-Opening offer £148,000 · asking is £14,000 above max offer
+Opening offer £161,000 · asking is £14,220 above max offer
 
-Risks: gdv_bedroom_mismatch
+Risks: auction_guide_price
 
 ### Listing data
 
-- Price history: 2026-06-22 £175,000
-- Days on market: 146
+- Price history: 2026-05-21 £260,000 → 2026-07-18 £245,000 → 2026-09-16 £235,000 → 2026-10-16 £190,000 → 2026-11-14 £180,000
+- Days on market: 185
 - Lists: –
 
 Agent's description (from the feed, may be truncated):
 
-> This semi-detached house is back on the market after being off the market for 85 days between 22 June and 14 September. It benefits from having no onward chain, so would be a more reliable transaction.
+> This three-bedroom semi-detached house on Kintore Drive, Great Sankey, is offered for sale with no onward chain and will be sold by modern method of auction, requiring completion within 56 days. The property includes a porch, a spacious lounge, a modern kitchen/dining area with patio doors to the garden, and a conservatory.  Upstairs are three bedrooms and a family bathroom. Outside there are front and rear gardens, a garage and off-road parking. Buyers should note the auction buyer information pack fee and non-refundable reservation fee.
 
 ---
 
@@ -1838,49 +1626,67 @@ Mostly estimated floor areas, very low guide prices, or asking under half the es
 |---|---|---:|---:|---:|---:|---|---|
 | Crawford Road, WN8 9QS | 2b detached | 768 | £170,000 | £825,000 | £680,000 | gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/174049220 |
 | 84 Woodchurch Road, CH42 9LP | ?b detached | ~1744 | £120,000 | £564,000 | £412,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95041371 |
-| Salisbury Street, CH41 2RL | ?b detached | ~1410 | £170,000 | £456,000 | £326,500 | value far above price | https://www.rightmove.co.uk/properties/133009952 |
+| Land At, CH42 5LA | ?b detached | ~1410 | £115,000 | £480,000 | £348,000 | value far above price | https://www.rightmove.co.uk/properties/149773607 |
+| 18 Great Georges Road, L22 1RD | ?b detached | ~1528 | £85,000 | £448,000 | £315,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95277387 |
+| Salisbury Street, CH41 2RL | ?b detached | ~1432 | £170,000 | £463,000 | £332,500 | value far above price | https://www.rightmove.co.uk/properties/133009952 |
+| The Esplanade Centre, L22 5RN | ?b detached | ~1528 | £125,000 | £448,000 | £315,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95277036 |
 | Warrington Road, WN2 5RJ | 2b detached | ~800 | £110,000 | £330,000 | £235,000 | gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/142901543 |
-| 178 New Street, BL6 5AU | 2b detached | ~800 | £70,000 | £295,000 | £202,500 | auction guide price, gdv bedroom mismatch, leasehold, value far above price | https://www.rightmove.co.uk/properties/94240059 |
+| 25 Crosby Road South, L22 1RG | ?b detached | ~1528 | £125,000 | £397,000 | £270,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95277336 |
+| Downing Street, WN7 4LG | 2b detached | ~800 | £59,000 | £271,000 | £180,500 | auction guide price, gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/95598009 |
 | New Street, L40 2QP | 3b terraced | ~1000 | £80,000 | £295,000 | £195,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/93383001 |
 | 35 Barkeley Drive, L21 4LX | 5b detached | ~1270 | £170,000 | £380,000 | £263,500 | value far above price | https://www.zoopla.co.uk/for-sale/details/66531791/ |
-| 113 Atherton Road, WN2 3EE | 2b detached | 1047 | £110,000 | £301,000 | £199,500 | gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/92874303 |
-| Handfield Place, L5 6PJ | 2b detached | ~800 | £70,000 | £243,000 | £154,500 | auction guide price, gdv bedroom mismatch, leasehold, tenanted, value far above price | https://www.rightmove.co.uk/properties/95081859 |
-| Ashburnham Way, L3 8QG | 3b terraced | 1292 | £140,000 | £313,000 | £201,500 | tenanted, type from description, value far above price | https://www.zoopla.co.uk/for-sale/details/73249655/ |
+| 18 Wilson Grove, L19 1RX | 2b terraced | ~800 | £30,000 | £204,000 | £118,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95686293 |
+| Ashburnham Way, L3 8QG | 3b terraced | 1292 | £135,000 | £313,000 | £201,500 | tenanted, type from description, value far above price | https://www.zoopla.co.uk/for-sale/details/73249655/ |
 | Silverdale Road, CH63 5JH | 3b semi-detached | 989 | £80,000 | £256,000 | £160,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/92660259 |
-| Golders Green, L7 6HG | 3b detached | ~1000 | £137,995 | £289,000 | £190,000 | value far above price | https://www.zoopla.co.uk/for-sale/details/67944299/ |
-| Tarbock Road, L24 0SN | 3b detached | ~926 | £100,000 | £261,000 | £167,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/94069953 |
-| 11 Glebe Street, BL5 3SZ | 2b semi-detached | ~732 | £110,000 | £242,000 | £156,500 | auction guide price, gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/91987758 |
-| West End Road, WA11 0AN | 2b semi-detached | ~800 | £65,000 | £190,000 | £105,500 | gdv bedroom mismatch, value far above price | https://www.zoopla.co.uk/for-sale/details/74644164/ |
-| Kenilworth Gardens, WA12 8ET | 2b semi-detached | 889 | £125,000 | £257,000 | £164,500 | gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/94996200 |
-| 22 Broadway, L11 1BZ | ?b detached | ~1023 | £125,000 | £293,000 | £192,500 | auction guide price | https://www.rightmove.co.uk/properties/94909707 |
-| Princes Close, WA7 2JT | 3b bungalow | ~969 | £110,000 | £240,000 | £146,000 | bungalow valued from houses, tenanted, value far above price | https://www.rightmove.co.uk/properties/92134296 |
+| Handfield Place, L5 6PJ | 2b detached | ~800 | £70,000 | £235,000 | £147,500 | auction guide price, gdv bedroom mismatch, leasehold, tenanted, value far above price | https://www.rightmove.co.uk/properties/95081859 |
+| 75 Marlborough Road, L13 8EA | 3b semi-detached | ~883 | £30,000 | £182,000 | £95,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95456058 |
+| 38 Tildsley Crescent, WA7 4RN | 3b detached | 926 | £145,000 | £293,000 | £196,000 | value far above price | https://www.rightmove.co.uk/properties/95317233 |
+| Rhodes Street, WA2 7QE | 3b detached | ~1000 | £175,000 | £333,000 | £230,500 | auction guide price | https://www.rightmove.co.uk/properties/95305317 |
+| 85 Albert Street, WN5 9DR | 2b terraced | ~800 | £40,000 | £176,000 | £92,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95530980 |
+| 20 Callow Road, L15 0HP | 3b terraced | ~861 | £30,000 | £159,000 | £74,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95440182 |
+| Stanney Lane, CH65 9DN | 3b semi-detached | ~915 | £125,000 | £260,000 | £166,500 | auction guide price | https://www.rightmove.co.uk/properties/95254149 |
 | 165 Warrington Road, WA3 5LN | 2b semi-detached | 897 | £150,000 | £317,000 | £219,500 | auction guide price, gdv bedroom mismatch | https://www.rightmove.co.uk/properties/93269307 |
-| 85 Albert Street, WN5 9DR | 2b terraced | ~800 | £50,000 | £176,000 | £92,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/94294680 |
+| Sycamore Drive, L33 8WX | 2b detached | ~800 | £100,000 | £218,000 | £131,500 | gdv bedroom mismatch, value far above price | https://www.zoopla.co.uk/for-sale/details/72821881/ |
+| 23 Dannette Hey, L28 6YE | 3b terraced | ~818 | £34,000 | £156,000 | £73,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95374458 |
+| 2 Croxteth New Cottages, L12 6QP | 3b detached | ~1000 | £150,000 | £318,000 | £216,500 | auction guide price | https://www.rightmove.co.uk/properties/95285082 |
+| 35 Howard Street, WN5 8BH | 3b semi-detached | ~753 | £50,000 | £173,000 | £91,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95268549 |
+| 110 Ravenswood Road, WA10 3LR | ?b detached | ~1173 | £160,000 | £337,000 | £228,000 | auction guide price | https://www.rightmove.co.uk/properties/95580000 |
+| Princes Close, WA7 2JT | 3b bungalow | ~926 | £110,000 | £225,000 | £133,500 | bungalow valued from houses, tenanted, value far above price | https://www.rightmove.co.uk/properties/92134296 |
 | 47 Summer Seat, L3 6HB | 3b terraced | ~872 | £110,000 | £222,000 | £133,000 | value far above price | https://www.rightmove.co.uk/properties/154733963 |
-| Mossy Lea Road, WN6 9RB | 2b bungalow | 741 | £130,000 | £237,000 | £151,500 | bungalow valued from houses, leasehold | https://www.zoopla.co.uk/for-sale/details/74584776/ |
-| Westdale Road, L15 4HS | 3b terraced | 1018 | £90,000 | £202,000 | £109,000 | value far above price | https://www.rightmove.co.uk/properties/88710150 |
-| Ling Street, L7 2QF | 3b terraced | 1074 | £130,000 | £246,000 | £147,500 |  | https://www.zoopla.co.uk/for-sale/details/73592208/ |
-| The Heys, WA7 2DH | 3b semi-detached | ~861 | £100,000 | £199,000 | £112,000 |  | https://www.rightmove.co.uk/properties/93466800 |
+| 135 Dentons Green Lane, WA10 6RF | 3b semi-detached | ~1000 | £100,000 | £243,000 | £147,500 | auction guide price | https://www.rightmove.co.uk/properties/95404494 |
+| 203 Ford Lane, L21 0HN | 3b terraced | ~893 | £50,000 | £171,000 | £84,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95439402 |
+| 6 Naseby Street, L4 5TT | 3b terraced | ~1000 | £30,000 | £142,000 | £53,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95459622 |
+| 47 Wapshare Road, L11 8LR | 3b semi-detached | ~1000 | £90,000 | £221,000 | £127,000 | auction guide price | https://www.rightmove.co.uk/properties/95507331 |
+| 15 Darwen Drive, WN2 5ER | 3b detached | ~1000 | £155,000 | £264,000 | £167,000 |  | https://www.zoopla.co.uk/for-sale/details/73935239/ |
+| 8 The Heys, WA7 2DH | 3b semi-detached | ~861 | £100,000 | £199,000 | £112,000 |  | https://www.rightmove.co.uk/properties/93466800 |
+| 18 Westleigh Lane, WN7 5JE | 2b semi-detached | 797 | £90,000 | £210,000 | £124,500 | auction guide price, gdv bedroom mismatch | https://www.rightmove.co.uk/properties/92265519 |
 | Hodgkinson Avenue, WA5 0HE | 3b terraced | ~872 | £100,000 | £199,000 | £111,500 |  | https://www.rightmove.co.uk/properties/94783677 |
 | 42 Davenport Terrace, WA6 7HN | 2b terraced | ~800 | £140,000 | £247,000 | £158,500 | auction guide price | https://www.rightmove.co.uk/properties/90963486 |
-| Manchester Road, BL5 3JY | 2b terraced | ~800 | £150,000 | £249,000 | £160,000 |  | https://www.rightmove.co.uk/properties/88621077 |
-| Avondale Drive, WA8 7XB | 3b terraced | ~807 | £50,000 | £155,000 | £72,500 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/94954092 |
+| 46 Cliftonville Road, WA1 4BH | 3b semi-detached | 953 | £160,000 | £276,000 | £179,500 | auction guide price | https://www.rightmove.co.uk/properties/93006771 |
+| 38 Barkeley Drive, L21 4LX | 4b terraced | ~1259 | £40,000 | £160,000 | £60,500 | auction guide price, gdv bedroom mismatch, value far above price | https://www.rightmove.co.uk/properties/94652859 |
+| Manchester Road, BL5 3JY | 2b terraced | ~800 | £150,000 | £244,000 | £155,500 |  | https://www.rightmove.co.uk/properties/88621077 |
 | 71 Solvay Road, CW8 4DP | 2b terraced | 713 | £90,000 | £198,000 | £116,000 | auction guide price | https://www.rightmove.co.uk/properties/92957721 |
-| 46 Cliftonville Road, WA1 4BH | 3b semi-detached | 953 | £160,000 | £268,000 | £172,000 | auction guide price | https://www.rightmove.co.uk/properties/93006771 |
-| Poolstock Lane, WN3 5RA | 3b semi-detached | ~915 | £90,000 | £205,000 | £115,500 | auction guide price, leasehold | https://www.rightmove.co.uk/properties/94607298 |
+| 18 Barncroft Road, L26 9TP | 2b semi-detached | ~800 | £110,000 | £228,000 | £141,000 | auction guide price, gdv bedroom mismatch | https://www.rightmove.co.uk/properties/95385099 |
+| Poolstock Lane, WN3 5RA | 3b semi-detached | ~915 | £90,000 | £205,000 | £115,500 | auction guide price, leasehold | https://www.rightmove.co.uk/properties/94559448 |
+| 3 Bulkeley Road, CH44 9DR | 3b terraced | ~958 | £40,000 | £140,000 | £53,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/95439912 |
 | Oakhouse Park, L9 1EP | 3b semi-detached | ~1000 | £100,000 | £221,000 | £127,000 | auction guide price | https://www.rightmove.co.uk/properties/92705649 |
 | 5 Roman Way, L33 9TA | 2b terraced | ~800 | £35,000 | £126,000 | £45,500 | auction guide price, tenanted, value far above price | https://www.rightmove.co.uk/properties/94778469 |
-| 37 Springfield Road, WN6 7BB | 3b terraced | ~883 | £50,000 | £149,000 | £64,000 | auction guide price, leasehold, value far above price | https://www.rightmove.co.uk/properties/94906152 |
 | Grange Park Avenue, WA7 5UU | 3b semi-detached | ~958 | £144,995 | £235,000 | £141,500 |  | https://www.rightmove.co.uk/properties/99719399 |
+| 27 Carlton Street, L34 6JB | 3b terraced | ~829 | £75,000 | £161,000 | £77,500 | auction guide price, tenanted | https://www.rightmove.co.uk/properties/95556765 |
 | 80 Halton Road, WA7 5SB | 4b terraced | 1249 | £135,000 | £235,000 | £131,000 | gdv bedroom mismatch | https://www.rightmove.co.uk/properties/150181835 |
-| 5 Lemon Street, L5 7TB | 3b detached | 915 | £155,000 | £241,000 | £149,000 | tenanted | https://www.zoopla.co.uk/for-sale/details/71576110/ |
+| 53 Cross Lane, CH63 3AH | 3b semi-detached | ~947 | £160,000 | £291,000 | £193,500 | auction guide price | https://www.rightmove.co.uk/properties/95433546 |
+| 88 Beechtrees, WN8 9HB | 3b terraced | ~883 | £45,000 | £133,000 | £49,000 | auction guide price, tenanted, value far above price | https://www.rightmove.co.uk/properties/95453625 |
+| 1 Lunt Road, L20 5EY | 2b terraced | ~800 | £34,000 | £113,000 | £35,000 | auction guide price, leasehold, value far above price | https://www.rightmove.co.uk/properties/95264661 |
 | 22 Glen Road, L13 4DF | 3b terraced | ~797 | £85,000 | £182,000 | £98,000 | auction guide price | https://www.rightmove.co.uk/properties/94554678 |
 | 16 Laburnum Grove, WN6 8QY | 3b semi-detached | ~850 | £115,000 | £193,000 | £106,500 |  | https://www.rightmove.co.uk/properties/93687741 |
-| 127 Camberwell Crescent, WN2 1BB | 3b semi-detached | ~743 | £115,000 | £195,000 | £112,500 | auction guide price | https://www.rightmove.co.uk/properties/94481133 |
 | 41 Devonfield Road, L9 3BG | 3b semi-detached | ~1000 | £120,000 | £202,000 | £109,500 |  | https://www.rightmove.co.uk/properties/92176734 |
-| Wearish Lane, BL5 2DR | 2b terraced | 829 | £120,000 | £194,000 | £108,000 |  | https://www.rightmove.co.uk/properties/94410639 |
+| New Albert Terrace, WA7 1DD | 3b terraced | ~915 | £80,000 | £156,000 | £69,500 |  | https://www.zoopla.co.uk/for-sale/details/73428577/ |
+| Railton Avenue, L35 0QB | 3b semi-detached | ~1000 | £170,000 | £266,000 | £168,500 | auction guide price | https://www.rightmove.co.uk/properties/94026018 |
 | 4 Ramford Street, WA9 1QG | 2b detached | ~800 | £140,000 | £214,000 | £128,000 | gdv bedroom mismatch | https://www.rightmove.co.uk/properties/175056011 |
 | Greenwich Court, L9 0NQ | 2b semi-detached | ~800 | £130,000 | £202,000 | £117,000 | gdv bedroom mismatch | https://www.rightmove.co.uk/properties/91395441 |
+| Torcross Way, L25 3NU | 2b semi-detached | ~800 | £170,000 | £245,000 | £156,500 | gdv bedroom mismatch | https://www.rightmove.co.uk/properties/91186713 |
 | 8 Dunluce Street, L4 3RQ | 2b terraced | 956 | £50,000 | £136,000 | £49,000 | auction guide price, value far above price | https://www.rightmove.co.uk/properties/94931871 |
+| 36 Cranford Road, L19 9AZ | 3b semi-detached | ~1000 | £180,000 | £334,000 | £211,000 | auction guide price | https://www.rightmove.co.uk/properties/95506956 |
+| Laurel Grove, WN7 5RB | 3b semi-detached | ~915 | £140,000 | £215,000 | £125,000 |  | https://www.zoopla.co.uk/for-sale/details/73109966/ |
 
 _Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data © Crown copyright, both licensed under the Open Government Licence v3.0._

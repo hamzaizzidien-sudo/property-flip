@@ -1,10 +1,10 @@
 # Nel Pan Lane, Leigh, Greater Manchester, WN7 5LJ
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - detached, 4 bed, 1206 sq ft (listing)
 - Asking £170,000 · expected purchase £212,500
-- Listing: 66 days on market; auction (guide price); no chain; needs modernising; 1206 sq ft
+- Listing: 78 days on market; auction (guide price); no chain; needs modernising; 1206 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92755518
 - Portal: https://www.rightmove.co.uk/properties/92733180
 

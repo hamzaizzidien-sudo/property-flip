@@ -1,10 +1,10 @@
 # 80, HALTON ROAD, RUNCORN, WA7 5SB
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 4 bed, 1249 sq ft (listing)
 - Asking £135,000
-- Listing: Reduced 2x £140k→£135k (−4%), last cut 2026-04-22; 704 days on market; cash buyers only; 1249 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 2x £140k→£135k (−4%), last cut 2026-04-22; 716 days on market; cash buyers only; 1249 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/150181835
 
 

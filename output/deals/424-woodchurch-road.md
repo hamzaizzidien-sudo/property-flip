@@ -1,10 +1,10 @@
 # 84 Woodchurch Road, Birkenhead
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, ? bed, 1744 sq ft (estimated from nearby EPCs)
 - Asking £120,000 · expected purchase £150,000
-- Listing: 6 days on market; auction (guide price)
+- Listing: 18 days on market; auction (guide price)
 - Portal: https://www.rightmove.co.uk/properties/95041371
 
 

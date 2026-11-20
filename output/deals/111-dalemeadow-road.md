@@ -1,10 +1,10 @@
 # 10, DALEMEADOW ROAD, LIVERPOOL, L14 5PJ
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 911 sq ft (listing)
 - Asking £110,000
-- Listing: 95 days on market; no chain; needs modernising; 911 sq ft
+- Listing: 107 days on market; no chain; needs modernising; 911 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91723605
 
 
@@ -27,9 +27,9 @@
 | 6 Lowfield Road Liverpool | Dec 2024 | £125,000 | 1023 | £122 | 0.15 |
 | 396 East Prescot Road Liverpool | Apr 2026 | £160,000 | 1001 | £160 | 0.46 |
 | 60 Burnthwaite Road Liverpool | Dec 2025 | £175,000 | 947 | £185 | 0.38 |
-| … 16 more | | | | | |
+| … 14 more | | | | | |
 
-Basis: £/sqft v1: n=31 ±25% size, £191/197/226 psf x 911 sqft (listing) street=0 spread=0.175
+Basis: £/sqft v1: n=29 ±25% size, £191/197/226 psf x 911 sqft (listing) street=0 spread=0.175
 
 ## After-works value
 

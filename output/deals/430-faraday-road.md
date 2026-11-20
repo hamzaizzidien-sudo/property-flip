@@ -1,10 +1,10 @@
 # Faraday Road, Whitby, Ellesmere Port, Cheshire, CH65 7DE
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - bungalow, 3 bed, 958 sq ft (estimated from nearby EPCs)
 - Asking £120,000 · expected purchase £150,000
-- Listing: 26 days on market; auction (guide price); cash buyers only; no chain; freehold
+- Listing: 38 days on market; auction (guide price); cash buyers only; no chain; freehold
 - Portal: https://www.rightmove.co.uk/properties/94282338
 
 
@@ -31,14 +31,14 @@
 | 16 Cavell Drive Ellesmere Port | Nov 2025 | £185,000 | 926 | £200 | 0.20 |
 | 34 Capenhurst Lane Ellesmere Port | Oct 2025 | £196,000 | 807 | £243 | 0.20 |
 | 87 Loxdale Drive Ellesmere Port | Dec 2025 | £215,000 | 1066 | £202 | 0.22 |
-| … 72 more | | | | | |
+| … 71 more | | | | | |
 
-Basis: £/sqft v1: n=87 ±25% size, £218/235/253 psf x 958 sqft (estimated from nearby EPCs) street=1 spread=0.149
+Basis: £/sqft v1: n=86 ±25% size, £216/235/253 psf x 958 sqft (estimated from nearby EPCs) street=1 spread=0.159
 
 ## After-works value
 
-- Low £208,000 (£217/sq ft)
-- **Base £225,000** (£235/sq ft)
+- Low £206,000 (£215/sq ft)
+- **Base £224,000** (£234/sq ft)
 - High £242,000 (£253/sq ft)
 
 ## Costs at £150,000
@@ -50,18 +50,18 @@ Basis: £/sqft v1: n=87 ±25% size, £218/235/253 psf x 958 sqft (estimated from
 | SDLT (incl. 5% surcharge) | 8,000 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,440 |
+| Sale agent + legal | 4,426 |
 | Auction uplift / fee | 30,000 |
-| **Total costs** | **53,490** |
+| **Total costs** | **53,476** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £150,000 | £4,755 | **£21,510** | £38,265 |
-| Max offer for £40k profit | £116,500 | **£132,500** | £148,000 |
+| Profit at £150,000 | £2,784 | **£20,524** | £38,265 |
+| Max offer for £40k profit | £115,000 | **£131,500** | £148,000 |
 
-Opening offer £121,000 · asking is £17,500 above max offer
+Opening offer £120,000 · asking is £18,500 above max offer
 
 Risks: auction_guide_price, bungalow_valued_from_houses
 

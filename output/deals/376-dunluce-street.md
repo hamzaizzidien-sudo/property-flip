@@ -1,10 +1,10 @@
 # 8, DUNLUCE STREET, LIVERPOOL, L4 3RQ
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 956 sq ft (listing)
 - Asking £50,000 · expected purchase £62,500
-- Listing: 10 days on market; auction (guide price); 956 sq ft
+- Listing: 22 days on market; auction (guide price); 956 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94931871
 
 

@@ -1,10 +1,10 @@
 # 165, WARRINGTON ROAD, WARRINGTON, WA3 5LN
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 897 sq ft (listing)
 - Asking £150,000 · expected purchase £187,500
-- Listing: Reduced 2x £180k→£150k (−17%), last cut 2026-10-30; 53 days on market; auction (guide price); no chain; 897 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 2x £180k→£150k (−17%), last cut 2026-10-30; 65 days on market; auction (guide price); no chain; 897 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/93269307
 
 

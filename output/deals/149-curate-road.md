@@ -1,11 +1,12 @@
 # 43, CURATE ROAD, LIVERPOOL, L6 0BZ
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 1055 sq ft (listing)
 - Asking £100,000
-- Listing: 4 days on market; needs modernising; 1055 sq ft
+- Listing: 155 days on market; needs modernising; 1055 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/89901630
+- Portal: https://www.zoopla.co.uk/for-sale/details/73495073/
 
 
 ## Comparable sales (HM Land Registry + EPC floor areas)

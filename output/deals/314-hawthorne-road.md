@@ -1,10 +1,10 @@
 # Hawthorne Road, Litherland, Merseyside L20
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 797 sq ft (listing)
 - Asking £140,000
-- Listing: Reduced 1x £149.9k→£140k (−7%), last cut 2026-10-26; 61 days on market; 797 sq ft
+- Listing: Reduced 1x £149.9k→£140k (−7%), last cut 2026-10-26; 73 days on market; 797 sq ft
 - Portal: https://www.zoopla.co.uk/for-sale/details/74198063/
 
 

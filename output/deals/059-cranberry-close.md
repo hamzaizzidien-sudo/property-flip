@@ -1,10 +1,10 @@
 # 4, CRANBERRY CLOSE, ST HELENS, WA10 2ND
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1000 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: Reduced 2x £180k→£170k (−6%), last cut 2026-10-24; 50 days on market; no chain; needs modernising
+- Listing: Reduced 2x £180k→£170k (−6%), last cut 2026-10-24; 62 days on market; no chain; needs modernising
 - Portal: https://www.rightmove.co.uk/properties/93359121
 
 

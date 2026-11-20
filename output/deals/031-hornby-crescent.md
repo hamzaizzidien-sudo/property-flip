@@ -1,10 +1,10 @@
 # 64, HORNBY CRESCENT, CLOCK FACE, ST HELENS, WA9 4SA
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1035 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 2x £220k→£180k (−18%), last cut 2026-09-24; 96 days on market; no chain; vendor open to negotiation; 1035 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 2x £220k→£180k (−18%), last cut 2026-09-24; 108 days on market; no chain; vendor open to negotiation; 1035 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/91686720
 - Portal: https://www.zoopla.co.uk/for-sale/details/73901659/
 
@@ -28,15 +28,15 @@
 | 26 Axbridge Avenue St Helens | Apr 2026 | £195,000 | 797 | £245 | 0.37 |
 | 26 Cherwell Avenue St Helens | Jun 2026 | £255,000 | 1055 | £242 | 0.44 |
 | 25 Bideford Avenue St Helens | Dec 2025 | £222,500 | 926 | £240 | 0.32 |
-| … 37 more | | | | | |
+| … 36 more | | | | | |
 
-Basis: £/sqft v1: n=52 ±25% size, £206/240/248 psf x 1035 sqft (listing) street=0 spread=0.175
+Basis: £/sqft v1: n=51 ±25% size, £206/240/246 psf x 1035 sqft (listing) street=0 spread=0.167
 
 ## After-works value
 
 - Low £213,000 (£206/sq ft)
 - **Base £248,000** (£240/sq ft)
-- High £257,000 (£248/sq ft)
+- High £255,000 (£246/sq ft)
 
 ## Costs at £180,000
 
@@ -54,8 +54,8 @@ Basis: £/sqft v1: n=52 ±25% size, £206/240/248 psf x 1035 sqft (listing) stre
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £180,000 | £-25,387 | **£9,109** | £17,979 |
-| Max offer for £40k profit | £118,500 | **£151,000** | £159,000 |
+| Profit at £180,000 | £-25,387 | **£9,109** | £16,008 |
+| Max offer for £40k profit | £118,500 | **£151,000** | £157,500 |
 
 Opening offer £138,000 · asking is £29,000 above max offer
 

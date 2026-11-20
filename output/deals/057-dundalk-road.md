@@ -1,11 +1,12 @@
 # Dundalk Road, Widnes, WA8
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 1184 sq ft (listing)
 - Asking £130,000
-- Listing: 35 days on market; no chain; 1184 sq ft
+- Listing: 47 days on market; no chain; 1184 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/93914826
+- Portal: https://www.zoopla.co.uk/for-sale/details/74418910/
 
 
 ## Comparable sales (HM Land Registry + EPC floor areas)
@@ -27,13 +28,13 @@
 | 23 Derwent Road Widnes | Dec 2025 | £190,000 | 1066 | £178 | 0.45 |
 | 47 Radnor Drive Widnes | Jun 2025 | £175,000 | 969 | £181 | 0.39 |
 | 6 Prescot Road Widnes | Nov 2024 | £148,000 | 936 | £158 | 0.26 |
-| … 4 more | | | | | |
+| … 2 more | | | | | |
 
-Basis: £/sqft v1: n=19 ±25% size, £158/178/190 psf x 1184 sqft (listing) street=0 spread=0.179
+Basis: £/sqft v1: n=17 ±25% size, £164/178/190 psf x 1184 sqft (listing) street=0 spread=0.147
 
 ## After-works value
 
-- Low £187,000 (£158/sq ft)
+- Low £194,000 (£164/sq ft)
 - **Base £211,000** (£178/sq ft)
 - High £225,000 (£190/sq ft)
 
@@ -53,8 +54,8 @@ Basis: £/sqft v1: n=19 ±25% size, £158/178/190 psf x 1184 sqft (listing) stre
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £130,000 | £-3,233 | **£20,422** | £34,220 |
-| Max offer for £40k profit | £88,500 | **£111,000** | £124,500 |
+| Profit at £130,000 | £3,666 | **£20,422** | £34,220 |
+| Max offer for £40k profit | £95,000 | **£111,000** | £124,500 |
 
 Opening offer £102,000 · asking is £19,000 above max offer
 

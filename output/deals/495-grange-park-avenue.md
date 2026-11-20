@@ -1,10 +1,10 @@
 # Grange Park Avenue, Runcorn, Cheshire, WA7
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 958 sq ft (estimated from nearby EPCs)
 - Asking £144,995
-- Listing: Reduced 1x £150k→£145.0k (−3%), last cut 2026-01-13; 73 days on market; cash buyers only; freehold
+- Listing: Reduced 1x £150k→£145.0k (−3%), last cut 2026-01-13; 85 days on market; cash buyers only; freehold
 - Portal: https://www.rightmove.co.uk/properties/99719399
 
 

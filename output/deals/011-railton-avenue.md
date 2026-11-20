@@ -1,10 +1,10 @@
 # Railton Avenue, Rainhill, Prescot, Merseyside, L35
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1000 sq ft (estimated from nearby EPCs)
-- Asking £180,000 · expected purchase £189,720
-- Listing: 33 days on market; Modern Method of Auction (buyer reservation fee); no chain
+- Asking £170,000 · expected purchase £179,180
+- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-11-13; 45 days on market; Modern Method of Auction (buyer reservation fee); no chain
 - Portal: https://www.rightmove.co.uk/properties/94026018
 
 
@@ -29,9 +29,9 @@
 | 14 Ellon Avenue Prescot | Feb 2025 | £260,000 | 1249 | £208 | 0.06 |
 | 9 Coverdale Avenue Prescot | Aug 2026 | £275,000 | 1033 | £266 | 0.28 |
 | 9 Dunbeath Avenue Prescot | May 2025 | £203,000 | 797 | £255 | 0.10 |
-| … 29 more | | | | | |
+| … 27 more | | | | | |
 
-Basis: £/sqft v1: n=44 ±25% size, £239/266/285 psf x 1000 sqft (estimated from nearby EPCs) street=1 spread=0.172
+Basis: £/sqft v1: n=42 ±25% size, £239/266/285 psf x 1000 sqft (estimated from nearby EPCs) street=1 spread=0.172
 
 ## After-works value
 
@@ -39,27 +39,27 @@ Basis: £/sqft v1: n=44 ±25% size, £239/266/285 psf x 1000 sqft (estimated fro
 - **Base £266,000** (£266/sq ft)
 - High £284,000 (£284/sq ft)
 
-## Costs at £189,720
+## Costs at £179,180
 
 | Item | £ |
 |---|---:|
 | Refurb (modernise £35/sqft x 1000 sqft) | 35,000 |
 | Contingency (10% of refurb) | 3,500 |
-| SDLT (incl. 5% surcharge) | 10,780 |
+| SDLT (incl. 5% surcharge) | 10,042 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
 | Sale agent + legal | 5,030 |
-| Auction uplift / fee | 9,720 |
-| **Total costs** | **58,510** |
+| Auction uplift / fee | 9,180 |
+| **Total costs** | **57,772** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £189,720 | £-9,827 | **£17,770** | £35,510 |
+| Profit at £179,180 | £1,451 | **£29,048** | £46,788 |
 | Max offer for £40k profit | £143,000 | **£168,500** | £185,500 |
 
-Opening offer £155,000 · asking is £21,220 above max offer
+Opening offer £155,000 · asking is £10,680 above max offer
 
 Risks: auction_guide_price
 

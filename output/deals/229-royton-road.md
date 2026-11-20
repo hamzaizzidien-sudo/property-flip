@@ -1,10 +1,10 @@
 # 51, ROYTON ROAD, WATERLOO, L22 4RB
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 929 sq ft (listing)
 - Asking £140,000
-- Listing: 108 days on market; 929 sq ft
+- Listing: 120 days on market; 929 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91303047
 
 
@@ -27,14 +27,14 @@
 | 28 Stuart Road Liverpool | Jan 2025 | £160,000 | 1098 | £146 | 0.05 |
 | 24 Kingswood Avenue Liverpool | Jun 2025 | £187,000 | 980 | £191 | 0.09 |
 | 57 Molyneux Road Liverpool | Oct 2025 | £157,000 | 1055 | £149 | 0.14 |
-| … 47 more | | | | | |
+| … 46 more | | | | | |
 
-Basis: £/sqft v1: n=62 ±25% size, £209/237/250 psf x 929 sqft (listing) street=0 spread=0.17
+Basis: £/sqft v1: n=61 ±25% size, £209/236/250 psf x 929 sqft (listing) street=0 spread=0.171
 
 ## After-works value
 
 - Low £194,000 (£209/sq ft)
-- **Base £220,000** (£237/sq ft)
+- **Base £219,000** (£236/sq ft)
 - High £232,000 (£250/sq ft)
 
 ## Costs at £140,000
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=62 ±25% size, £209/237/250 psf x 929 sqft (listing) stree
 | SDLT (incl. 5% surcharge) | 7,300 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,368 |
-| **Total costs** | **51,618** |
+| Sale agent + legal | 4,354 |
+| **Total costs** | **51,604** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £140,000 | £2,756 | **£28,382** | £40,209 |
-| Max offer for £40k profit | £104,500 | **£129,000** | £140,000 |
+| Profit at £140,000 | £2,756 | **£27,396** | £40,209 |
+| Max offer for £40k profit | £104,500 | **£128,000** | £140,000 |
 
-Opening offer £118,000 · asking is £11,000 above max offer
+Opening offer £117,000 · asking is £12,000 above max offer
 
 Risks: none flagged from listing text
 

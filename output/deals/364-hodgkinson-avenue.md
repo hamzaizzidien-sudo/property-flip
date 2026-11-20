@@ -1,10 +1,10 @@
 # Hodgkinson Avenue, Warrington, Cheshire, WA5 0HE
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 872 sq ft (estimated from nearby EPCs)
 - Asking £100,000
-- Listing: 13 days on market; no chain
+- Listing: 25 days on market; no chain
 - Portal: https://www.rightmove.co.uk/properties/94783677
 
 

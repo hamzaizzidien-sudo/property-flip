@@ -1,10 +1,10 @@
 # 41, DEVONFIELD ROAD, LIVERPOOL, L9 3BG
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1000 sq ft (estimated from nearby EPCs)
 - Asking £120,000
-- Listing: 82 days on market; needs modernising
+- Listing: 94 days on market; needs modernising
 - Portal: https://www.rightmove.co.uk/properties/92176734
 
 

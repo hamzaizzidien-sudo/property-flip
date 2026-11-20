@@ -1,10 +1,10 @@
 # 12, STANLEY ROAD, ASPULL, WN2 1YJ
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 815 sq ft (listing)
 - Asking £129,995
-- Listing: Reduced 1x £140.0k→£130.0k (−7%), last cut 2026-05-03; 263 days on market; no chain; EPC D; 815 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 1x £140.0k→£130.0k (−7%), last cut 2026-05-03; 275 days on market; no chain; EPC D; 815 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/172404749
 - Portal: https://www.zoopla.co.uk/for-sale/details/72470627/
 

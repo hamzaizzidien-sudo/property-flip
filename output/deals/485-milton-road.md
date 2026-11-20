@@ -1,10 +1,10 @@
 # Milton Road, Walton, Liverpool, Merseyside, L4
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 656 sq ft (listing)
 - Asking £75,000
-- Listing: Reduced 2x £90k→£75k (−17%), last cut 2022-05-31; 7 days on market; 656 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 2x £90k→£75k (−17%), last cut 2022-05-31; 19 days on market; 656 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.onthemarket.com/details/11811907/
 
 

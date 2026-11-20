@@ -1,10 +1,10 @@
 # Greenwich Court, Liverpool, Merseyside, L9
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £130,000
-- Listing: Reduced 1x £140k→£130k (−7%), last cut 2026-09-09; 104 days on market; needs modernising; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £140k→£130k (−7%), last cut 2026-09-09; 116 days on market; needs modernising; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/91395441
 
 

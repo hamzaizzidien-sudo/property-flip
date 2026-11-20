@@ -1,10 +1,10 @@
 # 16, LABURNUM GROVE, WIGAN, WN6 8QY
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 850 sq ft (estimated from nearby EPCs)
 - Asking £115,000
-- Listing: 41 days on market; unmodernised
+- Listing: 53 days on market; unmodernised
 - Portal: https://www.rightmove.co.uk/properties/93687741
 
 
@@ -29,13 +29,13 @@
 | 30 Bakewell Drive Wigan | Dec 2024 | £198,000 | 732 | £270 | 0.11 |
 | 42 Baytree Road Wigan | Apr 2026 | £202,000 | 818 | £247 | 0.35 |
 | 179 Thicknesse Avenue Wigan | Jul 2025 | £147,000 | 915 | £161 | 0.20 |
-| … 46 more | | | | | |
+| … 45 more | | | | | |
 
-Basis: £/sqft v1: n=61 ±25% size, £204/228/247 psf x 850 sqft (estimated from nearby EPCs) street=0 spread=0.188
+Basis: £/sqft v1: n=60 ±25% size, £203/228/246 psf x 850 sqft (estimated from nearby EPCs) street=0 spread=0.19
 
 ## After-works value
 
-- Low £173,000 (£204/sq ft)
+- Low £172,000 (£202/sq ft)
 - **Base £193,000** (£227/sq ft)
 - High £209,000 (£246/sq ft)
 
@@ -55,8 +55,8 @@ Basis: £/sqft v1: n=61 ±25% size, £204/228/247 psf x 850 sqft (estimated from
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £115,000 | £11,579 | **£31,291** | £47,060 |
-| Max offer for £40k profit | £87,500 | **£106,500** | £121,500 |
+| Profit at £115,000 | £10,593 | **£31,291** | £47,060 |
+| Max offer for £40k profit | £86,500 | **£106,500** | £121,500 |
 
 Opening offer £97,000 · asking is £8,500 above max offer
 

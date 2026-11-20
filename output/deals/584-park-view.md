@@ -1,10 +1,10 @@
 # Park View, Newton-Le-Willows, Merseyside WA12
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 725 sq ft (listing)
 - Asking £140,000
-- Listing: Reduced 1x £150k→£140k (−7%), last cut 2026-10-10; 257 days on market; cash buyers only; 725 sq ft
+- Listing: Reduced 1x £150k→£140k (−7%), last cut 2026-10-10; 269 days on market; cash buyers only; 725 sq ft
 - Portal: https://www.zoopla.co.uk/for-sale/details/72516832/
 
 

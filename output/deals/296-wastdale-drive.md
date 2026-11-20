@@ -1,10 +1,10 @@
 # Wastdale Drive, Moreton, Merseyside, CH46
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 823 sq ft (listing)
 - Asking £150,000
-- Listing: 129 days on market; vacant; needs modernising; freehold; 823 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 141 days on market; vacant; needs modernising; freehold; 823 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/90486138
 
 
@@ -21,20 +21,20 @@
 | 8 Rothbury Close Wirral | Jul 2026 | £232,500 | 743 | £313 | 0.31 |
 | 10 Edgehill Park Wirral | Jul 2026 | £190,000 | 797 | £238 | 0.31 |
 | 36 Lingham Lane Wirral | May 2025 | £160,000 | 936 | £171 | 0.13 |
-| 17 Glasier Road Wirral | Nov 2024 | £244,000 | 926 | £264 | 0.07 |
 | 25 Rothbury Close Wirral | Apr 2026 | £222,000 | 764 | £291 | 0.31 |
 | 196 Millhouse Lane Wirral | Jul 2026 | £100,000 | 753 | £133 | 0.36 |
 | 7 Maryland Lane Wirral | Jul 2026 | £185,000 | 732 | £253 | 0.39 |
 | 19 Rothbury Close Wirral | Feb 2026 | £215,000 | 786 | £274 | 0.31 |
 | 17 Alnwick Drive Wirral | Apr 2026 | £232,500 | 732 | £318 | 0.35 |
-| … 42 more | | | | | |
+| 120 Millhouse Lane Wirral | Jul 2026 | £200,000 | 743 | £269 | 0.44 |
+| … 40 more | | | | | |
 
-Basis: £/sqft v1: n=57 ±25% size, £225/263/290 psf x 823 sqft (listing) street=2 spread=0.247
+Basis: £/sqft v1: n=55 ±25% size, £225/259/290 psf x 823 sqft (listing) street=2 spread=0.252
 
 ## After-works value
 
 - Low £185,000 (£225/sq ft)
-- **Base £216,000** (£262/sq ft)
+- **Base £213,000** (£259/sq ft)
 - High £238,000 (£289/sq ft)
 
 ## Costs at £150,000
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=57 ±25% size, £225/263/290 psf x 823 sqft (listing) stree
 | SDLT (incl. 5% surcharge) | 8,000 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,310 |
-| **Total costs** | **48,190** |
+| Sale agent + legal | 4,267 |
+| **Total costs** | **48,147** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £150,000 | £-12,744 | **£17,810** | £39,493 |
-| Max offer for £40k profit | £100,000 | **£129,000** | £149,500 |
+| Profit at £150,000 | £-12,744 | **£14,853** | £39,493 |
+| Max offer for £40k profit | £100,000 | **£126,000** | £149,500 |
 
-Opening offer £118,000 · asking is £21,000 above max offer
+Opening offer £115,000 · asking is £24,000 above max offer
 
 Risks: gdv_bedroom_mismatch
 

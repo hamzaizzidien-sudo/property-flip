@@ -1,10 +1,10 @@
 # Websters Lane, Great Sutton, Ellesmere Port CH66
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 980 sq ft (estimated from nearby EPCs)
 - Asking £180,000
-- Listing: 160 days on market; back on market after 94 days off; no chain
+- Listing: 172 days on market; back on market after 94 days off; no chain
 - Portal: https://www.zoopla.co.uk/for-sale/details/73355108/
 
 
@@ -29,14 +29,14 @@
 | 32 Eddisbury Road Ellesmere Port | Jul 2026 | £310,000 | 1184 | £262 | 0.22 |
 | 44 Hope Farm Road Ellesmere Port | Sep 2025 | £180,000 | 775 | £232 | 0.11 |
 | 34 Broadland Road Ellesmere Port | Feb 2025 | £210,000 | 936 | £224 | 0.06 |
-| … 102 more | | | | | |
+| … 99 more | | | | | |
 
-Basis: £/sqft v1: n=117 ±25% size, £245/262/274 psf x 980 sqft (estimated from nearby EPCs) street=2 spread=0.11
+Basis: £/sqft v1: n=114 ±25% size, £245/262/274 psf x 980 sqft (estimated from nearby EPCs) street=2 spread=0.109
 
 ## After-works value
 
 - Low £240,000 (£245/sq ft)
-- **Base £256,000** (£261/sq ft)
+- **Base £257,000** (£262/sq ft)
 - High £268,000 (£273/sq ft)
 
 ## Costs at £180,000
@@ -48,17 +48,17 @@ Basis: £/sqft v1: n=117 ±25% size, £245/262/274 psf x 980 sqft (estimated fro
 | SDLT (incl. 5% surcharge) | 10,100 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,886 |
-| **Total costs** | **56,916** |
+| Sale agent + legal | 4,901 |
+| **Total costs** | **56,931** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £180,000 | £3,314 | **£19,084** | £30,911 |
-| Max offer for £40k profit | £145,500 | **£160,000** | £171,500 |
+| Profit at £180,000 | £3,314 | **£20,069** | £30,911 |
+| Max offer for £40k profit | £145,500 | **£161,000** | £171,500 |
 
-Opening offer £147,000 · asking is £20,000 above max offer
+Opening offer £148,000 · asking is £19,000 above max offer
 
 Risks: none flagged from listing text
 

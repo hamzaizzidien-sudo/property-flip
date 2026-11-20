@@ -1,10 +1,10 @@
 # 47, SUMMER SEAT, LIVERPOOL, L3 6HB
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 872 sq ft (estimated from nearby EPCs)
 - Asking £110,000
-- Listing: Reduced 1x £120k→£110k (−8%), last cut 2025-05-22; 729 days on market; 367 sq ft
+- Listing: Reduced 1x £120k→£110k (−8%), last cut 2025-05-22; 741 days on market; 367 sq ft
 - Portal: https://www.rightmove.co.uk/properties/154733963
 
 

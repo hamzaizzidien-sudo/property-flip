@@ -1,10 +1,10 @@
 # 28, WOOD STREET, ST HELENS, WA9 1NH
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 720 sq ft (listing)
 - Asking £92,500
-- Listing: 108 days on market; no chain; needs modernising; 720 sq ft
+- Listing: 120 days on market; no chain; needs modernising; 720 sq ft
 - Portal: https://www.rightmove.co.uk/properties/91283439
 
 

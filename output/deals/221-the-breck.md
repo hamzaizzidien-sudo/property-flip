@@ -1,10 +1,10 @@
 # The Breck, Ellesmere Port, Cheshire
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - bungalow, 3 bed, 979 sq ft (listing)
 - Asking £165,000
-- Listing: Reduced 1x £175k→£165k (−6%), last cut 2026-06-25; 136 days on market; no chain; needs modernising; 979 sq ft
+- Listing: Reduced 1x £175k→£165k (−6%), last cut 2026-06-25; 148 days on market; no chain; needs modernising; 979 sq ft
 - Portal: https://www.rightmove.co.uk/properties/171735890
 
 

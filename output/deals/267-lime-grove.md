@@ -1,10 +1,10 @@
 # Lime Grove, Wigan, WN2
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - bungalow, 2 bed, 1169 sq ft (listing)
 - Asking £170,000
-- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-09-14; 196 days on market; needs modernising; 1169 sq ft
+- Listing: Reduced 1x £180k→£170k (−6%), last cut 2026-09-14; 208 days on market; needs modernising; 1169 sq ft
 - Portal: https://www.rightmove.co.uk/properties/174943757
 
 

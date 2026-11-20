@@ -1,10 +1,10 @@
 # Warrington Road, WN2
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £110,000
-- Listing: 1062 days on market; freehold; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 1074 days on market; freehold; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/142901543
 
 

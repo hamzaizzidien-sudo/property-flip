@@ -1,10 +1,10 @@
 # 71, SOLVAY ROAD, NORTHWICH, CW8 4DP
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 713 sq ft (listing)
 - Asking £90,000 · expected purchase £112,500
-- Listing: Reduced 1x £100k→£90k (−10%), last cut 2026-10-03; 61 days on market; auction (guide price); cash buyers only; no chain; needs modernising; 713 sq ft
+- Listing: Reduced 1x £100k→£90k (−10%), last cut 2026-10-03; 73 days on market; auction (guide price); cash buyers only; no chain; needs modernising; 713 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92957721
 
 
@@ -28,10 +28,10 @@
 | 84 Burnside Way Northwich | Jul 2026 | £237,000 | 743 | £319 | 0.20 |
 | 59 Moreton Street Northwich | Jun 2026 | £176,000 | 753 | £234 | 0.20 |
 | 4 Moreton Street Northwich | Jun 2026 | £172,000 | 861 | £200 | 0.20 |
-| 22 Hemming Street Northwich | Nov 2024 | £145,000 | 710 | £204 | 0.03 |
-| … 34 more | | | | | |
+| 29 Hollybank Close Northwich | Mar 2025 | £177,500 | 700 | £254 | 0.06 |
+| … 32 more | | | | | |
 
-Basis: £/sqft v1: n=49 ±25% size, £209/279/298 psf x 713 sqft (listing) street=0 spread=0.32
+Basis: £/sqft v1: n=47 ±25% size, £209/279/298 psf x 713 sqft (listing) street=0 spread=0.32
 
 ## After-works value
 

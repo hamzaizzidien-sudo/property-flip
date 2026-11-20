@@ -1,10 +1,10 @@
 # 151, CHURCH LANE, LOWTON, WA3 2RH
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 743 sq ft (listing)
-- Asking £160,000 · expected purchase £168,640
-- Listing: Reduced 1x £180k→£160k (−11%), last cut 2026-11-07; 49 days on market; Modern Method of Auction (buyer reservation fee); no chain; 743 sq ft
+- Asking £150,000 · expected purchase £158,100
+- Listing: Reduced 2x £180k→£150k (−17%), last cut 2026-11-17; 61 days on market; Modern Method of Auction (buyer reservation fee); no chain; 743 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93402036
 
 
@@ -24,8 +24,8 @@
 | 229 Church Lane Warrington | Jul 2025 | £254,000 | 893 | £284 | 0.13 |
 | 51 Oak Green Road Warrington | Jun 2026 | £261,000 | 829 | £315 | 0.31 |
 | 4 Rutland Avenue Warrington | Mar 2025 | £254,000 | 710 | £358 | 0.10 |
-| 19 Stoneacre Close Warrington | Jul 2026 | £240,100 | 775 | £310 | 0.33 |
 | 9 Little Lowes Meadow Warrington | Jul 2026 | £275,000 | 904 | £304 | 0.32 |
+| 19 Stoneacre Close Warrington | Jul 2026 | £240,100 | 775 | £310 | 0.33 |
 | 8 Mullein Close Warrington | Feb 2026 | £262,000 | 893 | £293 | 0.25 |
 | … 47 more | | | | | |
 
@@ -37,27 +37,27 @@ Basis: £/sqft v1: n=62 ±25% size, £296/315/325 psf x 743 sqft (listing) stree
 - **Base £233,000** (£314/sq ft)
 - High £241,000 (£324/sq ft)
 
-## Costs at £168,640
+## Costs at £158,100
 
 | Item | £ |
 |---|---:|
 | Refurb (modernise £35/sqft x 743 sqft) | 26,000 |
 | Contingency (10% of refurb) | 2,600 |
-| SDLT (incl. 5% surcharge) | 9,304 |
+| SDLT (incl. 5% surcharge) | 8,567 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
 | Sale agent + legal | 4,555 |
-| Auction uplift / fee | 8,640 |
-| **Total costs** | **46,659** |
+| Auction uplift / fee | 8,100 |
+| **Total costs** | **45,922** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £168,640 | £3,902 | **£17,701** | £25,586 |
+| Profit at £158,100 | £15,179 | **£28,978** | £36,863 |
 | Max offer for £40k profit | £134,500 | **£147,500** | £155,000 |
 
-Opening offer £135,000 · asking is £21,140 above max offer
+Opening offer £135,000 · asking is £10,600 above max offer
 
 Risks: auction_guide_price
 

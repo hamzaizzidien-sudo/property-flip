@@ -1,10 +1,10 @@
 # 30, STAMFORD STREET, LIVERPOOL, L7 2PT
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 755 sq ft (listing)
 - Asking £110,000
-- Listing: 11 days on market; no chain; needs modernising; 755 sq ft
+- Listing: 23 days on market; no chain; needs modernising; 755 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94881465
 
 
@@ -27,15 +27,15 @@
 | 14 Royston Street Liverpool | Jun 2026 | £254,000 | 797 | £319 | 0.25 |
 | 5 Romer Road Liverpool | Jul 2026 | £140,000 | 872 | £161 | 0.32 |
 | 12 Kelso Road Liverpool | Jul 2026 | £155,000 | 850 | £182 | 0.34 |
-| … 55 more | | | | | |
+| … 53 more | | | | | |
 
-Basis: £/sqft v1: n=70 ±25% size, £168/208/259 psf x 755 sqft (listing) street=0 spread=0.435
+Basis: £/sqft v1: n=68 ±25% size, £169/208/263 psf x 755 sqft (listing) street=0 spread=0.456
 
 ## After-works value
 
 - Low £127,000 (£168/sq ft)
 - **Base £156,000** (£207/sq ft)
-- High £195,000 (£258/sq ft)
+- High £198,000 (£262/sq ft)
 
 ## Costs at £110,000
 
@@ -53,8 +53,8 @@ Basis: £/sqft v1: n=70 ±25% size, £168/208/259 psf x 755 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £110,000 | £-24,769 | **£3,814** | £42,252 |
-| Max offer for £40k profit | £48,000 | **£75,500** | £112,000 |
+| Profit at £110,000 | £-24,769 | **£3,814** | £45,209 |
+| Max offer for £40k profit | £48,000 | **£75,500** | £114,500 |
 
 Opening offer £69,000 · asking is £34,500 above max offer
 

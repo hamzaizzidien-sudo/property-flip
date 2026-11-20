@@ -1,10 +1,10 @@
 # 5, MONTGOMERY ROAD, HUYTON, L36 7UY
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 883 sq ft (estimated from nearby EPCs)
 - Asking £110,000 · expected purchase £116,000
-- Listing: Reduced 1x £120k→£110k (−8%), last cut 2026-10-01; 66 days on market; Modern Method of Auction (buyer reservation fee); no chain; JAPANESE KNOTWEED
+- Listing: Reduced 1x £120k→£110k (−8%), last cut 2026-10-01; 78 days on market; Modern Method of Auction (buyer reservation fee); no chain; JAPANESE KNOTWEED
 - Portal: https://www.rightmove.co.uk/properties/92760531
 
 
@@ -29,9 +29,9 @@
 | 43 Kingsway Liverpool | Feb 2026 | £115,000 | 797 | £144 | 0.22 |
 | 83 Kingsway Liverpool | Feb 2025 | £125,000 | 883 | £142 | 0.09 |
 | 74 Gentwood Road Liverpool | Oct 2025 | £172,000 | 700 | £246 | 0.19 |
-| … 72 more | | | | | |
+| … 70 more | | | | | |
 
-Basis: £/sqft v1: n=87 ±25% size, £173/192/213 psf x 883 sqft (estimated from nearby EPCs) street=0 spread=0.208
+Basis: £/sqft v1: n=85 ±25% size, £173/192/213 psf x 883 sqft (estimated from nearby EPCs) street=0 spread=0.208
 
 ## After-works value
 

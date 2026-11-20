@@ -1,10 +1,10 @@
 # 159, HOGHTON ROAD, ST HELENS, WA9 3HZ
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 767 sq ft (listing)
 - Asking £80,000 · expected purchase £100,000
-- Listing: Reduced 1x £95k→£80k (−16%), last cut 2026-11-06; 2 days on market; auction (guide price); no chain; 767 sq ft
+- Listing: Reduced 1x £95k→£80k (−16%), last cut 2026-11-06; 14 days on market; auction (guide price); no chain; 767 sq ft
 - Portal: https://www.rightmove.co.uk/properties/95156196
 - Portal: https://www.rightmove.co.uk/properties/91485522
 
@@ -30,13 +30,13 @@
 | 11 Francis Street St Helens | Jul 2025 | £99,950 | 753 | £133 | 0.15 |
 | 22 Helena Road St Helens | Apr 2025 | £112,000 | 872 | £128 | 0.11 |
 | 26 Herbert Street St Helens | May 2025 | £96,000 | 786 | £122 | 0.13 |
-| … 39 more | | | | | |
+| … 38 more | | | | | |
 
-Basis: £/sqft v1: n=54 ±25% size, £156/192/229 psf x 767 sqft (listing) street=0 spread=0.381
+Basis: £/sqft v1: n=53 ±25% size, £159/192/229 psf x 767 sqft (listing) street=0 spread=0.367
 
 ## After-works value
 
-- Low £119,000 (£155/sq ft)
+- Low £121,000 (£158/sq ft)
 - **Base £147,000** (£192/sq ft)
 - High £175,000 (£228/sq ft)
 
@@ -57,8 +57,8 @@ Basis: £/sqft v1: n=54 ±25% size, £156/192/229 psf x 767 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £100,000 | £-22,594 | **£5,003** | £32,600 |
-| Max offer for £40k profit | £40,000 | **£66,500** | £92,500 |
+| Profit at £100,000 | £-20,622 | **£5,003** | £32,600 |
+| Max offer for £40k profit | £42,000 | **£66,500** | £92,500 |
 
 Opening offer £61,000 · asking is £33,500 above max offer
 

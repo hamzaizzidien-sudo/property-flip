@@ -1,10 +1,10 @@
 # Wesley Street, Westhoughton, Bolton
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £130,000
-- Listing: 34 days on market; no chain; needs modernising
+- Listing: 46 days on market; no chain; needs modernising
 - Portal: https://www.rightmove.co.uk/properties/93991941
 
 

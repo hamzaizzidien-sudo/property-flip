@@ -1,10 +1,10 @@
 # 5 Roman Way, Liverpool, Merseyside, L33 9TA
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £35,000 · expected purchase £43,750
-- Listing: 11 days on market; auction (guide price); freehold
+- Listing: 23 days on market; auction (guide price); freehold
 - Portal: https://www.rightmove.co.uk/properties/94778469
 
 

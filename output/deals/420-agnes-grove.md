@@ -1,10 +1,10 @@
 # Agnes Grove, Wallasey
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 880 sq ft (listing)
 - Asking £95,000 · expected purchase £118,750
-- Listing: 39 days on market; auction (guide price); no chain; needs modernising; 880 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 51 days on market; auction (guide price); no chain; needs modernising; 880 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/93819180
 
 
@@ -29,14 +29,14 @@
 | 17 Devon Avenue Wallasey | Apr 2025 | £157,000 | 990 | £159 | 0.12 |
 | 19 Oxford Road Wallasey | Oct 2025 | £150,000 | 1087 | £138 | 0.20 |
 | 3 Daventree Road Wallasey | Aug 2026 | £141,000 | 764 | £185 | 0.37 |
-| … 35 more | | | | | |
+| … 34 more | | | | | |
 
-Basis: £/sqft v1: n=50 ±25% size, £161/193/220 psf x 880 sqft (listing) street=2 spread=0.305
+Basis: £/sqft v1: n=49 ±25% size, £161/198/220 psf x 880 sqft (listing) street=2 spread=0.298
 
 ## After-works value
 
 - Low £141,000 (£160/sq ft)
-- **Base £170,000** (£193/sq ft)
+- **Base £173,000** (£197/sq ft)
 - High £193,000 (£219/sq ft)
 
 ## Costs at £118,750
@@ -48,18 +48,18 @@ Basis: £/sqft v1: n=50 ±25% size, £161/193/220 psf x 880 sqft (listing) stree
 | SDLT (incl. 5% surcharge) | 5,937 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 3,648 |
+| Sale agent + legal | 3,691 |
 | Auction uplift / fee | 23,750 |
-| **Total costs** | **47,665** |
+| **Total costs** | **47,708** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £118,750 | £-24,997 | **£3,585** | £26,254 |
-| Max offer for £40k profit | £56,500 | **£84,000** | £105,500 |
+| Profit at £118,750 | £-24,997 | **£6,542** | £26,254 |
+| Max offer for £40k profit | £56,500 | **£86,500** | £105,500 |
 
-Opening offer £77,000 · asking is £34,750 above max offer
+Opening offer £79,000 · asking is £32,250 above max offer
 
 Risks: auction_guide_price, gdv_bedroom_mismatch
 

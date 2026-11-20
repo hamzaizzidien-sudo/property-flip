@@ -1,10 +1,10 @@
 # 255, BEECHTREES, DIGMOOR, SKELMERSDALE, WN8 9EZ
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 840 sq ft (estimated from nearby EPCs)
 - Asking £60,000 · expected purchase £75,000
-- Listing: Reduced 1x £75k→£60k (−20%), last cut 2026-09-17; 145 days on market; auction (guide price)
+- Listing: Reduced 1x £75k→£60k (−20%), last cut 2026-09-17; 157 days on market; auction (guide price)
 - Portal: https://www.rightmove.co.uk/properties/89834148
 
 

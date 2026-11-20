@@ -1,10 +1,10 @@
 # New Street, Mawdesley, L40
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 1000 sq ft (estimated from nearby EPCs)
 - Asking £80,000 · expected purchase £100,000
-- Listing: 49 days on market; auction (guide price); needs modernising
+- Listing: 61 days on market; auction (guide price); needs modernising
 - Portal: https://www.rightmove.co.uk/properties/93383001
 
 

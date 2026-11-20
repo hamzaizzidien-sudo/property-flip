@@ -1,10 +1,10 @@
 # Ormskirk Road, Skelmersdale, Lancashire, WN8
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 751 sq ft (listing)
 - Asking £70,000 · expected purchase £87,500
-- Listing: Reduced 1x £75k→£70k (−7%), last cut 2026-09-24; 68 days on market; auction (guide price); freehold; 751 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £75k→£70k (−7%), last cut 2026-09-24; 80 days on market; auction (guide price); freehold; 751 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/92637129
 
 
@@ -29,9 +29,9 @@
 | 48 Beacon Green Skelmersdale | Nov 2025 | £185,000 | 915 | £202 | 0.35 |
 | 11 Courtfield Drive Skelmersdale | Apr 2026 | £149,000 | 667 | £223 | 0.47 |
 | 18 Mercury Way Skelmersdale | Dec 2025 | £180,000 | 786 | £229 | 0.39 |
-| … 9 more | | | | | |
+| … 8 more | | | | | |
 
-Basis: £/sqft v1: n=24 ±25% size, £202/225/229 psf x 751 sqft (listing) street=1 spread=0.118
+Basis: £/sqft v1: n=23 ±25% size, £202/225/229 psf x 751 sqft (listing) street=1 spread=0.118
 
 ## After-works value
 

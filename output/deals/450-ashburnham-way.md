@@ -1,10 +1,10 @@
 # Ashburnham Way, Liverpool
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 1292 sq ft (listing)
-- Asking £140,000
-- Listing: Reduced 5x £200k→£140k (−30%), last cut 2026-10-29; 172 days on market; TENANTED; 1292 sq ft; listed on rightmove+zoopla
+- Asking £135,000
+- Listing: Reduced 6x £200k→£135k (−32%), last cut 2026-11-12; 184 days on market; TENANTED; 1292 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/92334705
 - Portal: https://www.zoopla.co.uk/for-sale/details/73249655/
 
@@ -28,26 +28,26 @@ Basis: £/sqft v1: n=6 ±25% size, £234/243/243 psf x 1292 sqft (listing) stree
 - **Base £313,000** (£242/sq ft)
 - High £313,000 (£242/sq ft)
 
-## Costs at £140,000
+## Costs at £135,000
 
 | Item | £ |
 |---|---:|
 | Refurb (modernise £35/sqft x 1292 sqft) | 45,200 |
 | Contingency (10% of refurb) | 4,520 |
-| SDLT (incl. 5% surcharge) | 7,300 |
+| SDLT (incl. 5% surcharge) | 6,950 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
 | Sale agent + legal | 5,707 |
-| **Total costs** | **66,927** |
+| **Total costs** | **66,577** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £140,000 | £95,231 | **£106,073** | £106,073 |
+| Profit at £135,000 | £100,581 | **£111,423** | £111,423 |
 | Max offer for £40k profit | £191,500 | **£201,500** | £201,500 |
 
-Opening offer £128,000 · asking is £61,500 below max offer
+Opening offer £124,000 · asking is £66,500 below max offer
 
 Risks: tenanted, type_from_description, value_far_above_price
 

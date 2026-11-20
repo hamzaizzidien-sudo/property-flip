@@ -1,10 +1,10 @@
 # Knowles Street, Widnes WA8
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 914 sq ft (listing)
 - Asking £150,000
-- Listing: Reduced 1x £160k→£150k (−6%), last cut 2026-07-29; 139 days on market; back on market after 68 days off; no chain; 914 sq ft
+- Listing: Reduced 1x £160k→£150k (−6%), last cut 2026-07-29; 151 days on market; back on market after 68 days off; no chain; 914 sq ft
 - Portal: https://www.zoopla.co.uk/for-sale/details/73520349/
 
 

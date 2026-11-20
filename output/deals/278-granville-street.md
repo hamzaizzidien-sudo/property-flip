@@ -1,10 +1,10 @@
 # Granville Street, Leigh, WN7
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 926 sq ft (listing)
 - Asking £170,000
-- Listing: 17 days on market; no chain; 926 sq ft
+- Listing: 29 days on market; no chain; 926 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94643364
 
 
@@ -24,18 +24,18 @@
 | 18 Lilac Avenue Leigh | Nov 2025 | £130,000 | 850 | £153 | 0.28 |
 | 5 Galloway Close Leigh | Sep 2026 | £244,000 | 850 | £287 | 0.47 |
 | 79 Walmesley Road Leigh | Aug 2026 | £165,000 | 1012 | £163 | 0.48 |
-| 164 Kirkhall Lane Leigh | Nov 2024 | £152,500 | 883 | £173 | 0.15 |
 | 9A Holt Street Leigh | Nov 2024 | £173,000 | 915 | £189 | 0.17 |
 | 47 Willow Crescent Leigh | Apr 2026 | £120,000 | 936 | £128 | 0.45 |
-| … 24 more | | | | | |
+| 198 Charles Street Leigh | Jun 2025 | £190,000 | 818 | £232 | 0.28 |
+| … 23 more | | | | | |
 
-Basis: £/sqft v1: n=39 ±25% size, £235/249/272 psf x 926 sqft (listing) street=0 spread=0.148
+Basis: £/sqft v1: n=38 ±25% size, £235/249/282 psf x 926 sqft (listing) street=0 spread=0.19
 
 ## After-works value
 
 - Low £217,000 (£234/sq ft)
 - **Base £230,000** (£248/sq ft)
-- High £251,000 (£271/sq ft)
+- High £261,000 (£282/sq ft)
 
 ## Costs at £170,000
 
@@ -53,8 +53,8 @@ Basis: £/sqft v1: n=39 ±25% size, £235/249/272 psf x 926 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £170,000 | £-6,565 | **£6,248** | £26,946 |
-| Max offer for £40k profit | £126,000 | **£138,000** | £157,500 |
+| Profit at £170,000 | £-6,565 | **£6,248** | £36,802 |
+| Max offer for £40k profit | £126,000 | **£138,000** | £167,000 |
 
 Opening offer £126,000 · asking is £32,000 above max offer
 

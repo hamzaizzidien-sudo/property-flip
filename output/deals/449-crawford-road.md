@@ -1,10 +1,10 @@
 # Crawford Road, Crawford Village, Skelmersdale, WN8 9QS
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, 2 bed, 768 sq ft (listing)
 - Asking £170,000
-- Listing: Reduced 5x £220k→£170k (−23%), last cut 2026-09-16; 221 days on market; no chain; freehold; 768 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 5x £220k→£170k (−23%), last cut 2026-09-16; 233 days on market; no chain; freehold; 768 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/174049220
 
 

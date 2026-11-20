@@ -1,10 +1,10 @@
 # 7, PATTERDALE DRIVE, ST HELENS, WA10 3PN
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 861 sq ft (estimated from nearby EPCs)
 - Asking £135,000 · expected purchase £142,290
-- Listing: 3 days on market; Modern Method of Auction (buyer reservation fee); no chain; unmodernised; freehold
+- Listing: 15 days on market; Modern Method of Auction (buyer reservation fee); no chain; unmodernised; freehold
 - Portal: https://www.rightmove.co.uk/properties/95196222
 
 
@@ -29,9 +29,9 @@
 | 503 Prescot Road St Helens | Jul 2025 | £173,000 | 1001 | £173 | 0.11 |
 | 9 Austin Avenue St Helens | Jun 2026 | £130,000 | 764 | £170 | 0.27 |
 | 10 Scholes Park St Helens | Mar 2026 | £200,000 | 883 | £226 | 0.24 |
-| … 39 more | | | | | |
+| … 38 more | | | | | |
 
-Basis: £/sqft v1: n=54 ±25% size, £215/243/266 psf x 861 sqft (estimated from nearby EPCs) street=0 spread=0.211
+Basis: £/sqft v1: n=53 ±25% size, £215/243/266 psf x 861 sqft (estimated from nearby EPCs) street=0 spread=0.211
 
 ## After-works value
 

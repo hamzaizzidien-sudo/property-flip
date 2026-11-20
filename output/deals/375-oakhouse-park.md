@@ -1,10 +1,10 @@
 # Oakhouse Park, Walton, Liverpool, Merseyside, L9
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1000 sq ft (estimated from nearby EPCs)
 - Asking £100,000 · expected purchase £125,000
-- Listing: 67 days on market; auction (guide price)
+- Listing: 79 days on market; auction (guide price)
 - Portal: https://www.rightmove.co.uk/properties/92705649
 
 
@@ -18,8 +18,8 @@
 |---|---|---:|---:|---:|---:|
 | 10 Hill Crest Bootle | Jul 2026 | £175,000 | 936 | £187 | 0.22 |
 | 7 Gambrel Close Liverpool | Dec 2025 | £97,500 | 1012 | £96 | 0.16 |
-| 21 Hillside Close Bootle | Oct 2025 | £220,000 | 947 | £232 | 0.26 |
 | 92 Southport Road Bootle | Nov 2025 | £283,000 | 1216 | £233 | 0.28 |
+| 21 Hillside Close Bootle | Oct 2025 | £220,000 | 947 | £232 | 0.26 |
 | 25 Hillside Close Bootle | Aug 2025 | £210,000 | 818 | £257 | 0.26 |
 | 28 Strafford Drive Bootle | Mar 2026 | £250,000 | 1130 | £221 | 0.45 |
 | 138 Stuart Road North Bootle | Aug 2025 | £190,000 | 1001 | £190 | 0.38 |
@@ -31,9 +31,9 @@
 | 6 Fernhill Gardens Bootle | Nov 2024 | £195,000 | 850 | £229 | 0.31 |
 | 162 Southport Road Bootle | Jan 2025 | £263,500 | 1206 | £218 | 0.35 |
 | 113 Southport Road Bootle | Feb 2025 | £237,500 | 1055 | £225 | 0.39 |
-| … 3 more | | | | | |
+| … 2 more | | | | | |
 
-Basis: £/sqft v1: n=18 ±25% size, £187/221/232 psf x 1000 sqft (estimated from nearby EPCs) street=0 spread=0.205
+Basis: £/sqft v1: n=17 ±25% size, £187/221/232 psf x 1000 sqft (estimated from nearby EPCs) street=0 spread=0.205
 
 ## After-works value
 

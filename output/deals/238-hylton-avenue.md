@@ -1,10 +1,10 @@
 # Hylton Avenue, Wallasey
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 1080 sq ft (listing)
 - Asking £125,000 · expected purchase £156,250
-- Listing: Reduced 1x £140k→£125k (−11%), last cut 2026-10-13; 59 days on market; auction (guide price); no chain; needs modernising; 1080 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 1x £140k→£125k (−11%), last cut 2026-10-13; 71 days on market; auction (guide price); no chain; needs modernising; 1080 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/93049881
 - Portal: https://www.zoopla.co.uk/for-sale/details/74372495/
 
@@ -30,15 +30,15 @@
 | 9 Daresbury Road Wallasey | Mar 2025 | £206,000 | 1249 | £165 | 0.06 |
 | 74 Mill Lane Wallasey | Apr 2025 | £168,000 | 818 | £205 | 0.08 |
 | 22 Dawlish Road Wallasey | Feb 2026 | £205,000 | 936 | £219 | 0.19 |
-| … 99 more | | | | | |
+| … 95 more | | | | | |
 
-Basis: £/sqft v1: n=114 ±25% size, £191/209/232 psf x 1080 sqft (listing) street=0 spread=0.197
+Basis: £/sqft v1: n=110 ±25% size, £192/212/234 psf x 1080 sqft (listing) street=0 spread=0.2
 
 ## After-works value
 
-- Low £205,000 (£190/sq ft)
-- **Base £225,000** (£208/sq ft)
-- High £250,000 (£231/sq ft)
+- Low £206,000 (£191/sq ft)
+- **Base £229,000** (£212/sq ft)
+- High £252,000 (£233/sq ft)
 
 ## Costs at £156,250
 
@@ -49,18 +49,18 @@ Basis: £/sqft v1: n=114 ±25% size, £191/209/232 psf x 1080 sqft (listing) str
 | SDLT (incl. 5% surcharge) | 8,437 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,440 |
+| Sale agent + legal | 4,498 |
 | Auction uplift / fee | 31,250 |
-| **Total costs** | **58,657** |
+| **Total costs** | **58,715** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £156,250 | £-9,619 | **£10,093** | £34,733 |
-| Max offer for £40k profit | £109,500 | **£128,000** | £151,000 |
+| Profit at £156,250 | £-8,633 | **£14,035** | £36,704 |
+| Max offer for £40k profit | £110,500 | **£131,500** | £153,000 |
 
-Opening offer £117,000 · asking is £28,250 above max offer
+Opening offer £120,000 · asking is £24,750 above max offer
 
 Risks: auction_guide_price
 

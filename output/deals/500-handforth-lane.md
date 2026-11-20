@@ -1,10 +1,10 @@
 # 46, HANDFORTH LANE, RUNCORN, WA7 5YX
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 4 bed, 1111 sq ft (listing)
 - Asking £110,000
-- Listing: 24 days on market; no chain; 1111 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 36 days on market; no chain; 1111 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/168569297
 
 

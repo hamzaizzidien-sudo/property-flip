@@ -1,10 +1,10 @@
 # 16, MILL LANE, LEIGH, WN7 2BU
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 786 sq ft (listing)
 - Asking £105,000
-- Listing: 41 days on market; needs modernising; 786 sq ft
+- Listing: 53 days on market; needs modernising; 786 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93688629
 
 

@@ -1,10 +1,10 @@
 # VINYL FANTASY, 9, BOLTON ROAD, ASHTON-IN-MAKERFIELD, WN4 8AA
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 1130 sq ft (listing)
 - Asking £124,500
-- Listing: Reduced 5x £150k→£124.5k (−17%), last cut 2026-10-23; 134 days on market; 1130 sq ft
+- Listing: Reduced 5x £150k→£124.5k (−17%), last cut 2026-10-23; 146 days on market; 1130 sq ft
 - Portal: https://www.rightmove.co.uk/properties/90175809
 
 

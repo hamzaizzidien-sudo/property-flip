@@ -1,10 +1,10 @@
 # 10, ST MARYS STREET, LIVERPOOL, L25 7RR
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 2 bed, 660 sq ft (listing)
 - Asking £150,000
-- Listing: 201 days on market; needs modernising; 660 sq ft
+- Listing: 213 days on market; needs modernising; 660 sq ft
 - Portal: https://www.rightmove.co.uk/properties/174774152
 
 

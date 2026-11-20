@@ -1,10 +1,10 @@
 # Birch Road, Oxton, CH43 5UE
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 870 sq ft (listing)
 - Asking £170,000 · expected purchase £179,180
-- Listing: Reduced 1x £190k→£170k (−11%), last cut 2026-10-15; 45 days on market; Modern Method of Auction (buyer reservation fee); no chain; 870 sq ft
+- Listing: Reduced 1x £190k→£170k (−11%), last cut 2026-10-15; 57 days on market; Modern Method of Auction (buyer reservation fee); no chain; 870 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93565110
 
 

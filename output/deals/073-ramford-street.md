@@ -1,10 +1,10 @@
 # 4, RAMFORD STREET, ST HELENS, WA9 1QG
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £140,000
-- Listing: 102 days on market; no chain; CHECK GDV: unusual beds for type, comps may be larger; listed on rightmove+zoopla
+- Listing: 114 days on market; no chain; CHECK GDV: unusual beds for type, comps may be larger; listed on rightmove+zoopla
 - Portal: https://www.zoopla.co.uk/for-sale/details/73847799/
 - Portal: https://www.rightmove.co.uk/properties/175056011
 
@@ -26,8 +26,8 @@
 | 35 Highfield Street St Helens | Jul 2025 | £225,000 | 915 | £246 | 0.92 |
 | 5 Tall Trees St Helens | Mar 2025 | £236,000 | 904 | £261 | 0.82 |
 | 154 Robins Lane St Helens | Apr 2025 | £210,000 | 947 | £222 | 0.90 |
-| 11 The Croft St Helens | Feb 2025 | £220,000 | 904 | £243 | 0.89 |
 | 38 Weymouth Avenue St Helens | Dec 2024 | £200,888 | 775 | £259 | 0.81 |
+| 11 The Croft St Helens | Feb 2025 | £220,000 | 904 | £243 | 0.89 |
 
 Basis: £/sqft v1: n=13 ±25% size, £261/268/281 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.074
 

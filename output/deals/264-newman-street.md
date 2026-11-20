@@ -1,10 +1,10 @@
 # Newman Street, Wigan, WN1
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 2 bed, 1203 sq ft (listing)
 - Asking £120,000
-- Listing: 24 days on market; needs modernising; freehold; 1203 sq ft
+- Listing: 36 days on market; needs modernising; freehold; 1203 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94412646
 
 
@@ -12,30 +12,27 @@
 
 | Address | Sold | Price | Sq ft | £/sq ft | Miles |
 |---|---|---:|---:|---:|---:|
-| 78 Swinley Lane Wigan | Sep 2026 | £255,000 | 1345 | £190 | 0.72 |
-| 10 Eccleston Street Wigan | Jun 2026 | £180,000 | 1475 | £122 | 0.64 |
+| 20 Hieland Road Wigan | Dec 2024 | £160,000 | 1249 | £128 | 0.04 |
+| 119 Northumberland Street Wigan | Mar 2026 | £115,000 | 904 | £127 | 0.23 |
+| 38 Vine Street Wigan | Feb 2026 | £230,000 | 1475 | £156 | 0.29 |
+| 211 Scholes Wigan | Feb 2026 | £141,000 | 969 | £146 | 0.46 |
 | 8 Colin Street Wigan | Nov 2025 | £180,000 | 1173 | £154 | 0.46 |
-| 13 Charles Street Wigan | Dec 2025 | £165,000 | 1044 | £158 | 0.55 |
-| 15 Hilton Street Wigan | Jan 2026 | £102,000 | 926 | £110 | 0.59 |
-| 12 Swinley Street Wigan | Feb 2026 | £182,000 | 1001 | £182 | 0.62 |
-| 10 Clifton Street Wigan | Sep 2025 | £160,000 | 1195 | £134 | 0.54 |
-| 18 Avondale Road Wigan | Jan 2026 | £192,000 | 1313 | £146 | 0.66 |
-| 7 Walkden Avenue Wigan | Jun 2026 | £185,000 | 936 | £198 | 0.85 |
+| 310 Whelley Wigan | May 2025 | £152,000 | 1012 | £150 | 0.34 |
+| 243 Whelley Wigan | Feb 2025 | £157,995 | 1152 | £137 | 0.34 |
+| 7 Golborne Place Wigan | May 2025 | £135,000 | 980 | £138 | 0.42 |
+| 6 Caunce Road Wigan | Feb 2025 | £135,000 | 947 | £143 | 0.41 |
 | 72 Widdrington Road Wigan | Feb 2025 | £230,000 | 1410 | £163 | 0.41 |
-| 6 Acton Street Wigan | Sep 2025 | £119,000 | 1012 | £118 | 0.59 |
 | 62 Widdrington Road Wigan | Jan 2025 | £225,000 | 1345 | £167 | 0.41 |
-| 8 Swinley Street Wigan | Sep 2025 | £181,000 | 990 | £183 | 0.62 |
 | 76 Widdrington Road Wigan | Dec 2024 | £217,000 | 1399 | £155 | 0.41 |
-| 29 Walkden Avenue Wigan | Feb 2026 | £189,250 | 947 | £200 | 0.85 |
-| … 14 more | | | | | |
+| 5 Isabella Square Wigan | Dec 2024 | £128,000 | 969 | £132 | 0.47 |
 
-Basis: £/sqft v1: n=29 ±25% size, £160/181/190 psf x 1203 sqft (listing) street=0 spread=0.17
+Basis: £/sqft v1: n=13 ±25% size, £143/153/156 psf x 1203 sqft (listing) street=0 spread=0.087
 
 ## After-works value
 
-- Low £191,000 (£159/sq ft)
-- **Base £217,000** (£180/sq ft)
-- High £228,000 (£190/sq ft)
+- Low £171,000 (£142/sq ft)
+- **Base £184,000** (£153/sq ft)
+- High £187,000 (£155/sq ft)
 
 ## Costs at £120,000
 
@@ -46,17 +43,17 @@ Basis: £/sqft v1: n=29 ±25% size, £160/181/190 psf x 1203 sqft (listing) stre
 | SDLT (incl. 5% surcharge) | 6,000 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,325 |
-| **Total costs** | **60,835** |
+| Sale agent + legal | 3,850 |
+| **Total costs** | **60,360** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £120,000 | £10,540 | **£36,165** | £47,007 |
-| Max offer for £40k profit | £91,500 | **£116,000** | £126,500 |
+| Profit at £120,000 | £-9,172 | **£3,640** | £6,597 |
+| Max offer for £40k profit | £73,000 | **£85,000** | £88,000 |
 
-Opening offer £106,000 · asking is £4,000 above max offer
+Opening offer £78,000 · asking is £35,000 above max offer
 
 Risks: none flagged from listing text
 

@@ -1,10 +1,10 @@
 # Rossmore Gardens, Liverpool, Merseyside, L4
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 911 sq ft (listing)
 - Asking £160,000
-- Listing: 28 days on market; unmodernised; freehold; 911 sq ft
+- Listing: 40 days on market; unmodernised; freehold; 911 sq ft
 - Portal: https://www.rightmove.co.uk/properties/94195989
 
 

@@ -1,10 +1,10 @@
 # 8 Coniston Road, Irby
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - bungalow, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £160,000 · expected purchase £200,000
-- Listing: 6 days on market; auction 2 December 2026
+- Listing: 18 days on market; auction 2 December 2026
 - Portal: https://www.rightmove.co.uk/properties/95041359
 
 
@@ -27,19 +27,19 @@
 | 14 Brook Walk Wirral | Jul 2026 | £259,950 | 710 | £366 | 0.28 |
 | 60 Glenwood Drive Wirral | Mar 2026 | £250,150 | 732 | £342 | 0.25 |
 | 4 Denning Drive Wirral | Feb 2026 | £195,000 | 775 | £252 | 0.26 |
-| 94 Glenwood Drive Wirral | May 2026 | £140,000 | 958 | £146 | 0.33 |
 | 22 South Drive Wirral | Aug 2026 | £300,000 | 807 | £372 | 0.41 |
 | 4 Woodside Road Wirral | Mar 2025 | £232,500 | 915 | £254 | 0.17 |
 | 29 Far Meadow Lane Wirral | Jul 2025 | £250,000 | 753 | £332 | 0.24 |
-| … 23 more | | | | | |
+| 96 Heathbank Avenue Wirral | Apr 2025 | £226,500 | 764 | £296 | 0.21 |
+| … 19 more | | | | | |
 
-Basis: £/sqft v1: n=38 ±25% size, £313/340/353 psf x 800 sqft (estimated from nearby EPCs) street=2 spread=0.117
+Basis: £/sqft v1: n=34 ±25% size, £310/340/342 psf x 800 sqft (estimated from nearby EPCs) street=2 spread=0.094
 
 ## After-works value
 
-- Low £250,000 (£312/sq ft)
+- Low £247,000 (£309/sq ft)
 - **Base £272,000** (£340/sq ft)
-- High £282,000 (£352/sq ft)
+- High £273,000 (£341/sq ft)
 
 ## Costs at £200,000
 
@@ -58,8 +58,8 @@ Basis: £/sqft v1: n=38 ±25% size, £313/340/353 psf x 800 sqft (estimated from
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £200,000 | £-1,300 | **£20,383** | £30,239 |
-| Max offer for £40k profit | £161,000 | **£181,500** | £190,500 |
+| Profit at £200,000 | £-4,257 | **£20,383** | £21,369 |
+| Max offer for £40k profit | £158,500 | **£181,500** | £182,500 |
 
 Opening offer £166,000 · asking is £18,500 above max offer
 

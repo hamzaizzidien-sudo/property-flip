@@ -1,10 +1,10 @@
 # 21, LEONARD STREET, RUNCORN, WA7 4JD
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 915 sq ft (listing)
 - Asking £85,000
-- Listing: Reduced 4x £115k→£85k (−26%), last cut 2026-09-03; 326 days on market; no chain; 915 sq ft
+- Listing: Reduced 4x £115k→£85k (−26%), last cut 2026-09-03; 338 days on market; no chain; 915 sq ft
 - Portal: https://www.rightmove.co.uk/properties/170431220
 
 

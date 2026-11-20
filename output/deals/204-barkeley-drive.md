@@ -1,10 +1,10 @@
 # 35, BARKELEY DRIVE, SEAFORTH, L21 4LX
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - detached, 5 bed, 1270 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: Reduced 1x £170k→£170k (−0%), last cut 2026-04-01; 1013 days on market; no chain; needs modernising; listed on rightmove+zoopla
+- Listing: Reduced 1x £170k→£170k (−0%), last cut 2026-04-01; 1025 days on market; no chain; needs modernising; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/144218468
 - Portal: https://www.zoopla.co.uk/for-sale/details/66531791/
 

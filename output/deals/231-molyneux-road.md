@@ -1,10 +1,10 @@
 # 84, MOLYNEUX ROAD, WATERLOO, L22 4QZ
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 1029 sq ft (listing)
 - Asking £159,500
-- Listing: Reduced 3x £169.9k→£159.5k (−6%), last cut 2026-10-11; 87 days on market; needs modernising; 1029 sq ft
+- Listing: Reduced 3x £169.9k→£159.5k (−6%), last cut 2026-10-11; 99 days on market; needs modernising; 1029 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92027211
 
 
@@ -27,14 +27,14 @@
 | 49 Molyneux Road Liverpool | Sep 2025 | £217,000 | 1087 | £200 | 0.07 |
 | 93 Molyneux Road Liverpool | Sep 2025 | £183,950 | 1044 | £176 | 0.07 |
 | 26 Kingswood Avenue Liverpool | Feb 2026 | £225,000 | 990 | £227 | 0.12 |
-| … 64 more | | | | | |
+| … 63 more | | | | | |
 
-Basis: £/sqft v1: n=79 ±25% size, £209/228/248 psf x 1029 sqft (listing) street=0 spread=0.17
+Basis: £/sqft v1: n=78 ±25% size, £209/227/248 psf x 1029 sqft (listing) street=0 spread=0.17
 
 ## After-works value
 
 - Low £215,000 (£209/sq ft)
-- **Base £234,000** (£227/sq ft)
+- **Base £233,000** (£226/sq ft)
 - High £254,000 (£247/sq ft)
 
 ## Costs at £159,500
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=79 ±25% size, £209/228/248 psf x 1029 sqft (listing) stre
 | SDLT (incl. 5% surcharge) | 8,665 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,570 |
-| **Total costs** | **57,035** |
+| Sale agent + legal | 4,555 |
+| **Total costs** | **57,020** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £159,500 | £-1,261 | **£17,465** | £37,177 |
-| Max offer for £40k profit | £120,500 | **£138,000** | £156,500 |
+| Profit at £159,500 | £-1,261 | **£16,480** | £37,177 |
+| Max offer for £40k profit | £120,500 | **£137,500** | £156,500 |
 
-Opening offer £126,000 · asking is £21,500 above max offer
+Opening offer £126,000 · asking is £22,000 above max offer
 
 Risks: none flagged from listing text
 

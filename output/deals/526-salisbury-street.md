@@ -1,10 +1,10 @@
 # Salisbury Street, Birkenhead, CH41
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
-- detached, ? bed, 1410 sq ft (estimated from nearby EPCs)
+- detached, ? bed, 1432 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: 1213 days on market
+- Listing: 1225 days on market
 - Portal: https://www.rightmove.co.uk/properties/133009952
 
 
@@ -27,38 +27,37 @@
 | 29 Birch Close Prenton | Dec 2025 | £430,000 | 1076 | £400 | 0.97 |
 | 73 Palm Grove Prenton | Feb 2025 | £347,750 | 1593 | £218 | 0.63 |
 | 7 Victoria Mount Prenton | May 2025 | £545,000 | 1432 | £381 | 0.73 |
-| 29 Mather Road Prenton | Nov 2024 | £320,000 | 1130 | £283 | 0.58 |
 | 87 Beresford Road Prenton | Jun 2025 | £195,000 | 1238 | £158 | 0.87 |
-| … 1 more | | | | | |
+| 62 Shrewsbury Road Prenton | Dec 2024 | £430,000 | 1356 | £317 | 0.97 |
 
-Basis: £/sqft v1: n=16 ±25% size, £276/324/376 psf x 1410 sqft (estimated from nearby EPCs) street=0 spread=0.308
+Basis: £/sqft v1: n=15 ±25% size, £276/324/376 psf x 1432 sqft (estimated from nearby EPCs) street=0 spread=0.308
 
 ## After-works value
 
-- Low £388,000 (£275/sq ft)
-- **Base £456,000** (£323/sq ft)
-- High £529,000 (£375/sq ft)
+- Low £395,000 (£276/sq ft)
+- **Base £463,000** (£323/sq ft)
+- High £537,000 (£375/sq ft)
 
 ## Costs at £170,000
 
 | Item | £ |
 |---|---:|
-| Refurb (modernise £35/sqft x 1410 sqft) | 49,400 |
-| Contingency (10% of refurb) | 4,940 |
+| Refurb (modernise £35/sqft x 1432 sqft) | 50,100 |
+| Contingency (10% of refurb) | 5,010 |
 | SDLT (incl. 5% surcharge) | 9,400 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 7,766 |
-| **Total costs** | **75,706** |
+| Sale agent + legal | 7,867 |
+| **Total costs** | **76,577** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £170,000 | £143,273 | **£210,294** | £282,242 |
-| Max offer for £40k profit | £266,000 | **£326,500** | £392,000 |
+| Profit at £170,000 | £149,402 | **£216,423** | £289,357 |
+| Max offer for £40k profit | £271,500 | **£332,500** | £398,500 |
 
-Opening offer £156,000 · asking is £156,500 below max offer
+Opening offer £156,000 · asking is £162,500 below max offer
 
 Risks: value_far_above_price
 

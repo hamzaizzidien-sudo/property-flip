@@ -1,11 +1,12 @@
 # School Road, Warrington, WA2
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 958 sq ft (listing)
 - Asking £150,000
-- Listing: 4 days on market; needs modernising; 958 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 16 days on market; needs modernising; leasehold; 958 sq ft; CHECK GDV: unusual beds for type, comps may be larger; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/95152767
+- Portal: https://www.zoopla.co.uk/for-sale/details/74690035/
 
 
 ## Comparable sales (HM Land Registry + EPC floor areas)
@@ -58,6 +59,6 @@ Basis: £/sqft v1: n=65 ±25% size, £241/258/272 psf x 958 sqft (listing) stree
 
 Opening offer £138,000 · asking is £2,500 below max offer
 
-Risks: gdv_bedroom_mismatch
+Risks: gdv_bedroom_mismatch, leasehold
 
 _Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data © Crown copyright, both licensed under the Open Government Licence v3.0._

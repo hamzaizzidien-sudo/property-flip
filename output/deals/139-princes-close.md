@@ -1,10 +1,10 @@
 # Princes Close, Runcorn, Halton
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
-- bungalow, 3 bed, 969 sq ft (estimated from nearby EPCs)
+- bungalow, 3 bed, 926 sq ft (estimated from nearby EPCs)
 - Asking £110,000
-- Listing: Reduced 1x £115k→£110k (−4%), last cut 2026-09-24; 83 days on market; needs modernising; TENANTED; freehold
+- Listing: Reduced 1x £115k→£110k (−4%), last cut 2026-09-24; 95 days on market; needs modernising; TENANTED; freehold
 - Portal: https://www.rightmove.co.uk/properties/92134296
 
 
@@ -22,43 +22,43 @@
 | 41 Main Street Runcorn | Oct 2025 | £196,830 | 990 | £199 | 0.22 |
 | 10 Worsley Close Runcorn | Sep 2026 | £175,000 | 764 | £229 | 0.48 |
 | 2 Corn Brook Avenue Runcorn | Aug 2026 | £225,000 | 872 | £258 | 0.46 |
-| The Meadows Astmoor Bridge Lane Runcorn | Nov 2025 | £315,000 | 1163 | £271 | 0.30 |
 | 151 Calvers Runcorn | Dec 2025 | £160,000 | 861 | £186 | 0.34 |
 | 1 Kingshead Close Runcorn | Nov 2025 | £145,000 | 1119 | £130 | 0.34 |
 | 49 St Marys Road Runcorn | Jun 2025 | £189,000 | 926 | £204 | 0.25 |
 | 16 The Croft Runcorn | Mar 2025 | £150,000 | 840 | £179 | 0.21 |
 | 70 Halton Brow Runcorn | Mar 2025 | £268,000 | 969 | £277 | 0.22 |
-| 8 Medlock Close Runcorn | Apr 2026 | £245,000 | 1206 | £203 | 0.47 |
-| … 16 more | | | | | |
+| 8 Pump Lane Runcorn | Mar 2026 | £237,500 | 990 | £240 | 0.45 |
+| 21 Summer Close Runcorn | Dec 2024 | £145,000 | 743 | £195 | 0.19 |
+| … 13 more | | | | | |
 
-Basis: £/sqft v1: n=31 ±25% size, £214/249/271 psf x 969 sqft (estimated from nearby EPCs) street=0 spread=0.228
+Basis: £/sqft v1: n=28 ±25% size, £214/243/260 psf x 926 sqft (estimated from nearby EPCs) street=0 spread=0.189
 
 ## After-works value
 
-- Low £207,000 (£214/sq ft)
-- **Base £240,000** (£248/sq ft)
-- High £262,000 (£270/sq ft)
+- Low £198,000 (£214/sq ft)
+- **Base £225,000** (£243/sq ft)
+- High £240,000 (£259/sq ft)
 
 ## Costs at £110,000
 
 | Item | £ |
 |---|---:|
-| Refurb (modernise £35/sqft x 969 sqft) | 33,900 |
-| Contingency (10% of refurb) | 3,390 |
+| Refurb (modernise £35/sqft x 926 sqft) | 32,400 |
+| Contingency (10% of refurb) | 3,240 |
 | SDLT (incl. 5% surcharge) | 5,500 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,656 |
-| **Total costs** | **51,646** |
+| Sale agent + legal | 4,440 |
+| **Total costs** | **49,780** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £110,000 | £45,829 | **£78,354** | £100,037 |
-| Max offer for £40k profit | £115,500 | **£146,000** | £166,000 |
+| Profit at £110,000 | £38,609 | **£65,220** | £80,004 |
+| Max offer for £40k profit | £108,500 | **£133,500** | £147,500 |
 
-Opening offer £101,000 · asking is £36,000 below max offer
+Opening offer £101,000 · asking is £23,500 below max offer
 
 Risks: bungalow_valued_from_houses, tenanted, value_far_above_price
 

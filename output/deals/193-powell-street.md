@@ -1,10 +1,10 @@
 # 32, POWELL STREET, LATCHFORD, WARRINGTON, WA4 1LA
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 2 bed, 798 sq ft (listing)
 - Asking £145,000
-- Listing: Reduced 1x £155k→£145k (−6%), last cut 2026-11-01; 83 days on market; no chain; needs modernising; 798 sq ft
+- Listing: Reduced 1x £155k→£145k (−6%), last cut 2026-11-01; 95 days on market; no chain; needs modernising; 798 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92132157
 
 

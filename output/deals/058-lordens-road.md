@@ -1,11 +1,12 @@
 # 143, LORDENS ROAD, HUYTON, L14 8UA
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 947 sq ft (listing)
 - Asking £180,000
-- Listing: 25 days on market; no chain; needs modernising; 947 sq ft
+- Listing: 37 days on market; no chain; 947 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/94340478
+- Portal: https://www.zoopla.co.uk/for-sale/details/74516311/
 
 
 ## Comparable sales (HM Land Registry + EPC floor areas)

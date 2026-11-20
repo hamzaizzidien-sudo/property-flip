@@ -1,11 +1,12 @@
 # 28, SOUTH AVENUE, PRESCOT, L34 1LY
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 865 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-16; 54 days on market; 865 sq ft
+- Listing: Reduced 1x £170k→£160k (−6%), last cut 2026-10-17; 66 days on market; 865 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/93192189
+- Portal: https://www.zoopla.co.uk/for-sale/details/74251376/
 
 
 ## Comparable sales (HM Land Registry + EPC floor areas)

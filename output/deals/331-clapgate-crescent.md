@@ -1,10 +1,10 @@
 # 29 Clapgate Crescent, Widnes, Cheshire, WA8 8UH
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £100,000 · expected purchase £125,000
-- Listing: 12 days on market; auction 10 December 2026; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: 24 days on market; auction 10 December 2026; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/94848342
 
 

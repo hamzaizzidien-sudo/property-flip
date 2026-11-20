@@ -1,10 +1,10 @@
 # Rendelsham Close, Greasby, Wirral
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 678 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 1x £190k→£180k (−5%), last cut 2026-11-05; 123 days on market; no chain; 678 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 1x £190k→£180k (−5%), last cut 2026-11-05; 135 days on market; no chain; 678 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/90686823
 
 
@@ -27,9 +27,9 @@
 | 5 Crowmarsh Close Wirral | Jul 2026 | £245,000 | 743 | £330 | 0.33 |
 | 2 Dunning Close Wirral | Feb 2025 | £225,000 | 797 | £282 | 0.12 |
 | 14 Summertrees Close Wirral | Aug 2026 | £180,000 | 678 | £266 | 0.41 |
-| … 28 more | | | | | |
+| … 27 more | | | | | |
 
-Basis: £/sqft v1: n=43 ±25% size, £314/342/356 psf x 678 sqft (listing) street=0 spread=0.123
+Basis: £/sqft v1: n=42 ±25% size, £314/342/356 psf x 678 sqft (listing) street=0 spread=0.123
 
 ## After-works value
 

@@ -1,10 +1,10 @@
 # 13, LICHFIELD CLOSE, NETHERTON, L30 1PU
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - detached, 3 bed, 890 sq ft (listing)
 - Asking £180,000
-- Listing: Reduced 2x £200k→£180k (−10%), last cut 2026-06-26; 473 days on market; back on market after 52 days off; 890 sq ft; listed on rightmove+zoopla
+- Listing: Reduced 2x £200k→£180k (−10%), last cut 2026-06-26; 485 days on market; back on market after 52 days off; 890 sq ft; listed on rightmove+zoopla
 - Portal: https://www.rightmove.co.uk/properties/164914331
 - Portal: https://www.zoopla.co.uk/for-sale/details/70872750/
 

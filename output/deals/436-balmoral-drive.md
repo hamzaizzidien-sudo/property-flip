@@ -1,10 +1,10 @@
 # 14, BALMORAL DRIVE, HINDLEY, WN2 3HS
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - bungalow, 2 bed, 1083 sq ft (listing)
 - Asking £160,000 · expected purchase £168,640
-- Listing: Reduced 3x £200k→£160k (−20%), last cut 2026-10-29; 192 days on market; Modern Method of Auction (buyer reservation fee); 1083 sq ft
+- Listing: Reduced 3x £200k→£160k (−20%), last cut 2026-10-29; 204 days on market; Modern Method of Auction (buyer reservation fee); 1083 sq ft
 - Portal: https://www.rightmove.co.uk/properties/87895872
 
 

@@ -1,10 +1,10 @@
 # 1, CHAPEL LANE, BURSCOUGH, L40 7RA
 
-**CALL AGENT** · confidence MEDIUM · appraised 2026-11-08
+**CALL AGENT** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 2 bed, 1047 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 3x £250k→£160k (−36%), last cut 2026-07-24; 297 days on market; needs modernising; 1047 sq ft; CHECK GDV: unusual beds for type, comps may be larger
+- Listing: Reduced 3x £250k→£160k (−36%), last cut 2026-07-24; 309 days on market; needs modernising; 1047 sq ft; CHECK GDV: unusual beds for type, comps may be larger
 - Portal: https://www.rightmove.co.uk/properties/172862732
 
 

@@ -1,10 +1,10 @@
 # 6, CONNAUGHT ROAD, LIVERPOOL, L7 8RN
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 1131 sq ft (listing)
 - Asking £170,000
-- Listing: 62 days on market; 1131 sq ft
+- Listing: 74 days on market; 1131 sq ft
 - Portal: https://www.rightmove.co.uk/properties/168701597
 
 
@@ -27,14 +27,14 @@
 | 23 Romilly Street Liverpool | Dec 2025 | £217,000 | 1066 | £204 | 0.32 |
 | 49 Cotswold Street Liverpool | Apr 2026 | £145,000 | 1141 | £127 | 0.40 |
 | 1 Hutchinson Walk Liverpool | Dec 2025 | £190,000 | 926 | £205 | 0.35 |
-| … 17 more | | | | | |
+| … 16 more | | | | | |
 
-Basis: £/sqft v1: n=32 ±25% size, £176/209/258 psf x 1131 sqft (listing) street=0 spread=0.392
+Basis: £/sqft v1: n=31 ±25% size, £189/212/258 psf x 1131 sqft (listing) street=0 spread=0.324
 
 ## After-works value
 
-- Low £199,000 (£176/sq ft)
-- **Base £236,000** (£209/sq ft)
+- Low £214,000 (£189/sq ft)
+- **Base £240,000** (£212/sq ft)
 - High £292,000 (£258/sq ft)
 
 ## Costs at £170,000
@@ -46,17 +46,17 @@ Basis: £/sqft v1: n=32 ±25% size, £176/209/258 psf x 1131 sqft (listing) stre
 | SDLT (incl. 5% surcharge) | 9,400 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
-| Sale agent + legal | 4,598 |
-| **Total costs** | **61,758** |
+| Sale agent + legal | 4,656 |
+| **Total costs** | **61,816** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £170,000 | £-32,226 | **£4,242** | £59,435 |
-| Max offer for £40k profit | £102,000 | **£136,500** | £188,000 |
+| Profit at £170,000 | £-17,442 | **£8,184** | £59,435 |
+| Max offer for £40k profit | £116,000 | **£140,000** | £188,000 |
 
-Opening offer £125,000 · asking is £33,500 above max offer
+Opening offer £128,000 · asking is £30,000 above max offer
 
 Risks: none flagged from listing text
 

@@ -1,10 +1,10 @@
 # 8, CLOVELLY AVENUE, SUTTON LEACH, ST HELENS, WA9 4HT
 
-**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-08
+**INVESTIGATE** · confidence MEDIUM · appraised 2026-11-20
 
 - semi-detached, 3 bed, 732 sq ft (listing)
 - Asking £100,000
-- Listing: 432 days on market; 732 sq ft; listed on onthemarket+rightmove
+- Listing: 444 days on market; 732 sq ft; listed on onthemarket+rightmove
 - Portal: https://www.onthemarket.com/details/17010206/
 - Portal: https://www.rightmove.co.uk/properties/166375646
 

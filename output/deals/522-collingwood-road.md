@@ -1,10 +1,10 @@
 # 11, COLLINGWOOD ROAD, BEBINGTON, CH63 7RL
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 3 bed, 881 sq ft (listing)
 - Asking £160,000
-- Listing: Reduced 1x £185k→£160k (−14%), last cut 2026-01-30; 642 days on market; 881 sq ft
+- Listing: Reduced 1x £185k→£160k (−14%), last cut 2026-01-30; 654 days on market; 881 sq ft
 - Portal: https://www.rightmove.co.uk/properties/157811753
 
 

@@ -1,10 +1,10 @@
 # St. John Street, Wigan, Greater Manchester, WN5
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £90,000 · expected purchase £96,000
-- Listing: 32 days on market; Modern Method of Auction (buyer reservation fee); EPC C
+- Listing: 44 days on market; Modern Method of Auction (buyer reservation fee); EPC C
 - Portal: https://www.rightmove.co.uk/properties/94095210
 
 

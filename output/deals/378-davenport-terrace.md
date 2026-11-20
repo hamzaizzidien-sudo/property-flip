@@ -1,10 +1,10 @@
 # 42, DAVENPORT TERRACE, BRIDGE LANE, FRODSHAM, WA6 7HN
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £140,000 · expected purchase £147,560
-- Listing: Reduced 2x £175k→£140k (−20%), last cut 2026-10-01; 116 days on market; Modern Method of Auction (buyer reservation fee); no chain
+- Listing: Reduced 2x £175k→£140k (−20%), last cut 2026-10-01; 128 days on market; Modern Method of Auction (buyer reservation fee); no chain
 - Portal: https://www.rightmove.co.uk/properties/90963486
 
 

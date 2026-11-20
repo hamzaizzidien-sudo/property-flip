@@ -1,10 +1,10 @@
-# The Heys, Runcorn
+# 8, THE HEYS, RUNCORN, WA7 2DH
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 861 sq ft (estimated from nearby EPCs)
 - Asking £100,000
-- Listing: 47 days on market; freehold
+- Listing: 59 days on market; freehold
 - Portal: https://www.rightmove.co.uk/properties/93466800
 
 

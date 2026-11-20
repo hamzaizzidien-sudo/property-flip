@@ -1,10 +1,10 @@
 # Bodden Street, Lowton, WA3
 
-**WATCH** · confidence MEDIUM · appraised 2026-11-08
+**WATCH** · confidence MEDIUM · appraised 2026-11-20
 
 - terraced, 2 bed, 760 sq ft (listing)
 - Asking £130,000
-- Listing: 5 days on market; no chain; needs modernising; 760 sq ft
+- Listing: 17 days on market; no chain; needs modernising; 760 sq ft
 - Portal: https://www.rightmove.co.uk/properties/95089650
 
 

@@ -1,10 +1,10 @@
 # Colwyn Drive, Hindley Green WN2
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - bungalow, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £170,000
-- Listing: Reduced 3x £195k→£170k (−13%), last cut 2026-11-08; 151 days on market; back on market after 90 days off
+- Listing: Reduced 3x £195k→£170k (−13%), last cut 2026-11-08; 163 days on market; back on market after 90 days off
 - Portal: https://www.zoopla.co.uk/for-sale/details/73428516/
 
 

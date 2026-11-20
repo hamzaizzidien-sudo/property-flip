@@ -1,10 +1,10 @@
 # Laxton Road, Liverpool, Merseyside. L25 0PQ
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 893 sq ft (estimated from nearby EPCs)
 - Asking £125,000 · expected purchase £156,250
-- Listing: 4 days on market; auction (guide price); no chain
+- Listing: 16 days on market; auction (guide price); no chain
 - Portal: https://www.rightmove.co.uk/properties/95137815
 
 

@@ -1,10 +1,10 @@
 # Silverdale Road, Wirral
 
-**INVESTIGATE** · confidence LOW · appraised 2026-11-08
+**INVESTIGATE** · confidence LOW · appraised 2026-11-20
 
 - semi-detached, 3 bed, 989 sq ft (listing)
 - Asking £80,000 · expected purchase £100,000
-- Listing: Reduced 1x £110k→£80k (−27%), last cut 2026-09-15; 68 days on market; auction (guide price); no chain; 989 sq ft
+- Listing: Reduced 1x £110k→£80k (−27%), last cut 2026-09-15; 80 days on market; auction (guide price); no chain; 989 sq ft
 - Portal: https://www.rightmove.co.uk/properties/92660259
 
 
@@ -31,13 +31,13 @@
 | 52 Queenswood Avenue Wirral | May 2026 | £247,500 | 850 | £291 | 0.29 |
 | … 82 more | | | | | |
 
-Basis: £/sqft v1: n=97 ±25% size, £240/259/275 psf x 989 sqft (listing) street=0 spread=0.135
+Basis: £/sqft v1: n=97 ±25% size, £240/259/276 psf x 989 sqft (listing) street=0 spread=0.14
 
 ## After-works value
 
 - Low £237,000 (£240/sq ft)
 - **Base £256,000** (£259/sq ft)
-- High £271,000 (£274/sq ft)
+- High £272,000 (£275/sq ft)
 
 ## Costs at £100,000
 
@@ -56,8 +56,8 @@ Basis: £/sqft v1: n=97 ±25% size, £240/259/275 psf x 989 sqft (listing) stree
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £100,000 | £85,127 | **£103,854** | £118,638 |
-| Max offer for £40k profit | £142,500 | **£160,000** | £173,500 |
+| Profit at £100,000 | £85,127 | **£103,854** | £119,623 |
+| Max offer for £40k profit | £142,500 | **£160,000** | £174,500 |
 
 Opening offer £92,000 · asking is £60,000 below max offer
 

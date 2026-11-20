@@ -1,10 +1,10 @@
 # Channell Road, Liverpool, L6
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 3 bed, 840 sq ft (listing)
-- Asking £80,000
-- Listing: 39 days on market; no chain; needs modernising; 840 sq ft
+- Asking £80,000 · expected purchase £86,000
+- Listing: 51 days on market; Modern Method of Auction (buyer reservation fee); needs modernising; 840 sq ft
 - Portal: https://www.rightmove.co.uk/properties/93818886
 
 
@@ -27,37 +27,38 @@
 | 64 Halsbury Road Liverpool | Aug 2025 | £104,000 | 958 | £109 | 0.09 |
 | 48 Esher Road Liverpool | Oct 2025 | £145,000 | 786 | £184 | 0.10 |
 | 19 Mansell Road Liverpool | Mar 2026 | £150,000 | 861 | £174 | 0.17 |
-| … 49 more | | | | | |
+| … 47 more | | | | | |
 
-Basis: £/sqft v1: n=64 ±25% size, £148/169/187 psf x 840 sqft (listing) street=1 spread=0.232
+Basis: £/sqft v1: n=62 ±25% size, £149/169/187 psf x 840 sqft (listing) street=1 spread=0.222
 
 ## After-works value
 
-- Low £124,000 (£148/sq ft)
+- Low £125,000 (£149/sq ft)
 - **Base £141,000** (£168/sq ft)
 - High £157,000 (£187/sq ft)
 
-## Costs at £80,000
+## Costs at £86,000
 
 | Item | £ |
 |---|---:|
 | Refurb (modernise £35/sqft x 840 sqft) | 29,400 |
 | Contingency (10% of refurb) | 2,940 |
-| SDLT (incl. 5% surcharge) | 4,000 |
+| SDLT (incl. 5% surcharge) | 4,300 |
 | Buy legal + survey | 2,100 |
 | Holding (6 months) | 2,100 |
 | Sale agent + legal | 3,230 |
-| **Total costs** | **43,770** |
+| Auction uplift / fee | 6,000 |
+| **Total costs** | **44,070** |
 
 ## Result
 
 | | Low | Base | High |
 |---|---:|---:|---:|
-| Profit at £80,000 | £474 | **£17,230** | £32,999 |
-| Max offer for £40k profit | £42,000 | **£58,000** | £73,000 |
+| Profit at £86,000 | £-4,840 | **£10,930** | £26,699 |
+| Max offer for £40k profit | £43,000 | **£58,000** | £73,000 |
 
-Opening offer £53,000 · asking is £22,000 above max offer
+Opening offer £53,000 · asking is £28,000 above max offer
 
-Risks: none flagged from listing text
+Risks: auction_guide_price
 
 _Contains HM Land Registry data © Crown copyright and database right 2026 and EPC data © Crown copyright, both licensed under the Open Government Licence v3.0._

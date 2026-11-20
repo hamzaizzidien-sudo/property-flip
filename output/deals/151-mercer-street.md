@@ -1,10 +1,10 @@
 # 91, MERCER STREET, NEWTON LE WILLOWS, ST HELENS, WA12 9TJ
 
-**WATCH** · confidence LOW · appraised 2026-11-08
+**WATCH** · confidence LOW · appraised 2026-11-20
 
 - terraced, 2 bed, 800 sq ft (estimated from nearby EPCs)
 - Asking £159,995
-- Listing: 7 days on market; needs modernising
+- Listing: 19 days on market; needs modernising
 - Portal: https://www.rightmove.co.uk/properties/95014821
 
 
@@ -29,9 +29,9 @@
 | 76 Birley Street Newton-Le-Willows | Jul 2025 | £90,232 | 807 | £112 | 0.10 |
 | 110 Mercer Street Newton-Le-Willows | Mar 2025 | £170,000 | 721 | £236 | 0.07 |
 | 70 Cardinal Way Newton-Le-Willows | Nov 2025 | £226,000 | 743 | £304 | 0.19 |
-| … 12 more | | | | | |
+| … 11 more | | | | | |
 
-Basis: £/sqft v1: n=27 ±25% size, £264/286/336 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.255
+Basis: £/sqft v1: n=26 ±25% size, £264/286/336 psf x 800 sqft (estimated from nearby EPCs) street=0 spread=0.255
 
 ## After-works value
 
